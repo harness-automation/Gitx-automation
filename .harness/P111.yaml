@@ -8,7 +8,7 @@ pipeline:
         - stage:
               name: A3
               identifier: A3
-              description: cxc
+              description: cxcdf
               type: Approval
               spec:
                   execution:
