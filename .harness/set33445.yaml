@@ -1,0 +1,23 @@
+inputSet:
+  identifier: "set33445"
+  name: "set33445"
+  orgIdentifier: "default"
+  projectIdentifier: "AmitTest"
+  pipeline:
+    identifier: "remote4455"
+    template:
+      templateInputs:
+        stages:
+        - stage:
+            identifier: "A3"
+            type: "Approval"
+            spec:
+              execution:
+                steps:
+                - step:
+                    identifier: "A4"
+                    type: "HarnessApproval"
+                    spec:
+                      approvers:
+                        userGroups:
+                        - "account.viewer"
