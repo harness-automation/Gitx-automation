@@ -1,0 +1,33 @@
+pipeline:
+    name: pipe34566
+    identifier: pipe34566
+    projectIdentifier: AmitGitXNewExp
+    orgIdentifier: default
+    storeType: REMOTE
+    remoteType: create
+    tags: {}
+    stages:
+        - stage:
+              name: A3
+              identifier: A3
+              description: ""
+              type: Approval
+              spec:
+                  execution:
+                      steps:
+                          - step:
+                                name: A3
+                                identifier: A3
+                                type: HarnessApproval
+                                timeout: 1d
+                                spec:
+                                    approvalMessage: |-
+                                        Please review the following information
+                                        and approve the pipeline progression
+                                    includePipelineExecutionHistory: true
+                                    approvers:
+                                        minimumCount: 1
+                                        disallowPipelineExecutor: false
+                                        userGroups: <+input>
+                                    approverInputs: []
+              tags: {}
