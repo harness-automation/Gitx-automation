@@ -1,0 +1,21 @@
+inputSet:
+  identifier: "set231"
+  name: "set231"
+  orgIdentifier: "default"
+  projectIdentifier: "AmitGitXNewExp"
+  pipeline:
+    identifier: "pipe34566"
+    stages:
+    - stage:
+        identifier: "A3"
+        type: "Approval"
+        spec:
+          execution:
+            steps:
+            - step:
+                identifier: "A3"
+                type: "HarnessApproval"
+                spec:
+                  approvers:
+                    userGroups:
+                    - "account.NGPipeAutoSlackNotify885jYbZWDD"
