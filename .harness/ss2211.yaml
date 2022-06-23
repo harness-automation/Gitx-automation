@@ -1,0 +1,21 @@
+inputSet:
+  identifier: "ss2211"
+  name: "ss2211"
+  orgIdentifier: "default"
+  projectIdentifier: "AmitTest"
+  pipeline:
+    identifier: "June23Remote1"
+    stages:
+    - stage:
+        identifier: "A2"
+        type: "Approval"
+        spec:
+          execution:
+            steps:
+            - step:
+                identifier: "A3"
+                type: "HarnessApproval"
+                spec:
+                  approvers:
+                    userGroups:
+                    - "account.viewer"
