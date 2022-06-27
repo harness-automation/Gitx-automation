@@ -1,23 +1,24 @@
 pipeline:
-    name: remote4455
-    identifier: remote4455
-    template:
-        templateRef: new_pipeline_template_name
-        versionLabel: V12
-        templateInputs:
-            stages:
-                - stage:
-                      identifier: A3
-                      type: Approval
-                      spec:
-                          execution:
-                              steps:
-                                  - step:
-                                        identifier: A4
-                                        type: HarnessApproval
-                                        spec:
-                                            approvers:
-                                                userGroups: <+input>
-    tags: {}
-    projectIdentifier: AmitTest
-    orgIdentifier: default
+  name: "remote4455"
+  identifier: "remote4455"
+  template:
+    templateRef: "new_pipeline_template_name"
+    versionLabel: "V12"
+    templateInputs:
+      stages:
+      - stage:
+          identifier: "A3"
+          type: "Approval"
+          spec:
+            execution:
+              steps:
+              - step:
+                  identifier: "A4"
+                  type: "HarnessApproval"
+                  spec:
+                    approvers:
+                      userGroups: "<+input>"
+  tags: {}
+  projectIdentifier: "AmitGitXExp"
+  orgIdentifier: "deafult"
+  description: ""
