@@ -1,0 +1,21 @@
+inputSet:
+  identifier: "DevXInputSet_qAQbfmS59s"
+  name: "DevXInputSet_qAQbfmS59s"
+  orgIdentifier: "default"
+  projectIdentifier: "AmitTest"
+  pipeline:
+    identifier: "ManagerRemote1"
+    stages:
+    - stage:
+        identifier: "A1"
+        type: "Approval"
+        spec:
+          execution:
+            steps:
+            - step:
+                identifier: "R1"
+                type: "HarnessApproval"
+                spec:
+                  approvers:
+                    userGroups:
+                    - "account.viewer"
