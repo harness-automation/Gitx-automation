@@ -25,8 +25,7 @@ pipeline:
                                     includePipelineExecutionHistory: true
                                     approvers:
                                         disallowPipelineExecutor: false
-                                        userGroups:
-                                            - account.PLQE
+                                        userGroups: <+input>
                                         minimumCount: 1
                                     approverInputs: []
                                 when:
