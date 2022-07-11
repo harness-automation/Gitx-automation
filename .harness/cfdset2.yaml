@@ -1,0 +1,22 @@
+inputSet:
+  identifier: "cfdset2"
+  name: "cfdset2"
+  orgIdentifier: "deafult"
+  projectIdentifier: "AmitGitXExp"
+  pipeline:
+    identifier: "pipeCheckCfd2"
+    stages:
+    - stage:
+        identifier: "A1"
+        type: "Approval"
+        spec:
+          execution:
+            steps:
+            - step:
+                identifier: "R1"
+                type: "HarnessApproval"
+                spec:
+                  approvers:
+                    minimumCount: 1
+                    userGroups:
+                    - "account.checking_toolip"
