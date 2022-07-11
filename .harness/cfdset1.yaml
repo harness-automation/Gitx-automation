@@ -1,0 +1,21 @@
+inputSet:
+  identifier: "cfdset1"
+  name: "cfdset1"
+  orgIdentifier: "deafult"
+  projectIdentifier: "AmitGitXExp"
+  pipeline:
+    identifier: "pipeCheckCfd2"
+    stages:
+    - stage:
+        identifier: "A1"
+        type: "Approval"
+        spec:
+          execution:
+            steps:
+            - step:
+                identifier: "R1"
+                type: "HarnessApproval"
+                spec:
+                  approvers:
+                    userGroups:
+                    - "account.PrateekTest001"
