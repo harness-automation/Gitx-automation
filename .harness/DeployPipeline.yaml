@@ -6,81 +6,35 @@ pipeline:
     tags: {}
     stages:
         - stage:
-              name: D1
-              identifier: D1
-              description: ""
-              type: Deployment
+              name: A1
+              identifier: A1
+              description: desc_type
+              type: Approval
               spec:
-                  serviceConfig:
-                      serviceRef: <+input>
-                      serviceDefinition:
-                          spec:
-                              variables: []
-                          type: Kubernetes
-                  infrastructure:
-                      environmentRef: <+input>
-                      infrastructureDefinition:
-                          type: KubernetesDirect
-                          spec:
-                              connectorRef: <+input>
-                              namespace: <+input>
-                              releaseName: release-<+INFRA_KEY>
-                      allowSimultaneousDeployments: false
                   execution:
                       steps:
                           - step:
-                                name: Rollout Deployment
-                                identifier: rolloutDeployment
-                                type: K8sRollingDeploy
-                                timeout: 10m
+                                name: R1
+                                identifier: R1
+                                type: HarnessApproval
+                                timeout: 1d
                                 spec:
-                                    skipDryRun: false
-                          - step:
-                                type: Verify
-                                name: Verify
-                                identifier: Verify
-                                timeout: 2h
-                                spec:
-                                    type: Rolling
-                                    monitoredService:
-                                        type: Default
-                                        spec: {}
-                                    spec:
-                                        sensitivity: <+input>
-                                        duration: <+input>
-                                        deploymentTag: <+input>
+                                    approvalMessage: |-
+                                        Please review the following information
+                                        and approve the pipeline progression
+                                    includePipelineExecutionHistory: true
+                                    approvers:
+                                        minimumCount: <+input>
+                                        disallowPipelineExecutor: false
+                                        userGroups: <+input>
+                                    approverInputs: []
+                                when:
+                                    stageStatus: All
                                 failureStrategies:
                                     - onFailure:
                                           errors:
-                                              - Verification
+                                              - AllErrors
                                           action:
-                                              type: ManualIntervention
-                                              spec:
-                                                  timeout: 2h
-                                                  onTimeout:
-                                                      action:
-                                                          type: StageRollback
-                                    - onFailure:
-                                          errors:
-                                              - Unknown
-                                          action:
-                                              type: ManualIntervention
-                                              spec:
-                                                  timeout: 2h
-                                                  onTimeout:
-                                                      action:
-                                                          type: Ignore
-                      rollbackSteps:
-                          - step:
-                                name: Rollback Rollout Deployment
-                                identifier: rollbackRolloutDeployment
-                                type: K8sRollingRollback
-                                timeout: 10m
-                                spec: {}
+                                              type: MarkAsSuccess
               tags: {}
-              failureStrategies:
-                  - onFailure:
-                        errors:
-                            - AllErrors
-                        action:
-                            type: StageRollback
+    description: ""
