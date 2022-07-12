@@ -1,0 +1,21 @@
+inputSet:
+  identifier: "gitXInputSet2H5Dd"
+  name: "gitXInputSet2H5Dd"
+  orgIdentifier: "Simlified_Git_sync"
+  projectIdentifier: "SimplifiedGitSync_Do_Not_Delete"
+  pipeline:
+    identifier: "pipeline4vuXO"
+    stages:
+    - stage:
+        identifier: "A1"
+        type: "Approval"
+        spec:
+          execution:
+            steps:
+            - step:
+                identifier: "R1"
+                type: "HarnessApproval"
+                spec:
+                  approvers:
+                    userGroups:
+                    - "account.testX"
