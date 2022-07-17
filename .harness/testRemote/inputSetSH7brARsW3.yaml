@@ -1,0 +1,21 @@
+inputSet:
+  identifier: "gitXInputSetGAVb1"
+  name: "gitXInputSetGAVb1"
+  orgIdentifier: "Simlified_Git_sync"
+  projectIdentifier: "SimplifiedGitSync_Do_Not_Delete"
+  pipeline:
+    identifier: "pipeline4ykzp"
+    stages:
+    - stage:
+        identifier: "A1"
+        type: "Approval"
+        spec:
+          execution:
+            steps:
+            - step:
+                identifier: "R1"
+                type: "HarnessApproval"
+                spec:
+                  approvers:
+                    userGroups:
+                    - "account.testX"
