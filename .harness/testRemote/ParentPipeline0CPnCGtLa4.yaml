@@ -1,0 +1,15 @@
+pipeline:
+  name: ParentPipeline0CPnCGtLa4
+  identifier: ParentPipeline0CPnCGtLa4
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
+  tags: {}
+  stages:
+    - stage:
+        name: stage1
+        identifier: stage1
+        type: Pipeline
+        spec:
+          org: Simlified_Git_sync
+          pipeline: pl_auto_pipeline_OVP4Q
+          project: SimplifiedGitSync_Do_Not_Delete
