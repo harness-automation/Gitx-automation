@@ -1,5 +1,6 @@
 inputSet:
   name: inputSetiss3
+  tags: {}
   identifier: inputSetiss3
   orgIdentifier: default
   projectIdentifier: kanikaTest
@@ -7,7 +8,7 @@ inputSet:
     identifier: remotetrigger
     stages:
       - stage:
-          identifier: s
+          identifier: jkhk
           type: Custom
           spec:
             execution:
@@ -19,4 +20,8 @@ inputSet:
                       source:
                         type: Inline
                         spec:
-                          script: echo input
+                          script: sfds
+  cacheResponse:
+    cacheState: VALID_CACHE
+    ttlLeft: 258997270
+    lastUpdatedAt: 1686830925564
