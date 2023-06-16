@@ -1,0 +1,27 @@
+inputSet:
+  name: inputSetiss3
+  tags: {}
+  identifier: inputSetiss3
+  orgIdentifier: default
+  projectIdentifier: kanikaTest
+  pipeline:
+    identifier: remotetrigger
+    stages:
+      - stage:
+          identifier: jkhk
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    type: ShellScript
+                    spec:
+                      source:
+                        type: Inline
+                        spec:
+                          script: sfds
+  cacheResponse:
+    cacheState: VALID_CACHE
+    ttlLeft: 258997270
+    lastUpdatedAt: 1686830925564
