@@ -1,0 +1,22 @@
+template:
+  name: pl_auto_template_aCQGN
+  identifier: pl_auto_template_aCQGN
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Approval
+    spec:
+      execution:
+        steps:
+          - step:
+              name: s3
+              identifier: s3
+              template:
+                templateRef: account.pl_auto_template_vp0Eu
+                versionLabel: v3
+                templateInputs:
+                  type: HarnessApproval
+                  spec:
+                    approvers:
+                      userGroups: <+input>
