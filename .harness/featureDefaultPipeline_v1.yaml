@@ -1,0 +1,17 @@
+template:
+  name: featureDefaultPipeline
+  identifier: featureDefaultPipeline
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: vivek_proj
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: stage1
+          identifier: stage1
+          template:
+            templateRef: stageTemplateDefault
+            versionLabel: v1
+            gitBranch: main
