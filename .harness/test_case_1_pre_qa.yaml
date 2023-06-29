@@ -1,0 +1,10 @@
+pipeline:
+  name: test case 1 pre qa
+  identifier: test_case_1_pre_qa
+  template:
+    templateRef: pipeline_template_ND_preqa
+    versionLabel: v1
+    gitBranch: 19Apr-patch
+  tags: {}
+  projectIdentifier: amitTestGitX
+  orgIdentifier: default
