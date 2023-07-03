@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_fTZZV
+  identifier: pl_auto_inputset_fTZZV
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_bitbucketTrigger_BgfSEh2sGh
+  pipeline:
+    identifier: pl_auto_pipeline_3C5V1
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
