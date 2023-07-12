@@ -1,0 +1,32 @@
+pipeline:
+  name: pl_auto_pipeline_aLiyi
+  identifier: pl_auto_pipeline_aLiyi
+  projectIdentifier: CDCNGAuto_CustomTrigger_bTfjC
+  orgIdentifier: DoNotDeleteTriggerOrg
+  tags: {}
+  stages:
+    - stage:
+        name: WebHook_Trigger
+        identifier: WebHook_Trigger
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: Http
+                  name: WebHook
+                  identifier: WebHook
+                  spec:
+                    url: https://qa.harness.io/gateway/pipeline/api/webhook/custom/aoOSKsxZSwuPFVtG8zEoXg/v3?accountIdentifier=rXUXvbFqRr2XwcjBu3Oq-Q&orgIdentifier=DoNotDeleteTriggerOrg&projectIdentifier=CDCNGAuto_CustomTrigger_bTfjC&pipelineIdentifier=pl_auto_pipeline_vboH8&triggerIdentifier=CDNGAuto_Trigger_JdpRZlnB7m
+                    method: POST
+                    headers:
+                      - key: content-type
+                        value: application/json
+                      - key: x-api-key
+                        value: $secretVal
+                    outputVariables: []
+                    inputVariables: []
+                    requestBody: "{\"sample_key\": \"sample_value\"}"
+                  timeout: 10m
+        tags: {}
