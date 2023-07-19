@@ -1,0 +1,25 @@
+template:
+  name: pl_auto_template_Ee9po
+  identifier: pl_auto_template_Ee9po
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: s2
+          identifier: s2
+          template:
+            templateRef: account.pl_auto_template_8lmPv
+            versionLabel: v3
+            templateInputs:
+              type: Approval
+              spec:
+                execution:
+                  steps:
+                    - step:
+                        identifier: stage
+                        type: HarnessApproval
+                        spec:
+                          approvers:
+                            userGroups: <+input>
