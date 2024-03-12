@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutomgnOWR0GhZ
+  identifier: NGPipeAutomgnOWR0GhZ
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
