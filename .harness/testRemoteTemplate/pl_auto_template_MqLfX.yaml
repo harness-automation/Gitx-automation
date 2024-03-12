@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_MqLfX
+  identifier: pl_auto_template_MqLfX
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_ZswmH
+              identifier: pl_auto_template_ZswmH
+              template:
+                templateRef: account.pl_auto_template_ZswmH
+                versionLabel: v3
+                gitBranch: main
