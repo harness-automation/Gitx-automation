@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoLL5E5YCFfL
+  identifier: NGPipeAutoLL5E5YCFfL
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
