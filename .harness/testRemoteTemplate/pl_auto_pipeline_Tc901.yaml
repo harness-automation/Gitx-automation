@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_Tc901
+  identifier: pl_auto_pipeline_Tc901
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_1Sbt4
+          identifier: pl_auto_template_1Sbt4
+          template:
+            templateRef: account.pl_auto_template_1Sbt4
+            versionLabel: v3
