@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: NGPipeAutoVJ7toWLQ1r
+  identifier: NGPipeAutoVJ7toWLQ1r
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcIhRuYO4Rdt
+  environmentRef: NGPipeAutopDNq8s4c1K
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: org.KubernetesConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
