@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutojdnyOpImKo
+  identifier: NGPipeAutojdnyOpImKo
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
