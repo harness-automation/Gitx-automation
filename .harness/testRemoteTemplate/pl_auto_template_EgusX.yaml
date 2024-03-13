@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_EgusX
+  identifier: pl_auto_template_EgusX
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_CiA01
+              identifier: pl_auto_template_CiA01
+              template:
+                templateRef: account.pl_auto_template_CiA01
+                versionLabel: v3
+                gitBranch: main
