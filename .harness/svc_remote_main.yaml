@@ -3,7 +3,13 @@ service:
   identifier: svc_remote_main
   serviceDefinition:
     type: Kubernetes
-    spec: {}
+    spec:
+      variables:
+        - name: var1
+          type: String
+          description: ""
+          required: false
+          value: abc
   gitOpsEnabled: false
   orgIdentifier: default
   projectIdentifier: DoNotDelete_AR7
