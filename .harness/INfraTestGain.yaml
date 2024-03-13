@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: INfraTestGain
+  identifier: INfraTestGain
+  orgIdentifier: default
+  projectIdentifier: CheckProject
+  environmentRef: EnvironmentYAML
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: Kubernetes
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: false
