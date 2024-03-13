@@ -1,0 +1,11 @@
+infrastructureDefinition:
+  name: NGPipeAutoAPml6suILw
+  identifier: NGPipeAutoAPml6suILw
+  environmentRef: NGPipeAutoeOfPzkGgQl
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.github_Account_level_connector_delegate
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
