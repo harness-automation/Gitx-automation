@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutozI8taGleTv
+  identifier: NGPipeAutozI8taGleTv
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
