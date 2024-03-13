@@ -33,7 +33,7 @@ template:
                 environmentVariables:
                   - name: Check
                     type: String
-                    value: "212341234"
+                    value: "checkedValue"
                 outputVariables: []
               timeout: 10m
         rollbackSteps: []
