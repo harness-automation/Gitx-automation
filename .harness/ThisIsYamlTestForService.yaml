@@ -3,3 +3,12 @@ service:
   identifier: ThisIsYamlTestForService
   orgIdentifier: default
   projectIdentifier: CheckProject
+  serviceDefinition:
+    spec:
+      variables:
+        - name: ServiceVariable
+          type: String
+          description: ""
+          required: false
+          value: "123"
+    type: Kubernetes
