@@ -1,0 +1,9 @@
+service:
+  name: svc_remote_main
+  identifier: svc_remote_main
+  serviceDefinition:
+    type: Kubernetes
+    spec: {}
+  gitOpsEnabled: false
+  orgIdentifier: default
+  projectIdentifier: DoNotDelete_AR7
