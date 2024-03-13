@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutohz3OKK4BnB
+  identifier: NGPipeAutohz3OKK4BnB
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
