@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_zABx1
+  identifier: pl_auto_pipeline_zABx1
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_IoHSs
+          identifier: pl_auto_template_IoHSs
+          template:
+            templateRef: account.pl_auto_template_IoHSs
+            versionLabel: v3
