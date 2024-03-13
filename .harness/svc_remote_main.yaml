@@ -10,6 +10,11 @@ service:
           description: ""
           required: false
           value: abc
+        - name: var2
+          type: String
+          description: ""
+          required: false
+          value: def
   gitOpsEnabled: false
   orgIdentifier: default
   projectIdentifier: DoNotDelete_AR7
