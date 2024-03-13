@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutocIE50U7QQA
+  identifier: NGPipeAutocIE50U7QQA
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
