@@ -1,0 +1,23 @@
+pipeline:
+  name: RemotePipeline
+  identifier: RemotePipeline
+  projectIdentifier: CheckProject
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: stage
+        identifier: stage
+        tags: {}
+        template:
+          templateRef: account.StageTest
+          versionLabel: v1
+          templateInputs:
+            type: Deployment
+            spec:
+              environment:
+                environmentRef: EnvironmentYAML
+                infrastructureDefinitions:
+                  - identifier: INfraTestGain
+              service:
+                serviceRef: ThisIsYamlTestForService
