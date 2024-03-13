@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_lzecm
+  identifier: pl_auto_template_lzecm
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_lVOqN
+              identifier: pl_auto_template_lVOqN
+              template:
+                templateRef: account.pl_auto_template_lVOqN
+                versionLabel: v3
+                gitBranch: main
