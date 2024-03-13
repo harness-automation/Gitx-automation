@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_O97Gb
+  identifier: pl_auto_template_O97Gb
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_O901X
+              identifier: pl_auto_template_O901X
+              template:
+                templateRef: account.pl_auto_template_O901X
+                versionLabel: v3
+                gitBranch: main
