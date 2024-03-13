@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_Jmemd
+  identifier: pl_auto_pipeline_Jmemd
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_KvPRn
+          identifier: pl_auto_template_KvPRn
+          template:
+            templateRef: account.pl_auto_template_KvPRn
+            versionLabel: v3
