@@ -21,3 +21,10 @@ pipeline:
                   - identifier: INfraTestGain
               service:
                 serviceRef: ThisIsYamlTestForService
+    - stage:
+        name: Stage2
+        identifier: Stage2
+        tags: {}
+        template:
+          templateRef: ProjStageTemplate
+          versionLabel: v1
