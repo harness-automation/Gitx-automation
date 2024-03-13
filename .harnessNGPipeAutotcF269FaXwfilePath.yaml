@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutotcF269FaXw
+  identifier: NGPipeAutotcF269FaXw
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
