@@ -14,7 +14,7 @@ service:
           type: String
           description: ""
           required: false
-          value: def
+          value: <+input>
   gitOpsEnabled: false
   orgIdentifier: default
   projectIdentifier: DoNotDelete_AR7
