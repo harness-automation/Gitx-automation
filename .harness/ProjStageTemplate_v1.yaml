@@ -1,0 +1,44 @@
+template:
+  name: ProjStageTemplate
+  identifier: ProjStageTemplate
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: CheckProject
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Deployment
+    spec:
+      deploymentType: Kubernetes
+      environment:
+        environmentRef: EnvironmentYAML
+        deployToAll: false
+        infrastructureDefinitions:
+          - identifier: INfraTestGain
+      service:
+        serviceRef: ThisIsYamlTestForService
+      execution:
+        steps:
+          - step:
+              type: ShellScript
+              name: ShellScript_1
+              identifier: ShellScript_1
+              spec:
+                shell: Bash
+                executionTarget: {}
+                source:
+                  type: Inline
+                  spec:
+                    script: |-
+                      echo thisistest
+                      echo <+serviceVariables.ServiceVariable>
+                environmentVariables: []
+                outputVariables: []
+              timeout: 10m
+        rollbackSteps: []
+    failureStrategies:
+      - onFailure:
+          errors:
+            - AllErrors
+          action:
+            type: StageRollback
