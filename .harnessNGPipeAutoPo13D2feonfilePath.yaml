@@ -1,7 +1,8 @@
 environment:
+  name: NGPipeAutoPo13D2feon
+  identifier: NGPipeAutoPo13D2feon
   orgIdentifier: Pipelines_NonK8s_Org_NG
   projectIdentifier: NGPipeAutoPipelineSvciEdDuOHRGN
-  identifier: NGPipeAutoPo13D2feon
-  tags: {}
-  name: NGPipeAutoPo13D2feon
-  type: PreProduction
+  tags: {
+    }
+  type: Production
