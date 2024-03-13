@@ -1,7 +1,8 @@
 environment:
+  name: NGPipeAutoKFgIOsqa13
+  identifier: NGPipeAutoKFgIOsqa13
   orgIdentifier: Pipelines_NonK8s_Org_NG
   projectIdentifier: NGPipeAutoPipelineSvcLAG91F2VDz
-  identifier: NGPipeAutoKFgIOsqa13
-  tags: {}
-  name: NGPipeAutoKFgIOsqa13
-  type: PreProduction
+  tags: {
+    }
+  type: Production
