@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoRRrjLAG1Lt
+  identifier: NGPipeAutoRRrjLAG1Lt
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
