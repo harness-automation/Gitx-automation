@@ -1,0 +1,28 @@
+pipeline:
+  name: pl_auto_pipeline_hceZZ
+  identifier: pl_auto_pipeline_hceZZ
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_CustomWebhookTrigger_RWAHs
+  tags: { }
+  stages:
+      - stage:
+          name: S2
+          identifier: S2
+          description: ""
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    type: Http
+                    name: Http_1
+                    identifier: Http_1
+                    timeout: 10s
+                    spec:
+                      url: https://vanilasnapshot.pr2.harness.io/gateway/pipeline/api/webhook/custom/w2DyflddQ9SaOL0_KVFYQQ/v3?accountIdentifier=5VeYsUb7SJi6oVVSWbUjvg&orgIdentifier=DoNotDeleteTriggerOrg&projectIdentifier=CDCNGAuto_CustomWebhookTrigger_RWAHs&pipelineIdentifier=pl_auto_pipeline_WMhW9&triggerIdentifier=CDNGAuto_Trigger_nO9LjGGgHy
+                      method: POST
+                      headers: [ ]
+                      inputVariables: [ ]
+                      outputVariables: [ ]
+                      requestBody: "{\"sample_key\": \"sample_value\"}"
+          tags: { }
