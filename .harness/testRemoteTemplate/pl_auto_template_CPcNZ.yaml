@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_CPcNZ
+  identifier: pl_auto_template_CPcNZ
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_QDAap
+              identifier: pl_auto_template_QDAap
+              template:
+                templateRef: account.pl_auto_template_QDAap
+                versionLabel: v3
+                gitBranch: main
