@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoy2idCSfb56
+  identifier: NGPipeAutoy2idCSfb56
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
