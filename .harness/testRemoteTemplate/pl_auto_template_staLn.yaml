@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_staLn
+  identifier: pl_auto_template_staLn
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_ivDWc
+              identifier: pl_auto_template_ivDWc
+              template:
+                templateRef: account.pl_auto_template_ivDWc
+                versionLabel: v3
+                gitBranch: main
