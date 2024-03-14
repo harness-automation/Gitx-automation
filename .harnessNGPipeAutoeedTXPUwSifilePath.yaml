@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoeedTXPUwSi
+  identifier: NGPipeAutoeedTXPUwSi
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
