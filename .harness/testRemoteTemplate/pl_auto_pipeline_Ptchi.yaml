@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_Ptchi
+  identifier: pl_auto_pipeline_Ptchi
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_HMqP2
+          identifier: pl_auto_template_HMqP2
+          template:
+            templateRef: account.pl_auto_template_HMqP2
+            versionLabel: v3
