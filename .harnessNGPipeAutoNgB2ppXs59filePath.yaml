@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoNgB2ppXs59
-  identifier: NGPipeAutoNgB2ppXs59
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
