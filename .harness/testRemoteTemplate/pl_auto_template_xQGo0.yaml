@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_xQGo0
+  identifier: pl_auto_template_xQGo0
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_giMzY
+              identifier: pl_auto_template_giMzY
+              template:
+                templateRef: account.pl_auto_template_giMzY
+                versionLabel: v3
+                gitBranch: main
