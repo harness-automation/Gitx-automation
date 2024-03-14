@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_PCNOJ
+  identifier: pl_auto_template_PCNOJ
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Gk6OL
+              identifier: pl_auto_template_Gk6OL
+              template:
+                templateRef: account.pl_auto_template_Gk6OL
+                versionLabel: v3
+                gitBranch: main
