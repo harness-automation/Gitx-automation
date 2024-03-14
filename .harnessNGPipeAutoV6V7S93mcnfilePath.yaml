@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoV6V7S93mcn
-  identifier: NGPipeAutoV6V7S93mcn
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
