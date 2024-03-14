@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_mxXa1
+  identifier: pl_auto_pipeline_mxXa1
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_CPcNZ
+          identifier: pl_auto_template_CPcNZ
+          template:
+            templateRef: account.pl_auto_template_CPcNZ
+            versionLabel: v3
