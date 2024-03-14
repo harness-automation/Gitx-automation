@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_FYOPT
+  identifier: pl_auto_pipeline_FYOPT
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_ue42H
+          identifier: pl_auto_template_ue42H
+          template:
+            templateRef: account.pl_auto_template_ue42H
+            versionLabel: v3
