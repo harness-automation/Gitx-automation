@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_axip9
+  identifier: pl_auto_template_axip9
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_xqJRn
+              identifier: pl_auto_template_xqJRn
+              template:
+                templateRef: account.pl_auto_template_xqJRn
+                versionLabel: v3
+                gitBranch: main
