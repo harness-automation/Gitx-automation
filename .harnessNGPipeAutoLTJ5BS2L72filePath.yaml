@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoLTJ5BS2L72
+  identifier: NGPipeAutoLTJ5BS2L72
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
