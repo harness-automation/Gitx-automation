@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Bc0MS
+  identifier: pl_auto_template_Bc0MS
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_9DcmI
+              identifier: pl_auto_template_9DcmI
+              template:
+                templateRef: account.pl_auto_template_9DcmI
+                versionLabel: v3
+                gitBranch: main
