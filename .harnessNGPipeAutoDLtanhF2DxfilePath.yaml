@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoDLtanhF2Dx
+  identifier: NGPipeAutoDLtanhF2Dx
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
