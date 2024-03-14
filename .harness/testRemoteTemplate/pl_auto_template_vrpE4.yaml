@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_vrpE4
+  identifier: pl_auto_template_vrpE4
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_5J5qU
+              identifier: pl_auto_template_5J5qU
+              template:
+                templateRef: account.pl_auto_template_5J5qU
+                versionLabel: v3
+                gitBranch: main
