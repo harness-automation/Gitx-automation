@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoRRrjLAG1Lt
-  identifier: NGPipeAutoRRrjLAG1Lt
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
