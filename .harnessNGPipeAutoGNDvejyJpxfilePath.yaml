@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutoGNDvejyJpx
+  identifier: NGPipeAutoGNDvejyJpx
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
