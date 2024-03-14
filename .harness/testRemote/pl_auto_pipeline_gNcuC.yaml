@@ -1,0 +1,44 @@
+pipeline:
+  name: pl_auto_pipeline_gNcuC
+  identifier: pl_auto_pipeline_gNcuC
+  projectIdentifier: CDCNGAuto_CustomWebhookTrigger_J8WFZ
+  orgIdentifier: DoNotDeleteTriggerOrg
+  tags: {}
+  stages:
+    - stage:
+        name: WebHook_Trigger
+        identifier: WebHook_Trigger
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: Http
+                  name: WebHook
+                  identifier: WebHook
+                  spec:
+                    url: https://vanilasnapshot.pr2.harness.io/gateway/pipeline/api/webhook/custom/SEJnvvcjSduVlNo2FgY8lQ/v3?accountIdentifier=TbVewj4MRESKuREBToHFgQ&orgIdentifier=DoNotDeleteTriggerOrg&projectIdentifier=CDCNGAuto_CustomWebhookTrigger_J8WFZ&pipelineIdentifier=pl_auto_pipeline_hQJkB&triggerIdentifier=CDNGAuto_Trigger_pNYVq0hcNu
+                    method: POST
+                    headers:
+                      - key: content-type
+                        value: application/json
+                      - key: X-HARNESS-TRIGGER-ID
+                        value: CDNGAuto_Trigger_pNYVq0hcNu
+                    outputVariables: []
+                    inputVariables: []
+                    requestBody: |-
+                      {
+                          "id": "USA",
+                          "locations": [
+                              {
+                                  "city": "SF"
+                              },
+                              {
+                                  "city": "LV"
+                              }
+                          ],
+                          "name": "user"
+                      }
+                  timeout: 10m
+        tags: {}
