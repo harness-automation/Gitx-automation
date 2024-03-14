@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoSvciJMHP2bttP
+  identifier: NGPipeAutoSvciJMHP2bttP
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvc1TWYoFufee
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
