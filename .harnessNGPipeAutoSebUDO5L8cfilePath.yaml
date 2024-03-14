@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutoSebUDO5L8c
+  identifier: NGPipeAutoSebUDO5L8c
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
