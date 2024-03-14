@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoTi6nGoBCuv
+  identifier: NGPipeAutoTi6nGoBCuv
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
