@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoxAvy4FTdsy
+  identifier: NGPipeAutoxAvy4FTdsy
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
