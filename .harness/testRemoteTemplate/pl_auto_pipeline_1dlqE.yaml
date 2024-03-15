@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_1dlqE
+  identifier: pl_auto_pipeline_1dlqE
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_DyGKi
+          identifier: pl_auto_template_DyGKi
+          template:
+            templateRef: account.pl_auto_template_DyGKi
+            versionLabel: v3
