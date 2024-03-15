@@ -1,6 +1,7 @@
 environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  identifier: NGPipeAuto5j27MylErR
-  tags: {}
   name: NGPipeAuto5j27MylErR
-  type: PreProduction
+  identifier: NGPipeAuto5j27MylErR
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {
+    }
+  type: Production
