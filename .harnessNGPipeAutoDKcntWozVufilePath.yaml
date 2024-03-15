@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoDKcntWozVu
+  identifier: NGPipeAutoDKcntWozVu
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
