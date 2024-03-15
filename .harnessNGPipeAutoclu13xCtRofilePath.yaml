@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoclu13xCtRo
-  identifier: NGPipeAutoclu13xCtRo
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
