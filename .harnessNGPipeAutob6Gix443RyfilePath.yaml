@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutob6Gix443Ry
+  identifier: NGPipeAutob6Gix443Ry
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcbBzgjJRm0F
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
