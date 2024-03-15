@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_uXdVW
+  identifier: pl_auto_pipeline_uXdVW
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_AkaL8
+          identifier: pl_auto_template_AkaL8
+          template:
+            templateRef: account.pl_auto_template_AkaL8
+            versionLabel: v3
