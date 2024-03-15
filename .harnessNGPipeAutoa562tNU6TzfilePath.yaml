@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoa562tNU6Tz
-  identifier: NGPipeAutoa562tNU6Tz
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
