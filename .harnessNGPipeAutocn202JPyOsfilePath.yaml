@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutocn202JPyOs
+  identifier: NGPipeAutocn202JPyOs
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
