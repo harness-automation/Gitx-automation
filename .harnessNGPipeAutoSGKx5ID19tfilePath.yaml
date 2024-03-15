@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoSGKx5ID19t
+  identifier: NGPipeAutoSGKx5ID19t
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
