@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutolBLBPNTTrW
+  identifier: NGPipeAutolBLBPNTTrW
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
