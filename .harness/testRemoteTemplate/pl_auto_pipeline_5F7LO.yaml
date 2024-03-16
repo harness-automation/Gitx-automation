@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_5F7LO
+  identifier: pl_auto_pipeline_5F7LO
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_ipgOW
+          identifier: pl_auto_template_ipgOW
+          template:
+            templateRef: account.pl_auto_template_ipgOW
+            versionLabel: v3
