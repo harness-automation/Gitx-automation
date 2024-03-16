@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_ipgOW
+  identifier: pl_auto_template_ipgOW
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_FS4Mp
+              identifier: pl_auto_template_FS4Mp
+              template:
+                templateRef: account.pl_auto_template_FS4Mp
+                versionLabel: v3
+                gitBranch: main
