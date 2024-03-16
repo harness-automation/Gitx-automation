@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoENvC7ZUWQ1
+  identifier: NGPipeAutoENvC7ZUWQ1
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
