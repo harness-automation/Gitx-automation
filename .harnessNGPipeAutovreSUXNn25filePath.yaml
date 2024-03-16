@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutovreSUXNn25
+  identifier: NGPipeAutovreSUXNn25
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
