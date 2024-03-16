@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_HJwvm
+  identifier: pl_auto_pipeline_HJwvm
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_OwoGo
+          identifier: pl_auto_template_OwoGo
+          template:
+            templateRef: account.pl_auto_template_OwoGo
+            versionLabel: v3
