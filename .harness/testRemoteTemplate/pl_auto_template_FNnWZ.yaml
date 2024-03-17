@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_FNnWZ
+  identifier: pl_auto_template_FNnWZ
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_i3Qpy
+              identifier: pl_auto_template_i3Qpy
+              template:
+                templateRef: account.pl_auto_template_i3Qpy
+                versionLabel: v3
+                gitBranch: main
