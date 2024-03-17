@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoboPSbecXtk
+  identifier: NGPipeAutoboPSbecXtk
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
