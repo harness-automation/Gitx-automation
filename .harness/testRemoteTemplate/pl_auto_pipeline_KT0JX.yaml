@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_KT0JX
+  identifier: pl_auto_pipeline_KT0JX
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_uxmyd
+          identifier: pl_auto_template_uxmyd
+          template:
+            templateRef: account.pl_auto_template_uxmyd
+            versionLabel: v3
