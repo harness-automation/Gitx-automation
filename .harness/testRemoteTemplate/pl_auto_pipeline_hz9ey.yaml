@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_hz9ey
+  identifier: pl_auto_pipeline_hz9ey
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_AR4Jz
+          identifier: pl_auto_template_AR4Jz
+          template:
+            templateRef: account.pl_auto_template_AR4Jz
+            versionLabel: v3
