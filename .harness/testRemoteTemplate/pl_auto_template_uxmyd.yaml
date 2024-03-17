@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_uxmyd
+  identifier: pl_auto_template_uxmyd
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Ej5Sd
+              identifier: pl_auto_template_Ej5Sd
+              template:
+                templateRef: account.pl_auto_template_Ej5Sd
+                versionLabel: v3
+                gitBranch: main
