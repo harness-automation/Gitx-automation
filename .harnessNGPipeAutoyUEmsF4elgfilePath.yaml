@@ -1,9 +1,0 @@
-service:
-  name: NGPipeAutoyUEmsF4elg
-  identifier: NGPipeAutoyUEmsF4elg
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
