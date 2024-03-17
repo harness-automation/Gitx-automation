@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutorsfzQWlHNa
-  identifier: NGPipeAutorsfzQWlHNa
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
