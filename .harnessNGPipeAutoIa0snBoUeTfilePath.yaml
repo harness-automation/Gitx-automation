@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoIa0snBoUeT
-  identifier: NGPipeAutoIa0snBoUeT
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
