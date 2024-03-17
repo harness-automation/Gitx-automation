@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutocdo1dnERDN
+  identifier: NGPipeAutocdo1dnERDN
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
