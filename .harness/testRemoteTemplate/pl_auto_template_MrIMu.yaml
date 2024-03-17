@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_MrIMu
+  identifier: pl_auto_template_MrIMu
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_r1HsL
+              identifier: pl_auto_template_r1HsL
+              template:
+                templateRef: account.pl_auto_template_r1HsL
+                versionLabel: v3
+                gitBranch: main
