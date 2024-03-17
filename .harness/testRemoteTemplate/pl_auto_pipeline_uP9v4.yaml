@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_uP9v4
+  identifier: pl_auto_pipeline_uP9v4
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Fxkps
+          identifier: pl_auto_template_Fxkps
+          template:
+            templateRef: account.pl_auto_template_Fxkps
+            versionLabel: v3
