@@ -1,7 +1,8 @@
 environment:
+  name: NGPipeAutoCDDMSsi14e
+  identifier: NGPipeAutoCDDMSsi14e
   orgIdentifier: Pipelines_NonK8s_Org_NG
   projectIdentifier: NGPipeAutoPipelineSvcM2ppfJE2wO
-  identifier: NGPipeAutoCDDMSsi14e
-  tags: {}
-  name: NGPipeAutoCDDMSsi14e
-  type: PreProduction
+  tags: {
+    }
+  type: Production
