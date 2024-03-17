@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutomq1BANi5bu
+  identifier: NGPipeAutomq1BANi5bu
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
