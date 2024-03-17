@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoTT81TDsdM1
-  identifier: NGPipeAutoTT81TDsdM1
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
