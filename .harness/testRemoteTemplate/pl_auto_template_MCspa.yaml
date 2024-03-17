@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_MCspa
+  identifier: pl_auto_template_MCspa
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_5vciR
+              identifier: pl_auto_template_5vciR
+              template:
+                templateRef: account.pl_auto_template_5vciR
+                versionLabel: v3
+                gitBranch: main
