@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_ORF7o
+  identifier: pl_auto_template_ORF7o
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_KhY4l
+              identifier: pl_auto_template_KhY4l
+              template:
+                templateRef: account.pl_auto_template_KhY4l
+                versionLabel: v3
+                gitBranch: main
