@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_aNQVi
+  identifier: pl_auto_pipeline_aNQVi
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Syy5M
+          identifier: pl_auto_template_Syy5M
+          template:
+            templateRef: account.pl_auto_template_Syy5M
+            versionLabel: v3
