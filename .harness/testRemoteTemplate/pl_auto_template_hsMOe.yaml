@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_hsMOe
+  identifier: pl_auto_template_hsMOe
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_S78k6
+              identifier: pl_auto_template_S78k6
+              template:
+                templateRef: account.pl_auto_template_S78k6
+                versionLabel: v3
+                gitBranch: main
