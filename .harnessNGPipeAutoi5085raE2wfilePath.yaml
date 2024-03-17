@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoi5085raE2w
-  identifier: NGPipeAutoi5085raE2w
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
