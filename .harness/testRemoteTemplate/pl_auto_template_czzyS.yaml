@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_czzyS
+  identifier: pl_auto_template_czzyS
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Gthtc
+              identifier: pl_auto_template_Gthtc
+              template:
+                templateRef: account.pl_auto_template_Gthtc
+                versionLabel: v3
+                gitBranch: main
