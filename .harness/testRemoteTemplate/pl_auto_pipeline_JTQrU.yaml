@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_JTQrU
+  identifier: pl_auto_pipeline_JTQrU
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_BrGH9
+          identifier: pl_auto_template_BrGH9
+          template:
+            templateRef: account.pl_auto_template_BrGH9
+            versionLabel: v3
