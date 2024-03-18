@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutomoDI6roMpg
+  identifier: NGPipeAutomoDI6roMpg
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
