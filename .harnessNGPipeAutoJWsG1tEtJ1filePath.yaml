@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoJWsG1tEtJ1
-  identifier: NGPipeAutoJWsG1tEtJ1
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
