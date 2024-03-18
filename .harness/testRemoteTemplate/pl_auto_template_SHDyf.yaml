@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_SHDyf
+  identifier: pl_auto_template_SHDyf
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_uAXuG
+              identifier: pl_auto_template_uAXuG
+              template:
+                templateRef: account.pl_auto_template_uAXuG
+                versionLabel: v3
+                gitBranch: main
