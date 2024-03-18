@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_ReNhQ
+  identifier: pl_auto_pipeline_ReNhQ
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_trj3y
+          identifier: pl_auto_template_trj3y
+          template:
+            templateRef: account.pl_auto_template_trj3y
+            versionLabel: v3
