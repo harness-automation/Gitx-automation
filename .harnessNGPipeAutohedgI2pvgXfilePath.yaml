@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutohedgI2pvgX
+  identifier: NGPipeAutohedgI2pvgX
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
