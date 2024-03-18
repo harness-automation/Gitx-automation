@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_PjMan
+  identifier: pl_auto_template_PjMan
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_RfL8g
+              identifier: pl_auto_template_RfL8g
+              template:
+                templateRef: account.pl_auto_template_RfL8g
+                versionLabel: v3
+                gitBranch: main
