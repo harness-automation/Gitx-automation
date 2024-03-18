@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_rUs3C
+  identifier: pl_auto_pipeline_rUs3C
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_M938X
+          identifier: pl_auto_template_M938X
+          template:
+            templateRef: account.pl_auto_template_M938X
+            versionLabel: v3
