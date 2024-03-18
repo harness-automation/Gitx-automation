@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_jdfJT
+  identifier: pl_auto_pipeline_jdfJT
+  template:
+    templateRef: account.pl_auto_template_Kf0fT
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
