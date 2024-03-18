@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_bl7Ay
+  identifier: pl_auto_template_bl7Ay
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_QAlAf
+              identifier: pl_auto_template_QAlAf
+              template:
+                templateRef: account.pl_auto_template_QAlAf
+                versionLabel: v3
+                gitBranch: main
