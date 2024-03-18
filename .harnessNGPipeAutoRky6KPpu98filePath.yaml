@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutoRky6KPpu98
+  identifier: NGPipeAutoRky6KPpu98
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
