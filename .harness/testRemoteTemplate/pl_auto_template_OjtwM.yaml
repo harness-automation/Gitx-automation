@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_OjtwM
+  identifier: pl_auto_template_OjtwM
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_OaUmm
+              identifier: pl_auto_template_OaUmm
+              template:
+                templateRef: account.pl_auto_template_OaUmm
+                versionLabel: v3
+                gitBranch: main
