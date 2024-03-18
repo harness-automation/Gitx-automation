@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutoMOwmIn80So
+  identifier: NGPipeAutoMOwmIn80So
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
