@@ -1,9 +1,0 @@
-service:
-  name: NGPipeAutoT06osN4WRZ
-  identifier: NGPipeAutoT06osN4WRZ
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
