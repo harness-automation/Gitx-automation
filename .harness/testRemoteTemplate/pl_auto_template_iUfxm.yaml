@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_iUfxm
+  identifier: pl_auto_template_iUfxm
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_j20LV
+              identifier: pl_auto_template_j20LV
+              template:
+                templateRef: account.pl_auto_template_j20LV
+                versionLabel: v3
+                gitBranch: main
