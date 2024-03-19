@@ -1,7 +1,8 @@
 environment:
+  name: NGPipeAutoSGPOtTL922
+  identifier: NGPipeAutoSGPOtTL922
   orgIdentifier: Pipelines_NonK8s_Org_NG
   projectIdentifier: NGPipeAutoPipelineSvckPwoqNu9y3
-  identifier: NGPipeAutoSGPOtTL922
-  tags: {}
-  name: NGPipeAutoSGPOtTL922
-  type: PreProduction
+  tags: {
+    }
+  type: Production
