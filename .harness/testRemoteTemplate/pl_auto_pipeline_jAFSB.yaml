@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_jAFSB
+  identifier: pl_auto_pipeline_jAFSB
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_kc82n
+          identifier: pl_auto_template_kc82n
+          template:
+            templateRef: account.pl_auto_template_kc82n
+            versionLabel: v3
