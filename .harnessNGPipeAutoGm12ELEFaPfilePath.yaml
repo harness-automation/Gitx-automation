@@ -1,6 +1,7 @@
 environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  identifier: NGPipeAutoGm12ELEFaP
-  tags: {}
   name: NGPipeAutoGm12ELEFaP
-  type: PreProduction
+  identifier: NGPipeAutoGm12ELEFaP
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {
+    }
+  type: Production
