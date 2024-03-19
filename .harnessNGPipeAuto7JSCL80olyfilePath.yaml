@@ -1,9 +1,0 @@
-service:
-  name: NGPipeAuto7JSCL80oly
-  identifier: NGPipeAuto7JSCL80oly
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
