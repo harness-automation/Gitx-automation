@@ -1,6 +1,7 @@
 environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  identifier: NGPipeAutoDyPtDMQ8UL
-  tags: {}
   name: NGPipeAutoDyPtDMQ8UL
-  type: PreProduction
+  identifier: NGPipeAutoDyPtDMQ8UL
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {
+    }
+  type: Production
