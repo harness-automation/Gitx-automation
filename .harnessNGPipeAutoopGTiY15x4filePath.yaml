@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoopGTiY15x4
+  identifier: NGPipeAutoopGTiY15x4
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
