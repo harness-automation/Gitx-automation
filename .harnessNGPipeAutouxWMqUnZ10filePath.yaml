@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutouxWMqUnZ10
+  identifier: NGPipeAutouxWMqUnZ10
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
