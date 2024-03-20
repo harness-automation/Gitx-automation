@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_U1VO2
+  identifier: pl_auto_template_U1VO2
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_MolUs
+              identifier: pl_auto_template_MolUs
+              template:
+                templateRef: account.pl_auto_template_MolUs
+                versionLabel: v3
+                gitBranch: main
