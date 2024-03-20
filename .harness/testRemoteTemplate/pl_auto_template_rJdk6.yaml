@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_rJdk6
+  identifier: pl_auto_template_rJdk6
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_4he5U
+              identifier: pl_auto_template_4he5U
+              template:
+                templateRef: account.pl_auto_template_4he5U
+                versionLabel: v3
+                gitBranch: main
