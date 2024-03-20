@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_y8oYC
+  identifier: pl_auto_template_y8oYC
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_JSaef
+              identifier: pl_auto_template_JSaef
+              template:
+                templateRef: account.pl_auto_template_JSaef
+                versionLabel: v3
+                gitBranch: main
