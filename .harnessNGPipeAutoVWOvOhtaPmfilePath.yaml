@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoVWOvOhtaPm
+  identifier: NGPipeAutoVWOvOhtaPm
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
