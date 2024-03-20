@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_CIZKG
+  identifier: pl_auto_pipeline_CIZKG
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_RC6lU
+          identifier: pl_auto_template_RC6lU
+          template:
+            templateRef: account.pl_auto_template_RC6lU
+            versionLabel: v3
