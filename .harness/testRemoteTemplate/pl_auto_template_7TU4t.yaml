@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_7TU4t
+  identifier: pl_auto_template_7TU4t
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_oaxim
+              identifier: pl_auto_template_oaxim
+              template:
+                templateRef: account.pl_auto_template_oaxim
+                versionLabel: v3
+                gitBranch: main
