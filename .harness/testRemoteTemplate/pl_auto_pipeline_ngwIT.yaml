@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_ngwIT
+  identifier: pl_auto_pipeline_ngwIT
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_2yU9l
+          identifier: pl_auto_template_2yU9l
+          template:
+            templateRef: account.pl_auto_template_2yU9l
+            versionLabel: v3
