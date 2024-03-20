@@ -16,25 +16,17 @@ pipeline:
               templateInputs:
                 type: Custom
                 spec:
-                  execution:
-                    steps:
-                      - step:
-                          identifier: step1
-                          template:
-                            templateInputs:
-                              type: ShellScript
-                              timeout: <+input>
+                  environment:
+                    environmentRef: <+input>
+                    environmentInputs: <+input>
+                    infrastructureDefinitions: <+input>
         - stage:
             identifier: s2
             template:
               templateInputs:
                 type: Custom
                 spec:
-                  execution:
-                    steps:
-                      - step:
-                          identifier: step2
-                          template:
-                            templateInputs:
-                              type: ShellScript
-                              timeout: <+input>
+                  environment:
+                    environmentRef: <+input>
+                    environmentInputs: <+input>
+                    infrastructureDefinitions: <+input>
