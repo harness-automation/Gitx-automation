@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoXGnPom31vI
+  identifier: NGPipeAutoXGnPom31vI
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
