@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoDmsGoK4U0M
+  identifier: NGPipeAutoDmsGoK4U0M
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
