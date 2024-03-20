@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoaVYjfpzSet
+  identifier: NGPipeAutoaVYjfpzSet
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
