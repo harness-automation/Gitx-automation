@@ -1,0 +1,44 @@
+pipeline:
+  name: pl_auto_pipeline_glycs
+  identifier: pl_auto_pipeline_glycs
+  projectIdentifier: CDCNGAuto_CustomWebhookTrigger_z1zgn
+  orgIdentifier: DoNotDeleteTriggerOrg
+  tags: {}
+  stages:
+    - stage:
+        name: WebHook_Trigger
+        identifier: WebHook_Trigger
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: Http
+                  name: WebHook
+                  identifier: WebHook
+                  spec:
+                    url: https://sarthakkasat.pr2.harness.io/gateway/pipeline/api/webhook/custom/roAQa_T5RuCWweCDb9_XQA/v3?accountIdentifier=PQWwWIt4RIWzgYIig8xI2w&orgIdentifier=DoNotDeleteTriggerOrg&projectIdentifier=CDCNGAuto_CustomWebhookTrigger_z1zgn&pipelineIdentifier=pl_auto_pipeline_STdhN&triggerIdentifier=CDNGAuto_Trigger_tbNevMa2iX
+                    method: POST
+                    headers:
+                      - key: content-type
+                        value: application/json
+                      - key: X-HARNESS-TRIGGER-ID
+                        value: CDNGAuto_Trigger_tbNevMa2iX
+                    outputVariables: []
+                    inputVariables: []
+                    requestBody: |-
+                      {
+                          "id": "USA",
+                          "locations": [
+                              {
+                                  "city": "SF"
+                              },
+                              {
+                                  "city": "LV"
+                              }
+                          ],
+                          "name": "user"
+                      }
+                  timeout: 10m
+        tags: {}
