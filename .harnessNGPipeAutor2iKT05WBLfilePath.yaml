@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutor2iKT05WBL
+  identifier: NGPipeAutor2iKT05WBL
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
