@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_kT3Tx
+  identifier: pl_auto_pipeline_kT3Tx
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_uScro
+          identifier: pl_auto_template_uScro
+          template:
+            templateRef: account.pl_auto_template_uScro
+            versionLabel: v3
