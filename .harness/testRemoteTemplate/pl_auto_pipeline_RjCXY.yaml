@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_RjCXY
+  identifier: pl_auto_pipeline_RjCXY
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_6uRUB
+          identifier: pl_auto_template_6uRUB
+          template:
+            templateRef: account.pl_auto_template_6uRUB
+            versionLabel: v3
