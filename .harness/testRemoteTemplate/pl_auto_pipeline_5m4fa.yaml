@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_5m4fa
+  identifier: pl_auto_pipeline_5m4fa
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_ukLlp
+          identifier: pl_auto_template_ukLlp
+          template:
+            templateRef: account.pl_auto_template_ukLlp
+            versionLabel: v3
