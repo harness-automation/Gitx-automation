@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoMOEldw3jQL
+  identifier: NGPipeAutoMOEldw3jQL
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
