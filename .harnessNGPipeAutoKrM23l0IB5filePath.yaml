@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoKrM23l0IB5
+  identifier: NGPipeAutoKrM23l0IB5
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
