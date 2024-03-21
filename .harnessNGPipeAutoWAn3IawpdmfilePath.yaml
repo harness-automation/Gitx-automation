@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoWAn3Iawpdm
+  identifier: NGPipeAutoWAn3Iawpdm
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
