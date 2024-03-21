@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_62pIE
+  identifier: pl_auto_template_62pIE
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_mMC38
+              identifier: pl_auto_template_mMC38
+              template:
+                templateRef: account.pl_auto_template_mMC38
+                versionLabel: v3
+                gitBranch: main
