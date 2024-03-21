@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Tuf4P
+  identifier: pl_auto_template_Tuf4P
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_L0kXV
+              identifier: pl_auto_template_L0kXV
+              template:
+                templateRef: account.pl_auto_template_L0kXV
+                versionLabel: v3
+                gitBranch: main
