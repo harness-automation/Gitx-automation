@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_OwH2d
+  identifier: pl_auto_pipeline_OwH2d
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_4YaJF
+          identifier: pl_auto_template_4YaJF
+          template:
+            templateRef: account.pl_auto_template_4YaJF
+            versionLabel: v3
