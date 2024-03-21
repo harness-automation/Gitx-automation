@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_TNGW9
+  identifier: pl_auto_template_TNGW9
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_3TfNb
+              identifier: pl_auto_template_3TfNb
+              template:
+                templateRef: account.pl_auto_template_3TfNb
+                versionLabel: v3
+                gitBranch: main
