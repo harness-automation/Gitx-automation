@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutopVa1DsiaTL
+  identifier: NGPipeAutopVa1DsiaTL
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
