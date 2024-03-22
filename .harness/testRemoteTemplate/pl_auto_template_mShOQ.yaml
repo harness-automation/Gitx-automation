@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_mShOQ
+  identifier: pl_auto_template_mShOQ
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_PnnmO
+              identifier: pl_auto_template_PnnmO
+              template:
+                templateRef: account.pl_auto_template_PnnmO
+                versionLabel: v3
+                gitBranch: main
