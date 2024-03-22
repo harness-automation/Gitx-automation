@@ -1,0 +1,65 @@
+pipeline:
+  name: PipelineRemoteTest
+  identifier: PipelineRemoteTest
+  projectIdentifier: Do_Not_Delete_Prakhar
+  orgIdentifier: Ng_Pipelines_K8s_Organisations
+  tags: {}
+  stages:
+    - stage:
+        name: stage1
+        identifier: stage1
+        description: ""
+        type: Deployment
+        spec:
+          deploymentType: Ssh
+          service:
+            serviceRef: ServiceRemote
+          environment:
+            environmentRef: EnvRemote
+            gitBranch: testAmit345
+            deployToAll: false
+            infrastructureDefinitions:
+              - identifier: infraRemoteYaml
+          execution:
+            steps:
+              - step:
+                  type: ShellScript
+                  name: ShellScript_1
+                  identifier: ShellScript_1
+                  spec:
+                    shell: Bash
+                    executionTarget: {}
+                    source:
+                      type: Inline
+                      spec:
+                        script: echo PipelineSuccess BeforChangingFromGit
+                    environmentVariables: []
+                    outputVariables: []
+                  timeout: 10m
+            rollbackSteps:
+              - step:
+                  name: Rollback
+                  identifier: Rollback
+                  timeout: 10m
+                  strategy:
+                    repeat:
+                      items: <+stage.output.hosts>
+                  template:
+                    templateRef: account.Default_Install_Jar_Bash
+                    templateInputs:
+                      type: Command
+                      spec:
+                        environmentVariables:
+                          - name: DestinationDirectory
+                            type: String
+                            value: $HOME/<+service.name>/<+env.name>
+                          - name: WorkingDirectory
+                            type: String
+                            value: $HOME/<+service.name>/<+env.name>/tomcat/bin
+        tags: {}
+        failureStrategies:
+          - onFailure:
+              errors:
+                - AllErrors
+              action:
+                type: StageRollback
