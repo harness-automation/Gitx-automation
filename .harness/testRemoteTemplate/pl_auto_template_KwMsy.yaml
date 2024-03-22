@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_KwMsy
+  identifier: pl_auto_template_KwMsy
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Ye5If
+              identifier: pl_auto_template_Ye5If
+              template:
+                templateRef: account.pl_auto_template_Ye5If
+                versionLabel: v3
+                gitBranch: main
