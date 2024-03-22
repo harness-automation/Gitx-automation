@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoWXG1omcJir
+  identifier: NGPipeAutoWXG1omcJir
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
