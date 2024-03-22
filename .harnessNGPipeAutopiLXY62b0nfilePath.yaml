@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutopiLXY62b0n
+  identifier: NGPipeAutopiLXY62b0n
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
