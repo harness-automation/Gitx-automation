@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Vdm5O
+  identifier: pl_auto_template_Vdm5O
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_LXdue
+              identifier: pl_auto_template_LXdue
+              template:
+                templateRef: account.pl_auto_template_LXdue
+                versionLabel: v3
+                gitBranch: main
