@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_CQmLB
+  identifier: pl_auto_pipeline_CQmLB
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_KiuJf
+          identifier: pl_auto_template_KiuJf
+          template:
+            templateRef: account.pl_auto_template_KiuJf
+            versionLabel: v3
