@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_76oda
+  identifier: pl_auto_template_76oda
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_NrqcG
+              identifier: pl_auto_template_NrqcG
+              template:
+                templateRef: account.pl_auto_template_NrqcG
+                versionLabel: v3
+                gitBranch: main
