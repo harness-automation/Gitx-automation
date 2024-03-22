@@ -32,7 +32,7 @@ pipeline:
                     source:
                       type: Inline
                       spec:
-                        script: echo PipelineSuccess BeforChangingFromGit
+                        script: echo PipelineSuccess AfterChangeFromGit
                     environmentVariables: []
                     outputVariables: []
                   timeout: 10m
