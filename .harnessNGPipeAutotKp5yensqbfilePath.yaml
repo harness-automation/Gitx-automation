@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutotKp5yensqb
+  identifier: NGPipeAutotKp5yensqb
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
