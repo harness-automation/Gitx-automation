@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_SmMnV
+  identifier: pl_auto_template_SmMnV
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_I4m4D
+              identifier: pl_auto_template_I4m4D
+              template:
+                templateRef: account.pl_auto_template_I4m4D
+                versionLabel: v3
+                gitBranch: main
