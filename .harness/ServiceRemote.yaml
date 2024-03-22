@@ -3,3 +3,6 @@ service:
   identifier: ServiceRemote
   orgIdentifier: Ng_Pipelines_K8s_Organisations
   projectIdentifier: Do_Not_Delete_Prakhar
+  serviceDefinition:
+    spec: {}
+    type: Ssh
