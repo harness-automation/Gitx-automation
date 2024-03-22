@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_DqDSs
+  identifier: pl_auto_pipeline_DqDSs
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Il4Tj
+          identifier: pl_auto_template_Il4Tj
+          template:
+            templateRef: account.pl_auto_template_Il4Tj
+            versionLabel: v3
