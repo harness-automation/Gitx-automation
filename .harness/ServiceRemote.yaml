@@ -4,5 +4,11 @@ service:
   orgIdentifier: Ng_Pipelines_K8s_Organisations
   projectIdentifier: Do_Not_Delete_Prakhar
   serviceDefinition:
-    spec: {}
+    spec:
+      variables:
+        - name: checkMyName
+          type: String
+          description: ""
+          required: false
+          value: ValueBeforeGit
     type: Ssh
