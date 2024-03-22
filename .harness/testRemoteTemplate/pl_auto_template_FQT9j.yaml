@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_FQT9j
+  identifier: pl_auto_template_FQT9j
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_oniF3
+              identifier: pl_auto_template_oniF3
+              template:
+                templateRef: account.pl_auto_template_oniF3
+                versionLabel: v3
+                gitBranch: main
