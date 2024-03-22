@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoKtRObo47Ma
+  identifier: NGPipeAutoKtRObo47Ma
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
