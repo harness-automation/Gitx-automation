@@ -1,6 +1,7 @@
 environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  identifier: NGPipeAutocaxGJ27KRB
-  tags: {}
   name: NGPipeAutocaxGJ27KRB
-  type: PreProduction
+  identifier: NGPipeAutocaxGJ27KRB
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {
+    }
+  type: Production
