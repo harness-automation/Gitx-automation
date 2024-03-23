@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutoJTAR1fC6CW
+  identifier: NGPipeAutoJTAR1fC6CW
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
