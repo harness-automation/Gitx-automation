@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_gieOA
+  identifier: pl_auto_pipeline_gieOA
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_HsiLi
+          identifier: pl_auto_template_HsiLi
+          template:
+            templateRef: account.pl_auto_template_HsiLi
+            versionLabel: v3
