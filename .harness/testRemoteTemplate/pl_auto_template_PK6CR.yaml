@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_PK6CR
+  identifier: pl_auto_template_PK6CR
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Ps3c9
+              identifier: pl_auto_template_Ps3c9
+              template:
+                templateRef: account.pl_auto_template_Ps3c9
+                versionLabel: v3
+                gitBranch: main
