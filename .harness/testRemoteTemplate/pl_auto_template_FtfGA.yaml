@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_FtfGA
+  identifier: pl_auto_template_FtfGA
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_TXrlW
+              identifier: pl_auto_template_TXrlW
+              template:
+                templateRef: account.pl_auto_template_TXrlW
+                versionLabel: v3
+                gitBranch: main
