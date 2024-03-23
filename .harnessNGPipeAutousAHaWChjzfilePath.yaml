@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutousAHaWChjz
+  identifier: NGPipeAutousAHaWChjz
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
