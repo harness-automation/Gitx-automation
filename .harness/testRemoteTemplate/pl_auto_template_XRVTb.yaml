@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_XRVTb
+  identifier: pl_auto_template_XRVTb
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_I7XSp
+              identifier: pl_auto_template_I7XSp
+              template:
+                templateRef: account.pl_auto_template_I7XSp
+                versionLabel: v3
+                gitBranch: main
