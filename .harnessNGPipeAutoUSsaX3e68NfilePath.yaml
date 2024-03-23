@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoUSsaX3e68N
-  identifier: NGPipeAutoUSsaX3e68N
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
