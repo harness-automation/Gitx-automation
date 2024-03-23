@@ -1,7 +1,8 @@
 environment:
+  name: NGPipeAutoHMPoLI46De
+  identifier: NGPipeAutoHMPoLI46De
   orgIdentifier: Pipelines_NonK8s_Org_NG
   projectIdentifier: NGPipeAutoPipelineSvcSS3Ny56PMG
-  identifier: NGPipeAutoHMPoLI46De
-  tags: {}
-  name: NGPipeAutoHMPoLI46De
-  type: PreProduction
+  tags: {
+    }
+  type: Production
