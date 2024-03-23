@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Ssqt3
+  identifier: pl_auto_template_Ssqt3
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_yoGtC
+              identifier: pl_auto_template_yoGtC
+              template:
+                templateRef: account.pl_auto_template_yoGtC
+                versionLabel: v3
+                gitBranch: main
