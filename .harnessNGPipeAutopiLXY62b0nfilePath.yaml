@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutopiLXY62b0n
-  identifier: NGPipeAutopiLXY62b0n
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
