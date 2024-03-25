@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoMmiMksUpEI
+  identifier: NGPipeAutoMmiMksUpEI
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
