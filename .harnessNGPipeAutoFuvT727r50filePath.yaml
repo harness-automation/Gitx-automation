@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoFuvT727r50
+  identifier: NGPipeAutoFuvT727r50
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
