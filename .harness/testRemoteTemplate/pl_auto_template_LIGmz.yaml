@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_LIGmz
+  identifier: pl_auto_template_LIGmz
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_aNtju
+              identifier: pl_auto_template_aNtju
+              template:
+                templateRef: account.pl_auto_template_aNtju
+                versionLabel: v3
+                gitBranch: main
