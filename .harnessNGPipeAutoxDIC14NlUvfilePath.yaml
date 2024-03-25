@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoxDIC14NlUv
+  identifier: NGPipeAutoxDIC14NlUv
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
