@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutor93NV0Pl2e
-  identifier: NGPipeAutor93NV0Pl2e
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
