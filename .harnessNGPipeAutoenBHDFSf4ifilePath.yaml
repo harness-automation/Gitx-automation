@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoenBHDFSf4i
-  identifier: NGPipeAutoenBHDFSf4i
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
