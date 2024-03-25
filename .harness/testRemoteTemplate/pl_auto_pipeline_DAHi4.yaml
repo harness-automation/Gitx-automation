@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_DAHi4
+  identifier: pl_auto_pipeline_DAHi4
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_WgJRe
+          identifier: pl_auto_template_WgJRe
+          template:
+            templateRef: account.pl_auto_template_WgJRe
+            versionLabel: v3
