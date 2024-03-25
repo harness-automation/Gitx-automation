@@ -1,0 +1,9 @@
+pipeline:
+  name: pl_auto_pipeline_SmRex
+  identifier: pl_auto_pipeline_SmRex
+  template:
+    templateRef: account.pl_auto_pipeline_LwKeC
+    versionLabel: v3
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
