@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Pnaer
+  identifier: pl_auto_template_Pnaer
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_vanVq
+              identifier: pl_auto_template_vanVq
+              template:
+                templateRef: account.pl_auto_template_vanVq
+                versionLabel: v3
+                gitBranch: main
