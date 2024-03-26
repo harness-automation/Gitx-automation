@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutouVfSUapFIx
+  identifier: NGPipeAutouVfSUapFIx
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
