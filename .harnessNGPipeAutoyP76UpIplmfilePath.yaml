@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: NGPipeAutoyP76UpIplm
+  identifier: NGPipeAutoyP76UpIplm
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineInfraSH8RtmLfkL
+  environmentRef: NGPipeAutoQilSmQzCAl
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.github_Account_level_connector_delegate
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
