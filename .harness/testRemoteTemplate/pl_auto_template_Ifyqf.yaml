@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Ifyqf
+  identifier: pl_auto_template_Ifyqf
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_ytvfm
+              identifier: pl_auto_template_ytvfm
+              template:
+                templateRef: account.pl_auto_template_ytvfm
+                versionLabel: v3
+                gitBranch: main
