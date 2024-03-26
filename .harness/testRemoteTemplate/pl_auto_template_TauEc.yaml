@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_TauEc
+  identifier: pl_auto_template_TauEc
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_68pUH
+              identifier: pl_auto_template_68pUH
+              template:
+                templateRef: account.pl_auto_template_68pUH
+                versionLabel: v3
+                gitBranch: main
