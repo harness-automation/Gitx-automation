@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoLrwcrwiEl3
+  identifier: NGPipeAutoLrwcrwiEl3
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
