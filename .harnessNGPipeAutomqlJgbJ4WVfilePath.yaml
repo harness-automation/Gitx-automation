@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutomqlJgbJ4WV
+  identifier: NGPipeAutomqlJgbJ4WV
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
