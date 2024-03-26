@@ -1,7 +1,8 @@
 environment:
+  name: NGPipeAutoEzx4prVaDT
+  identifier: NGPipeAutoEzx4prVaDT
   orgIdentifier: Pipelines_NonK8s_Org_NG
   projectIdentifier: NGPipeAutoPipelineSvcWp1czehiaH
-  identifier: NGPipeAutoEzx4prVaDT
-  tags: {}
-  name: NGPipeAutoEzx4prVaDT
-  type: PreProduction
+  tags: {
+    }
+  type: Production
