@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_IWS1C
+  identifier: pl_auto_pipeline_IWS1C
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_gZrdt
+          identifier: pl_auto_template_gZrdt
+          template:
+            templateRef: account.pl_auto_template_gZrdt
+            versionLabel: v3
