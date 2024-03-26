@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoTQ6Myx18zp
+  identifier: NGPipeAutoTQ6Myx18zp
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
