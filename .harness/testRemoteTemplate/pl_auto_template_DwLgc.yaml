@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_DwLgc
+  identifier: pl_auto_template_DwLgc
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_DeXVp
+              identifier: pl_auto_template_DeXVp
+              template:
+                templateRef: account.pl_auto_template_DeXVp
+                versionLabel: v3
+                gitBranch: main
