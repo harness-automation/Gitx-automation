@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_iNuS7
+  identifier: pl_auto_pipeline_iNuS7
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_NHFyL
+          identifier: pl_auto_template_NHFyL
+          template:
+            templateRef: account.pl_auto_template_NHFyL
+            versionLabel: v3
