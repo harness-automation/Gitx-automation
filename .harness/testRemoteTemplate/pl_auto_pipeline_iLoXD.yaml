@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_iLoXD
+  identifier: pl_auto_pipeline_iLoXD
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_58znK
+          identifier: pl_auto_template_58znK
+          template:
+            templateRef: account.pl_auto_template_58znK
+            versionLabel: v3
