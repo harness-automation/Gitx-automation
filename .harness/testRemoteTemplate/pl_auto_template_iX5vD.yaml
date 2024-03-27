@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_iX5vD
+  identifier: pl_auto_template_iX5vD
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_IfOdF
+              identifier: pl_auto_template_IfOdF
+              template:
+                templateRef: account.pl_auto_template_IfOdF
+                versionLabel: v3
+                gitBranch: main
