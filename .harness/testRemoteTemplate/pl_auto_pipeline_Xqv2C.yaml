@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_Xqv2C
+  identifier: pl_auto_pipeline_Xqv2C
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_7IDu5
+          identifier: pl_auto_template_7IDu5
+          template:
+            templateRef: account.pl_auto_template_7IDu5
+            versionLabel: v3
