@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_5wdMu
+  identifier: pl_auto_pipeline_5wdMu
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_GtZmK
+          identifier: pl_auto_template_GtZmK
+          template:
+            templateRef: account.pl_auto_template_GtZmK
+            versionLabel: v3
