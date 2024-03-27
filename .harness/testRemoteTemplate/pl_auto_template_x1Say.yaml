@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_x1Say
+  identifier: pl_auto_template_x1Say
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_ZEFU3
+              identifier: pl_auto_template_ZEFU3
+              template:
+                templateRef: account.pl_auto_template_ZEFU3
+                versionLabel: v3
+                gitBranch: main
