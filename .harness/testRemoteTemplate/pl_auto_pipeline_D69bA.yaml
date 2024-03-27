@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_D69bA
+  identifier: pl_auto_pipeline_D69bA
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_obXqL
+          identifier: pl_auto_template_obXqL
+          template:
+            templateRef: account.pl_auto_template_obXqL
+            versionLabel: v3
