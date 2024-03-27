@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoODC1p41X1I
+  identifier: NGPipeAutoODC1p41X1I
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
