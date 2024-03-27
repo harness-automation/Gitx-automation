@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_s5LTf
+  identifier: pl_auto_template_s5LTf
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_U7sxK
+              identifier: pl_auto_template_U7sxK
+              template:
+                templateRef: account.pl_auto_template_U7sxK
+                versionLabel: v3
+                gitBranch: main
