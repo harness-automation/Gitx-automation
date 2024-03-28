@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutolaas4L70ng
+  identifier: NGPipeAutolaas4L70ng
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
