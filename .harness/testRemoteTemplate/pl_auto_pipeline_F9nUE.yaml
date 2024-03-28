@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_F9nUE
+  identifier: pl_auto_pipeline_F9nUE
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_gWooD
+          identifier: pl_auto_template_gWooD
+          template:
+            templateRef: account.pl_auto_template_gWooD
+            versionLabel: v3
