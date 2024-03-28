@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_EWpXv
+  identifier: pl_auto_template_EWpXv
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_s0m9b
+              identifier: pl_auto_template_s0m9b
+              template:
+                templateRef: account.pl_auto_template_s0m9b
+                versionLabel: v3
+                gitBranch: main
