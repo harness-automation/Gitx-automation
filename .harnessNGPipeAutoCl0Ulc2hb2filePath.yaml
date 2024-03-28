@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutoCl0Ulc2hb2
+  identifier: NGPipeAutoCl0Ulc2hb2
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
