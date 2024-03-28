@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_N9iXE
+  identifier: pl_auto_pipeline_N9iXE
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_EWpXv
+          identifier: pl_auto_template_EWpXv
+          template:
+            templateRef: account.pl_auto_template_EWpXv
+            versionLabel: v3
