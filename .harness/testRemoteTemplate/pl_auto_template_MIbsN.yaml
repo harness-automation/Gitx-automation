@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_MIbsN
+  identifier: pl_auto_template_MIbsN
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_hX3Ko
+              identifier: pl_auto_template_hX3Ko
+              template:
+                templateRef: account.pl_auto_template_hX3Ko
+                versionLabel: v3
+                gitBranch: main
