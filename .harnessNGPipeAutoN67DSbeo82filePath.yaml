@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutoN67DSbeo82
+  identifier: NGPipeAutoN67DSbeo82
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
