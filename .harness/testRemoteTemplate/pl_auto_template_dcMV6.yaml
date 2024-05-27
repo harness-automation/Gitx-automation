@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_dcMV6
+  identifier: pl_auto_template_dcMV6
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_4Yzuv
+              identifier: pl_auto_template_4Yzuv
+              template:
+                templateRef: account.pl_auto_template_4Yzuv
+                versionLabel: v3
+                gitBranch: main
