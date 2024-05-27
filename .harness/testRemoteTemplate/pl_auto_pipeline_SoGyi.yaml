@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_SoGyi
+  identifier: pl_auto_pipeline_SoGyi
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_kS329
+          identifier: pl_auto_template_kS329
+          template:
+            templateRef: account.pl_auto_template_kS329
+            versionLabel: v3
