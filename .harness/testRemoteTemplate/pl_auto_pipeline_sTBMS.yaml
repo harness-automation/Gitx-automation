@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_sTBMS
+  identifier: pl_auto_pipeline_sTBMS
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_dcMV6
+          identifier: pl_auto_template_dcMV6
+          template:
+            templateRef: account.pl_auto_template_dcMV6
+            versionLabel: v3
