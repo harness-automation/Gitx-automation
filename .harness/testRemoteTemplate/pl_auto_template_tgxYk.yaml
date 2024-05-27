@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_tgxYk
+  identifier: pl_auto_template_tgxYk
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_jgrxj
+              identifier: pl_auto_template_jgrxj
+              template:
+                templateRef: account.pl_auto_template_jgrxj
+                versionLabel: v3
+                gitBranch: main
