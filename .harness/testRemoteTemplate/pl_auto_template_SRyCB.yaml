@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_SRyCB
+  identifier: pl_auto_template_SRyCB
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Dd0Mx
+              identifier: pl_auto_template_Dd0Mx
+              template:
+                templateRef: account.pl_auto_template_Dd0Mx
+                versionLabel: v3
+                gitBranch: main
