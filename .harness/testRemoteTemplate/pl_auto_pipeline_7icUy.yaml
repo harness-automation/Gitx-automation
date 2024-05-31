@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_7icUy
+  identifier: pl_auto_pipeline_7icUy
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_smbOl
+          identifier: pl_auto_template_smbOl
+          template:
+            templateRef: account.pl_auto_template_smbOl
+            versionLabel: v3
