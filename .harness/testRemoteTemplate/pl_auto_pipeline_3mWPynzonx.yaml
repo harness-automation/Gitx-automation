@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_3mWPynzonx
+  identifier: pl_auto_pipeline_3mWPynzonx
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_RihwWW15I2
+          identifier: pl_auto_template_RihwWW15I2
+          template:
+            templateRef: account.pl_auto_template_RihwWW15I2
+            versionLabel: v3
