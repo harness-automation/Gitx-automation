@@ -1,0 +1,31 @@
+pipeline:
+  name: pipeline_tag_affect_all_branches
+  identifier: pipeline_tag_affect_all_branches
+  projectIdentifier: DoNotDelete_AR7
+  orgIdentifier: default
+  tags:
+    test: "123"
+  stages:
+    - stage:
+        name: s1
+        identifier: s1
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: ShellScript
+                  name: ShellScript_1
+                  identifier: ShellScript_1
+                  spec:
+                    shell: Bash
+                    executionTarget: {}
+                    source:
+                      type: Inline
+                      spec:
+                        script: exit 0
+                    environmentVariables: []
+                    outputVariables: []
+                  timeout: 10m
+        tags: {}
