@@ -3,8 +3,7 @@ pipeline:
   identifier: pipeline_tag_affect_all_branches
   projectIdentifier: DoNotDelete_AR7
   orgIdentifier: default
-  tags:
-    test: "123"
+  tags: {}
   stages:
     - stage:
         name: s1
