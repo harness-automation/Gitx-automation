@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_S7jap
+  identifier: pl_auto_template_S7jap
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_JFTO4
+              identifier: pl_auto_template_JFTO4
+              template:
+                templateRef: account.pl_auto_template_JFTO4
+                versionLabel: v3
+                gitBranch: main
