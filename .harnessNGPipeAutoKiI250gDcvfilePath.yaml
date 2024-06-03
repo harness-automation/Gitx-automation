@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoKiI250gDcv
+  identifier: NGPipeAutoKiI250gDcv
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
