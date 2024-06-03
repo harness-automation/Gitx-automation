@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: NGPipeAutoGWaC805GoF
+  identifier: NGPipeAutoGWaC805GoF
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcmC2VN9Qkhv
+  environmentRef: NGPipeAutooWWVFJvSpi
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: org.KubernetesConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
