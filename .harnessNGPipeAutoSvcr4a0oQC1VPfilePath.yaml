@@ -1,0 +1,34 @@
+service:
+  name: NGPipeAutoSvcr4a0oQC1VP
+  identifier: NGPipeAutoSvcr4a0oQC1VP
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvc6DPRpoT0tt
+  serviceDefinition:
+    type: Kubernetes
+    spec:
+      manifests:
+      - manifest:
+          identifier: k8s
+          type: K8sManifest
+          spec:
+            store:
+              type: Harness
+              spec:
+                files:
+                - account:/K8s/templates
+            valuesPaths:
+            - account:/K8s/values.yaml
+            skipResourceVersioning: false
+            enableDeclarativeRollback: false
+      artifacts:
+        primary:
+          primaryArtifactRef: artifactId
+          sources:
+          - spec:
+              connectorRef: org.GCRConnectorForAutomationTest
+              imagePath: qa-target/todolist-sample
+              tag: <+input>
+              registryHostname: us.gcr.io
+            identifier: artifactId
+            type: Gcr
+  gitOpsEnabled: false
