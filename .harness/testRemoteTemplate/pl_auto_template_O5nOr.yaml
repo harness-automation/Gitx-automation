@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_O5nOr
+  identifier: pl_auto_template_O5nOr
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_nSvHO
+              identifier: pl_auto_template_nSvHO
+              template:
+                templateRef: account.pl_auto_template_nSvHO
+                versionLabel: v3
+                gitBranch: main
