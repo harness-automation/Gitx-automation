@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_0zeEvBb74M
+  identifier: pl_auto_pipeline_0zeEvBb74M
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_S7jap
+          identifier: pl_auto_template_S7jap
+          template:
+            templateRef: account.pl_auto_template_S7jap
+            versionLabel: v3
