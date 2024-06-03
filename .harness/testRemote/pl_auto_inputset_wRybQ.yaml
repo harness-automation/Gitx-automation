@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_CStMd
+  identifier: pl_auto_inputset_CStMd
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTestELN8d
+  pipeline:
+    identifier: PipelineAuto_CRUDuRv
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
