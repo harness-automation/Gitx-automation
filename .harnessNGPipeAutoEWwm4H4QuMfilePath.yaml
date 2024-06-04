@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoEWwm4H4QuM
-  identifier: NGPipeAutoEWwm4H4QuM
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
