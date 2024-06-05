@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_xJteNtecyt
+  identifier: pl_auto_pipeline_xJteNtecyt
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_NTzKZYWvwx
+          identifier: pl_auto_template_NTzKZYWvwx
+          template:
+            templateRef: account.pl_auto_template_NTzKZYWvwx
+            versionLabel: v3
