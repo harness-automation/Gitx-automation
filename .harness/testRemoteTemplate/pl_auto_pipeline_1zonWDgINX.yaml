@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_1zonWDgINX
+  identifier: pl_auto_pipeline_1zonWDgINX
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Rxz4c1ihpd
+          identifier: pl_auto_template_Rxz4c1ihpd
+          template:
+            templateRef: account.pl_auto_template_Rxz4c1ihpd
+            versionLabel: v3
