@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_PJWC9s9twA
+  identifier: pl_auto_pipeline_PJWC9s9twA
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_ojJ87
+          identifier: pl_auto_template_ojJ87
+          template:
+            templateRef: account.pl_auto_template_ojJ87
+            versionLabel: v3
