@@ -17,9 +17,6 @@ template:
               template:
                 templateRef: NGPipeAutoStepTempHz5ZeflU2P
                 versionLabel: v1
-                templateInputs:
-                  type: ShellScript
-                  timeout: <+input>
       environment:
         environmentRef: <+input>
         deployToAll: false
