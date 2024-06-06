@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_voOOC
+  identifier: pl_auto_template_voOOC
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_sNS4h
+              identifier: pl_auto_template_sNS4h
+              template:
+                templateRef: account.pl_auto_template_sNS4h
+                versionLabel: v3
+                gitBranch: main
