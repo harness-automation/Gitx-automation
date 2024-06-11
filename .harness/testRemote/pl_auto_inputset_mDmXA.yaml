@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_UTgql
+  identifier: pl_auto_inputset_UTgql
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTestyBrOR
+  pipeline:
+    identifier: PipelineAuto_CRUDDBB
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
