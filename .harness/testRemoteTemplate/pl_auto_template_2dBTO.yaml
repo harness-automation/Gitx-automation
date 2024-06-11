@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_2dBTO
+  identifier: pl_auto_template_2dBTO
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_J5VuO
+              identifier: pl_auto_template_J5VuO
+              template:
+                templateRef: account.pl_auto_template_J5VuO
+                versionLabel: v3
+                gitBranch: main
