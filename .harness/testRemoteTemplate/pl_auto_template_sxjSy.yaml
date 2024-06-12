@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_sxjSy
+  identifier: pl_auto_template_sxjSy
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Sl6KL
+              identifier: pl_auto_template_Sl6KL
+              template:
+                templateRef: account.pl_auto_template_Sl6KL
+                versionLabel: v3
+                gitBranch: main
