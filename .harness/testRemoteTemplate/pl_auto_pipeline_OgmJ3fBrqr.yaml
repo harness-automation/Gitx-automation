@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_OgmJ3fBrqr
+  identifier: pl_auto_pipeline_OgmJ3fBrqr
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_HzJud
+          identifier: pl_auto_template_HzJud
+          template:
+            templateRef: account.pl_auto_template_HzJud
+            versionLabel: v3
