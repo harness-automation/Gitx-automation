@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_GE90vuzVxp
+  identifier: pl_auto_template_GE90vuzVxp
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_rsMZBY3HFL
+              identifier: pl_auto_template_rsMZBY3HFL
+              template:
+                templateRef: account.pl_auto_template_rsMZBY3HFL
+                versionLabel: v3
+                gitBranch: main
