@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_kAWLK
+  identifier: pl_auto_inputset_kAWLK
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_GithubTriggerSSH_bmDpl0esPC
+  pipeline:
+    identifier: pl_auto_pipeline_LOBeD
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
