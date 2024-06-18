@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_ZPebA
+  identifier: pl_auto_inputset_ZPebA
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_GithubTriggerSSH_2IYKQmCV3G
+  pipeline:
+    identifier: pl_auto_pipeline_6syp8
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
