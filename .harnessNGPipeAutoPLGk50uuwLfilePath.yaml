@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoPLGk50uuwL
-  identifier: NGPipeAutoPLGk50uuwL
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
