@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoEXzzbgDmoT
+  identifier: NGPipeAutoEXzzbgDmoT
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
