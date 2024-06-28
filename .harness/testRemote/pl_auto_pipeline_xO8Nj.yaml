@@ -1,0 +1,29 @@
+pipeline:
+  name: pl_auto_pipeline_xO8Nj
+  identifier: pl_auto_pipeline_xO8Nj
+  projectIdentifier: CDCNGAuto_GithubTriggerSSH_E3S63Cdh6e
+  orgIdentifier: DoNotDeleteTriggerOrg
+  tags: { }
+  stages:
+      - stage:
+          name: S1
+          identifier: S1
+          description: ""
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    name: Shell Script_1
+                    identifier: ShellScript_1
+                    template:
+                      templateRef: org.pl_auto_template_dru2e
+                      versionLabel: v3
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: <+input>
+          tags: { }
