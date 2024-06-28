@@ -1,9 +1,0 @@
-service:
-  name: NGPipeAuto6ClwEz5Csp
-  identifier: NGPipeAuto6ClwEz5Csp
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
