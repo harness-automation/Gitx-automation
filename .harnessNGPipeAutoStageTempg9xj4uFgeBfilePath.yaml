@@ -17,9 +17,6 @@ template:
               template:
                 templateRef: NGPipeAutoStepTempGx9R7h5GGm
                 versionLabel: v1
-                templateInputs:
-                  type: ShellScript
-                  timeout: <+input>
       environment:
         environmentRef: <+input>
         deployToAll: false
