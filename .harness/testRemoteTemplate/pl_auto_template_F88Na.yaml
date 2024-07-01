@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_F88Na
+  identifier: pl_auto_template_F88Na
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_dW0Ey
+              identifier: pl_auto_template_dW0Ey
+              template:
+                templateRef: account.pl_auto_template_dW0Ey
+                versionLabel: v3
+                gitBranch: main
