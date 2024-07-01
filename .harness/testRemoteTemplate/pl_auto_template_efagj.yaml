@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_efagj
+  identifier: pl_auto_template_efagj
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_T3Y9T
+              identifier: pl_auto_template_T3Y9T
+              template:
+                templateRef: account.pl_auto_template_T3Y9T
+                versionLabel: v3
+                gitBranch: main
