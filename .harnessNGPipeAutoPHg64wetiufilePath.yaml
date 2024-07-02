@@ -1,7 +1,8 @@
 environment:
+  name: NGPipeAutoPHg64wetiu
+  identifier: NGPipeAutoPHg64wetiu
   orgIdentifier: Pipelines_NonK8s_Org_NG
   projectIdentifier: NGPipeAutoPipelineSvc1E40eD4sSA
-  identifier: NGPipeAutoPHg64wetiu
-  tags: {}
-  name: NGPipeAutoPHg64wetiu
-  type: PreProduction
+  tags: {
+    }
+  type: Production
