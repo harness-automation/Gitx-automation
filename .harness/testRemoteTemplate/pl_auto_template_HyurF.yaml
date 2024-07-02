@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_HyurF
+  identifier: pl_auto_template_HyurF
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_hSCaw
+              identifier: pl_auto_template_hSCaw
+              template:
+                templateRef: account.pl_auto_template_hSCaw
+                versionLabel: v3
+                gitBranch: main
