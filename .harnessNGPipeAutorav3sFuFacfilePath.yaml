@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutorav3sFuFac
+  identifier: NGPipeAutorav3sFuFac
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
