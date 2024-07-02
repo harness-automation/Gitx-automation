@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoepkSToLKx3
+  identifier: NGPipeAutoepkSToLKx3
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
