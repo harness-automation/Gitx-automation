@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoZ134R2UwAL
-  identifier: NGPipeAutoZ134R2UwAL
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
