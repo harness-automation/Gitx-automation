@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoBUSmqfpgvg
+  identifier: NGPipeAutoBUSmqfpgvg
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcmbiPC06CCs
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
