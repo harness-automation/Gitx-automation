@@ -1,7 +1,8 @@
 environment:
+  name: NGPipeAutoUvbovManOG
+  identifier: NGPipeAutoUvbovManOG
   orgIdentifier: Pipelines_NonK8s_Org_NG
   projectIdentifier: NGPipeAutoPipelineSvcQ72AeBjR20
-  identifier: NGPipeAutoUvbovManOG
-  tags: {}
-  name: NGPipeAutoUvbovManOG
-  type: PreProduction
+  tags: {
+    }
+  type: Production
