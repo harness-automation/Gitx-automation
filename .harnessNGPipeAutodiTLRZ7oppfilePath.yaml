@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutodiTLRZ7opp
+  identifier: NGPipeAutodiTLRZ7opp
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcUnefrHOP2T
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
