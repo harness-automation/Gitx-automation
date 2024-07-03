@@ -1,6 +1,7 @@
 environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  identifier: NGPipeAutowhigBAJ5Gh
-  tags: {}
   name: NGPipeAutowhigBAJ5Gh
-  type: PreProduction
+  identifier: NGPipeAutowhigBAJ5Gh
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {
+    }
+  type: Production
