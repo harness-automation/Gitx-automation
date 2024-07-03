@@ -1,9 +1,0 @@
-service:
-  name: NGPipeAutoGW07G6pnrE
-  identifier: NGPipeAutoGW07G6pnrE
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
