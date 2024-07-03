@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoPRpQitLvM1
+  identifier: NGPipeAutoPRpQitLvM1
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
