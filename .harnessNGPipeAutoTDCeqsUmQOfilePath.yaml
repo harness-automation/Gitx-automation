@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoTDCeqsUmQO
+  identifier: NGPipeAutoTDCeqsUmQO
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcByk8Foy9uC
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
