@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_lSbKP
+  identifier: pl_auto_template_lSbKP
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_MZYWc
+              identifier: pl_auto_template_MZYWc
+              template:
+                templateRef: account.pl_auto_template_MZYWc
+                versionLabel: v3
+                gitBranch: main
