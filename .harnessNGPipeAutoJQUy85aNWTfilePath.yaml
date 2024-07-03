@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoJQUy85aNWT
+  identifier: NGPipeAutoJQUy85aNWT
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
