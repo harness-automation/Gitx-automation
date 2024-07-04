@@ -1,7 +1,8 @@
 environment:
+  name: NGPipeAutoIms41KCRjc
+  identifier: NGPipeAutoIms41KCRjc
   orgIdentifier: Pipelines_NonK8s_Org_NG
   projectIdentifier: NGPipeAutoPipelineSvcgCNPwLw2PL
-  identifier: NGPipeAutoIms41KCRjc
-  tags: {}
-  name: NGPipeAutoIms41KCRjc
-  type: PreProduction
+  tags: {
+    }
+  type: Production
