@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutoP3Pi1UdrVb
+  identifier: NGPipeAutoP3Pi1UdrVb
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
