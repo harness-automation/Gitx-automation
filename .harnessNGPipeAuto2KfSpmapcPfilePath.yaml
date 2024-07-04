@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAuto2KfSpmapcP
+  identifier: NGPipeAuto2KfSpmapcP
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
