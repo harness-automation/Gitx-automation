@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoGWrBSVx6gw
+  identifier: NGPipeAutoGWrBSVx6gw
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
