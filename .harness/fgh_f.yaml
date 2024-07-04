@@ -1,0 +1,12 @@
+template:
+  name: fgh
+  identifier: fgh
+  versionLabel: f
+  type: Step
+  tags: {}
+  spec:
+    type: MergePR
+    timeout: 10m
+    spec:
+      deleteSourceBranch: false
+      variables: []
