@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutoNduS79D3Vi
+  identifier: NGPipeAutoNduS79D3Vi
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
