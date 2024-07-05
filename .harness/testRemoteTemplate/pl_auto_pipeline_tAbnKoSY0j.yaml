@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_tAbnKoSY0j
+  identifier: pl_auto_pipeline_tAbnKoSY0j
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_WxoRE
+          identifier: pl_auto_template_WxoRE
+          template:
+            templateRef: account.pl_auto_template_WxoRE
+            versionLabel: v3
