@@ -1,7 +1,8 @@
 environment:
+  name: NGPipeAutoSKuvnurAPD
+  identifier: NGPipeAutoSKuvnurAPD
   orgIdentifier: Pipelines_NonK8s_Org_NG
   projectIdentifier: NGPipeAutoPipelineSvc020AdYavWj
-  identifier: NGPipeAutoSKuvnurAPD
-  tags: {}
-  name: NGPipeAutoSKuvnurAPD
-  type: PreProduction
+  tags: {
+    }
+  type: Production
