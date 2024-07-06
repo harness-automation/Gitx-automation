@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoalsaxW79WI
+  identifier: NGPipeAutoalsaxW79WI
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcG6zQ069S9z
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
