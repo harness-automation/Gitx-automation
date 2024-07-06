@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_l891s
+  identifier: pl_auto_template_l891s
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_YxvfW
+              identifier: pl_auto_template_YxvfW
+              template:
+                templateRef: account.pl_auto_template_YxvfW
+                versionLabel: v3
+                gitBranch: main
