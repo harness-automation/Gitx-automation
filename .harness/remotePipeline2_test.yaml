@@ -1,0 +1,30 @@
+pipeline:
+  name: remotePipeline2_test
+  identifier: remotePipeline2_test
+  projectIdentifier: dsfdss
+  orgIdentifier: audit_cypress_org_Keiko_Sakai_IrrcqX
+  tags: {}
+  stages:
+    - stage:
+        name: stg1
+        identifier: stg1
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: ShellScript
+                  name: ShellScript_1
+                  identifier: ShellScript_1
+                  spec:
+                    shell: Bash
+                    executionTarget: {}
+                    source:
+                      type: Inline
+                      spec:
+                        script: <+input>
+                    environmentVariables: []
+                    outputVariables: []
+                  timeout: 10m
+        tags: {}
