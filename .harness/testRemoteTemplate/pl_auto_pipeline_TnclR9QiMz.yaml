@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_TnclR9QiMz
+  identifier: pl_auto_pipeline_TnclR9QiMz
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_rcXMR
+          identifier: pl_auto_template_rcXMR
+          template:
+            templateRef: account.pl_auto_template_rcXMR
+            versionLabel: v3
