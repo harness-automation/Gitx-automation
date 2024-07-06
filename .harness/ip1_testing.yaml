@@ -1,5 +1,6 @@
 inputSet:
   name: ip1_testing
+  tags: {}
   identifier: ip1_testing
   orgIdentifier: audit_cypress_org_Keiko_Sakai_IrrcqX
   projectIdentifier: dsfdss
@@ -19,4 +20,4 @@ inputSet:
                       source:
                         type: Inline
                         spec:
-                          script: <+input>.executionInput()
+                          script: <+input>
