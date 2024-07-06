@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutoTOpI4cfPMM
+  identifier: NGPipeAutoTOpI4cfPMM
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
