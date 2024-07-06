@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_LISMC
+  identifier: pl_auto_template_LISMC
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_wnXNe
+              identifier: pl_auto_template_wnXNe
+              template:
+                templateRef: account.pl_auto_template_wnXNe
+                versionLabel: v3
+                gitBranch: main
