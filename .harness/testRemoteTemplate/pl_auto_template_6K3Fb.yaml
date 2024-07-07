@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_6K3Fb
+  identifier: pl_auto_template_6K3Fb
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_BuyAA
+              identifier: pl_auto_template_BuyAA
+              template:
+                templateRef: account.pl_auto_template_BuyAA
+                versionLabel: v3
+                gitBranch: main
