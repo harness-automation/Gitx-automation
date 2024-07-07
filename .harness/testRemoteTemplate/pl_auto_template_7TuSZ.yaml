@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_7TuSZ
+  identifier: pl_auto_template_7TuSZ
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_eVeHq
+              identifier: pl_auto_template_eVeHq
+              template:
+                templateRef: account.pl_auto_template_eVeHq
+                versionLabel: v3
+                gitBranch: main
