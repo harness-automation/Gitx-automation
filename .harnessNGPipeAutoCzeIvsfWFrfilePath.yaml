@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoCzeIvsfWFr
+  identifier: NGPipeAutoCzeIvsfWFr
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
