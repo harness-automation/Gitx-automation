@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoFrpgHthCby
+  identifier: NGPipeAutoFrpgHthCby
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
