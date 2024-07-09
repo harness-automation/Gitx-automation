@@ -1,0 +1,11 @@
+infrastructureDefinition:
+  name: NGPipeAutoSAFO1s94Pt
+  identifier: NGPipeAutoSAFO1s94Pt
+  environmentRef: NGPipeAutoYj4axOdeUp
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.github_Account_level_connector_delegate
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
