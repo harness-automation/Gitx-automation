@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoEziVsuAAn9
+  identifier: NGPipeAutoEziVsuAAn9
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
