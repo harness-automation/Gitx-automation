@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutoOsziemn2Hf
+  identifier: NGPipeAutoOsziemn2Hf
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
