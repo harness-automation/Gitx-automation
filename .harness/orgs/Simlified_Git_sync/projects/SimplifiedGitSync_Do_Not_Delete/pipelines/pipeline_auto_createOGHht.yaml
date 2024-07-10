@@ -1,0 +1,20 @@
+pipeline:
+  name: pipeline_auto_createOGHht
+  identifier: pipeline_auto_createOGHht
+  orgIdentifier: Simlified_Git_sync
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  stages:
+    - stage:
+        identifier: s1
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  identifier: ShellScript_1
+                  type: ShellScript
+                  spec:
+                    source:
+                      type: Inline
+                      spec:
+                        script: echo 'hi'
