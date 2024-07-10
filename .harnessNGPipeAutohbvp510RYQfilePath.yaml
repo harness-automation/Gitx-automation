@@ -1,6 +1,7 @@
 environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  identifier: NGPipeAutohbvp510RYQ
-  tags: {}
   name: NGPipeAutohbvp510RYQ
-  type: PreProduction
+  identifier: NGPipeAutohbvp510RYQ
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {
+    }
+  type: Production
