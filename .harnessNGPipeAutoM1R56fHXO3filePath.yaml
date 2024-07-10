@@ -1,9 +1,0 @@
-service:
-  name: NGPipeAutoM1R56fHXO3
-  identifier: NGPipeAutoM1R56fHXO3
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
