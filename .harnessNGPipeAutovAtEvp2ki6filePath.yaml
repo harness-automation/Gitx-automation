@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutovAtEvp2ki6
+  identifier: NGPipeAutovAtEvp2ki6
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
