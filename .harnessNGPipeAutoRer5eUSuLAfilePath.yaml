@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoRer5eUSuLA
-  identifier: NGPipeAutoRer5eUSuLA
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
