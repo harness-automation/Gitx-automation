@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutoR597TItfmd
+  identifier: NGPipeAutoR597TItfmd
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
