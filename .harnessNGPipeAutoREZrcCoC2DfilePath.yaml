@@ -1,6 +1,7 @@
 environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  identifier: NGPipeAutoREZrcCoC2D
-  tags: {}
   name: NGPipeAutoREZrcCoC2D
-  type: PreProduction
+  identifier: NGPipeAutoREZrcCoC2D
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {
+    }
+  type: Production
