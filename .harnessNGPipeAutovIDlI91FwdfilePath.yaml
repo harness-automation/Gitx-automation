@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutovIDlI91Fwd
+  identifier: NGPipeAutovIDlI91Fwd
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
