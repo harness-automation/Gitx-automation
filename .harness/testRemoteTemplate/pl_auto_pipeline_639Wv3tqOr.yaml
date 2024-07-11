@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_639Wv3tqOr
+  identifier: pl_auto_pipeline_639Wv3tqOr
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_RoXe68FIL4
+          identifier: pl_auto_template_RoXe68FIL4
+          template:
+            templateRef: account.pl_auto_template_RoXe68FIL4
+            versionLabel: v3
