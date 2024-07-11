@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_aqMzH
+  identifier: pl_auto_template_aqMzH
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_aHEca
+              identifier: pl_auto_template_aHEca
+              template:
+                templateRef: account.pl_auto_template_aHEca
+                versionLabel: v3
+                gitBranch: main
