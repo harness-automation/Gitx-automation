@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_fPnPR
+  identifier: pl_auto_template_fPnPR
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_dhk6L
+              identifier: pl_auto_template_dhk6L
+              template:
+                templateRef: account.pl_auto_template_dhk6L
+                versionLabel: v3
+                gitBranch: main
