@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutomb82IREdTA
+  identifier: NGPipeAutomb82IREdTA
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
