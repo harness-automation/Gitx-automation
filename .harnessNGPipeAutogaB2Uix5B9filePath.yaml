@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutogaB2Uix5B9
-  identifier: NGPipeAutogaB2Uix5B9
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
