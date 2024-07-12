@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_IVEVw
+  identifier: pl_auto_template_IVEVw
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_UDNdK
+              identifier: pl_auto_template_UDNdK
+              template:
+                templateRef: account.pl_auto_template_UDNdK
+                versionLabel: v3
+                gitBranch: main
