@@ -1,0 +1,12 @@
+infrastructureDefinition:
+  name: NGPipeAutok0Hepym59A
+  identifier: NGPipeAutok0Hepym59A
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  environmentRef: NGPipeAutotlDuogs029
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.github_Account_level_connector_delegate
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
