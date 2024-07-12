@@ -1,6 +1,7 @@
 environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  identifier: NGPipeAutoEPtoPxBcCG
-  tags: {}
   name: NGPipeAutoEPtoPxBcCG
-  type: PreProduction
+  identifier: NGPipeAutoEPtoPxBcCG
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {
+    }
+  type: Production
