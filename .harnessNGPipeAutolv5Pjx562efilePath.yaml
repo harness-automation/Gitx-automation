@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutolv5Pjx562e
+  identifier: NGPipeAutolv5Pjx562e
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
