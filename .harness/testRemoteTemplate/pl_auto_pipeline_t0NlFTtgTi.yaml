@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_t0NlFTtgTi
+  identifier: pl_auto_pipeline_t0NlFTtgTi
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_AsKyu
+          identifier: pl_auto_template_AsKyu
+          template:
+            templateRef: account.pl_auto_template_AsKyu
+            versionLabel: v3
