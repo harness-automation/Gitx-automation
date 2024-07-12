@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_AsKyu
+  identifier: pl_auto_template_AsKyu
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_hExpG
+              identifier: pl_auto_template_hExpG
+              template:
+                templateRef: account.pl_auto_template_hExpG
+                versionLabel: v3
+                gitBranch: main
