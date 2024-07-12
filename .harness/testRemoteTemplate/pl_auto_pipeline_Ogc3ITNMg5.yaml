@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_Ogc3ITNMg5
+  identifier: pl_auto_pipeline_Ogc3ITNMg5
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_FKpa9
+          identifier: pl_auto_template_FKpa9
+          template:
+            templateRef: account.pl_auto_template_FKpa9
+            versionLabel: v3
