@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoJAClSqx93g
-  identifier: NGPipeAutoJAClSqx93g
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
