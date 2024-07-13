@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAuto21sLC22DPO
+  identifier: NGPipeAuto21sLC22DPO
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
