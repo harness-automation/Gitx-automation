@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoNOK43X79nb
+  identifier: NGPipeAutoNOK43X79nb
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
