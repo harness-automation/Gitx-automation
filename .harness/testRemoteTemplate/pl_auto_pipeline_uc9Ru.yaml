@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_uc9Ru
+  identifier: pl_auto_pipeline_uc9Ru
+  template:
+    templateRef: account.pl_auto_template_GZOPJ
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
