@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoyJlzCRSqEL
+  identifier: NGPipeAutoyJlzCRSqEL
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
