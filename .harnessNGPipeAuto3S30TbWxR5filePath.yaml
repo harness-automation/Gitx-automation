@@ -1,9 +1,0 @@
-service:
-  name: NGPipeAuto3S30TbWxR5
-  identifier: NGPipeAuto3S30TbWxR5
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
