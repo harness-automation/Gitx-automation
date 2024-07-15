@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoVz3HA90GwE
-  identifier: NGPipeAutoVz3HA90GwE
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
