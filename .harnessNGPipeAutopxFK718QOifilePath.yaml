@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutopxFK718QOi
-  identifier: NGPipeAutopxFK718QOi
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
