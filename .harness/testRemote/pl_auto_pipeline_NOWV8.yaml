@@ -1,0 +1,9 @@
+service:
+  name: pl_auto_pipeline_NOWV8
+  identifier: pl_auto_pipeline_NOWV8
+  orgIdentifier: Simlified_Git_sync
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
