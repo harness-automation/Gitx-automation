@@ -1,9 +1,0 @@
-service:
-  name: pl_auto_pipeline_GDgNi
-  identifier: pl_auto_pipeline_GDgNi
-  orgIdentifier: Simlified_Git_sync
-  serviceDefinition:
-    spec:
-      release:
-        name: <+input>
-    type: Kubernetes
