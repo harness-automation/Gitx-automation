@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutopxFK718QOi
+  identifier: NGPipeAutopxFK718QOi
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
