@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoHsKcXdBtMQ
+  identifier: NGPipeAutoHsKcXdBtMQ
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
