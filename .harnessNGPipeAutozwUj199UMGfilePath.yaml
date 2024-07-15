@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutozwUj199UMG
-  identifier: NGPipeAutozwUj199UMG
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
