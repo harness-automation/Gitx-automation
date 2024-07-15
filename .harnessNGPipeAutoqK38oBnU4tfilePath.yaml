@@ -1,9 +1,0 @@
-service:
-  name: NGPipeAutoqK38oBnU4t
-  identifier: NGPipeAutoqK38oBnU4t
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
