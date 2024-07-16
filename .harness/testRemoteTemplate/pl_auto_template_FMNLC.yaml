@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_FMNLC
+  identifier: pl_auto_template_FMNLC
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_mv4pS
+              identifier: pl_auto_template_mv4pS
+              template:
+                templateRef: account.pl_auto_template_mv4pS
+                versionLabel: v3
+                gitBranch: main
