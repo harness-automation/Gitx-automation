@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_A3I9s
+  identifier: pl_auto_template_A3I9s
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_PLi22
+              identifier: pl_auto_template_PLi22
+              template:
+                templateRef: account.pl_auto_template_PLi22
+                versionLabel: v3
+                gitBranch: main
