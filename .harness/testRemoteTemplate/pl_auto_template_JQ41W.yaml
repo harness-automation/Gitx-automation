@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_JQ41W
+  identifier: pl_auto_template_JQ41W
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_czxaE
+              identifier: pl_auto_template_czxaE
+              template:
+                templateRef: account.pl_auto_template_czxaE
+                versionLabel: v3
+                gitBranch: main
