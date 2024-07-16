@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutodtarI7Xq1E
+  identifier: NGPipeAutodtarI7Xq1E
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
