@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoXeqTRs53r0
+  identifier: NGPipeAutoXeqTRs53r0
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
