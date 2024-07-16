@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoHSZzMg9Doq
-  identifier: NGPipeAutoHSZzMg9Doq
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
