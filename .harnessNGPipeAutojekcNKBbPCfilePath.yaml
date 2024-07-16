@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutojekcNKBbPC
+  identifier: NGPipeAutojekcNKBbPC
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcCgebaEMcAi
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
