@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoXQAUsFKmrt
-  identifier: NGPipeAutoXQAUsFKmrt
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
