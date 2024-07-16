@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutowNEhF71VIo
-  identifier: NGPipeAutowNEhF71VIo
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
