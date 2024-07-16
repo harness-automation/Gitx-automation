@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoLGqlisd1Ij
+  identifier: NGPipeAutoLGqlisd1Ij
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
