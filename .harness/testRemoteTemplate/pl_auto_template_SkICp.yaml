@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_SkICp
+  identifier: pl_auto_template_SkICp
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_BzfwM
+              identifier: pl_auto_template_BzfwM
+              template:
+                templateRef: account.pl_auto_template_BzfwM
+                versionLabel: v3
+                gitBranch: main
