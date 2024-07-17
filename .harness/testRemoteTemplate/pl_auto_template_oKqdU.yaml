@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_oKqdU
+  identifier: pl_auto_template_oKqdU
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_BGb44
+              identifier: pl_auto_template_BGb44
+              template:
+                templateRef: account.pl_auto_template_BGb44
+                versionLabel: v3
+                gitBranch: main
