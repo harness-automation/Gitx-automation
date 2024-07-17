@@ -1,0 +1,12 @@
+infrastructureDefinition:
+  name: pl_auto_infra_y4SxC
+  identifier: pl_auto_infra_y4SxC
+  orgIdentifier: Simlified_Git_sync
+  environmentRef: pl_auto_environment_fbb1i
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.github_Account_level_connector_delegate
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
