@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoD890fSNkJZ
-  identifier: NGPipeAutoD890fSNkJZ
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
