@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_9Lmqt
+  identifier: pl_auto_template_9Lmqt
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_LFKpn
+              identifier: pl_auto_template_LFKpn
+              template:
+                templateRef: account.pl_auto_template_LFKpn
+                versionLabel: v3
+                gitBranch: main
