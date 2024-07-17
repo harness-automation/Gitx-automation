@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoZOIEyHuLov
+  identifier: NGPipeAutoZOIEyHuLov
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
