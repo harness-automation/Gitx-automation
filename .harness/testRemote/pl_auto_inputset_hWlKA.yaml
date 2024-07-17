@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_QLVv8
+  identifier: pl_auto_inputset_QLVv8
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTestwzgaH
+  pipeline:
+    identifier: PipelineAuto_CRUDuAu
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
