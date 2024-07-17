@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutowCaMHa4Fwi
+  identifier: NGPipeAutowCaMHa4Fwi
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
