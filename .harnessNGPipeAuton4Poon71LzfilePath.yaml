@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAuton4Poon71Lz
+  identifier: NGPipeAuton4Poon71Lz
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcsJMkln87ST
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
