@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_jxJ88hl1Af
+  identifier: pl_auto_pipeline_jxJ88hl1Af
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_9Lmqt
+          identifier: pl_auto_template_9Lmqt
+          template:
+            templateRef: account.pl_auto_template_9Lmqt
+            versionLabel: v3
