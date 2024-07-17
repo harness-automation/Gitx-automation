@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_FTP98
+  identifier: pl_auto_template_FTP98
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_djm4C
+              identifier: pl_auto_template_djm4C
+              template:
+                templateRef: account.pl_auto_template_djm4C
+                versionLabel: v3
+                gitBranch: main
