@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoCGt0Y35wDm
+  identifier: NGPipeAutoCGt0Y35wDm
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
