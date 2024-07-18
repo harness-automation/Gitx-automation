@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoK63meiErFb
+  identifier: NGPipeAutoK63meiErFb
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
