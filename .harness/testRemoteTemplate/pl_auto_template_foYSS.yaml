@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_foYSS
+  identifier: pl_auto_template_foYSS
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_zwwf5
+              identifier: pl_auto_template_zwwf5
+              template:
+                templateRef: account.pl_auto_template_zwwf5
+                versionLabel: v3
+                gitBranch: main
