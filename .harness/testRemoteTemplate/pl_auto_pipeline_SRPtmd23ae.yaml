@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_SRPtmd23ae
+  identifier: pl_auto_pipeline_SRPtmd23ae
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Q4NA5
+          identifier: pl_auto_template_Q4NA5
+          template:
+            templateRef: account.pl_auto_template_Q4NA5
+            versionLabel: v3
