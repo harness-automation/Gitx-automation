@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_e1ata
+  identifier: pl_auto_inputset_e1ata
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTestbNDoy
+  pipeline:
+    identifier: PipelineAuto_CRUDt6X
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
