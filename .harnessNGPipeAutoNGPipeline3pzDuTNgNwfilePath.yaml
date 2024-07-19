@@ -1,0 +1,48 @@
+pipeline:
+  name: NGPipeAutoNGPipeline3pzDuTNgNw
+  identifier: NGPipeAutoNGPipeline3pzDuTNgNw
+  projectIdentifier: NGPipeAutoPipelineSvcZsXtxSX9iA
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  versionLabel: v1
+  tags: {}
+  template:
+    templateRef: NGPipeAutoPipelineTemp84bQfMWylk
+    versionLabel: v1
+    templateInputs:
+      stages:
+        - stage:
+            identifier: s1
+            template:
+              templateInputs:
+                type: Custom
+                spec:
+                  execution:
+                    steps:
+                      - step:
+                          identifier: s1
+                          template:
+                            templateInputs:
+                              type: ShellScript
+                              timeout: <+input>
+                  environment:
+                    environmentRef: <+input>
+                    environmentInputs: <+input>
+                    infrastructureDefinitions: <+input>
+        - stage:
+            identifier: s2
+            template:
+              templateInputs:
+                type: Custom
+                spec:
+                  execution:
+                    steps:
+                      - step:
+                          identifier: s1
+                          template:
+                            templateInputs:
+                              type: ShellScript
+                              timeout: <+input>
+                  environment:
+                    environmentRef: <+input>
+                    environmentInputs: <+input>
+                    infrastructureDefinitions: <+input>
