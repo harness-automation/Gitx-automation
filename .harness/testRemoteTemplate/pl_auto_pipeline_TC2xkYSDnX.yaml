@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_TC2xkYSDnX
+  identifier: pl_auto_pipeline_TC2xkYSDnX
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_HuMOC
+          identifier: pl_auto_template_HuMOC
+          template:
+            templateRef: account.pl_auto_template_HuMOC
+            versionLabel: v3
