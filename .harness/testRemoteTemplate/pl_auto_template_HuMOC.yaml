@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_HuMOC
+  identifier: pl_auto_template_HuMOC
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_028yC
+              identifier: pl_auto_template_028yC
+              template:
+                templateRef: account.pl_auto_template_028yC
+                versionLabel: v3
+                gitBranch: main
