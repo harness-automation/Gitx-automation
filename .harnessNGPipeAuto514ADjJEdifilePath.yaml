@@ -1,6 +1,7 @@
 environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  identifier: NGPipeAuto514ADjJEdi
-  tags: {}
   name: NGPipeAuto514ADjJEdi
-  type: PreProduction
+  identifier: NGPipeAuto514ADjJEdi
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {
+    }
+  type: Production
