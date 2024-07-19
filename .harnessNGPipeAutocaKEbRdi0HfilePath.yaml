@@ -1,9 +1,0 @@
-service:
-  name: NGPipeAutocaKEbRdi0H
-  identifier: NGPipeAutocaKEbRdi0H
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  serviceDefinition:
-    spec:
-      release:
-        name: <+input>
-    type: Kubernetes
