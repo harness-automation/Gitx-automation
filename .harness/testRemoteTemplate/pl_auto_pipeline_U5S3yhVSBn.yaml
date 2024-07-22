@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_U5S3yhVSBn
+  identifier: pl_auto_pipeline_U5S3yhVSBn
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Yburp
+          identifier: pl_auto_template_Yburp
+          template:
+            templateRef: account.pl_auto_template_Yburp
+            versionLabel: v3
