@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAuto6TotmnQodo
+  identifier: NGPipeAuto6TotmnQodo
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcqsTSNGQQ09
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
