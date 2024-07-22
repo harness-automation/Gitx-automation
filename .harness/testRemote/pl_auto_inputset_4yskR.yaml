@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_iVysa
+  identifier: pl_auto_inputset_iVysa
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTestKWh63
+  pipeline:
+    identifier: PipelineAuto_CRUDZXp
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
