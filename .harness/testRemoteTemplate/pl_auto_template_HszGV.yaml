@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_HszGV
+  identifier: pl_auto_template_HszGV
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_HoZIM
+              identifier: pl_auto_template_HoZIM
+              template:
+                templateRef: account.pl_auto_template_HoZIM
+                versionLabel: v3
+                gitBranch: main
