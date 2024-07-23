@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_uLExE
+  identifier: pl_auto_template_uLExE
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_i1sgc
+              identifier: pl_auto_template_i1sgc
+              template:
+                templateRef: account.pl_auto_template_i1sgc
+                versionLabel: v3
+                gitBranch: main
