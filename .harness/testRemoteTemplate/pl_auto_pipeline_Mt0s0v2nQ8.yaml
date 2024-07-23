@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_Mt0s0v2nQ8
+  identifier: pl_auto_pipeline_Mt0s0v2nQ8
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_uLExE
+          identifier: pl_auto_template_uLExE
+          template:
+            templateRef: account.pl_auto_template_uLExE
+            versionLabel: v3
