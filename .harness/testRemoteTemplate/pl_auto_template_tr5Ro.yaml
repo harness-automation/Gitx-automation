@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_tr5Ro
+  identifier: pl_auto_template_tr5Ro
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_WMHzI
+              identifier: pl_auto_template_WMHzI
+              template:
+                templateRef: account.pl_auto_template_WMHzI
+                versionLabel: v3
+                gitBranch: main
