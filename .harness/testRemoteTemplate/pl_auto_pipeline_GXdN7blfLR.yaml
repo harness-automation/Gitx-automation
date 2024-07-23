@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_GXdN7blfLR
+  identifier: pl_auto_pipeline_GXdN7blfLR
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_TYAdR
+          identifier: pl_auto_template_TYAdR
+          template:
+            templateRef: account.pl_auto_template_TYAdR
+            versionLabel: v3
