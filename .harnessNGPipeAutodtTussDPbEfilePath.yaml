@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutodtTussDPbE
+  identifier: NGPipeAutodtTussDPbE
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcc8nMUbITE3
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
