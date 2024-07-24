@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoDFtG6jTLun
+  identifier: NGPipeAutoDFtG6jTLun
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
