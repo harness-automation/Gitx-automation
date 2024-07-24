@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoMZM2siQuUq
+  identifier: NGPipeAutoMZM2siQuUq
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
