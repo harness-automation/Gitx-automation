@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_KqaJr
+  identifier: pl_auto_template_KqaJr
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_GACPG
+              identifier: pl_auto_template_GACPG
+              template:
+                templateRef: account.pl_auto_template_GACPG
+                versionLabel: v3
+                gitBranch: main
