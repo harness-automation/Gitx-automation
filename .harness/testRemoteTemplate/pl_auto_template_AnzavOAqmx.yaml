@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_AnzavOAqmx
+  identifier: pl_auto_template_AnzavOAqmx
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_7z3iiLhnVB
+              identifier: pl_auto_template_7z3iiLhnVB
+              template:
+                templateRef: account.pl_auto_template_7z3iiLhnVB
+                versionLabel: v3
+                gitBranch: main
