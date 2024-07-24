@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoDaLay0gT6T
+  identifier: NGPipeAutoDaLay0gT6T
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
