@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoMmg3yAtnfd
-  identifier: NGPipeAutoMmg3yAtnfd
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
