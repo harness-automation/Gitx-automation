@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_MgFhe
+  identifier: pl_auto_template_MgFhe
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_l3SrJ
+              identifier: pl_auto_template_l3SrJ
+              template:
+                templateRef: account.pl_auto_template_l3SrJ
+                versionLabel: v3
+                gitBranch: main
