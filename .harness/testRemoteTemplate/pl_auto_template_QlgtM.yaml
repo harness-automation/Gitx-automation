@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_QlgtM
+  identifier: pl_auto_template_QlgtM
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_SLLYX
+              identifier: pl_auto_template_SLLYX
+              template:
+                templateRef: account.pl_auto_template_SLLYX
+                versionLabel: v3
+                gitBranch: main
