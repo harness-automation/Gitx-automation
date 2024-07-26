@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_tYVTS
+  identifier: pl_auto_template_tYVTS
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_5TLVM
+              identifier: pl_auto_template_5TLVM
+              template:
+                templateRef: account.pl_auto_template_5TLVM
+                versionLabel: v3
+                gitBranch: main
