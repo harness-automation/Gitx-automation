@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoqL6DsfBwPU
-  identifier: NGPipeAutoqL6DsfBwPU
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
