@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAuto0BassfMBLl
+  identifier: NGPipeAuto0BassfMBLl
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
