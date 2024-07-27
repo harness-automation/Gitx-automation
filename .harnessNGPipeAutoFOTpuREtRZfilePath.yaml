@@ -1,6 +1,7 @@
 environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  identifier: NGPipeAutoFOTpuREtRZ
-  tags: {}
   name: NGPipeAutoFOTpuREtRZ
-  type: PreProduction
+  identifier: NGPipeAutoFOTpuREtRZ
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {
+    }
+  type: Production
