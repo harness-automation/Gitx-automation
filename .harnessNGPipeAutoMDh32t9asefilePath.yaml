@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutoMDh32t9ase
+  identifier: NGPipeAutoMDh32t9ase
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
