@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutolOW45noYmP
+  identifier: NGPipeAutolOW45noYmP
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
