@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Xg3sx
+  identifier: pl_auto_template_Xg3sx
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_hHvXC
+              identifier: pl_auto_template_hHvXC
+              template:
+                templateRef: account.pl_auto_template_hHvXC
+                versionLabel: v3
+                gitBranch: main
