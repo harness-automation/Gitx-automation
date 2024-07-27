@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoLxfypOSYPq
+  identifier: NGPipeAutoLxfypOSYPq
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
