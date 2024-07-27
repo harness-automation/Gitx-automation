@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoMstXEB42WA
+  identifier: NGPipeAutoMstXEB42WA
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
