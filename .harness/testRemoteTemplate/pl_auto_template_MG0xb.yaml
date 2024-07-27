@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_MG0xb
+  identifier: pl_auto_template_MG0xb
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_TKea3
+              identifier: pl_auto_template_TKea3
+              template:
+                templateRef: account.pl_auto_template_TKea3
+                versionLabel: v3
+                gitBranch: main
