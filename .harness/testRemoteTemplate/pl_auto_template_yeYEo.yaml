@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_yeYEo
+  identifier: pl_auto_template_yeYEo
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_PUC1T
+              identifier: pl_auto_template_PUC1T
+              template:
+                templateRef: account.pl_auto_template_PUC1T
+                versionLabel: v3
+                gitBranch: main
