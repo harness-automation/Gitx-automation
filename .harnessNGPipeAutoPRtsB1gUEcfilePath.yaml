@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoPRtsB1gUEc
+  identifier: NGPipeAutoPRtsB1gUEc
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
