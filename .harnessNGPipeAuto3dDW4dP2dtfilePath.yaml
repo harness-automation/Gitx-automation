@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAuto3dDW4dP2dt
+  identifier: NGPipeAuto3dDW4dP2dt
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
