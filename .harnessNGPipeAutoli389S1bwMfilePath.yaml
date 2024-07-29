@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutoli389S1bwM
+  identifier: NGPipeAutoli389S1bwM
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
