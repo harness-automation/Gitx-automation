@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoWEoaymRM5R
+  identifier: NGPipeAutoWEoaymRM5R
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
