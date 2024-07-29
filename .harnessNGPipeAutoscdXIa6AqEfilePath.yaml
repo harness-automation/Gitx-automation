@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoscdXIa6AqE
-  identifier: NGPipeAutoscdXIa6AqE
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
