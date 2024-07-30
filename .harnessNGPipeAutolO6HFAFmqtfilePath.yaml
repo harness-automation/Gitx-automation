@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutolO6HFAFmqt
+  identifier: NGPipeAutolO6HFAFmqt
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
