@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutomnXJo32HEo
+  identifier: NGPipeAutomnXJo32HEo
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
