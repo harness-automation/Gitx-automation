@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_OPfBU98GKd
+  identifier: pl_auto_pipeline_OPfBU98GKd
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_ro6Dv
+          identifier: pl_auto_template_ro6Dv
+          template:
+            templateRef: account.pl_auto_template_ro6Dv
+            versionLabel: v3
