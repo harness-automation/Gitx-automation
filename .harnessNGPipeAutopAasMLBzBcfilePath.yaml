@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: NGPipeAutopAasMLBzBc
+  identifier: NGPipeAutopAasMLBzBc
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineInfraluU2QEIspm
+  environmentRef: NGPipeAuto82OW4DgUgs
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.github_Account_level_connector_delegate
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
