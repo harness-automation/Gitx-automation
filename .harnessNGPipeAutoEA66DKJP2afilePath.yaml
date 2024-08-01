@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoEA66DKJP2a
+  identifier: NGPipeAutoEA66DKJP2a
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
