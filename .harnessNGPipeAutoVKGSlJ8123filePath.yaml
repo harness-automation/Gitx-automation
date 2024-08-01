@@ -1,9 +1,0 @@
-service:
-  name: NGPipeAutoVKGSlJ8123
-  identifier: NGPipeAutoVKGSlJ8123
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
