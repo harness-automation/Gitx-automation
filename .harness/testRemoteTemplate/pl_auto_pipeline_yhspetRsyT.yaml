@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_yhspetRsyT
+  identifier: pl_auto_pipeline_yhspetRsyT
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_unUQm
+          identifier: pl_auto_template_unUQm
+          template:
+            templateRef: account.pl_auto_template_unUQm
+            versionLabel: v3
