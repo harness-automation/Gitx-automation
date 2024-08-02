@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoMqghnARGrP
-  identifier: NGPipeAutoMqghnARGrP
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
