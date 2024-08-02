@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutovrHosuBpBY
+  identifier: NGPipeAutovrHosuBpBY
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcj90nHttpih
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
