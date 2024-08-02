@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_unUQm
+  identifier: pl_auto_template_unUQm
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_pJs0K
+              identifier: pl_auto_template_pJs0K
+              template:
+                templateRef: account.pl_auto_template_pJs0K
+                versionLabel: v3
+                gitBranch: main
