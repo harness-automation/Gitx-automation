@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_7VQbL5fw8G
+  identifier: pl_auto_template_7VQbL5fw8G
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_WcinWmsGLz
+              identifier: pl_auto_template_WcinWmsGLz
+              template:
+                templateRef: account.pl_auto_template_WcinWmsGLz
+                versionLabel: v3
+                gitBranch: main
