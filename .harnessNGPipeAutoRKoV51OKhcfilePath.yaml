@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoRKoV51OKhc
+  identifier: NGPipeAutoRKoV51OKhc
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
