@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoX6TvOIowGI
+  identifier: NGPipeAutoX6TvOIowGI
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
