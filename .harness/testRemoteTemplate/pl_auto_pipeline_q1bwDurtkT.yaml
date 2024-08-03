@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_q1bwDurtkT
+  identifier: pl_auto_pipeline_q1bwDurtkT
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_T4oNP
+          identifier: pl_auto_template_T4oNP
+          template:
+            templateRef: account.pl_auto_template_T4oNP
+            versionLabel: v3
