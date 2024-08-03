@@ -1,6 +1,7 @@
 environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  identifier: NGPipeAutogyK32wPENx
-  tags: {}
   name: NGPipeAutogyK32wPENx
-  type: PreProduction
+  identifier: NGPipeAutogyK32wPENx
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {
+    }
+  type: Production
