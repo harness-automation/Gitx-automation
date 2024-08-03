@@ -1,9 +1,0 @@
-service:
-  name: NGPipeAutoLK24x4Mumf
-  identifier: NGPipeAutoLK24x4Mumf
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
