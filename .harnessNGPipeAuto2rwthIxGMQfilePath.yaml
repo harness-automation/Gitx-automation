@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAuto2rwthIxGMQ
+  identifier: NGPipeAuto2rwthIxGMQ
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
