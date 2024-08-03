@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Qr6km
+  identifier: pl_auto_template_Qr6km
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_RHS5Q
+              identifier: pl_auto_template_RHS5Q
+              template:
+                templateRef: account.pl_auto_template_RHS5Q
+                versionLabel: v3
+                gitBranch: main
