@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_zsdIQ
+  identifier: pl_auto_template_zsdIQ
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_RTij5
+              identifier: pl_auto_template_RTij5
+              template:
+                templateRef: account.pl_auto_template_RTij5
+                versionLabel: v3
+                gitBranch: main
