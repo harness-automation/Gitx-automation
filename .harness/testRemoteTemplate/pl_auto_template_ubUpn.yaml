@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_ubUpn
+  identifier: pl_auto_template_ubUpn
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_PssQF
+              identifier: pl_auto_template_PssQF
+              template:
+                templateRef: account.pl_auto_template_PssQF
+                versionLabel: v3
+                gitBranch: main
