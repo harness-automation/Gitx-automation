@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutoVCA45QKRCF
+  identifier: NGPipeAutoVCA45QKRCF
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
