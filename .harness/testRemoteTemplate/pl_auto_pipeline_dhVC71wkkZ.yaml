@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_dhVC71wkkZ
+  identifier: pl_auto_pipeline_dhVC71wkkZ
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_W6S51
+          identifier: pl_auto_template_W6S51
+          template:
+            templateRef: account.pl_auto_template_W6S51
+            versionLabel: v3
