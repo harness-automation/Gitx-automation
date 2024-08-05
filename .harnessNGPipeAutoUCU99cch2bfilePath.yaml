@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoUCU99cch2b
+  identifier: NGPipeAutoUCU99cch2b
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
