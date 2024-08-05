@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoFTYKKmt5Ve
+  identifier: NGPipeAutoFTYKKmt5Ve
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
