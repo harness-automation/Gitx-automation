@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoFFEiSWSB7Z
+  identifier: NGPipeAutoFFEiSWSB7Z
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
