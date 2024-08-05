@@ -1,0 +1,11 @@
+infrastructureDefinition:
+  name: NGPipeAutoWFNk7rs0qp
+  identifier: NGPipeAutoWFNk7rs0qp
+  environmentRef: NGPipeAutoIp6XBuTNGO
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.github_Account_level_connector_delegate
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
