@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_F40OmVvi8D
+  identifier: pl_auto_pipeline_F40OmVvi8D
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_YOzMo
+          identifier: pl_auto_template_YOzMo
+          template:
+            templateRef: account.pl_auto_template_YOzMo
+            versionLabel: v3
