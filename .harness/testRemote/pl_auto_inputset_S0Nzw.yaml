@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_OBFbV
+  identifier: pl_auto_inputset_OBFbV
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTestJCwIB
+  pipeline:
+    identifier: PipelineAuto_CRUDU3j
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
