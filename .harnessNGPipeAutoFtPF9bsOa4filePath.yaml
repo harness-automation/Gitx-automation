@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoFtPF9bsOa4
+  identifier: NGPipeAutoFtPF9bsOa4
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
