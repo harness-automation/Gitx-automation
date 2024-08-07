@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutocpEMZf72sr
+  identifier: NGPipeAutocpEMZf72sr
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
