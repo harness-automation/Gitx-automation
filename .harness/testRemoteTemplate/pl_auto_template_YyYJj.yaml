@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_YyYJj
+  identifier: pl_auto_template_YyYJj
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Mietb
+              identifier: pl_auto_template_Mietb
+              template:
+                templateRef: account.pl_auto_template_Mietb
+                versionLabel: v3
+                gitBranch: main
