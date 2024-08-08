@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutokrGm4bhcal
+  identifier: NGPipeAutokrGm4bhcal
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
