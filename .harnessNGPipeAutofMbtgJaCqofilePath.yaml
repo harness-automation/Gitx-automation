@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutofMbtgJaCqo
+  identifier: NGPipeAutofMbtgJaCqo
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
