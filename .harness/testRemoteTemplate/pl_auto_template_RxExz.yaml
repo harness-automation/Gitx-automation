@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_RxExz
+  identifier: pl_auto_template_RxExz
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_k1iKN
+              identifier: pl_auto_template_k1iKN
+              template:
+                templateRef: account.pl_auto_template_k1iKN
+                versionLabel: v3
+                gitBranch: main
