@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_HL8TnngQBK
+  identifier: pl_auto_pipeline_HL8TnngQBK
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_mDVFI
+          identifier: pl_auto_template_mDVFI
+          template:
+            templateRef: account.pl_auto_template_mDVFI
+            versionLabel: v3
