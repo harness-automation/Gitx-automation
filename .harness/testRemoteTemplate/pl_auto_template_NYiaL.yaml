@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_NYiaL
+  identifier: pl_auto_template_NYiaL
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_DeKWL
+              identifier: pl_auto_template_DeKWL
+              template:
+                templateRef: account.pl_auto_template_DeKWL
+                versionLabel: v3
+                gitBranch: main
