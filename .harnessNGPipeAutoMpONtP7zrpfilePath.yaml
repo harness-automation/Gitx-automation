@@ -1,6 +1,7 @@
 environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  identifier: NGPipeAutoMpONtP7zrp
-  tags: {}
   name: NGPipeAutoMpONtP7zrp
-  type: PreProduction
+  identifier: NGPipeAutoMpONtP7zrp
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {
+    }
+  type: Production
