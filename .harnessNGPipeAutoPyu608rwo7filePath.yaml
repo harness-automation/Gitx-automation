@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoPyu608rwo7
+  identifier: NGPipeAutoPyu608rwo7
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
