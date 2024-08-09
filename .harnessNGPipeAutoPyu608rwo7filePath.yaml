@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoPyu608rwo7
-  identifier: NGPipeAutoPyu608rwo7
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
