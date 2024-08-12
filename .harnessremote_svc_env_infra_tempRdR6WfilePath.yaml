@@ -1,0 +1,62 @@
+template:
+  name: remote_svc_env_infra_tempRdR6W
+  identifier: remote_svc_env_infra_tempRdR6W
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: NGPipeAutoPipelineSvc1OKOuzHh3y
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {}
+  spec:
+    type: Deployment
+    spec:
+      deploymentType: Kubernetes
+      service:
+        serviceRef: NGPipeAutoSvc5VvlnmplBi
+        serviceInputs:
+          serviceDefinition:
+            type: Kubernetes
+            spec:
+              artifacts:
+                primary:
+                  sources:
+                    - identifier: artifactId
+                      type: Gcr
+                      spec:
+                        tag: "80"
+      environments:
+        metadata:
+          parallel: true
+        values:
+          - environmentRef: NGPipeAutocHVemxu6bv
+            deployToAll: false
+            infrastructureDefinitions:
+              - identifier: NGPipeAutoFnzilZZ2Rl
+                inputs:
+                  identifier: NGPipeAutoFnzilZZ2Rl
+                  type: KubernetesDirect
+                  spec:
+                    namespace: default
+      execution:
+        steps:
+          - step:
+              name: Rollout Deployment
+              identifier: rolloutDeployment
+              type: K8sRollingDeploy
+              timeout: 10m
+              spec:
+                skipDryRun: false
+                pruningEnabled: false
+        rollbackSteps:
+          - step:
+              name: Rollback Rollout Deployment
+              identifier: rollbackRolloutDeployment
+              type: K8sRollingRollback
+              timeout: 10m
+              spec:
+                pruningEnabled: false
+    failureStrategies:
+      - onFailure:
+          errors:
+            - AllErrors
+          action:
+            type: StageRollback
