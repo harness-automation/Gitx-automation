@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoZNfEBl0cnc
+  identifier: NGPipeAutoZNfEBl0cnc
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
