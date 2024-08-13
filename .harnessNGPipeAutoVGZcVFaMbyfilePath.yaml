@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoVGZcVFaMby
+  identifier: NGPipeAutoVGZcVFaMby
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
