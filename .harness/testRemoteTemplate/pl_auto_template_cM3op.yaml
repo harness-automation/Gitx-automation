@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_cM3op
+  identifier: pl_auto_template_cM3op
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_zaQzM
+              identifier: pl_auto_template_zaQzM
+              template:
+                templateRef: account.pl_auto_template_zaQzM
+                versionLabel: v3
+                gitBranch: main
