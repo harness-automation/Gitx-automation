@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutopSuttinzAU
+  identifier: NGPipeAutopSuttinzAU
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
