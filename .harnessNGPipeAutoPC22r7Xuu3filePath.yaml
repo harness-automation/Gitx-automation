@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoPC22r7Xuu3
+  identifier: NGPipeAutoPC22r7Xuu3
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
