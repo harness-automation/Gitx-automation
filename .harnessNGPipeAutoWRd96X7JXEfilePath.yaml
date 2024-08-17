@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoWRd96X7JXE
+  identifier: NGPipeAutoWRd96X7JXE
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
