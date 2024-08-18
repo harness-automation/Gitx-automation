@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAuto3kxRPgVYbu
+  identifier: NGPipeAuto3kxRPgVYbu
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
