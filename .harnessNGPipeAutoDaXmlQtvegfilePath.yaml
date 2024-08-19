@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoDaXmlQtveg
+  identifier: NGPipeAutoDaXmlQtveg
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
