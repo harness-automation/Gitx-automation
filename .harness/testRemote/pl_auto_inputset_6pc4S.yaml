@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_ted98
+  identifier: pl_auto_inputset_ted98
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTest5nV1z
+  pipeline:
+    identifier: PipelineAuto_CRUDwBU
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
