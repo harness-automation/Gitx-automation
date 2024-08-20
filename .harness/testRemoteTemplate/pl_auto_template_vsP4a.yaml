@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_vsP4a
+  identifier: pl_auto_template_vsP4a
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_smaHZ
+              identifier: pl_auto_template_smaHZ
+              template:
+                templateRef: account.pl_auto_template_smaHZ
+                versionLabel: v3
+                gitBranch: main
