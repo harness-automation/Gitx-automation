@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutokZ95SWgcPX
+  identifier: NGPipeAutokZ95SWgcPX
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
