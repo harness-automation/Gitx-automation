@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutojq45nvRcDR
+  identifier: NGPipeAutojq45nvRcDR
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
