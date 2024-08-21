@@ -1,9 +1,0 @@
-service:
-  name: NGPipeAutoQQF7Y24fAL
-  identifier: NGPipeAutoQQF7Y24fAL
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  serviceDefinition:
-    spec:
-      release:
-        name: <+input>
-    type: Kubernetes
