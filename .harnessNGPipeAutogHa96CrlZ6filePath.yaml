@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutogHa96CrlZ6
+  identifier: NGPipeAutogHa96CrlZ6
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
