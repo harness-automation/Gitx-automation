@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutokZ95SWgcPX
-  identifier: NGPipeAutokZ95SWgcPX
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
