@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoNZa90Wklqo
+  identifier: NGPipeAutoNZa90Wklqo
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
