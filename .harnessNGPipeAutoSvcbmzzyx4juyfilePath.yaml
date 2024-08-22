@@ -7,28 +7,28 @@ service:
     type: Kubernetes
     spec:
       manifests:
-      - manifest:
-          identifier: k8s
-          type: K8sManifest
-          spec:
-            store:
-              type: Harness
-              spec:
-                files:
-                - account:/K8s/templates
-            valuesPaths:
-            - account:/K8s/values.yaml
-            skipResourceVersioning: false
-            enableDeclarativeRollback: false
+        - manifest:
+            identifier: k8s
+            type: K8sManifest
+            spec:
+              store:
+                type: Harness
+                spec:
+                  files:
+                    - account:/Sample K8s Manifests/templates/deployment.yaml
+              valuesPaths:
+                - account:/Sample K8s Manifests/templates/deployment.yaml
+              skipResourceVersioning: false
+              enableDeclarativeRollback: false
       artifacts:
         primary:
           primaryArtifactRef: artifactId
           sources:
-          - spec:
-              connectorRef: org.GCRConnectorForAutomationTest
-              imagePath: qa-target/todolist-sample
-              tag: <+input>
-              registryHostname: us.gcr.io
-            identifier: artifactId
-            type: Gcr
+            - spec:
+                connectorRef: org.GCRConnectorForAutomationTest
+                imagePath: qa-target/todolist-sample
+                tag: <+input>
+                registryHostname: us.gcr.io
+              identifier: artifactId
+              type: Gcr
   gitOpsEnabled: false
