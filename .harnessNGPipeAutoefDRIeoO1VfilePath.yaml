@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoefDRIeoO1V
-  identifier: NGPipeAutoefDRIeoO1V
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
