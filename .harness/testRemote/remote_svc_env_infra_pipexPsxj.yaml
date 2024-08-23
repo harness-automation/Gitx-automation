@@ -13,3 +13,18 @@ pipeline:
           templateRef: remote_svc_env_infra_tempIBcdU
           versionLabel: v1
           gitBranch: main
+          templateInputs:
+            type: Deployment
+            spec:
+              service:
+                serviceInputs:
+                  serviceDefinition:
+                    type: Kubernetes
+                    spec:
+                      artifacts:
+                        primary:
+                          sources:
+                            - identifier: artifactId
+                              type: Gcr
+                              spec:
+                                tag: <+input>
