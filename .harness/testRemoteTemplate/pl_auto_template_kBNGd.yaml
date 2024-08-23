@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_kBNGd
+  identifier: pl_auto_template_kBNGd
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_C3gWy
+              identifier: pl_auto_template_C3gWy
+              template:
+                templateRef: account.pl_auto_template_C3gWy
+                versionLabel: v3
+                gitBranch: main
