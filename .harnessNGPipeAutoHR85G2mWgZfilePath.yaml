@@ -1,6 +1,7 @@
 environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  identifier: NGPipeAutoHR85G2mWgZ
-  tags: {}
   name: NGPipeAutoHR85G2mWgZ
-  type: PreProduction
+  identifier: NGPipeAutoHR85G2mWgZ
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {
+    }
+  type: Production
