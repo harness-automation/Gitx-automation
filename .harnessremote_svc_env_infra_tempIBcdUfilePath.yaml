@@ -22,7 +22,7 @@ template:
                     - identifier: artifactId
                       type: Gcr
                       spec:
-                        tag: <+input>
+                        tag: "80"
       environments:
         metadata:
           parallel: true
