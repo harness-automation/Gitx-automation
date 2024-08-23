@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_7qZCaacsas
+  identifier: pl_auto_pipeline_7qZCaacsas
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Sp20I
+          identifier: pl_auto_template_Sp20I
+          template:
+            templateRef: account.pl_auto_template_Sp20I
+            versionLabel: v3
