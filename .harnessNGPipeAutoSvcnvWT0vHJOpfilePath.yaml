@@ -14,7 +14,7 @@ service:
               store:
                 type: Git
                 spec:
-                  connectorRef: org.GithubAccLevelConnector
+                  connectorRef: org.GitConnectorForAutomationTest
                   gitFetchType: Branch
                   paths:
                     - ng-automation/k8s/templates/
@@ -27,7 +27,7 @@ service:
               store:
                 type: Git
                 spec:
-                  connectorRef: org.GithubAccLevelConnector
+                  connectorRef: org.GitConnectorForAutomationTest
                   gitFetchType: Branch
                   paths:
                     - ng-automation/k8s/valuesWithClusterTypeService.yaml
