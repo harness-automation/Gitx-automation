@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_yBj4s
+  identifier: pl_auto_template_yBj4s
+  versionLabel: v3
+  type: Step
+  tags: {}
+  spec:
+    timeout: 10m
+    type: ShellScript
+    spec:
+      shell: Bash
+      onDelegate: true
+      source:
+        type: Inline
+        spec:
+          script: echo Hello
+      environmentVariables: []
+      outputVariables: []
