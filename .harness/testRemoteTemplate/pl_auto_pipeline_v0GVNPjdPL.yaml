@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_v0GVNPjdPL
+  identifier: pl_auto_pipeline_v0GVNPjdPL
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_kuoRs
+          identifier: pl_auto_template_kuoRs
+          template:
+            templateRef: account.pl_auto_template_kuoRs
+            versionLabel: v3
