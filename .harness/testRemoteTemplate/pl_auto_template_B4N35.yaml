@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_B4N35
+  identifier: pl_auto_template_B4N35
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Zmits
+              identifier: pl_auto_template_Zmits
+              template:
+                templateRef: account.pl_auto_template_Zmits
+                versionLabel: v3
+                gitBranch: main
