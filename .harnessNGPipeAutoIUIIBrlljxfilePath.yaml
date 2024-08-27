@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoIUIIBrlljx
+  identifier: NGPipeAutoIUIIBrlljx
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
