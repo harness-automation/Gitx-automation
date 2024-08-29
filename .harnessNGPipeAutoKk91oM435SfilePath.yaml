@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoKk91oM435S
+  identifier: NGPipeAutoKk91oM435S
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
