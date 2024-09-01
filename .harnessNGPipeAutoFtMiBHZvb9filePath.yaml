@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoFtMiBHZvb9
+  identifier: NGPipeAutoFtMiBHZvb9
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
