@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutomJ1cSKEpal
+  identifier: NGPipeAutomJ1cSKEpal
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
