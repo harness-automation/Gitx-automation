@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_rokuy
+  identifier: pl_auto_inputset_rokuy
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_CustomWebhookTrigger_WEPAd
+  pipeline:
+    identifier: pl_auto_pipeline_DlneK
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
