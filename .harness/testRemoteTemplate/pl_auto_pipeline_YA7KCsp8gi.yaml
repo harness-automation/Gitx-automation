@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_YA7KCsp8gi
+  identifier: pl_auto_pipeline_YA7KCsp8gi
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_VmdQl
+          identifier: pl_auto_template_VmdQl
+          template:
+            templateRef: account.pl_auto_template_VmdQl
+            versionLabel: v3
