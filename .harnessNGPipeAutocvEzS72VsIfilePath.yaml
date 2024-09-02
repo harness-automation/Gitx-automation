@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutocvEzS72VsI
+  identifier: NGPipeAutocvEzS72VsI
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
