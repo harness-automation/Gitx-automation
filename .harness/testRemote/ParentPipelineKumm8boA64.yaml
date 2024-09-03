@@ -1,0 +1,15 @@
+pipeline:
+  name: ParentPipelineKumm8boA64
+  identifier: ParentPipelineKumm8boA64
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: stage1
+        type: Pipeline
+        spec:
+          org: Simlified_Git_sync
+          pipeline: pl_auto_pipeline_jWDCP
+          project: SimplifiedGitSync_Do_Not_Delete
