@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAuto50wUG4GeRP
-  identifier: NGPipeAuto50wUG4GeRP
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
