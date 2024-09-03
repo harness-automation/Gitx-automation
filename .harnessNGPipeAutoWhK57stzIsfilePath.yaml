@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoWhK57stzIs
+  identifier: NGPipeAutoWhK57stzIs
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
