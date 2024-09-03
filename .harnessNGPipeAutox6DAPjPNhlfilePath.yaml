@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutox6DAPjPNhl
+  identifier: NGPipeAutox6DAPjPNhl
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
