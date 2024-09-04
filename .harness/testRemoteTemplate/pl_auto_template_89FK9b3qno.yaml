@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_89FK9b3qno
+  identifier: pl_auto_template_89FK9b3qno
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_zLUG1fssON
+              identifier: pl_auto_template_zLUG1fssON
+              template:
+                templateRef: account.pl_auto_template_zLUG1fssON
+                versionLabel: v3
+                gitBranch: main
