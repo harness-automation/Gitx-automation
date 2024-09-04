@@ -1,0 +1,10 @@
+service:
+  name: ServNgrO2Kf32Yf1
+  identifier: ServNgrO2Kf32Yf1
+  orgIdentifier: OrgNgvFqLLxZaT6
+  projectIdentifier: CD_NG_SERENV_CLONEMLvnOIdERl
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
