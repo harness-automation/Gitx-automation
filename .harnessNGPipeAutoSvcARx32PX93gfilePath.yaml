@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoSvcARx32PX93g
+  identifier: NGPipeAutoSvcARx32PX93g
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvc9AbFaxEbAZ
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
