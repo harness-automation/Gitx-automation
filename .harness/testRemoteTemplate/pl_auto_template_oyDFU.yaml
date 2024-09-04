@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_oyDFU
+  identifier: pl_auto_template_oyDFU
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Q1MjX
+              identifier: pl_auto_template_Q1MjX
+              template:
+                templateRef: account.pl_auto_template_Q1MjX
+                versionLabel: v3
+                gitBranch: main
