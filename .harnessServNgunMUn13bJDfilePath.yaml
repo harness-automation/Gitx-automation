@@ -1,0 +1,10 @@
+service:
+  name: ServNgunMUn13bJD
+  identifier: ServNgunMUn13bJD
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
