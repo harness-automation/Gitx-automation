@@ -1,0 +1,10 @@
+service:
+  name: ServNgDUOKaRb5DB
+  identifier: ServNgDUOKaRb5DB
+  orgIdentifier: OrgNgViyxKWrk7v
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
