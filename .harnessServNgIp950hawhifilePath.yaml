@@ -1,0 +1,10 @@
+service:
+  name: ServNgIp950hawhi
+  identifier: ServNgIp950hawhi
+  orgIdentifier: OrgNgGOusJbrUMd
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
