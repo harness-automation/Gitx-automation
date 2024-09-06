@@ -1,0 +1,10 @@
+service:
+  name: ServNgpoDaIwGlyd
+  identifier: ServNgpoDaIwGlyd
+  orgIdentifier: OrgNgm5ZyG2j7cL
+  projectIdentifier: CD_NG_SERENV_CLONEp7cGk68uTh
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
