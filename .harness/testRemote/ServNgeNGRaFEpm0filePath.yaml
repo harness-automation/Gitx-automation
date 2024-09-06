@@ -1,0 +1,10 @@
+service:
+  name: ServNgeNGRaFEpm0
+  identifier: ServNgeNGRaFEpm0
+  orgIdentifier: OrgNgm5ZyG2j7cL
+  projectIdentifier: CD_NG_SERENV_CLONEp7cGk68uTh
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
