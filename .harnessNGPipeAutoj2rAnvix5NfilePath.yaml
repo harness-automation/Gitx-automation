@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoj2rAnvix5N
-  identifier: NGPipeAutoj2rAnvix5N
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
