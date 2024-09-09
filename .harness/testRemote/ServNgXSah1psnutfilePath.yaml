@@ -1,0 +1,10 @@
+service:
+  name: ServNgXSah1psnut
+  identifier: ServNgXSah1psnut
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
