@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoosqA2HyloQ
+  identifier: NGPipeAutoosqA2HyloQ
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcl2mlQNmGde
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
