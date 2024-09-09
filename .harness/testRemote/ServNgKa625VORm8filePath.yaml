@@ -1,0 +1,10 @@
+service:
+  name: ServNgKa625VORm8
+  identifier: ServNgKa625VORm8
+  orgIdentifier: OrgNgnvSJ38iySI
+  projectIdentifier: CD_NG_SERENV_CLONEigraNy5TZu
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
