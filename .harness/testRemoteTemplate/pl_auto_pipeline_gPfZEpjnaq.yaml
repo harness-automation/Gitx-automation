@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_gPfZEpjnaq
+  identifier: pl_auto_pipeline_gPfZEpjnaq
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_9A2d0
+          identifier: pl_auto_template_9A2d0
+          template:
+            templateRef: account.pl_auto_template_9A2d0
+            versionLabel: v3
