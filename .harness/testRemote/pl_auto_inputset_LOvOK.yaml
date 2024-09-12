@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_5epi2
+  identifier: pl_auto_inputset_5epi2
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTestSRRPo
+  pipeline:
+    identifier: PipelineAuto_CRUD86k
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
