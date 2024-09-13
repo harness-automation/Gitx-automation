@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_oUd10
+  identifier: pl_auto_template_oUd10
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_UAAZ5
+              identifier: pl_auto_template_UAAZ5
+              template:
+                templateRef: account.pl_auto_template_UAAZ5
+                versionLabel: v3
+                gitBranch: main
