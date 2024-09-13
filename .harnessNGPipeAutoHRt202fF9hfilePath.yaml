@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoHRt202fF9h
-  identifier: NGPipeAutoHRt202fF9h
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
