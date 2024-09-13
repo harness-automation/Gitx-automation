@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoPZPDPO4xSD
+  identifier: NGPipeAutoPZPDPO4xSD
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcFOHo5679Hx
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
