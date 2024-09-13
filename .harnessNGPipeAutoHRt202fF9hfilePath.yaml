@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoHRt202fF9h
+  identifier: NGPipeAutoHRt202fF9h
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
