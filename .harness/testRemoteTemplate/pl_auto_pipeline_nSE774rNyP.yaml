@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_nSE774rNyP
+  identifier: pl_auto_pipeline_nSE774rNyP
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_iAqOh
+          identifier: pl_auto_template_iAqOh
+          template:
+            templateRef: account.pl_auto_template_iAqOh
+            versionLabel: v3
