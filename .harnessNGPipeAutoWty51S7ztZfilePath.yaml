@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoWty51S7ztZ
+  identifier: NGPipeAutoWty51S7ztZ
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
