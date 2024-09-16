@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoqnPDvopbI1
-  identifier: NGPipeAutoqnPDvopbI1
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
