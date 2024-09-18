@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutopQd43LsdKM
+  identifier: NGPipeAutopQd43LsdKM
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
