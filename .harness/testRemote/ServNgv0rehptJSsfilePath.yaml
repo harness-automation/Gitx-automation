@@ -1,0 +1,10 @@
+service:
+  name: ServNgv0rehptJSs
+  identifier: ServNgv0rehptJSs
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
