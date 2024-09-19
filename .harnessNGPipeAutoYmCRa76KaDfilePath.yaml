@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoYmCRa76KaD
+  identifier: NGPipeAutoYmCRa76KaD
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
