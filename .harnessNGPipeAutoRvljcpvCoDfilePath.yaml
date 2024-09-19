@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoRvljcpvCoD
+  identifier: NGPipeAutoRvljcpvCoD
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
