@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAuto883OZ0Flqt
+  identifier: NGPipeAuto883OZ0Flqt
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
