@@ -1,0 +1,10 @@
+service:
+  name: ServNgiIzDTCryoU
+  identifier: ServNgiIzDTCryoU
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
