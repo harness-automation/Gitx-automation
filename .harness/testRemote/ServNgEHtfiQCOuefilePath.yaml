@@ -1,0 +1,10 @@
+service:
+  name: ServNgEHtfiQCOue
+  identifier: ServNgEHtfiQCOue
+  orgIdentifier: OrgNgMIVKnM7vIv
+  projectIdentifier: CD_NG_SERENV_CLONE8HvKODqSKB
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
