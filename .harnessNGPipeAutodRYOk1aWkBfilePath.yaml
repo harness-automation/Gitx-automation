@@ -1,6 +1,7 @@
 environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  identifier: NGPipeAutodRYOk1aWkB
-  tags: {}
   name: NGPipeAutodRYOk1aWkB
-  type: PreProduction
+  identifier: NGPipeAutodRYOk1aWkB
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {
+    }
+  type: Production
