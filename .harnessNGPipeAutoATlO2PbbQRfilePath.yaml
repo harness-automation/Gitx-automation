@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoATlO2PbbQR
+  identifier: NGPipeAutoATlO2PbbQR
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
