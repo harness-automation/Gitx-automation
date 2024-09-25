@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoFpPh8whpCl
+  identifier: NGPipeAutoFpPh8whpCl
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
