@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoE9UnFSJEBc
+  identifier: NGPipeAutoE9UnFSJEBc
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
