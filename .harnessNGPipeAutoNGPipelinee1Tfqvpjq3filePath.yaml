@@ -1,0 +1,56 @@
+pipeline:
+  name: NGPipeAutoNGPipelinee1Tfqvpjq3
+  identifier: NGPipeAutoNGPipelinee1Tfqvpjq3
+  projectIdentifier: NGPipeAutoPipelineSvcxYaiQKfhr0
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  versionLabel: v1
+  tags: {}
+  template:
+    templateRef: NGPipeAutoPipelineTemp80y65ScqX5
+    versionLabel: v1
+    templateInputs:
+      stages:
+        - stage:
+            identifier: s1
+            template:
+              templateInputs:
+                type: Custom
+                spec:
+                  execution:
+                    steps:
+                      - step:
+                          identifier: s1
+                          template:
+                            templateInputs:
+                              type: ShellScript
+                              timeout: <+input>
+                  environment:
+                    environmentRef: <+input>
+                    environmentInputs: <+input>
+                    infrastructureDefinitions: <+input>
+                  variables:
+                    - name: values
+                      type: String
+                      value: <+input>.allowedValues(<+input>.allowedValues(var1,var2,var3))
+        - stage:
+            identifier: s2
+            template:
+              templateInputs:
+                type: Custom
+                spec:
+                  execution:
+                    steps:
+                      - step:
+                          identifier: s1
+                          template:
+                            templateInputs:
+                              type: ShellScript
+                              timeout: <+input>
+                  environment:
+                    environmentRef: <+input>
+                    environmentInputs: <+input>
+                    infrastructureDefinitions: <+input>
+                  variables:
+                    - name: values
+                      type: String
+                      value: <+input>.allowedValues(<+input>.allowedValues(var1,var2,var3))
