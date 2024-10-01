@@ -1,0 +1,10 @@
+service:
+  name: ServNgrQill77sd8
+  identifier: ServNgrQill77sd8
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
