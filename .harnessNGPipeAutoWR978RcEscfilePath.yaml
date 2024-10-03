@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoWR978RcEsc
+  identifier: NGPipeAutoWR978RcEsc
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
