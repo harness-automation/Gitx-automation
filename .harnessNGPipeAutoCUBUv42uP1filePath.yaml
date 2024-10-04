@@ -1,7 +1,8 @@
 environment:
+  name: NGPipeAutoCUBUv42uP1
+  identifier: NGPipeAutoCUBUv42uP1
   orgIdentifier: Pipelines_NonK8s_Org_NG
   projectIdentifier: NGPipeAutoPipelineSvcVb300D6ws4
-  identifier: NGPipeAutoCUBUv42uP1
-  tags: {}
-  name: NGPipeAutoCUBUv42uP1
-  type: PreProduction
+  tags: {
+    }
+  type: Production
