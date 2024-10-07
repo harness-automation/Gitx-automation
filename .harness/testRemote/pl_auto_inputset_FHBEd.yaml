@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_AnlAL
+  identifier: pl_auto_inputset_AnlAL
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTestmUfKi
+  pipeline:
+    identifier: PipelineAuto_CRUDSkY
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
