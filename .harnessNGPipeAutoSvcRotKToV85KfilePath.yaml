@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoSvcRotKToV85K
+  identifier: NGPipeAutoSvcRotKToV85K
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvctxEmMeBmp5
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
