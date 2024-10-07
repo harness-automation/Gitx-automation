@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAuto0SVnvEUyGa
-  identifier: NGPipeAuto0SVnvEUyGa
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
