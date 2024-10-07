@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoFAVSl4oWnd
+  identifier: NGPipeAutoFAVSl4oWnd
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
