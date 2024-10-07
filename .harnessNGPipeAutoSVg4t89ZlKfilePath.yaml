@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoSVg4t89ZlK
-  identifier: NGPipeAutoSVg4t89ZlK
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
