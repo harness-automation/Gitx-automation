@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_xlxD3
+  identifier: pl_auto_template_xlxD3
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_lQQ9e
+              identifier: pl_auto_template_lQQ9e
+              template:
+                templateRef: account.pl_auto_template_lQQ9e
+                versionLabel: v3
+                gitBranch: main
