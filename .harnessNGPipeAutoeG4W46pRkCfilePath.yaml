@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: NGPipeAutoeG4W46pRkC
+  identifier: NGPipeAutoeG4W46pRkC
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineInfra4OrW4r0Vr6
+  environmentRef: NGPipeAuto2Vj2rayvHl
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.github_Account_level_connector_delegate
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
