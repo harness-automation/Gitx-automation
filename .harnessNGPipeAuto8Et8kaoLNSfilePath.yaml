@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAuto8Et8kaoLNS
+  identifier: NGPipeAuto8Et8kaoLNS
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
