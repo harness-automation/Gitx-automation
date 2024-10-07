@@ -1,0 +1,11 @@
+infrastructureDefinition:
+  name: NGPipeAutovhtBu200TH
+  identifier: NGPipeAutovhtBu200TH
+  environmentRef: NGPipeAutoyCA175DO6b
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.github_Account_level_connector_delegate
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
