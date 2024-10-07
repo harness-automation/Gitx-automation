@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoFpPh8whpCl
-  identifier: NGPipeAutoFpPh8whpCl
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
