@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutofiru4s68Ej
-  identifier: NGPipeAutofiru4s68Ej
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
