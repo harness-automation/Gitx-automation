@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAuto3MLObGWV3m
-  identifier: NGPipeAuto3MLObGWV3m
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
