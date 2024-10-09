@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_SkdXW
+  identifier: pl_auto_inputset_SkdXW
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTestDiYbr
+  pipeline:
+    identifier: PipelineAuto_CRUDQ7d
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
