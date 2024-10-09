@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoN2FAyg5VRD
-  identifier: NGPipeAutoN2FAyg5VRD
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
