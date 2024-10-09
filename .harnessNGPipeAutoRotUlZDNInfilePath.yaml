@@ -1,7 +1,8 @@
 environment:
+  name: NGPipeAutoRotUlZDNIn
+  identifier: NGPipeAutoRotUlZDNIn
   orgIdentifier: Pipelines_NonK8s_Org_NG
   projectIdentifier: NGPipeAutoPipelineSvcmaAX6ojxHL
-  identifier: NGPipeAutoRotUlZDNIn
-  tags: {}
-  name: NGPipeAutoRotUlZDNIn
-  type: PreProduction
+  tags: {
+    }
+  type: Production
