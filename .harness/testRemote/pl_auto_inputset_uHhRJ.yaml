@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_XrjHP
+  identifier: pl_auto_inputset_XrjHP
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTestYP2xp
+  pipeline:
+    identifier: PipelineAuto_CRUDsGI
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
