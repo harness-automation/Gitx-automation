@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoSyno5aLIBo
+  identifier: NGPipeAutoSyno5aLIBo
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcRmZJ46P0Td
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
