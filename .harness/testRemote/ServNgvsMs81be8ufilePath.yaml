@@ -1,0 +1,10 @@
+service:
+  name: ServNgvsMs81be8u
+  identifier: ServNgvsMs81be8u
+  orgIdentifier: OrgNgVND6DCTsVl
+  projectIdentifier: CD_NG_SERENV_CLONELuObm7WQ4Y
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
