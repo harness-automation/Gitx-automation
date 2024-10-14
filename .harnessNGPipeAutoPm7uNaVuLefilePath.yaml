@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoPm7uNaVuLe
+  identifier: NGPipeAutoPm7uNaVuLe
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
