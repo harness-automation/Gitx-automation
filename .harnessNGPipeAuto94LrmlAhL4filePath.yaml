@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAuto94LrmlAhL4
+  identifier: NGPipeAuto94LrmlAhL4
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
