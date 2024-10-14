@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutomVAfSfLa5m
+  identifier: NGPipeAutomVAfSfLa5m
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
