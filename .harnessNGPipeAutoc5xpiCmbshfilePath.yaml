@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoc5xpiCmbsh
-  identifier: NGPipeAutoc5xpiCmbsh
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
