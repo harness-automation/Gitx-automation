@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_MfLOD
+  identifier: pl_auto_inputset_MfLOD
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTestPoIhl
+  pipeline:
+    identifier: PipelineAuto_CRUDV7g
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
