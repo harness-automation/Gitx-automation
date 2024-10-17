@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutouQjm11FW3W
-  identifier: NGPipeAutouQjm11FW3W
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
