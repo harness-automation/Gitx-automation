@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_SX49U
+  identifier: pl_auto_template_SX49U
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_WxNqV
+              identifier: pl_auto_template_WxNqV
+              template:
+                templateRef: account.pl_auto_template_WxNqV
+                versionLabel: v3
+                gitBranch: main
