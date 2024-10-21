@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutodPAnLIFRRo
+  identifier: NGPipeAutodPAnLIFRRo
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvc0IRh6FgaS2
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
