@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_OFTpi
+  identifier: pl_auto_template_OFTpi
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_SKLMC
+              identifier: pl_auto_template_SKLMC
+              template:
+                templateRef: account.pl_auto_template_SKLMC
+                versionLabel: v3
+                gitBranch: main
