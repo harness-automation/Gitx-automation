@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_gE4RU
+  identifier: pl_auto_template_gE4RU
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_5w178
+              identifier: pl_auto_template_5w178
+              template:
+                templateRef: account.pl_auto_template_5w178
+                versionLabel: v3
+                gitBranch: main
