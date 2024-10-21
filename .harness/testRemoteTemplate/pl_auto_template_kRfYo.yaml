@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_kRfYo
+  identifier: pl_auto_template_kRfYo
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_dCVO1
+              identifier: pl_auto_template_dCVO1
+              template:
+                templateRef: account.pl_auto_template_dCVO1
+                versionLabel: v3
+                gitBranch: main
