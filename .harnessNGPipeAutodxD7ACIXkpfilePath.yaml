@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutodxD7ACIXkp
-  identifier: NGPipeAutodxD7ACIXkp
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
