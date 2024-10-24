@@ -1,0 +1,10 @@
+service:
+  name: ServNgmu3KQHhAMQ
+  identifier: ServNgmu3KQHhAMQ
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
