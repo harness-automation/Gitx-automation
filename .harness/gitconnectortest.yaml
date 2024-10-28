@@ -1,0 +1,33 @@
+pipeline:
+  name: git-connector-test
+  identifier: gitconnectortest
+  projectIdentifier: Terraform_Provider
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: a
+        identifier: a
+        description: ""
+        type: Approval
+        spec:
+          execution:
+            steps:
+              - step:
+                  name: a
+                  identifier: a
+                  type: HarnessApproval
+                  timeout: 1d
+                  spec:
+                    approvalMessage: |-
+                      Please review the following information
+                      and approve the pipeline progression
+                    includePipelineExecutionHistory: true
+                    approvers:
+                      minimumCount: 1
+                      disallowPipelineExecutor: false
+                      userGroups:
+                        - account.AccountLevelAccess
+                    isAutoRejectEnabled: false
+                    approverInputs: []
+        tags: {}
