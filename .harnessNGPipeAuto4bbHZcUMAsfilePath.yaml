@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAuto4bbHZcUMAs
+  identifier: NGPipeAuto4bbHZcUMAs
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
