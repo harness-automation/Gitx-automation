@@ -1,0 +1,10 @@
+pipeline:
+  name: childPipelineUsingPipelineTemplate
+  identifier: childPipelineQIGDR
+  tags: {}
+  template:
+    templateRef: pipelineTemplateNvfMv
+    versionLabel: "v1"
+    gitBranch: main-patch
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
