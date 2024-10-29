@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutobluJl1ZIuA
+  identifier: NGPipeAutobluJl1ZIuA
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
