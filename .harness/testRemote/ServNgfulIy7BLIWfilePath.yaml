@@ -1,0 +1,10 @@
+service:
+  name: ServNgfulIy7BLIW
+  identifier: ServNgfulIy7BLIW
+  orgIdentifier: OrgNgaOAToiddrP
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
