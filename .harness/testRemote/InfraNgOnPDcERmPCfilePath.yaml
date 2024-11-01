@@ -1,0 +1,12 @@
+infrastructureDefinition:
+  name: InfraNgOnPDcERmPC
+  identifier: InfraNgOnPDcERmPC
+  orgIdentifier: OrgNgqS2R56Lexv
+  environmentRef: EnvNgx7uOGbswf2
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.github_Account_level_connector_delegate
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
