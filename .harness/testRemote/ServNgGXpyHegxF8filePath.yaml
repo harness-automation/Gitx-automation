@@ -1,0 +1,10 @@
+service:
+  name: ServNgGXpyHegxF8
+  identifier: ServNgGXpyHegxF8
+  orgIdentifier: OrgNgaOAToiddrP
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
