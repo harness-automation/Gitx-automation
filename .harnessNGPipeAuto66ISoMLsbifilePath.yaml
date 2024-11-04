@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAuto66ISoMLsbi
+  identifier: NGPipeAuto66ISoMLsbi
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
