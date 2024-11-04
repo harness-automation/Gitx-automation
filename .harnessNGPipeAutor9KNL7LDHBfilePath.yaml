@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutor9KNL7LDHB
+  identifier: NGPipeAutor9KNL7LDHB
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
