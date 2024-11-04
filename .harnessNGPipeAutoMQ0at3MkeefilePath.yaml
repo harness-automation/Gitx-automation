@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoMQ0at3Mkee
+  identifier: NGPipeAutoMQ0at3Mkee
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
