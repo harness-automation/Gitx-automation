@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoS5NoVsBzMo
+  identifier: NGPipeAutoS5NoVsBzMo
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
