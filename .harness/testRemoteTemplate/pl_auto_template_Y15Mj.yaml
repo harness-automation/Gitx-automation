@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Y15Mj
+  identifier: pl_auto_template_Y15Mj
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_IovpP
+              identifier: pl_auto_template_IovpP
+              template:
+                templateRef: account.pl_auto_template_IovpP
+                versionLabel: v3
+                gitBranch: main
