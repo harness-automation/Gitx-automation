@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_ywm2k
+  identifier: pl_auto_template_ywm2k
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_1SZAQ
+              identifier: pl_auto_template_1SZAQ
+              template:
+                templateRef: account.pl_auto_template_1SZAQ
+                versionLabel: v3
+                gitBranch: main
