@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: InfraNgY78APtF1k1
+  identifier: InfraNgY78APtF1k1
+  orgIdentifier: OrgNgMTSvWa6UgS
+  projectIdentifier: CD_NG_SERENV_CLONE0Vu1n3gcxU
+  environmentRef: EnvNgmmLTu10Xrh
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.github_Account_level_connector_delegate
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
