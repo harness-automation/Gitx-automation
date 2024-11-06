@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_TAP30
+  identifier: pl_auto_inputset_TAP30
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTesthjcPL
+  pipeline:
+    identifier: PipelineAuto_CRUDklO
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
