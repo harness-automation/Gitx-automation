@@ -1,0 +1,10 @@
+service:
+  name: ServNgzw5metPVEt
+  identifier: ServNgzw5metPVEt
+  orgIdentifier: OrgNguvTLiL9CDV
+  projectIdentifier: CD_NG_SERENV_CLONEL8yespnOwz
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
