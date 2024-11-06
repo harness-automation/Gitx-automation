@@ -1,0 +1,10 @@
+service:
+  name: ServNg7ZEDz23Rxs
+  identifier: ServNg7ZEDz23Rxs
+  orgIdentifier: OrgNguvTLiL9CDV
+  projectIdentifier: CD_NG_SERENV_CLONEL8yespnOwz
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
