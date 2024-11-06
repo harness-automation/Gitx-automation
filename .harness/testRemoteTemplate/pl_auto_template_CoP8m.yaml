@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_CoP8m
+  identifier: pl_auto_template_CoP8m
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_8TrwB
+              identifier: pl_auto_template_8TrwB
+              template:
+                templateRef: account.pl_auto_template_8TrwB
+                versionLabel: v3
+                gitBranch: main
