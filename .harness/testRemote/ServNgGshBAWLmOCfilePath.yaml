@@ -1,0 +1,10 @@
+service:
+  name: ServNgGshBAWLmOC
+  identifier: ServNgGshBAWLmOC
+  orgIdentifier: OrgNguvTLiL9CDV
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
