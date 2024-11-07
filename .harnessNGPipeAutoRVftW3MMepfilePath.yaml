@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoRVftW3MMep
+  identifier: NGPipeAutoRVftW3MMep
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
