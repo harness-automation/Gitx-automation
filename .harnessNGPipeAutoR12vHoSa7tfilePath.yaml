@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoR12vHoSa7t
+  identifier: NGPipeAutoR12vHoSa7t
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
