@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoKV84OrBMXq
+  identifier: NGPipeAutoKV84OrBMXq
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
