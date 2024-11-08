@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoiAP7khIOhz
+  identifier: NGPipeAutoiAP7khIOhz
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
