@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_nEyFX
+  identifier: pl_auto_template_nEyFX
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Hmr7d
+              identifier: pl_auto_template_Hmr7d
+              template:
+                templateRef: account.pl_auto_template_Hmr7d
+                versionLabel: v3
+                gitBranch: main
