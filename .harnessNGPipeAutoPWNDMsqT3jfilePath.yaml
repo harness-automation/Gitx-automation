@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoPWNDMsqT3j
-  identifier: NGPipeAutoPWNDMsqT3j
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
