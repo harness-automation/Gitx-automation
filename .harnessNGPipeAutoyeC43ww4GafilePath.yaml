@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoyeC43ww4Ga
-  identifier: NGPipeAutoyeC43ww4Ga
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
