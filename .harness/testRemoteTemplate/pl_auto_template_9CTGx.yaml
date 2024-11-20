@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_9CTGx
+  identifier: pl_auto_template_9CTGx
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_tfZws
+              identifier: pl_auto_template_tfZws
+              template:
+                templateRef: account.pl_auto_template_tfZws
+                versionLabel: v3
+                gitBranch: main
