@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAuto2x3yrZReva
-  identifier: NGPipeAuto2x3yrZReva
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
