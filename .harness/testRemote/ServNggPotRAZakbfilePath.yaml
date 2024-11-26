@@ -1,0 +1,10 @@
+service:
+  name: ServNggPotRAZakb
+  identifier: ServNggPotRAZakb
+  orgIdentifier: OrgNgopNgjPM8BN
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
