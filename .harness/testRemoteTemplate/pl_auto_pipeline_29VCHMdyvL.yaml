@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_29VCHMdyvL
+  identifier: pl_auto_pipeline_29VCHMdyvL
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Mo6mP
+          identifier: pl_auto_template_Mo6mP
+          template:
+            templateRef: account.pl_auto_template_Mo6mP
+            versionLabel: v3
