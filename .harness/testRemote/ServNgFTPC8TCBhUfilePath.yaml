@@ -1,0 +1,10 @@
+service:
+  name: ServNgFTPC8TCBhU
+  identifier: ServNgFTPC8TCBhU
+  orgIdentifier: OrgNgopNgjPM8BN
+  projectIdentifier: CD_NG_SERENV_CLONEybnJ3DhJOC
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
