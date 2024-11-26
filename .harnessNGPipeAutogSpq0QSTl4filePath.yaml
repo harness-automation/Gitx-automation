@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutogSpq0QSTl4
+  identifier: NGPipeAutogSpq0QSTl4
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
