@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: NGPipeAutoYpgJT79l6R
+  identifier: NGPipeAutoYpgJT79l6R
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineInfraG1FEXPREPo
+  environmentRef: NGPipeAutotpUT3umS0v
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.github_Account_level_connector_delegate
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
