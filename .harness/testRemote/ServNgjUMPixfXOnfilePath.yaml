@@ -1,0 +1,10 @@
+service:
+  name: ServNgjUMPixfXOn
+  identifier: ServNgjUMPixfXOn
+  orgIdentifier: OrgNgV1SZIBDZmN
+  projectIdentifier: CD_NG_SERENV_CLONE4nD88voDYq
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
