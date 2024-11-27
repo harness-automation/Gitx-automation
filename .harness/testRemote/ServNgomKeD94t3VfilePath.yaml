@@ -1,0 +1,10 @@
+service:
+  name: ServNgomKeD94t3V
+  identifier: ServNgomKeD94t3V
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
