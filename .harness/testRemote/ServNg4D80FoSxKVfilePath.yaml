@@ -1,0 +1,10 @@
+service:
+  name: ServNg4D80FoSxKV
+  identifier: ServNg4D80FoSxKV
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
