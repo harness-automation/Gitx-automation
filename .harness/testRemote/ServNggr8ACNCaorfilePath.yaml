@@ -1,0 +1,10 @@
+service:
+  name: ServNggr8ACNCaor
+  identifier: ServNggr8ACNCaor
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
