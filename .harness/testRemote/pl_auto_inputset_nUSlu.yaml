@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_gEXvF
+  identifier: pl_auto_inputset_gEXvF
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_GithubTriggerSSH_azuvR27FLJ
+  pipeline:
+    identifier: pl_auto_pipeline_x1ovz
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
