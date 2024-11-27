@@ -1,0 +1,10 @@
+service:
+  name: ServNgpg49pclnrU
+  identifier: ServNgpg49pclnrU
+  orgIdentifier: OrgNgrFGdUzybiQ
+  projectIdentifier: CD_NG_SERENV_CLONEukYlyZH1d3
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
