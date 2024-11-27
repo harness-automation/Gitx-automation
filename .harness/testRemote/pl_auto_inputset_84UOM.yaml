@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_sbIGU
+  identifier: pl_auto_inputset_sbIGU
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTestU4Dov
+  pipeline:
+    identifier: PipelineAuto_CRUDH9s
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
