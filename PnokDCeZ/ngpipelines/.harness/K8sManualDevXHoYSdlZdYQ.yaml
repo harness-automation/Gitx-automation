@@ -1,0 +1,18 @@
+connector:
+  name: K8sManualDevXXLGUZocF0F
+  identifier: K8sManualDevXHoYSdlZdYQ
+  description: K8sManualDevXXLGUZocF0F
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: PipelineGitExperiencel1tfBn5EVA
+  type: K8sCluster
+  spec:
+    credential:
+      type: ManualConfig
+      spec:
+        masterUrl: https://34.122.158.209
+        auth:
+          type: UsernamePassword
+          spec:
+            username: admin
+            passwordRef: account.secretdevxj8PAKlN3W5
+    ignoreTestConnection: false
