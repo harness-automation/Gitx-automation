@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoR3PECYMunj
+  identifier: NGPipeAutoR3PECYMunj
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
