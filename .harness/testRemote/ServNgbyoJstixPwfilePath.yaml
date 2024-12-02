@@ -1,0 +1,10 @@
+service:
+  name: ServNgbyoJstixPw
+  identifier: ServNgbyoJstixPw
+  orgIdentifier: OrgNgD7K63m7Ahs
+  projectIdentifier: CD_NG_SERENV_CLONEe8BM13wJP2
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
