@@ -1,0 +1,10 @@
+service:
+  name: ServNgsImsVMa4Ka
+  identifier: ServNgsImsVMa4Ka
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
