@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoR3PECYMunj
-  identifier: NGPipeAutoR3PECYMunj
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
