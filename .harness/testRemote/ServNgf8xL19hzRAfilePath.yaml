@@ -1,0 +1,10 @@
+service:
+  name: ServNgf8xL19hzRA
+  identifier: ServNgf8xL19hzRA
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
