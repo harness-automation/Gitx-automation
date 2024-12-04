@@ -1,0 +1,18 @@
+inputSet:
+  identifier: inputsetuWrOBdDMjf
+  name: NGPipeAutoNGPipeAutozcFidA9h8UQmrOcCAhGlXc2nE
+  pipeline:
+    identifier: NGPipeAutoNGPipeAutozcFidA9h8UQmrOcCAhGlXc2nE
+    stages:
+    - stage:
+        identifier: stage1
+        type: Deployment
+        spec:
+          execution:
+            steps:
+            - step:
+                identifier: test
+                type: ShellScript
+                timeout: 2m
+  projectIdentifier: PipelineGitExperiencez93L6m2P0z
+  orgIdentifier: Pipelines_NonK8s_Org_NG
