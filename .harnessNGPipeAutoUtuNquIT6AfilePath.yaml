@@ -1,7 +1,8 @@
 environment:
+  name: NGPipeAutoUtuNquIT6A
+  identifier: NGPipeAutoUtuNquIT6A
   orgIdentifier: Pipelines_NonK8s_Org_NG
   projectIdentifier: NGPipeAutoPipelineSvc3njGDAPcVB
-  identifier: NGPipeAutoUtuNquIT6A
-  tags: {}
-  name: NGPipeAutoUtuNquIT6A
-  type: PreProduction
+  tags: {
+    }
+  type: Production
