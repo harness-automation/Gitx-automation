@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_qd0c2
+  identifier: pl_auto_template_qd0c2
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_egMEm
+              identifier: pl_auto_template_egMEm
+              template:
+                templateRef: account.pl_auto_template_egMEm
+                versionLabel: v3
+                gitBranch: main
