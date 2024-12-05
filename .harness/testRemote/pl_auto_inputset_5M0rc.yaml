@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_tanWz
+  identifier: pl_auto_inputset_tanWz
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_CustomWebhookTrigger_epR2t
+  pipeline:
+    identifier: pl_auto_pipeline_DBT1V
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
