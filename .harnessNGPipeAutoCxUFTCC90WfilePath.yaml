@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoCxUFTCC90W
+  identifier: NGPipeAutoCxUFTCC90W
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
