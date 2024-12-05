@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutolWPtn4CJ17
+  identifier: NGPipeAutolWPtn4CJ17
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
