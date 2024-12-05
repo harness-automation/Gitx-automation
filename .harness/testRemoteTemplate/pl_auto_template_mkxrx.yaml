@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_mkxrx
+  identifier: pl_auto_template_mkxrx
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_etgdv
+              identifier: pl_auto_template_etgdv
+              template:
+                templateRef: account.pl_auto_template_etgdv
+                versionLabel: v3
+                gitBranch: main
