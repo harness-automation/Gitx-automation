@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoBi2lggHP2A
+  identifier: NGPipeAutoBi2lggHP2A
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
