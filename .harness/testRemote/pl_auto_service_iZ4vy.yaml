@@ -1,0 +1,9 @@
+service:
+  name: pl_auto_service_iZ4vy
+  identifier: pl_auto_service_iZ4vy
+  orgIdentifier: Simlified_Git_sync
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
