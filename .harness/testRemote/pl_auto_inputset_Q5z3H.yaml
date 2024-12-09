@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_aMSeb
+  identifier: pl_auto_inputset_aMSeb
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_GithubTriggerSSH_pH5RFzUkhc
+  pipeline:
+    identifier: pl_auto_pipeline_dEQdY
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
