@@ -1,0 +1,12 @@
+infrastructureDefinition:
+  name: pl_auto_infra_Mxemx
+  identifier: pl_auto_infra_Mxemx
+  orgIdentifier: Simlified_Git_sync
+  environmentRef: pl_auto_environment_USuAR
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.github_Account_level_connector_delegate
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
