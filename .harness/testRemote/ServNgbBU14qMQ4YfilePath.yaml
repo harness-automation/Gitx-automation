@@ -1,0 +1,10 @@
+service:
+  name: ServNgbBU14qMQ4Y
+  identifier: ServNgbBU14qMQ4Y
+  orgIdentifier: OrgNgdoJHbyPWUT
+  projectIdentifier: CD_NG_SERENV_CLONEnCkvD4nBrw
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
