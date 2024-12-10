@@ -1,0 +1,10 @@
+service:
+  name: ServNgGjcudaUnJd
+  identifier: ServNgGjcudaUnJd
+  orgIdentifier: OrgNgdoJHbyPWUT
+  projectIdentifier: CD_NG_SERENV_CLONEnCkvD4nBrw
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
