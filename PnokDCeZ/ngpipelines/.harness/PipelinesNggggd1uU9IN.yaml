@@ -1,0 +1,69 @@
+pipeline:
+  name: BasicPipelineWithShellStep
+  identifier: NGPipeAutoNGPipeAutoCliMunm0zRmAbchLytXdXY8Rd
+  tags: {
+    }
+  stages:
+  - stage:
+      name: stage1
+      identifier: stage1
+      description: ''
+      type: Deployment
+      spec:
+        serviceConfig:
+          serviceDefinition:
+            type: Kubernetes
+            spec:
+              manifests: [
+                ]
+              artifacts:
+                sidecars: [
+                  ]
+          service:
+            name: service1
+            identifier: service1
+        infrastructure:
+          infrastructureDefinition:
+            type: KubernetesDirect
+            spec:
+              connectorRef: org.KubernetesConnectorForAutomationTest
+              namespace: default
+              releaseName: releasename-721581
+          allowSimultaneousDeployments: true
+          infrastructureKey: ''
+          environment:
+            name: env1
+            identifier: env1
+            type: PreProduction
+        execution:
+          steps:
+          - step:
+              type: ShellScript
+              name: test
+              identifier: test
+              timeout: 10m
+              spec:
+                shell: Bash
+                onDelegate: true
+                source:
+                  type: Inline
+                  spec:
+                    script: echo "test"
+                environmentVariables: [
+                  ]
+                outputVariables: [
+                  ]
+                executionTarget: {
+                  }
+          rollbackSteps: [
+            ]
+      tags: {
+        }
+      failureStrategies:
+      - onFailure:
+          errors:
+          - AllErrors
+          action:
+            type: StageRollback
+  projectIdentifier: PipelineGitExperiencelvAjitDAq6
+  orgIdentifier: Pipelines_NonK8s_Org_NG
