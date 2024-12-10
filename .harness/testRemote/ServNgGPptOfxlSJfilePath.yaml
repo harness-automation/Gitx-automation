@@ -1,0 +1,10 @@
+service:
+  name: ServNgGPptOfxlSJ
+  identifier: ServNgGPptOfxlSJ
+  orgIdentifier: OrgNgdoJHbyPWUT
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
