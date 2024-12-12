@@ -1,0 +1,44 @@
+pipeline:
+  name: pl_auto_pipeline_jH7UN
+  identifier: pl_auto_pipeline_jH7UN
+  projectIdentifier: CDCNGAuto_CustomWebhookTrigger_6pNZy
+  orgIdentifier: DoNotDeleteTriggerOrg
+  tags: {}
+  stages:
+    - stage:
+        name: WebHook_Trigger
+        identifier: WebHook_Trigger
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: Http
+                  name: WebHook
+                  identifier: WebHook
+                  spec:
+                    url: https://ramya.pr2.harness.io/gateway/pipeline/api/webhook/custom/h9S2sKKVTzSD2rijFIucyw/v3?accountIdentifier=Xw1s0YF3TKmNP1N7KxWpnw&orgIdentifier=DoNotDeleteTriggerOrg&projectIdentifier=CDCNGAuto_CustomWebhookTrigger_6pNZy&pipelineIdentifier=pl_auto_pipeline_5KhXT&triggerIdentifier=CDNGAuto_Trigger_BLc5p6AON0
+                    method: POST
+                    headers:
+                      - key: content-type
+                        value: application/json
+                      - key: X-HARNESS-TRIGGER-ID
+                        value: CDNGAuto_Trigger_BLc5p6AON0
+                    outputVariables: []
+                    inputVariables: []
+                    requestBody: |-
+                      {
+                          "id": "USA",
+                          "locations": [
+                              {
+                                  "city": "SF"
+                              },
+                              {
+                                  "city": "LV"
+                              }
+                          ],
+                          "name": "user"
+                      }
+                  timeout: 10m
+        tags: {}
