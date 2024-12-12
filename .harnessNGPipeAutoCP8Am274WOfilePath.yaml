@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoCP8Am274WO
+  identifier: NGPipeAutoCP8Am274WO
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
