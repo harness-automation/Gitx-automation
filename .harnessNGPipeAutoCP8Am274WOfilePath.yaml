@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoCP8Am274WO
-  identifier: NGPipeAutoCP8Am274WO
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
