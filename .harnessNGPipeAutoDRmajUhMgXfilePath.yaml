@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoDRmajUhMgX
+  identifier: NGPipeAutoDRmajUhMgX
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
