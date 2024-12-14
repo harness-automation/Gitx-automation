@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoBeznFijFXl
+  identifier: NGPipeAutoBeznFijFXl
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcWwm6sUwQkG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
