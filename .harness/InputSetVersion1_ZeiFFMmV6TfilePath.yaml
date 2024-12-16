@@ -1,0 +1,25 @@
+inputSet:
+  name: InputSetVersion1_ZeiFFMmV6T
+  tags: {}
+  identifier: InputSetVersion1_ZeiFFMmV6T
+  orgIdentifier: Ng_Pipelines_K8s_Organisations
+  projectIdentifier: NGPipeAutoK8sxTo2KNk3Gr
+  pipeline:
+    identifier: CDNGAuto_K8sRollingDeploymentPostProdRollbackL7ot1e468f
+    stages:
+      - stage:
+          identifier: s1
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        sources:
+                          - identifier: artifactId
+                            type: Gcr
+                            spec:
+                              tag: 80
