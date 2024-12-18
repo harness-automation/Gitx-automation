@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAuto65N50Odcm6
+  identifier: NGPipeAuto65N50Odcm6
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
