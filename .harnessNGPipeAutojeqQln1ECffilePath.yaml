@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutojeqQln1ECf
-  identifier: NGPipeAutojeqQln1ECf
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
