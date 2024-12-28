@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoJmSx42l5pp
+  identifier: NGPipeAutoJmSx42l5pp
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
