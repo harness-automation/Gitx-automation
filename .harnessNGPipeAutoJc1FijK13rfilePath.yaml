@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoJc1FijK13r
-  identifier: NGPipeAutoJc1FijK13r
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
