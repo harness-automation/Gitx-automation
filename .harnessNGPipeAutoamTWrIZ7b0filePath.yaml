@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoamTWrIZ7b0
+  identifier: NGPipeAutoamTWrIZ7b0
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
