@@ -1,0 +1,12 @@
+infrastructureDefinition:
+  name: pl_auto_infra_92eAc
+  identifier: pl_auto_infra_92eAc
+  orgIdentifier: Simlified_Git_sync
+  environmentRef: pl_auto_environment_i9k1E
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.github_Account_level_connector_delegate
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
