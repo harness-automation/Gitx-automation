@@ -1,0 +1,46 @@
+service:
+  name: NGPipeAutoSvcmltbM8Xr6s
+  identifier: NGPipeAutoSvcmltbM8Xr6s
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvczSyoF3AZiQ
+  serviceDefinition:
+    type: Kubernetes
+    spec:
+      manifests:
+      - manifest:
+          identifier: manifestIdentifier
+          type: K8sManifest
+          spec:
+            store:
+              type: Git
+              spec:
+                connectorRef: org.GitConnectorForAutomationTest
+                gitFetchType: Branch
+                paths:
+                - ng-automation/k8s/templates/
+                branch: master
+            skipResourceVersioning: false
+      - manifest:
+          identifier: valuesmanifest
+          type: Values
+          spec:
+            store:
+              type: Git
+              spec:
+                connectorRef: org.GitConnectorForAutomationTest
+                gitFetchType: Branch
+                paths:
+                - ng-automation/k8s/valuesWithClusterTypeService.yaml
+                branch: master
+      artifacts:
+        primary:
+          primaryArtifactRef: ''
+          sources:
+          - spec:
+              connectorRef: org.GCRConnectorForAutomationTest
+              imagePath: qa-target/todolist-sample
+              tag: <+input>
+              registryHostname: us.gcr.io
+            identifier: artifactId
+            type: Gcr
+  gitOpsEnabled: false
