@@ -1,0 +1,12 @@
+infrastructureDefinition:
+  name: InfraNgUrpyADMWA4
+  identifier: InfraNgUrpyADMWA4
+  orgIdentifier: OrgNgBrKFnBOC56
+  environmentRef: EnvNgEokoqlvO23
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.github_Account_level_connector_delegate
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
