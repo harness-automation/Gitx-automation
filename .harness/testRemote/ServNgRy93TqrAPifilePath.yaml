@@ -1,0 +1,10 @@
+service:
+  name: ServNgRy93TqrAPi
+  identifier: ServNgRy93TqrAPi
+  orgIdentifier: OrgNgT4NvZi7Ee9
+  projectIdentifier: CD_NG_SERENV_CLONEfZYpWLhTYd
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
