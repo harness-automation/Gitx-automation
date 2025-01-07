@@ -1,0 +1,10 @@
+service:
+  name: ServNgh15TDHiPVN
+  identifier: ServNgh15TDHiPVN
+  orgIdentifier: OrgNgfmenKKdhcp
+  projectIdentifier: CD_NG_SERENV_CLONE4j4LTBkq6K
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
