@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutor5Tbg4PV8x
+  identifier: NGPipeAutor5Tbg4PV8x
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
