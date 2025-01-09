@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoMoCVJQbn1v
-  identifier: NGPipeAutoMoCVJQbn1v
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
