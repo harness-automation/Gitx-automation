@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAuto1E1cvMwPKC
-  identifier: NGPipeAuto1E1cvMwPKC
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
