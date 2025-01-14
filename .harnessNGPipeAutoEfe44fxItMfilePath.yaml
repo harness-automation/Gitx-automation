@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoEfe44fxItM
+  identifier: NGPipeAutoEfe44fxItM
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
