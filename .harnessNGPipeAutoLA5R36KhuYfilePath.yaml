@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoLA5R36KhuY
-  identifier: NGPipeAutoLA5R36KhuY
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
