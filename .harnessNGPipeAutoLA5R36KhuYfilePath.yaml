@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoLA5R36KhuY
+  identifier: NGPipeAutoLA5R36KhuY
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
