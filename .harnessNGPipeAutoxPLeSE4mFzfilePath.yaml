@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoxPLeSE4mFz
-  identifier: NGPipeAutoxPLeSE4mFz
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
