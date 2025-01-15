@@ -13,3 +13,5 @@ pipeline:
           templateRef: remote_svc_env_infra_tempTLnIi
           versionLabel: v1
           gitBranch: main
+  delegateSelectors:
+    - gitx-pipeline-delegate
