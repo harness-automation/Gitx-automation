@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAuto20os1CF4fa
+  identifier: NGPipeAuto20os1CF4fa
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
