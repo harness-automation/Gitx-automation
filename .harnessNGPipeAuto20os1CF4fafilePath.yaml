@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAuto20os1CF4fa
-  identifier: NGPipeAuto20os1CF4fa
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
