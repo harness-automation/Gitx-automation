@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoSFtp5Asz8t
+  identifier: NGPipeAutoSFtp5Asz8t
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
