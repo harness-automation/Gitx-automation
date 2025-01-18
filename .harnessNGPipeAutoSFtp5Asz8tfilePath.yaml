@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoSFtp5Asz8t
-  identifier: NGPipeAutoSFtp5Asz8t
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
