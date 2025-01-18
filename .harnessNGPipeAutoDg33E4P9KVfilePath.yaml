@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoDg33E4P9KV
-  identifier: NGPipeAutoDg33E4P9KV
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
