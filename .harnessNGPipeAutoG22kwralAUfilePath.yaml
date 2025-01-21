@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoG22kwralAU
-  identifier: NGPipeAutoG22kwralAU
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
