@@ -1,0 +1,10 @@
+service:
+  name: ServNgYkimVSAVK7
+  identifier: ServNgYkimVSAVK7
+  orgIdentifier: OrgNgs4AsfbDgWJ
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
