@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_cnvTYf0cJG
+  identifier: pl_auto_pipeline_cnvTYf0cJG
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_ils3G
+          identifier: pl_auto_template_ils3G
+          template:
+            templateRef: account.pl_auto_template_ils3G
+            versionLabel: v3
