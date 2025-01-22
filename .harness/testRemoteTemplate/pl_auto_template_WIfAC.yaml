@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_WIfAC
+  identifier: pl_auto_template_WIfAC
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Gvwre
+              identifier: pl_auto_template_Gvwre
+              template:
+                templateRef: account.pl_auto_template_Gvwre
+                versionLabel: v3
+                gitBranch: main
