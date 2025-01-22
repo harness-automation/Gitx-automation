@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoIMVtviSXSb
+  identifier: NGPipeAutoIMVtviSXSb
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
