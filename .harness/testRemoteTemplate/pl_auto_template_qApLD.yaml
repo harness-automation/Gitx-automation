@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_qApLD
+  identifier: pl_auto_template_qApLD
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_xC87M
+              identifier: pl_auto_template_xC87M
+              template:
+                templateRef: account.pl_auto_template_xC87M
+                versionLabel: v3
+                gitBranch: main
