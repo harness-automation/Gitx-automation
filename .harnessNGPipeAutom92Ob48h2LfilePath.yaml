@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutom92Ob48h2L
+  identifier: NGPipeAutom92Ob48h2L
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
