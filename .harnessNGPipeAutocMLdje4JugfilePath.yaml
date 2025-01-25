@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutocMLdje4Jug
-  identifier: NGPipeAutocMLdje4Jug
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
