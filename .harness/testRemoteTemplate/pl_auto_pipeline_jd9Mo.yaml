@@ -1,0 +1,27 @@
+pipeline:
+  name: pl_auto_pipeline_jd9Mo
+  identifier: pl_auto_pipeline_jd9Mo
+  projectIdentifier: CDCNGAuto_MoveToGit_Audit_Wm565Z4KVf
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: s1
+        description: Desc Added
+        type: Approval
+        spec:
+          execution:
+            steps:
+              - step:
+                  name: t1
+                  identifier: t1
+                  template:
+                    templateRef: account.pl_auto_template_lhWIK
+                    versionLabel: v3
+                    templateInputs:
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+        tags: {}
