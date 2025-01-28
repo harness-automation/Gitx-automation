@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoTuizPUvt8l
+  identifier: NGPipeAutoTuizPUvt8l
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
