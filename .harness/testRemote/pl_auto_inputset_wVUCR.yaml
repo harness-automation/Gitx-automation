@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_GIsAx
+  identifier: pl_auto_inputset_GIsAx
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTestEN9ey
+  pipeline:
+    identifier: PipelineAuto_CRUDQGT
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
