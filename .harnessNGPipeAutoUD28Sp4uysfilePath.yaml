@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutoUD28Sp4uys
+  identifier: NGPipeAutoUD28Sp4uys
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
