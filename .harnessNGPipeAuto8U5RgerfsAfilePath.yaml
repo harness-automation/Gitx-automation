@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAuto8U5RgerfsA
+  identifier: NGPipeAuto8U5RgerfsA
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcMLK83vgENI
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
