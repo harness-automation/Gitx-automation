@@ -1,0 +1,10 @@
+service:
+  name: ServNgHIWb36IfFs
+  identifier: ServNgHIWb36IfFs
+  orgIdentifier: OrgNgzvWDHhrYUQ
+  projectIdentifier: CD_NG_SERENV_CLONEClGiUNQ89e
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
