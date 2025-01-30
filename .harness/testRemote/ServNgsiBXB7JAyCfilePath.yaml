@@ -1,0 +1,10 @@
+service:
+  name: ServNgsiBXB7JAyC
+  identifier: ServNgsiBXB7JAyC
+  orgIdentifier: OrgNgzvWDHhrYUQ
+  projectIdentifier: CD_NG_SERENV_CLONEClGiUNQ89e
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
