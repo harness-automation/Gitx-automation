@@ -1,0 +1,10 @@
+service:
+  name: ServNg6M2Fkp365W
+  identifier: ServNg6M2Fkp365W
+  orgIdentifier: OrgNg9ov1caFzhz
+  projectIdentifier: CD_NG_SERENV_CLONEpeyZrLa8fI
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
