@@ -1,0 +1,10 @@
+service:
+  name: ServNgKvaLly2Rbx
+  identifier: ServNgKvaLly2Rbx
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
