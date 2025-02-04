@@ -1,0 +1,10 @@
+service:
+  name: ServNgpd659XMVMd
+  identifier: ServNgpd659XMVMd
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
