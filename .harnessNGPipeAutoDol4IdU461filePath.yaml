@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoDol4IdU461
+  identifier: NGPipeAutoDol4IdU461
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcjrlKB7R1KS
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
