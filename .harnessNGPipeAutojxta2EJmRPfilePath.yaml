@@ -1,6 +1,7 @@
 environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  identifier: NGPipeAutojxta2EJmRP
-  tags: {}
   name: NGPipeAutojxta2EJmRP
-  type: PreProduction
+  identifier: NGPipeAutojxta2EJmRP
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {
+    }
+  type: Production
