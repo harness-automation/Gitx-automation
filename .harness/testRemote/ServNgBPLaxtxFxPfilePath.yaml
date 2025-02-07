@@ -1,0 +1,10 @@
+service:
+  name: ServNgBPLaxtxFxP
+  identifier: ServNgBPLaxtxFxP
+  orgIdentifier: OrgNgCeuvIwkpFn
+  projectIdentifier: CD_NG_SERENV_CLONEVHjnSTNYjL
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
