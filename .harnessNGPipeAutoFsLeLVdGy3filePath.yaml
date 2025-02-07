@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoFsLeLVdGy3
-  identifier: NGPipeAutoFsLeLVdGy3
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
