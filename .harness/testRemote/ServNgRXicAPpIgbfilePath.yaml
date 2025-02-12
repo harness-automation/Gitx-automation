@@ -1,0 +1,10 @@
+service:
+  name: ServNgRXicAPpIgb
+  identifier: ServNgRXicAPpIgb
+  orgIdentifier: OrgNgenHDDyRden
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
