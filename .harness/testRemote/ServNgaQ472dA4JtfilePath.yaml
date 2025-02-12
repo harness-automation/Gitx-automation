@@ -1,0 +1,10 @@
+service:
+  name: ServNgaQ472dA4Jt
+  identifier: ServNgaQ472dA4Jt
+  orgIdentifier: OrgNgenHDDyRden
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
