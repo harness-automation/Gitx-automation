@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoPgLWhCbPuK
+  identifier: NGPipeAutoPgLWhCbPuK
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
