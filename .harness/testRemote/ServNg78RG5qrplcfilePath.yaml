@@ -1,0 +1,10 @@
+service:
+  name: ServNg78RG5qrplc
+  identifier: ServNg78RG5qrplc
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
