@@ -1,0 +1,9 @@
+---
+service:
+  serviceDefinition:
+    spec:
+      release:
+        name: "<+input>"
+    type: "Kubernetes"
+  identifier: "ServNgsSO3ciScB2_CLONE"
+  name: "ServNgsSO3ciScB2 - Clone"
