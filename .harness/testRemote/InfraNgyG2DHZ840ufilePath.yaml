@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: InfraNgyG2DHZ840u
+  identifier: InfraNgyG2DHZ840u
+  orgIdentifier: OrgNgAlDS9qHjr7
+  projectIdentifier: CD_NG_SERENV_CLONEVfig2wodbx
+  environmentRef: EnvNgGULzCMnVfp
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.github_Account_level_connector_delegate
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
