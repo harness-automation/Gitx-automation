@@ -1,0 +1,10 @@
+service:
+  name: ServNgFS2W03UONT
+  identifier: ServNgFS2W03UONT
+  orgIdentifier: OrgNgTARcXY4LyF
+  projectIdentifier: CD_NG_SERENV_CLONE3fQ86NyjZE
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
