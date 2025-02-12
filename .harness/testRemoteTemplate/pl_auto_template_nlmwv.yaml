@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_nlmwv
+  identifier: pl_auto_template_nlmwv
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_r06Fq
+              identifier: pl_auto_template_r06Fq
+              template:
+                templateRef: account.pl_auto_template_r06Fq
+                versionLabel: v3
+                gitBranch: main
