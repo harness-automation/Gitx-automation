@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoK3jdtny1AY
+  identifier: NGPipeAutoK3jdtny1AY
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcuDmBHvqPKO
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
