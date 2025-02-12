@@ -1,0 +1,10 @@
+service:
+  name: ServNgr2aSOJtgPw
+  identifier: ServNgr2aSOJtgPw
+  orgIdentifier: OrgNgTARcXY4LyF
+  projectIdentifier: CD_NG_SERENV_CLONE3fQ86NyjZE
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
