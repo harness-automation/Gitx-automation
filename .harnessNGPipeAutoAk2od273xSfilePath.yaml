@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoAk2od273xS
-  identifier: NGPipeAutoAk2od273xS
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
