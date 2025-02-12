@@ -1,0 +1,10 @@
+service:
+  name: ServNgy39443EvoN
+  identifier: ServNgy39443EvoN
+  orgIdentifier: OrgNgYntk8SblP3
+  projectIdentifier: CD_NG_SERENV_CLONERHCobuA2bU
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
