@@ -1,0 +1,10 @@
+service:
+  name: ServNgouOifBwoML
+  identifier: ServNgouOifBwoML
+  orgIdentifier: OrgNgenHDDyRden
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
