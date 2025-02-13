@@ -1,0 +1,10 @@
+service:
+  name: ServNg20PyWZmstU
+  identifier: ServNg20PyWZmstU
+  orgIdentifier: OrgNg60AK793zKa
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
