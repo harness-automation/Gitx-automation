@@ -1,0 +1,10 @@
+service:
+  name: ServNgp2xcArpImq
+  identifier: ServNgp2xcArpImq
+  orgIdentifier: OrgNg8WhjORqdYY
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
