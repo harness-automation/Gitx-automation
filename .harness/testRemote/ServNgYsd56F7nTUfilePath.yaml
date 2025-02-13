@@ -1,0 +1,10 @@
+service:
+  name: ServNgYsd56F7nTU
+  identifier: ServNgYsd56F7nTU
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
