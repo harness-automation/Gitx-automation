@@ -1,0 +1,10 @@
+service:
+  name: ServNgP2E5ENTXrm
+  identifier: ServNgP2E5ENTXrm
+  orgIdentifier: OrgNg60AK793zKa
+  projectIdentifier: CD_NG_SERENV_CLONELYOBXrJVP9
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
