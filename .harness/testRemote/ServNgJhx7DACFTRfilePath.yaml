@@ -1,0 +1,10 @@
+service:
+  name: ServNgJhx7DACFTR
+  identifier: ServNgJhx7DACFTR
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
