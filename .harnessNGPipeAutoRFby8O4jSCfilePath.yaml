@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoRFby8O4jSC
+  identifier: NGPipeAutoRFby8O4jSC
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
