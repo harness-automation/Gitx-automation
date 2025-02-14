@@ -1,0 +1,12 @@
+infrastructureDefinition:
+  name: InfraNgTWFdiv3g87
+  identifier: InfraNgTWFdiv3g87
+  orgIdentifier: OrgNgYGWzHPd8HB
+  environmentRef: EnvNgqpObui2kQo
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.github_Account_level_connector_delegate
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
