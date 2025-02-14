@@ -1,0 +1,10 @@
+service:
+  name: ServNgbd7gpMoWSa
+  identifier: ServNgbd7gpMoWSa
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
