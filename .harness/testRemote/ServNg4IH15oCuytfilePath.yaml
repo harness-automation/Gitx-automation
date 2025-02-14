@@ -1,0 +1,10 @@
+service:
+  name: ServNg4IH15oCuyt
+  identifier: ServNg4IH15oCuyt
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
