@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoendzGibMug
+  identifier: NGPipeAutoendzGibMug
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
