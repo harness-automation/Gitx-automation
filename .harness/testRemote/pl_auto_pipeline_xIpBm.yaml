@@ -1,0 +1,15 @@
+pipeline:
+  name: ParentPipeline44LDK2U8ot
+  identifier: ParentPipeline44LDK2U8ot
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: stage1
+        type: Pipeline
+        spec:
+          org: Simlified_Git_sync
+          pipeline: pl_auto_pipeline_xIpBm
+          project: SimplifiedGitSync_Do_Not_Delete
