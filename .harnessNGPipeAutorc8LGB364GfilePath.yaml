@@ -1,9 +1,0 @@
-service:
-  name: NGPipeAutorc8LGB364G
-  identifier: NGPipeAutorc8LGB364G
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
