@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_fYaAu
+  identifier: pl_auto_template_fYaAu
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_dofIX
+              identifier: pl_auto_template_dofIX
+              template:
+                templateRef: account.pl_auto_template_dofIX
+                versionLabel: v3
+                gitBranch: main
