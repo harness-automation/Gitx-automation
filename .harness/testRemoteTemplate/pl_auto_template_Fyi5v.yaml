@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Fyi5v
+  identifier: pl_auto_template_Fyi5v
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_mfmeL
+              identifier: pl_auto_template_mfmeL
+              template:
+                templateRef: account.pl_auto_template_mfmeL
+                versionLabel: v3
+                gitBranch: main
