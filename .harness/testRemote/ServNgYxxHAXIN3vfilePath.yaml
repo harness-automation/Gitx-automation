@@ -1,0 +1,10 @@
+service:
+  name: ServNgYxxHAXIN3v
+  identifier: ServNgYxxHAXIN3v
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
