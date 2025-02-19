@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: NGPipeAutonzQFULDmJS
+  identifier: NGPipeAutonzQFULDmJS
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcnuSYGyjTgE
+  environmentRef: NGPipeAutoKfbXWUOcew
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: org.KubernetesConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
