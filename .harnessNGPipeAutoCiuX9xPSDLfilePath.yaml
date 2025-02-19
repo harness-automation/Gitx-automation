@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutoCiuX9xPSDL
+  identifier: NGPipeAutoCiuX9xPSDL
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
