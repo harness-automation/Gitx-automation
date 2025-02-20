@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutogMemCJ6mvU
+  identifier: NGPipeAutogMemCJ6mvU
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
