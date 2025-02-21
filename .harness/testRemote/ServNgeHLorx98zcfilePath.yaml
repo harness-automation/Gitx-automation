@@ -1,0 +1,10 @@
+service:
+  name: ServNgeHLorx98zc
+  identifier: ServNgeHLorx98zc
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
