@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutogACX3KRU6j
+  identifier: NGPipeAutogACX3KRU6j
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
