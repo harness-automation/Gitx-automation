@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoAD5RuNI0Id
-  identifier: NGPipeAutoAD5RuNI0Id
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
