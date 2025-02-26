@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoJspM2lRTNg
+  identifier: NGPipeAutoJspM2lRTNg
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
