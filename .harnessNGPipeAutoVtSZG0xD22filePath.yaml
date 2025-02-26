@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoVtSZG0xD22
+  identifier: NGPipeAutoVtSZG0xD22
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
