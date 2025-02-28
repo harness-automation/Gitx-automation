@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoMiBDhs271D
+  identifier: NGPipeAutoMiBDhs271D
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
