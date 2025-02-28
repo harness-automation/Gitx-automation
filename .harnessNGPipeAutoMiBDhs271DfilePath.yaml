@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoMiBDhs271D
-  identifier: NGPipeAutoMiBDhs271D
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
