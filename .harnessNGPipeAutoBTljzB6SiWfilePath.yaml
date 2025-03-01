@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoBTljzB6SiW
-  identifier: NGPipeAutoBTljzB6SiW
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
