@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutodk6CUiNhLe
+  identifier: NGPipeAutodk6CUiNhLe
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
