@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAuto8pBCspoKBN
+  identifier: NGPipeAuto8pBCspoKBN
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
