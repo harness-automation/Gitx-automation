@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_26KVO
+  identifier: pl_auto_template_26KVO
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_GJWy8
+              identifier: pl_auto_template_GJWy8
+              template:
+                templateRef: account.pl_auto_template_GJWy8
+                versionLabel: v3
+                gitBranch: main
