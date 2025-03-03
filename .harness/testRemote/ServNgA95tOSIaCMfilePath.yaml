@@ -1,0 +1,10 @@
+service:
+  name: ServNgA95tOSIaCM
+  identifier: ServNgA95tOSIaCM
+  orgIdentifier: OrgNg4BGHsR1a4k
+  projectIdentifier: CD_NG_SERENV_CLONEvr0to8dF4X
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
