@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoPuvIfrx42S
+  identifier: NGPipeAutoPuvIfrx42S
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
