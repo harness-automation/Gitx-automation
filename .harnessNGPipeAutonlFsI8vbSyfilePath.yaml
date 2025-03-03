@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutonlFsI8vbSy
-  identifier: NGPipeAutonlFsI8vbSy
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
