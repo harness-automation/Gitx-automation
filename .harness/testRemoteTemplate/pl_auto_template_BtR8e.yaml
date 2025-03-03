@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_BtR8e
+  identifier: pl_auto_template_BtR8e
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_OXawP
+              identifier: pl_auto_template_OXawP
+              template:
+                templateRef: account.pl_auto_template_OXawP
+                versionLabel: v3
+                gitBranch: main
