@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoFm6t1VuxSH
-  identifier: NGPipeAutoFm6t1VuxSH
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
