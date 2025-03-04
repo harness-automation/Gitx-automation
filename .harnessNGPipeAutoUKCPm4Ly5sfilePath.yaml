@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutoUKCPm4Ly5s
+  identifier: NGPipeAutoUKCPm4Ly5s
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
