@@ -1,11 +1,11 @@
 infrastructureDefinition:
   name: NGPipeAutoagcm2KiQbu
   identifier: NGPipeAutoagcm2KiQbu
-  environmentRef: account.NGPipeAutoXZMl2JZCOU
+  environmentRef: NGPipeAutoXZMl2JZCOU
   deploymentType: Kubernetes
   type: KubernetesDirect
   spec:
     connectorRef: account.github_Account_level_connector_delegate
-    namespace: default
+    namespace: <+input>
     releaseName: release-<+INFRA_KEY_SHORT_ID>
   allowSimultaneousDeployments: true
