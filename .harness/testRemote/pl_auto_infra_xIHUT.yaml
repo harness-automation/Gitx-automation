@@ -4,7 +4,7 @@ infrastructureDefinition:
   orgIdentifier: Simlified_Git_sync
   environmentRef: pl_auto_environment_xlvtY
   deploymentType: Kubernetes
-  type: KubernetesDirect
+  type: Invalid
   spec:
     connectorRef: account.github_Account_level_connector_delegate
     namespace: default
