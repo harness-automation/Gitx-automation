@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutolj7aWSEZW3
+  identifier: NGPipeAutolj7aWSEZW3
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
