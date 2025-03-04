@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_MQvya
+  identifier: pl_auto_template_MQvya
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_AEXjH
+              identifier: pl_auto_template_AEXjH
+              template:
+                templateRef: account.pl_auto_template_AEXjH
+                versionLabel: v3
+                gitBranch: main
