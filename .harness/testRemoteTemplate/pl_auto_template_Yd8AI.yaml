@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Yd8AI
+  identifier: pl_auto_template_Yd8AI
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_95Hiq
+              identifier: pl_auto_template_95Hiq
+              template:
+                templateRef: account.pl_auto_template_95Hiq
+                versionLabel: v3
+                gitBranch: main
