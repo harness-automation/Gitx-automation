@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_FrucDQubZ1
+  identifier: pl_auto_pipeline_FrucDQubZ1
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_MQvya
+          identifier: pl_auto_template_MQvya
+          template:
+            templateRef: account.pl_auto_template_MQvya
+            versionLabel: v3
