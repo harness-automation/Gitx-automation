@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutolFyxuC8bzr
+  identifier: NGPipeAutolFyxuC8bzr
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
