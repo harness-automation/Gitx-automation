@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_WCcPS
+  identifier: pl_auto_template_WCcPS
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_y1oG3
+              identifier: pl_auto_template_y1oG3
+              template:
+                templateRef: account.pl_auto_template_y1oG3
+                versionLabel: v3
+                gitBranch: main
