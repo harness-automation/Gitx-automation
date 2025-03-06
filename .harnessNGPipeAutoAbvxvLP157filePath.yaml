@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoAbvxvLP157
+  identifier: NGPipeAutoAbvxvLP157
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
