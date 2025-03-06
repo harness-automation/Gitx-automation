@@ -4,24 +4,38 @@ template:
   orgIdentifier: "Ng_Pipelines_K8s_Organisations"
   identifier: "NgRemoteTemplates_VZsovASoDXx9Nm"
   versionLabel: "v1"
-  type: "Stage"
+  type: Stage
   tags: {}
   spec:
-    type: "Custom"
+    type: Custom
     spec:
       execution:
         steps:
           - step:
-              type: "ShellScript"
-              name: "ss1"
-              identifier: "ss1"
+              type: ShellScript
+              name: ss1
+              identifier: ss1
               spec:
-                shell: "Bash"
-                onDelegate: true
+                shell: Bash
                 source:
-                  type: "Inline"
+                  type: Inline
                   spec:
-                    script: "exit 1"
+                    script: exit 1
                 environmentVariables: []
                 outputVariables: []
-              timeout: "10m"
+                executionTarget: {}
+              timeout: 10m
+          - step:
+              type: ShellScript
+              name: ss2
+              identifier: ss2
+              spec:
+                shell: Bash
+                executionTarget: {}
+                source:
+                  type: Inline
+                  spec:
+                    script: exit 1
+                environmentVariables: []
+                outputVariables: []
+              timeout: 10m
