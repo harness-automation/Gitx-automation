@@ -1,0 +1,10 @@
+service:
+  name: ServNgsc2IyaziTa
+  identifier: ServNgsc2IyaziTa
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
