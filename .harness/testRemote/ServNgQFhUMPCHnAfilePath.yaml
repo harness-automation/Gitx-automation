@@ -1,0 +1,10 @@
+service:
+  name: ServNgQFhUMPCHnA
+  identifier: ServNgQFhUMPCHnA
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
