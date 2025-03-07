@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutoXPuUxJhyME
+  identifier: NGPipeAutoXPuUxJhyME
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
