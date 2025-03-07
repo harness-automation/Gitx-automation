@@ -1,0 +1,10 @@
+service:
+  name: ServNgsrJor2EHA8
+  identifier: ServNgsrJor2EHA8
+  orgIdentifier: OrgNgvRZN0MXbt4
+  projectIdentifier: CD_NG_SERENV_CLONEwPd0C692BB
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
