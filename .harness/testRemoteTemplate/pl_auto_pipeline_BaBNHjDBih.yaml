@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_BaBNHjDBih
+  identifier: pl_auto_pipeline_BaBNHjDBih
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Wozli
+          identifier: pl_auto_template_Wozli
+          template:
+            templateRef: account.pl_auto_template_Wozli
+            versionLabel: v3
