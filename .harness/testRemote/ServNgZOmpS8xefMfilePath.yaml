@@ -1,0 +1,10 @@
+service:
+  name: ServNgZOmpS8xefM
+  identifier: ServNgZOmpS8xefM
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
