@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Wozli
+  identifier: pl_auto_template_Wozli
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_E46gw
+              identifier: pl_auto_template_E46gw
+              template:
+                templateRef: account.pl_auto_template_E46gw
+                versionLabel: v3
+                gitBranch: main
