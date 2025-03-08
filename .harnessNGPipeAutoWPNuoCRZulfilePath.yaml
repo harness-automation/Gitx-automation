@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoWPNuoCRZul
+  identifier: NGPipeAutoWPNuoCRZul
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
