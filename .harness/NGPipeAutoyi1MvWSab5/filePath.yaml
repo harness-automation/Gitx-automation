@@ -1,11 +1,11 @@
 infrastructureDefinition:
   name: NGPipeAutoyi1MvWSab5
   identifier: NGPipeAutoyi1MvWSab5
-  environmentRef: account.NGPipeAutoRELWt2G88W
+  environmentRef: NGPipeAutoRELWt2G88W
   deploymentType: Kubernetes
   type: KubernetesDirect
   spec:
     connectorRef: account.github_Account_level_connector_delegate
-    namespace: default
+    namespace: <+input>
     releaseName: release-<+INFRA_KEY_SHORT_ID>
   allowSimultaneousDeployments: true
