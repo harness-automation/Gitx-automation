@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutorjK0GpFkPM
+  identifier: NGPipeAutorjK0GpFkPM
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
