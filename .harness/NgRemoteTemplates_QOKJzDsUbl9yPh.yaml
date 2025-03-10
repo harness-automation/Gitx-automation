@@ -1,27 +1,33 @@
 template:
-  name: "NgRemoteTemplates_QOKJzDsUbl9yPh"
-  projectIdentifier: "DoNotDelete_OpenApi"
-  orgIdentifier: "Ng_Pipelines_K8s_Organisations"
-  identifier: "NgRemoteTemplates_QOKJzDsUbl9yPh"
-  versionLabel: "v1"
-  type: "Stage"
+  name: NgRemoteTemplates_QOKJzDsUbl9yPh
+  projectIdentifier: DoNotDelete_OpenApi
+  orgIdentifier: Ng_Pipelines_K8s_Organisations
+  identifier: NgRemoteTemplates_QOKJzDsUbl9yPh
+  versionLabel: v1
+  type: Stage
   tags: {}
   spec:
-    type: "Custom"
+    type: Custom
     spec:
       execution:
         steps:
           - step:
-              type: "ShellScript"
-              name: "ss1"
-              identifier: "ss1"
+              type: ShellScript
+              name: ss1
+              identifier: ss1
               spec:
-                shell: "Bash"
+                shell: Bash
                 onDelegate: true
                 source:
-                  type: "Inline"
+                  type: Inline
                   spec:
-                    script: "exit 1"
+                    script: exit 1
                 environmentVariables: []
                 outputVariables: []
-              timeout: "10m"
+              timeout: 10m
+    variables:
+      - name: var1
+        type: String
+        description: ""
+        required: false
+        value: "10"
