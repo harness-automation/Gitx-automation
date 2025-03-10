@@ -1,0 +1,14 @@
+pipeline:
+  name: "NgRemotePipeline_21HH19WpCN7mfy"
+  identifier: "NgRemotePipeline_21HH19WpCN7mfy"
+  projectIdentifier: "DoNotDelete_OpenApi"
+  orgIdentifier: "Ng_Pipelines_K8s_Organisations"
+  tags: {}
+  stages:
+    - stage:
+        name: "s1"
+        identifier: "s1"
+        tags: {}
+        template:
+          templateRef: "NgRemoteTemplates_PwYBc2aLcimAho"
+          versionLabel: "v1"
