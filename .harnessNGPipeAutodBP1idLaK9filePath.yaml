@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutodBP1idLaK9
-  identifier: NGPipeAutodBP1idLaK9
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
