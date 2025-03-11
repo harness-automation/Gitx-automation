@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutocepFX4XmZT
-  identifier: NGPipeAutocepFX4XmZT
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
