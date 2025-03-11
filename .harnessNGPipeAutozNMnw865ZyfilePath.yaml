@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutozNMnw865Zy
-  identifier: NGPipeAutozNMnw865Zy
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
