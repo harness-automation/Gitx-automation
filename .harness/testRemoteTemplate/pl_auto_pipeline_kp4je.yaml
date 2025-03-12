@@ -1,0 +1,27 @@
+pipeline:
+  name: pl_auto_pipeline_kp4je
+  identifier: pl_auto_pipeline_kp4je
+  projectIdentifier: NGPipeAutoPMSeGS3TXI0NV
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {}
+  stages:
+    - stage:
+        name: S1
+        identifier: S1
+        tags: {}
+        template:
+          templateRef: pl_auto_template_dJ9Ut
+          versionLabel: "1"
+          templateInputs:
+            type: Custom
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: ShellScript_1
+                      type: ShellScript
+                      spec:
+                        source:
+                          type: Inline
+                          spec:
+                            script: <+input>
