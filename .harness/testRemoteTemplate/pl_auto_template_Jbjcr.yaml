@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Jbjcr
+  identifier: pl_auto_template_Jbjcr
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_r1ala
+              identifier: pl_auto_template_r1ala
+              template:
+                templateRef: account.pl_auto_template_r1ala
+                versionLabel: v3
+                gitBranch: main
