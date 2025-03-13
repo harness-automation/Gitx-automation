@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_KpcY2
+  identifier: pl_auto_template_KpcY2
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_J0x2T
+              identifier: pl_auto_template_J0x2T
+              template:
+                templateRef: account.pl_auto_template_J0x2T
+                versionLabel: v3
+                gitBranch: main
