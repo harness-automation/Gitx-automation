@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_KbrnRSRc7q
+  identifier: pl_auto_pipeline_KbrnRSRc7q
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_NonfB
+          identifier: pl_auto_template_NonfB
+          template:
+            templateRef: account.pl_auto_template_NonfB
+            versionLabel: v3
