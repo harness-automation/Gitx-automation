@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_jwmXffBube
+  identifier: pl_auto_pipeline_jwmXffBube
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_LgpdS
+          identifier: pl_auto_template_LgpdS
+          template:
+            templateRef: account.pl_auto_template_LgpdS
+            versionLabel: v3
