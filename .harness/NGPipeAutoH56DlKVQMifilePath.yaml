@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoH56DlKVQMi
+  identifier: NGPipeAutoH56DlKVQMi
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
