@@ -1,11 +1,11 @@
 infrastructureDefinition:
   name: NGPipeAutoSvRSiMV2Iv
   identifier: NGPipeAutoSvRSiMV2Iv
-  environmentRef: account.NGPipeAuto1v7ExPPSSy
+  environmentRef: NGPipeAuto1v7ExPPSSy
   deploymentType: Kubernetes
   type: KubernetesDirect
   spec:
     connectorRef: account.github_Account_level_connector_delegate
-    namespace: default
+    namespace: <+input>
     releaseName: release-<+INFRA_KEY_SHORT_ID>
   allowSimultaneousDeployments: true
