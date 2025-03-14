@@ -1,11 +1,11 @@
 infrastructureDefinition:
   name: NGPipeAutoAXf61Aq5Oj
   identifier: NGPipeAutoAXf61Aq5Oj
-  environmentRef: account.NGPipeAutoLUDZcAkC8T
+  environmentRef: NGPipeAutoLUDZcAkC8T
   deploymentType: Kubernetes
   type: KubernetesDirect
   spec:
     connectorRef: account.github_Account_level_connector_delegate
-    namespace: default
+    namespace: <+input>
     releaseName: release-<+INFRA_KEY_SHORT_ID>
   allowSimultaneousDeployments: true
