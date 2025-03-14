@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoAQuehPJMlC
+  identifier: NGPipeAutoAQuehPJMlC
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
