@@ -1,9 +1,0 @@
-service:
-  name: NGPipeAutomEc841Vi2P
-  identifier: NGPipeAutomEc841Vi2P
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
