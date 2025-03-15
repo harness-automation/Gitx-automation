@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoyD0l5amMBX
-  identifier: NGPipeAutoyD0l5amMBX
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
