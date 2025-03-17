@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoDBgeAt1BEB
+  identifier: NGPipeAutoDBgeAt1BEB
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
