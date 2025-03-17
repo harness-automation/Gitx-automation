@@ -1,0 +1,10 @@
+service:
+  name: ServNg50FWs0k7OI
+  identifier: ServNg50FWs0k7OI
+  orgIdentifier: OrgNgvRZN0MXbt4
+  projectIdentifier: CD_NG_SERENV_CLONEwPd0C692BB
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes

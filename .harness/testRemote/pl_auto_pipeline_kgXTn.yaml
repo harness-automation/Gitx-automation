@@ -1,0 +1,15 @@
+pipeline:
+  name: pl_auto_pipeline_kgXTn
+  identifier: pl_auto_pipeline_kgXTn
+  projectIdentifier: CDCNGAuto_CustomWebhookTrigger_NISP1
+  orgIdentifier: DoNotDeleteTriggerOrg
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: stage1
+        type: Pipeline
+        spec:
+          org: DoNotDeleteTriggerOrg
+          pipeline: pl_auto_pipeline_LG52E
+          project: CDCNGAuto_CustomWebhookTrigger_NISP1
