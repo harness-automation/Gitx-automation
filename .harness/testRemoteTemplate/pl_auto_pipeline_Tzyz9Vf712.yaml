@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_Tzyz9Vf712
+  identifier: pl_auto_pipeline_Tzyz9Vf712
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_D35raLoyiz
+          identifier: pl_auto_template_D35raLoyiz
+          template:
+            templateRef: account.pl_auto_template_D35raLoyiz
+            versionLabel: v3
