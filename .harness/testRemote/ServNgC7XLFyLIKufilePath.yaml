@@ -1,0 +1,10 @@
+service:
+  name: ServNgC7XLFyLIKu
+  identifier: ServNgC7XLFyLIKu
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
