@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoit7uVb85VM
+  identifier: NGPipeAutoit7uVb85VM
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
