@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAuto65eEXvy20b
+  identifier: NGPipeAuto65eEXvy20b
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcRpcfFVEDrM
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
