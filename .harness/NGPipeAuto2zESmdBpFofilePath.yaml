@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAuto2zESmdBpFo
+  identifier: NGPipeAuto2zESmdBpFo
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
