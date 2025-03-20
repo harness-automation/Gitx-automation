@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoguSIKn2BUA
+  identifier: NGPipeAutoguSIKn2BUA
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
