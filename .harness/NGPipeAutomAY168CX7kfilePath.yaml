@@ -1,9 +1,0 @@
-service:
-  name: NGPipeAutomAY168CX7k
-  identifier: NGPipeAutomAY168CX7k
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  serviceDefinition:
-    spec:
-      release:
-        name: <+input>
-    type: Kubernetes
