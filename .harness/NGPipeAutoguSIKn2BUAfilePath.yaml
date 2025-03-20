@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoguSIKn2BUA
-  identifier: NGPipeAutoguSIKn2BUA
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
