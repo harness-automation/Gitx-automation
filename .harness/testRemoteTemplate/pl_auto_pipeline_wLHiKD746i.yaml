@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_wLHiKD746i
+  identifier: pl_auto_pipeline_wLHiKD746i
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_bhiSQ
+          identifier: pl_auto_template_bhiSQ
+          template:
+            templateRef: account.pl_auto_template_bhiSQ
+            versionLabel: v3
