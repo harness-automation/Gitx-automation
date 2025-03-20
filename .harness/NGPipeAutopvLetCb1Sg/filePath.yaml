@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: NGPipeAutopvLetCb1Sg
+  identifier: NGPipeAutopvLetCb1Sg
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineInfra2FAXQI8p6t
+  environmentRef: NGPipeAutoEm7x56X956
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.github_Account_level_connector_delegate
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
