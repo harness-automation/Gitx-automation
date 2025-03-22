@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoK7wmxC92TK
+  identifier: NGPipeAutoK7wmxC92TK
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
