@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutocE5752qf7t
-  identifier: NGPipeAutocE5752qf7t
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
