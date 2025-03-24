@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoX25Dd8Fels
+  identifier: NGPipeAutoX25Dd8Fels
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcPM27RzLeyx
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
