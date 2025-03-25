@@ -12,17 +12,6 @@ template:
       deploymentType: Kubernetes
       service:
         serviceRef: NGPipeAutoSvcDysx04QikD
-        serviceInputs:
-          serviceDefinition:
-            type: Kubernetes
-            spec:
-              artifacts:
-                primary:
-                  sources:
-                    - identifier: artifactId
-                      type: Gcr
-                      spec:
-                        tag: "80"
       environments:
         metadata:
           parallel: true
