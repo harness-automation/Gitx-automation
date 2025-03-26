@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoJaGrfXydit
+  identifier: NGPipeAutoJaGrfXydit
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
