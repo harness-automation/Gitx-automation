@@ -25,7 +25,7 @@ pipeline:
                         script: |-
                           echo 'hi'
                           echo <+trigger.payload['action']>
-                          echo <+trigger.payload['pullrequest']['state']>
+                          echo <+trigger.payload['pull_request']['state']>
                     environmentVariables: []
                     outputVariables: []
                     executionTarget: {}
