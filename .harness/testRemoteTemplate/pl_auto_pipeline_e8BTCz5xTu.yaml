@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_e8BTCz5xTu
+  identifier: pl_auto_pipeline_e8BTCz5xTu
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Crb82
+          identifier: pl_auto_template_Crb82
+          template:
+            templateRef: account.pl_auto_template_Crb82
+            versionLabel: v3
