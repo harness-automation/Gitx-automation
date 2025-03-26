@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoL859HY1HTp
-  identifier: NGPipeAutoL859HY1HTp
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
