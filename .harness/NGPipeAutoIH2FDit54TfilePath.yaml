@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoIH2FDit54T
+  identifier: NGPipeAutoIH2FDit54T
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcJHgpXpiCzr
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
