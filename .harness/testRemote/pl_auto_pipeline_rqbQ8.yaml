@@ -3,28 +3,31 @@ pipeline:
   identifier: pl_auto_pipeline_rqbQ8
   orgIdentifier: DoNotDeleteTriggerOrg
   projectIdentifier: CDCNGAuto_GithubHTTPSTrigger_e4atNRUBi4
-  tags: { }
+  tags: {}
   stages:
-      - stage:
-          name: S1
-          identifier: S1
-          description: ""
-          type: Custom
-          spec:
-            execution:
-              steps:
-                - step:
-                    type: ShellScript
-                    name: Shell Script_1
-                    identifier: ShellScript_1
-                    spec:
-                      shell: Bash
-                      onDelegate: true
-                      source:
-                        type: Inline
-                        spec:
-                          script: echo 'hi'
-                      environmentVariables: [ ]
-                      outputVariables: [ ]
-                    timeout: 1m
-          tags: { }
+    - stage:
+        name: S1
+        identifier: S1
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: ShellScript
+                  name: Shell Script_1
+                  identifier: ShellScript_1
+                  spec:
+                    shell: Bash
+                    source:
+                      type: Inline
+                      spec:
+                        script: |-
+                          echo 'hi'
+                          echo <+trigger.payload['action']>
+                          echo <+trigger.payload['pullrequest']['state']>
+                    environmentVariables: []
+                    outputVariables: []
+                    executionTarget: {}
+                  timeout: 1m
+        tags: {}
