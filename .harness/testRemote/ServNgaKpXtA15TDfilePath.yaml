@@ -1,0 +1,10 @@
+service:
+  name: ServNgaKpXtA15TD
+  identifier: ServNgaKpXtA15TD
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
