@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_6exJs
+  identifier: pl_auto_inputset_6exJs
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTestpRcVN
+  pipeline:
+    identifier: PipelineAuto_CRUDe8L
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
