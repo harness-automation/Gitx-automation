@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutopDwpNZ3A4W
+  identifier: NGPipeAutopDwpNZ3A4W
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
