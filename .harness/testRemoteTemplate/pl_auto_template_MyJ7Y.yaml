@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_MyJ7Y
+  identifier: pl_auto_template_MyJ7Y
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_zcbox
+              identifier: pl_auto_template_zcbox
+              template:
+                templateRef: account.pl_auto_template_zcbox
+                versionLabel: v3
+                gitBranch: main
