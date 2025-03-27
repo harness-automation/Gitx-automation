@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_wkfhg
+  identifier: pl_auto_template_wkfhg
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_CF8Dc
+              identifier: pl_auto_template_CF8Dc
+              template:
+                templateRef: account.pl_auto_template_CF8Dc
+                versionLabel: v3
+                gitBranch: main
