@@ -9,7 +9,7 @@ template:
     steps:
       - step:
           name: Referenced_Step_Template v1
-          identifier: Referenced_Step_Template v1
+          identifier: Referenced_Step_Template v2
           template:
             templateRef: account.NGPipeAuto_ActStepTemphP8GTpoEth
             versionLabel: Act_Step_v1
