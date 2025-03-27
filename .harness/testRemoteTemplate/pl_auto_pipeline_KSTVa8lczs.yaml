@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_KSTVa8lczs
+  identifier: pl_auto_pipeline_KSTVa8lczs
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_N8FEA
+          identifier: pl_auto_template_N8FEA
+          template:
+            templateRef: account.pl_auto_template_N8FEA
+            versionLabel: v3
