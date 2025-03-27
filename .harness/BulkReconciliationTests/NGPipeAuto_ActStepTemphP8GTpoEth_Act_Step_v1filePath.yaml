@@ -9,10 +9,11 @@ template:
     type: ShellScript
     spec:
       shell: Bash
-      onDelegate: true
       source:
         type: Inline
         spec:
           script: echo Hello
       environmentVariables: []
       outputVariables: []
+      executionTarget: {}
+      delegateSelectors: []
