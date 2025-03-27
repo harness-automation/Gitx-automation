@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_RveLU
+  identifier: pl_auto_inputset_RveLU
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTesttuVn1
+  pipeline:
+    identifier: PipelineAuto_CRUDCLm
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
