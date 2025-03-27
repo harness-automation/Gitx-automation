@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_hUR5c
+  identifier: pl_auto_template_hUR5c
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_nuEml
+              identifier: pl_auto_template_nuEml
+              template:
+                templateRef: account.pl_auto_template_nuEml
+                versionLabel: v3
+                gitBranch: main
