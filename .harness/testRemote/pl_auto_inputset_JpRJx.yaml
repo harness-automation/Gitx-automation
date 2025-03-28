@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_L14lS
+  identifier: pl_auto_inputset_L14lS
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTest7jPJ8
+  pipeline:
+    identifier: PipelineAuto_CRUDccc
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
