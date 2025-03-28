@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: InfraNge2GtHaLALe
+  identifier: InfraNge2GtHaLALe
+  orgIdentifier: OrgNg2iWfFKmkfw
+  projectIdentifier: CD_NG_SERENV_CLONE1kDAcNt7RP
+  environmentRef: EnvNgTLgbAvDSGm
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.github_Account_level_connector_delegate
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true

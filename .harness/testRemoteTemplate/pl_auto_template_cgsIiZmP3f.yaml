@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_cgsIiZmP3f
+  identifier: pl_auto_template_cgsIiZmP3f
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_PiPfsrMiAy
+              identifier: pl_auto_template_PiPfsrMiAy
+              template:
+                templateRef: account.pl_auto_template_PiPfsrMiAy
+                versionLabel: v3
+                gitBranch: main

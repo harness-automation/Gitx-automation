@@ -1,0 +1,15 @@
+pipeline:
+  name: pl_auto_pipeline_EZLpv
+  identifier: pl_auto_pipeline_EZLpv
+  projectIdentifier: CDCNGAuto_CustomWebhookTrigger_5rBLC
+  orgIdentifier: DoNotDeleteTriggerOrg
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: stage1
+        type: Pipeline
+        spec:
+          org: DoNotDeleteTriggerOrg
+          pipeline: pl_auto_pipeline_9dgGk
+          project: CDCNGAuto_CustomWebhookTrigger_5rBLC
