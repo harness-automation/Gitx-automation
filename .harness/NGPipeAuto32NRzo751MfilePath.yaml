@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAuto32NRzo751M
+  identifier: NGPipeAuto32NRzo751M
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcmlMqJaOWjR
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
