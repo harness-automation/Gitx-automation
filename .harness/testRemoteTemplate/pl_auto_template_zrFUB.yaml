@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_zrFUB
+  identifier: pl_auto_template_zrFUB
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_F0dmp
+              identifier: pl_auto_template_F0dmp
+              template:
+                templateRef: account.pl_auto_template_F0dmp
+                versionLabel: v3
+                gitBranch: main
