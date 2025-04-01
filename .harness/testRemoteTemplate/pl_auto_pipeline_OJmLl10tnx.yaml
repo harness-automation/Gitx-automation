@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_OJmLl10tnx
+  identifier: pl_auto_pipeline_OJmLl10tnx
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_aFCGP
+          identifier: pl_auto_template_aFCGP
+          template:
+            templateRef: account.pl_auto_template_aFCGP
+            versionLabel: v3
