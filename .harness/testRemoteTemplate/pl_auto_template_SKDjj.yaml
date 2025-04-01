@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_SKDjj
+  identifier: pl_auto_template_SKDjj
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_IgGTF
+              identifier: pl_auto_template_IgGTF
+              template:
+                templateRef: account.pl_auto_template_IgGTF
+                versionLabel: v3
+                gitBranch: main
