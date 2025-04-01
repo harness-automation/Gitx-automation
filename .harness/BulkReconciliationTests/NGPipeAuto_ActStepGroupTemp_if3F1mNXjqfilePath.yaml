@@ -1,0 +1,15 @@
+template:
+  name: NGPipeAuto_ActStepGroupTemp_if3F1mNXjq
+  identifier: NGPipeAuto_ActStepGroupTemp_if3F1mNXjq
+  versionLabel: Act_StepGrp
+  type: StepGroup
+  tags: {}
+  spec:
+    stageType: Custom
+    steps:
+      - step:
+          name: Referenced_Step_Template_v1
+          identifier: Referenced_Step_Template_v1
+          template:
+            templateRef: account.NGPipeAuto_ActStepTempaZSjnf85S5
+            versionLabel: Act_Step_v1
