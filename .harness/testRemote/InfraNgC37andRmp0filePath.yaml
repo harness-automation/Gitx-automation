@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: InfraNgC37andRmp0
+  identifier: InfraNgC37andRmp0
+  orgIdentifier: OrgNgsrAp5ApzVf
+  projectIdentifier: CD_NG_SERENV_CLONEOIaXySjqy7
+  environmentRef: EnvNgsI93z17NmT
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.github_Account_level_connector_delegate
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
