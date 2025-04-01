@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_PG7RdbRdus
+  identifier: pl_auto_pipeline_PG7RdbRdus
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_mBipU
+          identifier: pl_auto_template_mBipU
+          template:
+            templateRef: account.pl_auto_template_mBipU
+            versionLabel: v3
