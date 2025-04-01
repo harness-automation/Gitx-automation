@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_SJRhA
+  identifier: pl_auto_template_SJRhA
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_0zpuO
+              identifier: pl_auto_template_0zpuO
+              template:
+                templateRef: account.pl_auto_template_0zpuO
+                versionLabel: v3
+                gitBranch: main
