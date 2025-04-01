@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutobpklv38oiA
+  identifier: NGPipeAutobpklv38oiA
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
