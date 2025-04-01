@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_c7uf0Gymcu
+  identifier: pl_auto_pipeline_c7uf0Gymcu
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_no0jS
+          identifier: pl_auto_template_no0jS
+          template:
+            templateRef: account.pl_auto_template_no0jS
+            versionLabel: v3
