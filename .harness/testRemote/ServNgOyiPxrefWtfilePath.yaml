@@ -1,0 +1,10 @@
+service:
+  name: ServNgOyiPxrefWt
+  identifier: ServNgOyiPxrefWt
+  orgIdentifier: OrgNgTiiw9n0yJR
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
