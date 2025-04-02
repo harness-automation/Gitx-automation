@@ -13,3 +13,12 @@ template:
           template:
             templateRef: account.NGPipeAuto_ActStepTemp9o6IbmjZYE
             versionLabel: Act_Step_v1
+      - step:
+          name: Duplicate
+          identifier: Duplicate
+          template:
+            templateRef: account.NGPipeAuto_ActStepTemp9o6IbmjZYE
+            versionLabel: Act_Step_v1
+            templateInputs:
+              type: ShellScript
+              timeout: <+input>
