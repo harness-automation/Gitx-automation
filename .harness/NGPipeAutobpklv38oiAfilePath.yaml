@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutobpklv38oiA
-  identifier: NGPipeAutobpklv38oiA
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
