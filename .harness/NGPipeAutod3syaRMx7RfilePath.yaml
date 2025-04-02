@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutod3syaRMx7R
-  identifier: NGPipeAutod3syaRMx7R
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
