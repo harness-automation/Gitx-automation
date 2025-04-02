@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_eGsXe
+  identifier: pl_auto_template_eGsXe
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_6jMMz
+              identifier: pl_auto_template_6jMMz
+              template:
+                templateRef: account.pl_auto_template_6jMMz
+                versionLabel: v3
+                gitBranch: main
