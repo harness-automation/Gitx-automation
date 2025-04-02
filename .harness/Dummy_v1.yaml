@@ -1,0 +1,15 @@
+template:
+  name: Dummy
+  identifier: Dummy
+  versionLabel: v1
+  type: StepGroup
+  tags: {}
+  spec:
+    stageType: Custom
+    steps:
+      - step:
+          name: dummy1
+          identifier: dummy1
+          template:
+            templateRef: account.NGPipeAuto_ActStepTempTVkRsYsI6O
+            versionLabel: Act_Step_v1
