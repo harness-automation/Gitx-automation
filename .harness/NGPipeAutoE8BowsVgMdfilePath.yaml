@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoE8BowsVgMd
-  identifier: NGPipeAutoE8BowsVgMd
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
