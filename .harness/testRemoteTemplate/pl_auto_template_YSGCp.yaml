@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_YSGCp
+  identifier: pl_auto_template_YSGCp
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_BYnSF
+              identifier: pl_auto_template_BYnSF
+              template:
+                templateRef: account.pl_auto_template_BYnSF
+                versionLabel: v3
+                gitBranch: main
