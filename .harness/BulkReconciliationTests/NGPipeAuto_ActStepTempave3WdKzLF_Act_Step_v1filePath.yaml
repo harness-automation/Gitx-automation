@@ -5,14 +5,15 @@ template:
   type: Step
   tags: {}
   spec:
-    timeout: <+input>
     type: ShellScript
     spec:
       shell: Bash
-      onDelegate: true
       source:
         type: Inline
         spec:
           script: echo Hello
       environmentVariables: []
       outputVariables: []
+      executionTarget: {}
+      delegateSelectors: []
+    timeout: 12s
