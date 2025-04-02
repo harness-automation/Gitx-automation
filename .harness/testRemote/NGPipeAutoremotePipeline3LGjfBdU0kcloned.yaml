@@ -1,0 +1,30 @@
+pipeline:
+  orgIdentifier: Simlified_Git_sync
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: s1
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: ShellScript
+                  name: Shell Script_1
+                  identifier: ShellScript_1
+                  spec:
+                    shell: Bash
+                    onDelegate: true
+                    source:
+                      type: Inline
+                      spec:
+                        script: <+input>
+                    environmentVariables: []
+                    outputVariables: []
+                  timeout: 1m
+        tags: {}
+  projectIdentifier: NGPipeAutoCloneDestFIH4yW7mM0
+  identifier: NGPipeAutoremotePipeline3LGjfBdU0kcloned
+  name: NGPipeAutoremoteClonedPipeline4H0RY0ntxP
