@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutot9bpkdbUPS
-  identifier: NGPipeAutot9bpkdbUPS
-  serviceDefinition:
-    spec:
-      release:
-        name: <+input>
-    type: Kubernetes
