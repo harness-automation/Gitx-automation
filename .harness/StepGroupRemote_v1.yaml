@@ -13,3 +13,9 @@ template:
           template:
             templateRef: account.remotS1
             versionLabel: v1
+      - step:
+          name: remot2
+          identifier: remot2
+          template:
+            templateRef: account.remotS1
+            versionLabel: v1
