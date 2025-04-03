@@ -1,0 +1,25 @@
+inputSet:
+  name: InputSetVersion1_GH6oa6Q0q2
+  tags: {}
+  identifier: InputSetVersion1_GH6oa6Q0q2
+  orgIdentifier: Ng_Pipelines_K8s_Organisations
+  projectIdentifier: NGPipeAutoK8sLRfGNJQB1f
+  pipeline:
+    identifier: CDNGAuto_K8sRollingDeploymentPostProdRollbackr18aNYG2UF
+    stages:
+      - stage:
+          identifier: s1
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        sources:
+                          - identifier: test
+                            type: GoogleArtifactRegistry
+                            spec:
+                              version: old

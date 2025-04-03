@@ -1,0 +1,44 @@
+pipeline:
+  name: pl_auto_pipeline_MbEwe
+  identifier: pl_auto_pipeline_MbEwe
+  projectIdentifier: CDCNGAuto_CustomWebhookTrigger_6KYlJ
+  orgIdentifier: DoNotDeleteTriggerOrg
+  tags: {}
+  stages:
+    - stage:
+        name: WebHook_Trigger
+        identifier: WebHook_Trigger
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: Http
+                  name: WebHook
+                  identifier: WebHook
+                  spec:
+                    url: https://pipelinepreqa.pr2.harness.io/gateway/pipeline/api/webhook/custom/l-3mpwRZT6aMad0zykFSzw/v3?accountIdentifier=sXES9L-_SKufFj0-GXFKag&orgIdentifier=DoNotDeleteTriggerOrg&projectIdentifier=CDCNGAuto_CustomWebhookTrigger_6KYlJ&pipelineIdentifier=pl_auto_pipeline_42GLV&triggerIdentifier=CDNGAuto_Trigger_1peTTP4Uue
+                    method: POST
+                    headers:
+                      - key: content-type
+                        value: application/json
+                      - key: X-HARNESS-TRIGGER-ID
+                        value: CDNGAuto_Trigger_1peTTP4Uue
+                    outputVariables: []
+                    inputVariables: []
+                    requestBody: |-
+                      {
+                          "id": "USA",
+                          "locations": [
+                              {
+                                  "city": "SF"
+                              },
+                              {
+                                  "city": "LV"
+                              }
+                          ],
+                          "name": "user"
+                      }
+                  timeout: 10m
+        tags: {}

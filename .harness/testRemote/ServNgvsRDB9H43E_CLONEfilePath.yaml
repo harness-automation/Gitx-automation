@@ -1,0 +1,9 @@
+---
+service:
+  serviceDefinition:
+    spec:
+      release:
+        name: "<+input>"
+    type: "Kubernetes"
+  identifier: "ServNgvsRDB9H43E_CLONE"
+  name: "ServNgvsRDB9H43E - Clone"

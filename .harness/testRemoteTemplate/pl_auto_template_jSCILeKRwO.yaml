@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_jSCILeKRwO
+  identifier: pl_auto_template_jSCILeKRwO
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_jHWLrWceqg
+              identifier: pl_auto_template_jHWLrWceqg
+              template:
+                templateRef: account.pl_auto_template_jHWLrWceqg
+                versionLabel: v3
+                gitBranch: main

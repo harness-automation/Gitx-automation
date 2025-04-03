@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_FAByR
+  identifier: pl_auto_inputset_FAByR
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_CustomWebhookTrigger_C7sBv
+  pipeline:
+    identifier: pl_auto_pipeline_bf1hq
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+

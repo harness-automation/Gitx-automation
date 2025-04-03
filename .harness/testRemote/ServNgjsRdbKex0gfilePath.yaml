@@ -1,0 +1,10 @@
+service:
+  name: ServNgjsRdbKex0g
+  identifier: ServNgjsRdbKex0g
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
