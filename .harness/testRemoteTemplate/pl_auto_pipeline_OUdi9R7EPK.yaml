@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_OUdi9R7EPK
+  identifier: pl_auto_pipeline_OUdi9R7EPK
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_YQlPX
+          identifier: pl_auto_template_YQlPX
+          template:
+            templateRef: account.pl_auto_template_YQlPX
+            versionLabel: v3
