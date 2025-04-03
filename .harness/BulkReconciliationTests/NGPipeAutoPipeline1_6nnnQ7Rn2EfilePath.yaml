@@ -5,5 +5,43 @@ pipeline:
   template:
     templateRef: NGPipeAutoPipelineTempuWUYUrSucO
     versionLabel: Proj_Pip
+    templateInputs:
+      stages:
+        - stage:
+            identifier: Stage1
+            template:
+              templateInputs:
+                type: Custom
+                spec:
+                  execution:
+                    steps:
+                      - stepGroup:
+                          identifier: Referenced_Step_Group_Template
+                          template:
+                            templateInputs:
+                              steps:
+                                - step:
+                                    identifier: Referenced_Step_Template_v1
+                                    template:
+                                      templateInputs:
+                                        type: ShellScript
+                                        timeout: <+input>
+        - stage:
+            identifier: Stage2
+            type: Custom
+            spec:
+              execution:
+                steps:
+                  - stepGroup:
+                      identifier: StepGroupTemplate
+                      template:
+                        templateInputs:
+                          steps:
+                            - step:
+                                identifier: Referenced_Step_Template_v1
+                                template:
+                                  templateInputs:
+                                    type: ShellScript
+                                    timeout: <+input>
   projectIdentifier: NGPipeAutoPipelineSvcCNKq0H64b4
   orgIdentifier: Pipelines_NonK8s_Org_NG
