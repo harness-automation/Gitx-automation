@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_YQlPX
+  identifier: pl_auto_template_YQlPX
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_46HiS
+              identifier: pl_auto_template_46HiS
+              template:
+                templateRef: account.pl_auto_template_46HiS
+                versionLabel: v3
+                gitBranch: main
