@@ -12,6 +12,33 @@ pipeline:
         template:
           templateRef: org.NGPipeAuto_OrgStageTemp_B196I1ZYAj
           versionLabel: Org_Stage
+          templateInputs:
+            type: Custom
+            spec:
+              execution:
+                steps:
+                  - stepGroup:
+                      identifier: Referenced_Step_Group_Template
+                      template:
+                        templateInputs:
+                          steps:
+                            - step:
+                                identifier: Referenced_Step_Template_v1
+                                template:
+                                  templateInputs:
+                                    type: ShellScript
+                                    timeout: <+input>
+                  - step:
+                      identifier: Referenced_Step_Template_v2
+                      template:
+                        templateInputs:
+                          type: ShellScript
+                          timeout: <+input>
+                          spec:
+                            source:
+                              type: Inline
+                              spec:
+                                script: <+input>
     - stage:
         name: Stage2
         identifier: Stage2
@@ -26,12 +53,28 @@ pipeline:
                   template:
                     templateRef: account.NGPipeAuto_ActStepGroupTemp_6YmT3msWwn
                     versionLabel: Act_StepGrp
+                    templateInputs:
+                      steps:
+                        - step:
+                            identifier: Referenced_Step_Template_v1
+                            template:
+                              templateInputs:
+                                type: ShellScript
+                                timeout: <+input>
               - step:
                   name: StepTemplate
                   identifier: StepTemplate
                   template:
                     templateRef: account.NGPipeAuto_ActStepTempwbb5G6f1zD
                     versionLabel: Act_Step_v2
+                    templateInputs:
+                      type: ShellScript
+                      timeout: <+input>
+                      spec:
+                        source:
+                          type: Inline
+                          spec:
+                            script: <+input>
               - step:
                   name: v2
                   identifier: v2
