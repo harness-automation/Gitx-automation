@@ -13,15 +13,9 @@ template:
           template:
             templateRef: account.NGPipeAuto_ActStepTempcWqryuvhNS
             versionLabel: Act_Step_v1
-            templateInputs:
-              type: ShellScript
-              timeout: <+input>
       - step:
           name: cacac
           identifier: cacac
           template:
             templateRef: account.NGPipeAuto_ActStepTempcWqryuvhNS
             versionLabel: Act_Step_v1
-            templateInputs:
-              type: ShellScript
-              timeout: <+input>
