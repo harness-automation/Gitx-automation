@@ -1,0 +1,10 @@
+service:
+  name: ServNgUA6Ma8t4Nu
+  identifier: ServNgUA6Ma8t4Nu
+  orgIdentifier: OrgNgJbZPrK8QCV
+  projectIdentifier: CD_NG_SERENV_CLONEhCHxxcWTEz
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
