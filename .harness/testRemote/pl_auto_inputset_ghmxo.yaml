@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_Uv911
+  identifier: pl_auto_inputset_Uv911
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_CustomWebhookTrigger_Togl4
+  pipeline:
+    identifier: pl_auto_pipeline_2cKcD
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
