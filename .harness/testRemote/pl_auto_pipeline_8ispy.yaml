@@ -1,0 +1,15 @@
+pipeline:
+  name: pl_auto_pipeline_8ispy
+  identifier: pl_auto_pipeline_8ispy
+  projectIdentifier: CDCNGAuto_CustomWebhookTrigger_lAnSi
+  orgIdentifier: DoNotDeleteTriggerOrg
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: stage1
+        type: Pipeline
+        spec:
+          org: DoNotDeleteTriggerOrg
+          pipeline: pl_auto_pipeline_8yX0Z
+          project: CDCNGAuto_CustomWebhookTrigger_lAnSi
