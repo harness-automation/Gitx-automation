@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutomJXTEyIR77
+  identifier: NGPipeAutomJXTEyIR77
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
