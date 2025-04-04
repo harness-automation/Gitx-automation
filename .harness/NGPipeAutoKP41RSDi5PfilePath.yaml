@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutoKP41RSDi5P
+  identifier: NGPipeAutoKP41RSDi5P
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
