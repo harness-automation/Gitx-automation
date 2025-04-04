@@ -1,0 +1,10 @@
+service:
+  name: ServNg3OJpnbZBCi
+  identifier: ServNg3OJpnbZBCi
+  orgIdentifier: OrgNgnme4ohgkFW
+  projectIdentifier: CD_NG_SERENV_CLONEV1gwmXRMjp
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
