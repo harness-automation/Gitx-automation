@@ -1,0 +1,10 @@
+service:
+  name: ServNgQfHNH2NSLI
+  identifier: ServNgQfHNH2NSLI
+  orgIdentifier: OrgNgnme4ohgkFW
+  projectIdentifier: CD_NG_SERENV_CLONEV1gwmXRMjp
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
