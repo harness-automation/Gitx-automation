@@ -1,0 +1,10 @@
+service:
+  name: ServNgnA24k0hv22
+  identifier: ServNgnA24k0hv22
+  orgIdentifier: OrgNgiNPXNt13yl
+  projectIdentifier: CD_NG_SERENV_CLONETxzSqSBYoT
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
