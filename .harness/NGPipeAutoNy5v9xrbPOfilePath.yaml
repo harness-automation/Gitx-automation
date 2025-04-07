@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoNy5v9xrbPO
+  identifier: NGPipeAutoNy5v9xrbPO
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
