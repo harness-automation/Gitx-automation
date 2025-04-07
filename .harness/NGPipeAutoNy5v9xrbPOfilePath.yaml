@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoNy5v9xrbPO
-  identifier: NGPipeAutoNy5v9xrbPO
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
