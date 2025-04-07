@@ -1,0 +1,10 @@
+service:
+  name: ServNgxfJLGbin4i
+  identifier: ServNgxfJLGbin4i
+  orgIdentifier: OrgNgddcUDX1MMZ
+  projectIdentifier: CD_NG_SERENV_CLONEWBKckHhTCR
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
