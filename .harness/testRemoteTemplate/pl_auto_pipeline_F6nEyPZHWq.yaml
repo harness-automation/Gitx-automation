@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_F6nEyPZHWq
+  identifier: pl_auto_pipeline_F6nEyPZHWq
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_PbxVi
+          identifier: pl_auto_template_PbxVi
+          template:
+            templateRef: account.pl_auto_template_PbxVi
+            versionLabel: v3
