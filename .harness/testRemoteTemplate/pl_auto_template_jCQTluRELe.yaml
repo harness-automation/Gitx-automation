@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_jCQTluRELe
+  identifier: pl_auto_template_jCQTluRELe
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_d2thH9K4zi
+              identifier: pl_auto_template_d2thH9K4zi
+              template:
+                templateRef: account.pl_auto_template_d2thH9K4zi
+                versionLabel: v3
+                gitBranch: main
