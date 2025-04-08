@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_21gRIGikef
+  identifier: pl_auto_pipeline_21gRIGikef
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_PzmiY
+          identifier: pl_auto_template_PzmiY
+          template:
+            templateRef: account.pl_auto_template_PzmiY
+            versionLabel: v3
