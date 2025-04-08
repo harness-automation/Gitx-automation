@@ -1,9 +1,0 @@
-service:
-  name: NGPipeAutoJPZQ4ux2ba
-  identifier: NGPipeAutoJPZQ4ux2ba
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
