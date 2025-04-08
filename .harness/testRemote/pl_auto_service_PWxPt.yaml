@@ -1,0 +1,9 @@
+service:
+  name: pl_auto_service_PWxPt
+  identifier: pl_auto_service_PWxPt
+  orgIdentifier: Simlified_Git_sync
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
