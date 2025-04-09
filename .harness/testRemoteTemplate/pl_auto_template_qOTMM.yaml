@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_qOTMM
+  identifier: pl_auto_template_qOTMM
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_vvgpk
+              identifier: pl_auto_template_vvgpk
+              template:
+                templateRef: account.pl_auto_template_vvgpk
+                versionLabel: v3
+                gitBranch: main
