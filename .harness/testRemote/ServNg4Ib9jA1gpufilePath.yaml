@@ -1,0 +1,10 @@
+service:
+  name: ServNg4Ib9jA1gpu
+  identifier: ServNg4Ib9jA1gpu
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
