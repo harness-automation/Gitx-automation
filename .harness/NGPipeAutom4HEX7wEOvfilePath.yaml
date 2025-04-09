@@ -1,9 +1,0 @@
-service:
-  name: NGPipeAutom4HEX7wEOv
-  identifier: NGPipeAutom4HEX7wEOv
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  serviceDefinition:
-    spec:
-      release:
-        name: <+input>
-    type: Kubernetes
