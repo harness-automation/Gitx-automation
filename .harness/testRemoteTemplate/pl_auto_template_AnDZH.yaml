@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_AnDZH
+  identifier: pl_auto_template_AnDZH
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_3235y
+              identifier: pl_auto_template_3235y
+              template:
+                templateRef: account.pl_auto_template_3235y
+                versionLabel: v3
+                gitBranch: main
