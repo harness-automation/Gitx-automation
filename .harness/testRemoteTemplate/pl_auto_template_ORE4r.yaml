@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_ORE4r
+  identifier: pl_auto_template_ORE4r
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_kq0MP
+              identifier: pl_auto_template_kq0MP
+              template:
+                templateRef: account.pl_auto_template_kq0MP
+                versionLabel: v3
+                gitBranch: main
