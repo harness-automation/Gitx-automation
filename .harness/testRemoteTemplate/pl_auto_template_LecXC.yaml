@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_LecXC
+  identifier: pl_auto_template_LecXC
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_gb8UI
+              identifier: pl_auto_template_gb8UI
+              template:
+                templateRef: account.pl_auto_template_gb8UI
+                versionLabel: v3
+                gitBranch: main
