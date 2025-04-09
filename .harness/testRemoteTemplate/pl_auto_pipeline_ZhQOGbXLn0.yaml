@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_ZhQOGbXLn0
+  identifier: pl_auto_pipeline_ZhQOGbXLn0
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_4Cobz
+          identifier: pl_auto_template_4Cobz
+          template:
+            templateRef: account.pl_auto_template_4Cobz
+            versionLabel: v3
