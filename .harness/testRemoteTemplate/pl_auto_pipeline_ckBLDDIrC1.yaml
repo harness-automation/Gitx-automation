@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_ckBLDDIrC1
+  identifier: pl_auto_pipeline_ckBLDDIrC1
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_ORE4r
+          identifier: pl_auto_template_ORE4r
+          template:
+            templateRef: account.pl_auto_template_ORE4r
+            versionLabel: v3
