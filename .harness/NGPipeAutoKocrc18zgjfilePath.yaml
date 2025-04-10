@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoKocrc18zgj
+  identifier: NGPipeAutoKocrc18zgj
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
