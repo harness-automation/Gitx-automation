@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoKISS2VPg62
-  identifier: NGPipeAutoKISS2VPg62
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
