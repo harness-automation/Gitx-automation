@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoKISS2VPg62
+  identifier: NGPipeAutoKISS2VPg62
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
