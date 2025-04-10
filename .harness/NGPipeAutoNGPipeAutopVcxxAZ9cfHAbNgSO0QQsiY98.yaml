@@ -1,0 +1,35 @@
+pipeline:
+  name: OpenAPI_InputSet_Pipeline
+  identifier: NGPipeAutoNGPipeAutopVcxxAZ9cfHAbNgSO0QQsiY98
+  projectIdentifier: DoNotDelete_OpenApi
+  orgIdentifier: Ng_Pipelines_K8s_Organisations
+  tags: {
+    }
+  stages:
+  - stage:
+      name: stage
+      identifier: stage
+      description: ''
+      type: Custom
+      spec:
+        execution:
+          steps:
+          - step:
+              type: ShellScript
+              name: ShellScript_1
+              identifier: ShellScript_1
+              spec:
+                shell: Bash
+                executionTarget: {
+                  }
+                source:
+                  type: Inline
+                  spec:
+                    script: <+input>
+                environmentVariables: [
+                  ]
+                outputVariables: [
+                  ]
+              timeout: 10m
+      tags: {
+        }

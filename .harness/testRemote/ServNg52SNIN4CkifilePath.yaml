@@ -1,0 +1,10 @@
+service:
+  name: ServNg52SNIN4Cki
+  identifier: ServNg52SNIN4Cki
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes

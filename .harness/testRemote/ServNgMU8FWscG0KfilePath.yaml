@@ -1,0 +1,10 @@
+service:
+  name: ServNgMU8FWscG0K
+  identifier: ServNgMU8FWscG0K
+  orgIdentifier: OrgNgfz4z2u0BBs
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes

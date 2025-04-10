@@ -1,0 +1,10 @@
+service:
+  name: ServNgOPlT3d4etb
+  identifier: ServNgOPlT3d4etb
+  orgIdentifier: OrgNgJbZPrK8QCV
+  projectIdentifier: CD_NG_SERENV_CLONEhCHxxcWTEz
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes

@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_32RTyjdXtm
+  identifier: pl_auto_template_32RTyjdXtm
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_il66rGb1QX
+              identifier: pl_auto_template_il66rGb1QX
+              template:
+                templateRef: account.pl_auto_template_il66rGb1QX
+                versionLabel: v3
+                gitBranch: main

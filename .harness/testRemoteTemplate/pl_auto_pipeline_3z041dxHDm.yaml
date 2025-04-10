@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_3z041dxHDm
+  identifier: pl_auto_pipeline_3z041dxHDm
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_d5PRmysg6p
+          identifier: pl_auto_template_d5PRmysg6p
+          template:
+            templateRef: account.pl_auto_template_d5PRmysg6p
+            versionLabel: v3

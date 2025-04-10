@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_HSm68sKtDb
+  identifier: pl_auto_pipeline_HSm68sKtDb
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_pLoxtH1t6j
+          identifier: pl_auto_template_pLoxtH1t6j
+          template:
+            templateRef: account.pl_auto_template_pLoxtH1t6j
+            versionLabel: v3

@@ -1,0 +1,10 @@
+service:
+  name: ServNgdUpbXAybum
+  identifier: ServNgdUpbXAybum
+  orgIdentifier: OrgNgjimryWhUX1
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes

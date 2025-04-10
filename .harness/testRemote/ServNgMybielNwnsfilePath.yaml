@@ -1,0 +1,10 @@
+service:
+  name: ServNgMybielNwns
+  identifier: ServNgMybielNwns
+  orgIdentifier: OrgNgfz4z2u0BBs
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
