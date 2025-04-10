@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoTsPulirIpA
+  identifier: NGPipeAutoTsPulirIpA
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
