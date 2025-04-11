@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_oK5AUnMxnb
+  identifier: pl_auto_template_oK5AUnMxnb
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_6WJH9ES3TI
+              identifier: pl_auto_template_6WJH9ES3TI
+              template:
+                templateRef: account.pl_auto_template_6WJH9ES3TI
+                versionLabel: v3
+                gitBranch: main
