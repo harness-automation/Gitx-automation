@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_PXYlo
+  identifier: pl_auto_inputset_PXYlo
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_CustomWebhookTrigger_XKdcF
+  pipeline:
+    identifier: pl_auto_pipeline_Q2AUB
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
