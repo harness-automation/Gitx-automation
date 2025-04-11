@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutocBpdP2jsI5
-  identifier: NGPipeAutocBpdP2jsI5
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
