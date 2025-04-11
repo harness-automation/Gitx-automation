@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoSnQOW34s1W
-  identifier: NGPipeAutoSnQOW34s1W
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
