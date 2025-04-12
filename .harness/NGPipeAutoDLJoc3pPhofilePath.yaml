@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoDLJoc3pPho
-  identifier: NGPipeAutoDLJoc3pPho
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
