@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoIqxyS2hodS
+  identifier: NGPipeAutoIqxyS2hodS
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
