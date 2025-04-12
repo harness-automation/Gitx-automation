@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_zpDFc
+  identifier: pl_auto_template_zpDFc
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_iyrss
+              identifier: pl_auto_template_iyrss
+              template:
+                templateRef: account.pl_auto_template_iyrss
+                versionLabel: v3
+                gitBranch: main
