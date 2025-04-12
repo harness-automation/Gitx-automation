@@ -1,0 +1,10 @@
+service:
+  name: ServNg2lFOAL5v2X
+  identifier: ServNg2lFOAL5v2X
+  orgIdentifier: OrgNgMc6Zjx30xB
+  projectIdentifier: CD_NG_SERENV_CLONEztwOWwj18h
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
