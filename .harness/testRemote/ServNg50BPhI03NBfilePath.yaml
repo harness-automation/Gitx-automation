@@ -1,0 +1,10 @@
+service:
+  name: ServNg50BPhI03NB
+  identifier: ServNg50BPhI03NB
+  orgIdentifier: OrgNgMc6Zjx30xB
+  projectIdentifier: CD_NG_SERENV_CLONEztwOWwj18h
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
