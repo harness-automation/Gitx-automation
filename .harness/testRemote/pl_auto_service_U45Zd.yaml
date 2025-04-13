@@ -1,0 +1,9 @@
+service:
+  name: pl_auto_service_U45Zd
+  identifier: pl_auto_service_U45Zd
+  orgIdentifier: Simlified_Git_sync
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
