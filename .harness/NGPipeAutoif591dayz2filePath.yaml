@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoif591dayz2
-  identifier: NGPipeAutoif591dayz2
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
