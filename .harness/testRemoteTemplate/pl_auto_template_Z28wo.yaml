@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Z28wo
+  identifier: pl_auto_template_Z28wo
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_pd8Ul
+              identifier: pl_auto_template_pd8Ul
+              template:
+                templateRef: account.pl_auto_template_pd8Ul
+                versionLabel: v3
+                gitBranch: main
