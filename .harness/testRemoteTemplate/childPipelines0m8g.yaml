@@ -1,0 +1,10 @@
+pipeline:
+  name: childPipelineUsingPipelineTemplate
+  identifier: childPipelines0m8g
+  tags: {}
+  template:
+    templateRef: pipelineTemplaterCXhV
+    versionLabel: "v1"
+    gitBranch: main-patch
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
