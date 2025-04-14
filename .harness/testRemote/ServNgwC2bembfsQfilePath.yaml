@@ -1,0 +1,10 @@
+service:
+  name: ServNgwC2bembfsQ
+  identifier: ServNgwC2bembfsQ
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
