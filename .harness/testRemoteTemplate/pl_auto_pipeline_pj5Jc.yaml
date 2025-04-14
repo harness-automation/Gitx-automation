@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_pj5Jc
+  identifier: pl_auto_pipeline_pj5Jc
+  template:
+    templateRef: account.pl_auto_template_b86mf
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
