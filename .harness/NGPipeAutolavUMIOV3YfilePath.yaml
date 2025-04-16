@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutolavUMIOV3Y
+  identifier: NGPipeAutolavUMIOV3Y
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
