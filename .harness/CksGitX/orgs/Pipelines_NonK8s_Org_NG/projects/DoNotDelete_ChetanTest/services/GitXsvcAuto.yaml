@@ -1,0 +1,11 @@
+service:
+  name: GitXsvcAuto
+  identifier: GitXsvcAuto
+  serviceDefinition:
+    type: Kubernetes
+    spec:
+      artifacts:
+        primary: {}
+  gitOpsEnabled: false
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: DoNotDelete_ChetanTest
