@@ -5,7 +5,16 @@ service:
     type: Kubernetes
     spec:
       artifacts:
-        primary: {}
+        primary:
+          primaryArtifactRef: <+input>
+          sources:
+            - spec:
+                connectorRef: org.DockerConnector2ForAutomationTest
+                imagePath: librarey/nginx
+                tag: <+input>
+                digest: ""
+              identifier: artifact
+              type: DockerRegistry
   gitOpsEnabled: false
   orgIdentifier: Pipelines_NonK8s_Org_NG
   projectIdentifier: DoNotDelete_ChetanTest
