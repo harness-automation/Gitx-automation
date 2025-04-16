@@ -11,7 +11,7 @@ pipeline:
         spec:
           deploymentType: Kubernetes
           service:
-            serviceRef: srvGitx
+            serviceRef: GitXsvcAuto
             serviceInputs:
               serviceDefinition:
                 type: Kubernetes
@@ -22,10 +22,11 @@ pipeline:
                       sources: <+input>
             gitBranch: main
           environment:
-            environmentRef: Env
+            environmentRef: envGitx
+            gitBranch: main
             deployToAll: false
             infrastructureDefinitions:
-              - identifier: Infra
+              - identifier: infraGitX
           execution:
             steps:
               - step:
