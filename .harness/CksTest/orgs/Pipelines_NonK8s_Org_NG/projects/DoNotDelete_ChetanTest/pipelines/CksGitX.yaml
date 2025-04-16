@@ -1,7 +1,7 @@
 pipeline:
   projectIdentifier: DoNotDelete_ChetanTest
   orgIdentifier: Pipelines_NonK8s_Org_NG
-  tags: {}
+  tags: {"test"}
   stages:
     - stage:
         name: s1
