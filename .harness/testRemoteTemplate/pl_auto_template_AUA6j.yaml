@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_AUA6j
+  identifier: pl_auto_template_AUA6j
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_vRYVP
+              identifier: pl_auto_template_vRYVP
+              template:
+                templateRef: account.pl_auto_template_vRYVP
+                versionLabel: v3
+                gitBranch: main
