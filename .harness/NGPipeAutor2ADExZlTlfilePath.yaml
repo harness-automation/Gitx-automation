@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutor2ADExZlTl
+  identifier: NGPipeAutor2ADExZlTl
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
