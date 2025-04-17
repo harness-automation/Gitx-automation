@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutotULRG25MG6
+  identifier: NGPipeAutotULRG25MG6
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcjrp51DCWsQ
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
