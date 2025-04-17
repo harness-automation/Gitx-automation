@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAuton9QMEvRAmQ
-  identifier: NGPipeAuton9QMEvRAmQ
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
