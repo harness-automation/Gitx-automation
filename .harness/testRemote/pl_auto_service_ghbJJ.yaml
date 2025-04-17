@@ -1,9 +1,0 @@
-service:
-  name: pl_auto_service_ghbJJ
-  identifier: pl_auto_service_ghbJJ
-  orgIdentifier: Simlified_Git_sync
-  serviceDefinition:
-    spec:
-      release:
-        name: <+input>
-    type: Kubernetes
