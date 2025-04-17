@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutor2ADExZlTl
-  identifier: NGPipeAutor2ADExZlTl
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
