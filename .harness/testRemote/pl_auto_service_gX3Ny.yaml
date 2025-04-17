@@ -1,0 +1,9 @@
+service:
+  name: pl_auto_service_gX3Ny
+  identifier: pl_auto_service_gX3Ny
+  orgIdentifier: Simlified_Git_sync
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
