@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_3w12k
+  identifier: pl_auto_template_3w12k
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_asa3G
+              identifier: pl_auto_template_asa3G
+              template:
+                templateRef: account.pl_auto_template_asa3G
+                versionLabel: v3
+                gitBranch: main
