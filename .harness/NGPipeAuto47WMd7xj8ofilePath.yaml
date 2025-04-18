@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAuto47WMd7xj8o
-  identifier: NGPipeAuto47WMd7xj8o
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
