@@ -1,11 +1,11 @@
 infrastructureDefinition:
   name: NGPipeAutoALPGmTqjs8
   identifier: NGPipeAutoALPGmTqjs8
-  environmentRef: account.NGPipeAutoztTKZHQrlr
+  environmentRef: NGPipeAutoztTKZHQrlr
   deploymentType: Kubernetes
   type: KubernetesDirect
   spec:
     connectorRef: account.github_Account_level_connector_delegate
-    namespace: default
+    namespace: <+input>
     releaseName: release-<+INFRA_KEY_SHORT_ID>
   allowSimultaneousDeployments: true
