@@ -1,9 +1,0 @@
-service:
-  name: NGPipeAutorOIBsCO46c
-  identifier: NGPipeAutorOIBsCO46c
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
