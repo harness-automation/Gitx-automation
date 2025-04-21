@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_hJjix
+  identifier: pl_auto_inputset_hJjix
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_GithubTriggerSSH_gOsvM1OwNQ
+  pipeline:
+    identifier: pl_auto_pipeline_Cdnv6
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
