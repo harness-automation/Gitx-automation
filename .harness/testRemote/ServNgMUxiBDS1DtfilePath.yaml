@@ -1,0 +1,10 @@
+service:
+  name: ServNgMUxiBDS1Dt
+  identifier: ServNgMUxiBDS1Dt
+  orgIdentifier: OrgNgWHWPnFPwNB
+  projectIdentifier: CD_NG_SERENV_CLONEl4pXXivboR
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
