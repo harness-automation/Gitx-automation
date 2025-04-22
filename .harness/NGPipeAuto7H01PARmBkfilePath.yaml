@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAuto7H01PARmBk
+  identifier: NGPipeAuto7H01PARmBk
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
