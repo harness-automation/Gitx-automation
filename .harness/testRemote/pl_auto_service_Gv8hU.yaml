@@ -1,0 +1,9 @@
+service:
+  name: pl_auto_service_Gv8hU
+  identifier: pl_auto_service_Gv8hU
+  orgIdentifier: Simlified_Git_sync
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
