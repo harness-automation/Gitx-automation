@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAuto7H01PARmBk
-  identifier: NGPipeAuto7H01PARmBk
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
