@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_UnjLxf7UG4
+  identifier: pl_auto_pipeline_UnjLxf7UG4
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_CRB75iuqh6
+          identifier: pl_auto_template_CRB75iuqh6
+          template:
+            templateRef: account.pl_auto_template_CRB75iuqh6
+            versionLabel: v3
