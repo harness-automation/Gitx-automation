@@ -1,0 +1,10 @@
+service:
+  name: ServNgLTfvaxCONB
+  identifier: ServNgLTfvaxCONB
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
