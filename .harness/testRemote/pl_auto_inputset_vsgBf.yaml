@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_NFKTo
+  identifier: pl_auto_inputset_NFKTo
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_GithubTriggerSSH_Nmv6RSogOz
+  pipeline:
+    identifier: pl_auto_pipeline_AcH2W
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
