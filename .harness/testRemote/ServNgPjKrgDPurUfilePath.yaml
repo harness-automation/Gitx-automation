@@ -1,0 +1,10 @@
+service:
+  name: ServNgPjKrgDPurU
+  identifier: ServNgPjKrgDPurU
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
