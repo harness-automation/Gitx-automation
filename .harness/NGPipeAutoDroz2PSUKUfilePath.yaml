@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoDroz2PSUKU
+  identifier: NGPipeAutoDroz2PSUKU
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
