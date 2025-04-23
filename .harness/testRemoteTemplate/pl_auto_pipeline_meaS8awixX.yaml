@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_meaS8awixX
+  identifier: pl_auto_pipeline_meaS8awixX
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_ZeUOi
+          identifier: pl_auto_template_ZeUOi
+          template:
+            templateRef: account.pl_auto_template_ZeUOi
+            versionLabel: v3
