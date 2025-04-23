@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoms8lPU5m36
+  identifier: NGPipeAutoms8lPU5m36
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
