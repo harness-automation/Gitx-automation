@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: InfraNgX0nj3rfOBw
+  identifier: InfraNgX0nj3rfOBw
+  orgIdentifier: OrgNgH9u9yaMML0
+  projectIdentifier: CD_NG_SERENV_CLONE7eMm0Ix3oV
+  environmentRef: EnvNgX1aF4xypVl
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.github_Account_level_connector_delegate
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
