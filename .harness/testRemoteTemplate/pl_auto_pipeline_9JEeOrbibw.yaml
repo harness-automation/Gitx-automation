@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_9JEeOrbibw
+  identifier: pl_auto_pipeline_9JEeOrbibw
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_P2lEZ
+          identifier: pl_auto_template_P2lEZ
+          template:
+            templateRef: account.pl_auto_template_P2lEZ
+            versionLabel: v3
