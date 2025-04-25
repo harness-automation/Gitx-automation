@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_dtbv5
+  identifier: pl_auto_template_dtbv5
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_5zFRY
+              identifier: pl_auto_template_5zFRY
+              template:
+                templateRef: account.pl_auto_template_5zFRY
+                versionLabel: v3
+                gitBranch: main
