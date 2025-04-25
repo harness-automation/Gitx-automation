@@ -1,0 +1,15 @@
+pipeline:
+  name: pl_auto_pipeline_n81Ff
+  identifier: pl_auto_pipeline_n81Ff
+  projectIdentifier: CDCNGAuto_CustomWebhookTrigger_QMxAp
+  orgIdentifier: DoNotDeleteTriggerOrg
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: stage1
+        type: Pipeline
+        spec:
+          org: DoNotDeleteTriggerOrg
+          pipeline: pl_auto_pipeline_ISNem
+          project: CDCNGAuto_CustomWebhookTrigger_QMxAp
