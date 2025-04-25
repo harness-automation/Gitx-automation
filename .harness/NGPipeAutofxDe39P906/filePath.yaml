@@ -1,11 +1,11 @@
 infrastructureDefinition:
   name: NGPipeAutofxDe39P906
   identifier: NGPipeAutofxDe39P906
-  environmentRef: account.NGPipeAutoWUEA7NDdcm
+  environmentRef: NGPipeAutoWUEA7NDdcm
   deploymentType: Kubernetes
   type: KubernetesDirect
   spec:
     connectorRef: account.github_Account_level_connector_delegate
-    namespace: default
+    namespace: <+input>
     releaseName: release-<+INFRA_KEY_SHORT_ID>
   allowSimultaneousDeployments: true
