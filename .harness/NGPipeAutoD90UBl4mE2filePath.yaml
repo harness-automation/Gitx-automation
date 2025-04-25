@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoD90UBl4mE2
+  identifier: NGPipeAutoD90UBl4mE2
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
