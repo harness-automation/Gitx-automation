@@ -1,11 +1,11 @@
 infrastructureDefinition:
   name: NGPipeAutoR43VpXHRre
   identifier: NGPipeAutoR43VpXHRre
-  environmentRef: account.NGPipeAutoZ2Avr2Dnej
+  environmentRef: NGPipeAutoZ2Avr2Dnej
   deploymentType: Kubernetes
   type: KubernetesDirect
   spec:
     connectorRef: account.github_Account_level_connector_delegate
-    namespace: default
+    namespace: <+input>
     releaseName: release-<+INFRA_KEY_SHORT_ID>
   allowSimultaneousDeployments: true
