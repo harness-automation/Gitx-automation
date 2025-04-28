@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoEpaX5WcxcF
+  identifier: NGPipeAutoEpaX5WcxcF
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
