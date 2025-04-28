@@ -1,0 +1,10 @@
+service:
+  name: ServNgIGEZQSlutP
+  identifier: ServNgIGEZQSlutP
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
