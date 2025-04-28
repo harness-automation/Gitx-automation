@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoJrXUFutt78
+  identifier: NGPipeAutoJrXUFutt78
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
