@@ -1,0 +1,10 @@
+service:
+  name: ServNgANSSdc2MMo
+  identifier: ServNgANSSdc2MMo
+  orgIdentifier: OrgNgdQQLTJYzpA
+  projectIdentifier: CD_NG_SERENV_CLONEzemJOI7ZPR
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
