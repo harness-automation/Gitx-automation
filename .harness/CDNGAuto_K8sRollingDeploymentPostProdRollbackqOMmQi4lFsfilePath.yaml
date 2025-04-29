@@ -27,7 +27,7 @@ pipeline:
                             version: <+input>
           environment:
             environmentRef: test
-            deployToAll: false
+            deployToAll: true
             infrastructureDefinitions:
               - identifier: k8s_infra
           execution:
