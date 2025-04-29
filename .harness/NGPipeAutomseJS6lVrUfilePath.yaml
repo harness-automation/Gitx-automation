@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutomseJS6lVrU
+  identifier: NGPipeAutomseJS6lVrU
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
