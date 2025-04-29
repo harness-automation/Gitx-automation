@@ -8,4 +8,4 @@ infrastructureDefinition:
     connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
     namespace: <+input>
     releaseName: release-<+INFRA_KEY_SHORT_ID>
-  allowSimultaneousDeployments: false
+  allowSimultaneousDeployments: true
