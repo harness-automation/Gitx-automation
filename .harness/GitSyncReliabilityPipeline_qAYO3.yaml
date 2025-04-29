@@ -23,7 +23,7 @@ pipeline:
                    source:
                      type: Inline
                      spec:
-                       script: echo 'Hello, updated script updated123444! new'
+                       script: echo 'Hello, updated script updated123444! new 1234444'
                    environmentVariables: [ ]
                    outputVariables: [ ]
                  timeout: 10m
