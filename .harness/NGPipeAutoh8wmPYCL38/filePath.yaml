@@ -1,11 +1,11 @@
 infrastructureDefinition:
   name: NGPipeAutoh8wmPYCL38
   identifier: NGPipeAutoh8wmPYCL38
-  environmentRef: account.NGPipeAuto10IWyWtGYC
+  environmentRef: NGPipeAuto10IWyWtGYC
   deploymentType: Kubernetes
   type: KubernetesDirect
   spec:
     connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
-    namespace: default
+    namespace: <+input>
     releaseName: release-<+INFRA_KEY_SHORT_ID>
   allowSimultaneousDeployments: true
