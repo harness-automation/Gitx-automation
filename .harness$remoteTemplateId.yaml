@@ -20,7 +20,7 @@ template:
                 source:
                   type: Inline
                   spec:
-                    script: exit 1
+                    script: exit 1 23333
                 environmentVariables: []
                 outputVariables: []
                 executionTarget: {}
