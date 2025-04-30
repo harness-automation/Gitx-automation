@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: NGPipeAutoALMaxcQugc
+  identifier: NGPipeAutoALMaxcQugc
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineInfrarFTDjgNDoa
+  environmentRef: NGPipeAutoP9xy5KprtI
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
