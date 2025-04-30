@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAuto19HV0T2Gdp
+  identifier: NGPipeAuto19HV0T2Gdp
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
