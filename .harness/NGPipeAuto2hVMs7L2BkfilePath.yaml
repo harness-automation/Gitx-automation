@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAuto2hVMs7L2Bk
-  identifier: NGPipeAuto2hVMs7L2Bk
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
