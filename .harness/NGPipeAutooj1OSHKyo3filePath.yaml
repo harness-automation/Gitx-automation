@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutooj1OSHKyo3
+  identifier: NGPipeAutooj1OSHKyo3
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
