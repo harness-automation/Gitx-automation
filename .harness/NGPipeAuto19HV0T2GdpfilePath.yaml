@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAuto19HV0T2Gdp
-  identifier: NGPipeAuto19HV0T2Gdp
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
