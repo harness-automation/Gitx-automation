@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutowOI3746pUW
+  identifier: NGPipeAutowOI3746pUW
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
