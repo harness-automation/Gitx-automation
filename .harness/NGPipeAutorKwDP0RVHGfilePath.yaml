@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutorKwDP0RVHG
+  identifier: NGPipeAutorKwDP0RVHG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
