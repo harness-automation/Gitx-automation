@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoNy141ZFFgr
+  identifier: NGPipeAutoNy141ZFFgr
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
