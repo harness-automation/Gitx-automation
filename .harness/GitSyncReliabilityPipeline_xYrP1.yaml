@@ -1,0 +1,30 @@
+pipeline:
+  name: GitSyncReliabilityPipeline_xYrP1
+  identifier: GitSyncReliabilityPipeline_xYrP1
+  projectIdentifier: CDCNGAuto_GithubWebhookTrigger_i1ebr23ir8
+  orgIdentifier: DoNotDeleteTriggerOrg
+  tags: { }
+  stages:
+    - stage:
+       name: S12
+       identifier: S12
+       description: ""
+       type: Custom
+       spec:
+         execution:
+           steps:
+             - step:
+                 type: ShellScript
+                 name: ShellScript_1
+                 identifier: ShellScript_1
+                 spec:
+                   shell: Bash
+                   onDelegate: true
+                   source:
+                     type: Inline
+                     spec:
+                       script: <+input>
+                   environmentVariables: [ ]
+                   outputVariables: [ ]
+                 timeout: 10m
+           tags: { }
