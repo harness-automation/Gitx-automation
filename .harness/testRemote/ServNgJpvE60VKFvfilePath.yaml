@@ -1,0 +1,10 @@
+service:
+  name: ServNgJpvE60VKFv
+  identifier: ServNgJpvE60VKFv
+  orgIdentifier: OrgNgqu9KodZXov
+  projectIdentifier: CD_NG_SERENV_CLONEj1hvKNJjXG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
