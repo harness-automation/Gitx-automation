@@ -1,0 +1,10 @@
+service:
+  name: ServNgOzmOwIPHd4
+  identifier: ServNgOzmOwIPHd4
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
