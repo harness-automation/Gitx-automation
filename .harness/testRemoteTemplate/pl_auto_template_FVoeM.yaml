@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_FVoeM
+  identifier: pl_auto_template_FVoeM
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_eMfSM
+              identifier: pl_auto_template_eMfSM
+              template:
+                templateRef: account.pl_auto_template_eMfSM
+                versionLabel: v3
+                gitBranch: main
