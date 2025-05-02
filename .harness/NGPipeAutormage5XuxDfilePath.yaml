@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutormage5XuxD
+  identifier: NGPipeAutormage5XuxD
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
