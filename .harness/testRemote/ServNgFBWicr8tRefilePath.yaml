@@ -1,0 +1,10 @@
+service:
+  name: ServNgFBWicr8tRe
+  identifier: ServNgFBWicr8tRe
+  orgIdentifier: OrgNgRKv5SZ4gps
+  projectIdentifier: CD_NG_SERENV_CLONEb41qBSzcZ5
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
