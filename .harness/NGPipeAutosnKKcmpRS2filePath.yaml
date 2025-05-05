@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutosnKKcmpRS2
+  identifier: NGPipeAutosnKKcmpRS2
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcMC7PS95mIH
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
