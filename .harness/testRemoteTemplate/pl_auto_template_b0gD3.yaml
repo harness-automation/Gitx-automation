@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_b0gD3
+  identifier: pl_auto_template_b0gD3
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_KofXH
+              identifier: pl_auto_template_KofXH
+              template:
+                templateRef: account.pl_auto_template_KofXH
+                versionLabel: v3
+                gitBranch: main
