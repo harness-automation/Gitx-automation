@@ -1,0 +1,9 @@
+service:
+  name: pl_auto_service_uu3ba
+  identifier: pl_auto_service_uu3ba
+  orgIdentifier: Simlified_Git_sync
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
