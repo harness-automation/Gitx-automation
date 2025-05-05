@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoovnfqBoNCp
+  identifier: NGPipeAutoovnfqBoNCp
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
