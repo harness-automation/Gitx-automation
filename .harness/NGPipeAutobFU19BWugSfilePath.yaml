@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutobFU19BWugS
+  identifier: NGPipeAutobFU19BWugS
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
