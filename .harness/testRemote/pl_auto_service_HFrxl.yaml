@@ -1,0 +1,9 @@
+service:
+  name: pl_auto_service_HFrxl
+  identifier: pl_auto_service_HFrxl
+  orgIdentifier: Simlified_Git_sync
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
