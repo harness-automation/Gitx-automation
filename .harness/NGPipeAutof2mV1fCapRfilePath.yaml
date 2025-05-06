@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutof2mV1fCapR
-  identifier: NGPipeAutof2mV1fCapR
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
