@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoOhMp1v5Pcc
+  identifier: NGPipeAutoOhMp1v5Pcc
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
