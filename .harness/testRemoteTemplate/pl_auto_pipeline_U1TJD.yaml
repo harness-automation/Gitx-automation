@@ -1,0 +1,24 @@
+pipeline:
+  name: pl_auto_pipeline_U1TJD
+  identifier: pl_auto_pipeline_U1TJD
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
+  tags: { }
+  stages:
+    - stage:
+        name: x2
+        identifier: x2
+        template:
+          templateRef: account.pl_auto_template_EGZf4
+          versionLabel: v3
+          templateInputs:
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: stage
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
