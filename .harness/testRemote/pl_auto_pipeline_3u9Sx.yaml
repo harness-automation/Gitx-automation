@@ -1,0 +1,28 @@
+pipeline:
+  name: pl_auto_pipeline_3u9Sx
+  identifier: pl_auto_pipeline_3u9Sx
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_PolicyRemotePipelineHztGzfGcmv
+  tags: { }
+  stages:
+      - stage:
+          name: S2
+          identifier: S2
+          description: ""
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    type: Http
+                    name: Http_1
+                    identifier: Http_1
+                    timeout: 10s
+                    spec:
+                      url: https://smpairgappatch2.pr2.harness.io/gateway/pipeline/api/webhook/custom/yK1FnBOGSo-K-miF9s_pmg/v3?accountIdentifier=hQqKIQj-Shmu0w8oCWJbUA&orgIdentifier=DoNotDeleteTriggerOrg&projectIdentifier=CDCNGAuto_PolicyRemotePipelineHztGzfGcmv&pipelineIdentifier=pl_auto_pipeline_4B8vW&triggerIdentifier=CDCNGAuto_Custom_Webhook_Trigger_NfT7DEbBRI
+                      method: POST
+                      headers: [ ]
+                      inputVariables: [ ]
+                      outputVariables: [ ]
+                      requestBody: "{\"sample_key\": \"sample_value\", \"stages_to_execute\": \"S2\", \"input_set_refs\": \"$inputSet\"}"
+          tags: { }
