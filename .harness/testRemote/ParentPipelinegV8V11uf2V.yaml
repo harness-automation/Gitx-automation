@@ -1,0 +1,15 @@
+pipeline:
+  name: ParentPipelinegV8V11uf2V
+  identifier: ParentPipelinegV8V11uf2V
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: stage1
+        type: Pipeline
+        spec:
+          org: Simlified_Git_sync
+          pipeline: pl_auto_pipeline_Xfsmq
+          project: SimplifiedGitSync_Do_Not_Delete
