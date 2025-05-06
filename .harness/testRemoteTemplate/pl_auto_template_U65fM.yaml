@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_U65fM
+  identifier: pl_auto_template_U65fM
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Te79W
+              identifier: pl_auto_template_Te79W
+              template:
+                templateRef: account.pl_auto_template_Te79W
+                versionLabel: v3
+                gitBranch: main
