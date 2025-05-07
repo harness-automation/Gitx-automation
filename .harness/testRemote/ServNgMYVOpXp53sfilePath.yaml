@@ -1,0 +1,10 @@
+service:
+  name: ServNgMYVOpXp53s
+  identifier: ServNgMYVOpXp53s
+  orgIdentifier: OrgNgOvncPr0ivL
+  projectIdentifier: CD_NG_SERENV_CLONEXokctq5vy1
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
