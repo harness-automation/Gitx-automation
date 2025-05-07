@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoVykeSyneIo
+  identifier: NGPipeAutoVykeSyneIo
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
