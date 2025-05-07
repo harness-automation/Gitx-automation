@@ -1,0 +1,12 @@
+infrastructureDefinition:
+  name: NGPipeAutoPfnNA4EpSy
+  identifier: NGPipeAutoPfnNA4EpSy
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  environmentRef: NGPipeAutoUD7ypU76Cx
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
