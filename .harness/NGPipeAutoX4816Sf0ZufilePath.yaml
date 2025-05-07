@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoX4816Sf0Zu
-  identifier: NGPipeAutoX4816Sf0Zu
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
