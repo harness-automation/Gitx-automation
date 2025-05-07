@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_PxVnn
+  identifier: pl_auto_inputset_PxVnn
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_GithubTriggerSSH_NVSOrhAXsB
+  pipeline:
+    identifier: pl_auto_pipeline_Vp5uq
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
