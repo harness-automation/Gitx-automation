@@ -1,0 +1,12 @@
+infrastructureDefinition:
+  name: InfraNgGuPTV1vmPR
+  identifier: InfraNgGuPTV1vmPR
+  orgIdentifier: OrgNgPz52VuxzhI
+  environmentRef: EnvNgSDWwmo0XQP
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
