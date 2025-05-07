@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutol4vEhzBIZx
-  identifier: NGPipeAutol4vEhzBIZx
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
