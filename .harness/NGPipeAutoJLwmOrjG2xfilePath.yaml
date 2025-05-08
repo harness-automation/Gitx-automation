@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoJLwmOrjG2x
+  identifier: NGPipeAutoJLwmOrjG2x
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
