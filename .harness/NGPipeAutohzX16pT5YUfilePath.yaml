@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutohzX16pT5YU
+  identifier: NGPipeAutohzX16pT5YU
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
