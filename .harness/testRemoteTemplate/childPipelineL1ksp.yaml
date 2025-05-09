@@ -1,0 +1,10 @@
+pipeline:
+  name: childPipelineUsingPipelineTemplate
+  identifier: childPipelineL1ksp
+  tags: {}
+  template:
+    templateRef: pipelineTemplatekJezr
+    versionLabel: "v1"
+    gitBranch: main-patch
+  projectIdentifier: NGPipeAutoRerunFromOriginalPipelineDefTFXQRmdFOL
+  orgIdentifier: Pipelines_NonK8s_Org_NG
