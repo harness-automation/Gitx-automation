@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutohzX16pT5YU
-  identifier: NGPipeAutohzX16pT5YU
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
