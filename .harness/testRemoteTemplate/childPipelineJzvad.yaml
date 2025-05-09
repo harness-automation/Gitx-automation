@@ -1,0 +1,10 @@
+pipeline:
+  name: childPipelineUsingPipelineTemplate
+  identifier: childPipelineJzvad
+  tags: {}
+  template:
+    templateRef: pipelineTemplateRkwVl
+    versionLabel: "v1"
+    gitBranch: main-patch
+  projectIdentifier: NGPipeAutoRerunFromOriginalPipelineDef28V390sAUc
+  orgIdentifier: Pipelines_NonK8s_Org_NG
