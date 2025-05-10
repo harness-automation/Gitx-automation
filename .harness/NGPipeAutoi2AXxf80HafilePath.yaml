@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoi2AXxf80Ha
+  identifier: NGPipeAutoi2AXxf80Ha
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
