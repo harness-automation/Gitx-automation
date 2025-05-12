@@ -1,11 +1,11 @@
 infrastructureDefinition:
   name: NGPipeAutop520yn5UPO
   identifier: NGPipeAutop520yn5UPO
-  environmentRef: account.NGPipeAuto3XrPAdw24S
+  environmentRef: NGPipeAuto3XrPAdw24S
   deploymentType: Kubernetes
   type: KubernetesDirect
   spec:
     connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
-    namespace: default
+    namespace: <+input>
     releaseName: release-<+INFRA_KEY_SHORT_ID>
   allowSimultaneousDeployments: true
