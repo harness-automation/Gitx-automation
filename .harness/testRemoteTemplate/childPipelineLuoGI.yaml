@@ -1,0 +1,10 @@
+pipeline:
+  name: childPipelineUsingPipelineTemplate
+  identifier: childPipelineLuoGI
+  tags: {}
+  template:
+    templateRef: pipelineTemplateMSe6t
+    versionLabel: "v1"
+    gitBranch: main-patch
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
