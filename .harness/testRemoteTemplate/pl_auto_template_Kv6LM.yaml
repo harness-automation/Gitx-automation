@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Kv6LM
+  identifier: pl_auto_template_Kv6LM
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_qTcmO
+              identifier: pl_auto_template_qTcmO
+              template:
+                templateRef: account.pl_auto_template_qTcmO
+                versionLabel: v3
+                gitBranch: main
