@@ -1,0 +1,12 @@
+infrastructureDefinition:
+  name: pl_auto_infra_xC9OJ
+  identifier: pl_auto_infra_xC9OJ
+  orgIdentifier: Simlified_Git_sync
+  environmentRef: pl_auto_environment_zcxIL
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
