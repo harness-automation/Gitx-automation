@@ -1,0 +1,10 @@
+service:
+  name: ServNgMpo3meinXg
+  identifier: ServNgMpo3meinXg
+  orgIdentifier: OrgNgiWwvz3avuq
+  projectIdentifier: CD_NG_SERENV_CLONERzYy3aClms
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
