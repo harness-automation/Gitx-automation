@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutomikcLPJSX9
+  identifier: NGPipeAutomikcLPJSX9
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
