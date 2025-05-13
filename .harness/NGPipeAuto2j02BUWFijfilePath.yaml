@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAuto2j02BUWFij
+  identifier: NGPipeAuto2j02BUWFij
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
