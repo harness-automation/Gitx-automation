@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoAIR0WC1vbZ
+  identifier: NGPipeAutoAIR0WC1vbZ
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
