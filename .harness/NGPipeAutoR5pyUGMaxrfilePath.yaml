@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutoR5pyUGMaxr
+  identifier: NGPipeAutoR5pyUGMaxr
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
