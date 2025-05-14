@@ -1,11 +1,11 @@
 infrastructureDefinition:
   name: NGPipeAuto54NumM5SKv
   identifier: NGPipeAuto54NumM5SKv
-  environmentRef: account.NGPipeAutooGV56N1xBl
+  environmentRef: NGPipeAutooGV56N1xBl
   deploymentType: Kubernetes
   type: KubernetesDirect
   spec:
     connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
-    namespace: default
+    namespace: <+input>
     releaseName: release-<+INFRA_KEY_SHORT_ID>
   allowSimultaneousDeployments: true
