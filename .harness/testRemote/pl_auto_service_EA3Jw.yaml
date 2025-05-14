@@ -1,0 +1,9 @@
+service:
+  name: pl_auto_service_EA3Jw
+  identifier: pl_auto_service_EA3Jw
+  orgIdentifier: Simlified_Git_sync
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
