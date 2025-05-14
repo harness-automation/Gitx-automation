@@ -1,9 +1,0 @@
-service:
-  name: pl_auto_service_Dn7tM
-  identifier: pl_auto_service_Dn7tM
-  orgIdentifier: Simlified_Git_sync
-  serviceDefinition:
-    spec:
-      release:
-        name: <+input>
-    type: Kubernetes
