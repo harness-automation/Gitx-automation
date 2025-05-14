@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_JsTdl
+  identifier: pl_auto_inputset_JsTdl
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTestkZ6zR
+  pipeline:
+    identifier: PipelineAuto_CRUD0OE
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
