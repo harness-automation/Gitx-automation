@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutokrvXiAb36j
+  identifier: NGPipeAutokrvXiAb36j
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
