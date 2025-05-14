@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_Auce48FbZ7
+  identifier: pl_auto_pipeline_Auce48FbZ7
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_VfFpz
+          identifier: pl_auto_template_VfFpz
+          template:
+            templateRef: account.pl_auto_template_VfFpz
+            versionLabel: v3
