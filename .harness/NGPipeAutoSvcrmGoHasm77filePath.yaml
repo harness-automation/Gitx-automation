@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoSvcrmGoHasm77
+  identifier: NGPipeAutoSvcrmGoHasm77
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvc1LfwrOgwon
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
