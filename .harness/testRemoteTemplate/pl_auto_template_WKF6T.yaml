@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_WKF6T
+  identifier: pl_auto_template_WKF6T
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_5XSnm
+              identifier: pl_auto_template_5XSnm
+              template:
+                templateRef: account.pl_auto_template_5XSnm
+                versionLabel: v3
+                gitBranch: main
