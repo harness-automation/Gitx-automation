@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_2ssMM
+  identifier: pl_auto_template_2ssMM
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_niFiF
+              identifier: pl_auto_template_niFiF
+              template:
+                templateRef: account.pl_auto_template_niFiF
+                versionLabel: v3
+                gitBranch: main
