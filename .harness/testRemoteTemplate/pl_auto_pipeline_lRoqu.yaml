@@ -1,0 +1,27 @@
+pipeline:
+  name: pl_auto_pipeline_lRoqu
+  identifier: pl_auto_pipeline_lRoqu
+  projectIdentifier: NGPipeAutoPMSk9ry8Br3g9
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {}
+  stages:
+    - stage:
+        name: S1
+        identifier: S1
+        tags: {}
+        template:
+          templateRef: pl_auto_template_yOE9F
+          versionLabel: "1"
+          templateInputs:
+            type: Custom
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: ShellScript_1
+                      type: ShellScript
+                      spec:
+                        source:
+                          type: Inline
+                          spec:
+                            script: <+input>
