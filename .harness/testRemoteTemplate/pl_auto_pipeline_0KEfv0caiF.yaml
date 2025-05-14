@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_0KEfv0caiF
+  identifier: pl_auto_pipeline_0KEfv0caiF
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_5sRAj
+          identifier: pl_auto_template_5sRAj
+          template:
+            templateRef: account.pl_auto_template_5sRAj
+            versionLabel: v3
