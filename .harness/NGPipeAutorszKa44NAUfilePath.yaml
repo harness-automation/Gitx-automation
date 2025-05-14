@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutorszKa44NAU
+  identifier: NGPipeAutorszKa44NAU
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
