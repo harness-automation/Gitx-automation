@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_mOpCr
+  identifier: pl_auto_template_mOpCr
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_D5VOR
+              identifier: pl_auto_template_D5VOR
+              template:
+                templateRef: account.pl_auto_template_D5VOR
+                versionLabel: v3
+                gitBranch: main
