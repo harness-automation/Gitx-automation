@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoPWVUfiKyg8
+  identifier: NGPipeAutoPWVUfiKyg8
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
