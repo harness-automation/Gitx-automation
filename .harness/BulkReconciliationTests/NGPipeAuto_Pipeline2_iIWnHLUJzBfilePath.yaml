@@ -8,14 +8,30 @@ pipeline:
     - stage:
         name: Stage1
         identifier: Stage1
-        tags: { }
+        tags: {}
         template:
           templateRef: org.NGPipeAuto_OrgStageTemp_eLyvYHRXgl
           versionLabel: Org_Stage
+          templateInputs:
+            type: Custom
+            spec:
+              execution:
+                steps:
+                  - stepGroup:
+                      identifier: Referenced_Step_Group_Template
+                      template:
+                        templateInputs:
+                          steps:
+                            - step:
+                                identifier: Referenced_Step_Template_v2
+                                template:
+                                  templateInputs:
+                                    type: ShellScript
+                                    timeout: <+input>
     - stage:
         name: Stage2
         identifier: Stage2
-        description: "Stage having step group and step templates"
+        description: Stage having step group and step templates
         type: Custom
         spec:
           execution:
@@ -26,6 +42,14 @@ pipeline:
                   template:
                     templateRef: account.NGPipeAuto_ActStepGroupTemp_0tGnzdQJbc
                     versionLabel: Act_StepGrp
+                    templateInputs:
+                      steps:
+                        - step:
+                            identifier: Referenced_Step_Template_v2
+                            template:
+                              templateInputs:
+                                type: ShellScript
+                                timeout: <+input>
               - step:
                   name: StepTemplate
                   identifier: StepTemplate
