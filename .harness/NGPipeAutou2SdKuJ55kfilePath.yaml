@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutou2SdKuJ55k
-  identifier: NGPipeAutou2SdKuJ55k
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
