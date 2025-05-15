@@ -1,0 +1,15 @@
+pipeline:
+  name: remote_svc_env_infra_pipeyMWoI
+  identifier: remote_svc_env_infra_pipeyMWoI
+  projectIdentifier: NGPipeAutoPipelineSvcL4lVA0Zgnx
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: s1
+        tags: {}
+        template:
+          templateRef: remote_svc_env_infra_tempwcPm5
+          versionLabel: v1
+          gitBranch: main
