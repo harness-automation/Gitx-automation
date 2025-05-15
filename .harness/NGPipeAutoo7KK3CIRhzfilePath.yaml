@@ -1,9 +1,0 @@
-service:
-  name: NGPipeAutoo7KK3CIRhz
-  identifier: NGPipeAutoo7KK3CIRhz
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
