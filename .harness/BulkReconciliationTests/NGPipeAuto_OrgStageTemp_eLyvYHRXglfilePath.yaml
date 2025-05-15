@@ -3,7 +3,7 @@ template:
   identifier: NGPipeAuto_OrgStageTemp_eLyvYHRXgl
   versionLabel: Org_Stage
   orgIdentifier: Pipelines_NonK8s_Org_NG
-  tags: { }
+  tags: {}
   type: Stage
   spec:
     type: Custom
@@ -16,6 +16,14 @@ template:
               template:
                 templateRef: account.NGPipeAuto_ActStepGroupTemp_0tGnzdQJbc
                 versionLabel: Act_StepGrp
+                templateInputs:
+                  steps:
+                    - step:
+                        identifier: Referenced_Step_Template_v2
+                        template:
+                          templateInputs:
+                            type: ShellScript
+                            timeout: <+input>
           - step:
               name: Referenced_Step_Template_v2
               identifier: Referenced_Step_Template_v2
