@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAuto6fHTThpBOL
+  identifier: NGPipeAuto6fHTThpBOL
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
