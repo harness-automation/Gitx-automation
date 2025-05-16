@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_CNgAi
+  identifier: pl_auto_template_CNgAi
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_QAeNJ
+              identifier: pl_auto_template_QAeNJ
+              template:
+                templateRef: account.pl_auto_template_QAeNJ
+                versionLabel: v3
+                gitBranch: main
