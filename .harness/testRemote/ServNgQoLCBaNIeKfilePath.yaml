@@ -1,0 +1,10 @@
+service:
+  name: ServNgQoLCBaNIeK
+  identifier: ServNgQoLCBaNIeK
+  orgIdentifier: OrgNgKMXyhTUoXE
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
