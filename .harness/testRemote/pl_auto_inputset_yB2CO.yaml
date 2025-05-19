@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_m7aEn
+  identifier: pl_auto_inputset_m7aEn
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_CustomWebhookTrigger_xwgDk
+  pipeline:
+    identifier: pl_auto_pipeline_DiaSV
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
