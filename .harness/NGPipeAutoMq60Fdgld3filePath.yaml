@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoMq60Fdgld3
+  identifier: NGPipeAutoMq60Fdgld3
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvciG15UtEZgS
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
