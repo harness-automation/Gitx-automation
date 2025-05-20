@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_NBp9GrtouB
+  identifier: pl_auto_pipeline_NBp9GrtouB
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_FiLDL
+          identifier: pl_auto_template_FiLDL
+          template:
+            templateRef: account.pl_auto_template_FiLDL
+            versionLabel: v3
