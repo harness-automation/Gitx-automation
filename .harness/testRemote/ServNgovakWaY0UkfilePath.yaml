@@ -1,0 +1,10 @@
+service:
+  name: ServNgovakWaY0Uk
+  identifier: ServNgovakWaY0Uk
+  orgIdentifier: OrgNgSqgBEIHHeu
+  projectIdentifier: CD_NG_SERENV_CLONE54qrP7dUHo
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
