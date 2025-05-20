@@ -1,0 +1,10 @@
+service:
+  name: ServNgOrdek1Y3OO
+  identifier: ServNgOrdek1Y3OO
+  orgIdentifier: OrgNgSqgBEIHHeu
+  projectIdentifier: CD_NG_SERENV_CLONE54qrP7dUHo
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
