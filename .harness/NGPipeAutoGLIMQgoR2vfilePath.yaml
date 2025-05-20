@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoGLIMQgoR2v
+  identifier: NGPipeAutoGLIMQgoR2v
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
