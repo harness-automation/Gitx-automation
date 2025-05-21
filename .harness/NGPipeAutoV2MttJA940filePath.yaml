@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoV2MttJA940
+  identifier: NGPipeAutoV2MttJA940
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
