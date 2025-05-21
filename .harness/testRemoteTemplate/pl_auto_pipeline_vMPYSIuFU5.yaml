@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_vMPYSIuFU5
+  identifier: pl_auto_pipeline_vMPYSIuFU5
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Mtegf
+          identifier: pl_auto_template_Mtegf
+          template:
+            templateRef: account.pl_auto_template_Mtegf
+            versionLabel: v3
