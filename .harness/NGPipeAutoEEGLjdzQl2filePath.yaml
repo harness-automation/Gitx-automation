@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoEEGLjdzQl2
+  identifier: NGPipeAutoEEGLjdzQl2
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
