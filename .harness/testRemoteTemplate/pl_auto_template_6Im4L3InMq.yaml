@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_6Im4L3InMq
+  identifier: pl_auto_template_6Im4L3InMq
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_cPICPsIThv
+              identifier: pl_auto_template_cPICPsIThv
+              template:
+                templateRef: account.pl_auto_template_cPICPsIThv
+                versionLabel: v3
+                gitBranch: main
