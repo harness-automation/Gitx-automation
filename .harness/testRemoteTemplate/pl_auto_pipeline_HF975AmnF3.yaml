@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_HF975AmnF3
+  identifier: pl_auto_pipeline_HF975AmnF3
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_9x9LcqhfTX
+          identifier: pl_auto_template_9x9LcqhfTX
+          template:
+            templateRef: account.pl_auto_template_9x9LcqhfTX
+            versionLabel: v3
