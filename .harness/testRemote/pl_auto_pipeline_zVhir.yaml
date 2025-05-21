@@ -1,0 +1,15 @@
+pipeline:
+  name: pl_auto_pipeline_zVhir
+  identifier: pl_auto_pipeline_zVhir
+  projectIdentifier: CDCNGAuto_CustomWebhookTrigger_91Wg5
+  orgIdentifier: DoNotDeleteTriggerOrg
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: stage1
+        type: Pipeline
+        spec:
+          org: DoNotDeleteTriggerOrg
+          pipeline: pl_auto_pipeline_YvPRT
+          project: CDCNGAuto_CustomWebhookTrigger_91Wg5
