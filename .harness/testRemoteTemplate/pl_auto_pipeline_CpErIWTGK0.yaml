@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_CpErIWTGK0
+  identifier: pl_auto_pipeline_CpErIWTGK0
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_p2SNJ
+          identifier: pl_auto_template_p2SNJ
+          template:
+            templateRef: account.pl_auto_template_p2SNJ
+            versionLabel: v3
