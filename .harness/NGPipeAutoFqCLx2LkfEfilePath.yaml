@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoFqCLx2LkfE
-  identifier: NGPipeAutoFqCLx2LkfE
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
