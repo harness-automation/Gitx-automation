@@ -1,7 +1,8 @@
 environment:
+  name: NGPipeAutoDNCjab071C
+  identifier: NGPipeAutoDNCjab071C
   orgIdentifier: Pipelines_NonK8s_Org_NG
   projectIdentifier: NGPipeAutoPipelineSvcbGepNkyCkv
-  identifier: NGPipeAutoDNCjab071C
-  tags: {}
-  name: NGPipeAutoDNCjab071C
-  type: PreProduction
+  tags: {
+    }
+  type: Production
