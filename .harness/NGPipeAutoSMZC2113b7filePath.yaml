@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoSMZC2113b7
-  identifier: NGPipeAutoSMZC2113b7
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
