@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_OoweeIv1nS
+  identifier: pl_auto_template_OoweeIv1nS
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_zgyefgmKLU
+              identifier: pl_auto_template_zgyefgmKLU
+              template:
+                templateRef: account.pl_auto_template_zgyefgmKLU
+                versionLabel: v3
+                gitBranch: main
