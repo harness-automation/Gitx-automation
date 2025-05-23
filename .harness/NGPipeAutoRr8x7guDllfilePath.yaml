@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoRr8x7guDll
+  identifier: NGPipeAutoRr8x7guDll
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
