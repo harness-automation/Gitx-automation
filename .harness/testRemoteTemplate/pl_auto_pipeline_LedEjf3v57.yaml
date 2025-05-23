@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_LedEjf3v57
+  identifier: pl_auto_pipeline_LedEjf3v57
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_zdfTb
+          identifier: pl_auto_template_zdfTb
+          template:
+            templateRef: account.pl_auto_template_zdfTb
+            versionLabel: v3
