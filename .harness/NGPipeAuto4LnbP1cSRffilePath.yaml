@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAuto4LnbP1cSRf
-  identifier: NGPipeAuto4LnbP1cSRf
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
