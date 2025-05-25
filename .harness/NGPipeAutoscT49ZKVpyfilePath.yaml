@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoscT49ZKVpy
+  identifier: NGPipeAutoscT49ZKVpy
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
