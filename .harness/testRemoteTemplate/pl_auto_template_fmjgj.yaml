@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_fmjgj
+  identifier: pl_auto_template_fmjgj
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_ImFSV
+              identifier: pl_auto_template_ImFSV
+              template:
+                templateRef: account.pl_auto_template_ImFSV
+                versionLabel: v3
+                gitBranch: main
