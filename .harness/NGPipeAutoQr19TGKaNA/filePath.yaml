@@ -1,11 +1,11 @@
 infrastructureDefinition:
   name: NGPipeAutoQr19TGKaNA
   identifier: NGPipeAutoQr19TGKaNA
-  environmentRef: account.NGPipeAutooiaSXfcsLx
+  environmentRef: NGPipeAutooiaSXfcsLx
   deploymentType: Kubernetes
   type: KubernetesDirect
   spec:
     connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
-    namespace: default
+    namespace: <+input>
     releaseName: release-<+INFRA_KEY_SHORT_ID>
   allowSimultaneousDeployments: true
