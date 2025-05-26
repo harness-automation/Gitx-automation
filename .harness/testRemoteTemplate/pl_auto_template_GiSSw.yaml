@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_GiSSw
+  identifier: pl_auto_template_GiSSw
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Bol55
+              identifier: pl_auto_template_Bol55
+              template:
+                templateRef: account.pl_auto_template_Bol55
+                versionLabel: v3
+                gitBranch: main
