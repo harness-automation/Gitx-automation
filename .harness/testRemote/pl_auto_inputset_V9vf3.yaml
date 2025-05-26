@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_YKmck
+  identifier: pl_auto_inputset_YKmck
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_GithubTriggerSSH_3sqJTBzPLf
+  pipeline:
+    identifier: pl_auto_pipeline_plBta
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
