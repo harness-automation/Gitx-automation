@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoipE98Td5ry
+  identifier: NGPipeAutoipE98Td5ry
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
