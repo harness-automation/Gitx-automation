@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_fsLdD
+  identifier: pl_auto_template_fsLdD
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_YfPC3
+              identifier: pl_auto_template_YfPC3
+              template:
+                templateRef: account.pl_auto_template_YfPC3
+                versionLabel: v3
+                gitBranch: main
