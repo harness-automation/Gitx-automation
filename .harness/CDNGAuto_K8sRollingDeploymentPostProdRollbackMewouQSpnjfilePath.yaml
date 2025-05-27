@@ -1,0 +1,84 @@
+pipeline:
+  name: CDNGAuto_K8sRollingDeploymentPostProdRollbackMewouQSpnj
+  identifier: CDNGAuto_K8sRollingDeploymentPostProdRollbackMewouQSpnj
+  projectIdentifier: NGPipeAutoK8saJGt9Ij1nd
+  orgIdentifier: Ng_Pipelines_K8s_Organisations
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: s1
+        description: ""
+        type: Deployment
+        spec:
+          deploymentType: Kubernetes
+          service:
+            serviceRef: svcSDK
+            serviceInputs:
+              serviceDefinition:
+                type: Kubernetes
+                spec:
+                  artifacts:
+                    primary:
+                      sources:
+                        - identifier: test
+                          type: GoogleArtifactRegistry
+                          spec:
+                            version: <+input>
+          environment:
+            environmentRef: test
+            deployToAll: false
+            infrastructureDefinitions:
+              - identifier: k8s_infra
+          execution:
+            steps:
+              - step:
+                  name: Rollout Deployment
+                  identifier: rolloutDeployment
+                  type: K8sRollingDeploy
+                  timeout: 10m
+                  spec:
+                    skipDryRun: false
+                    pruningEnabled: false
+                    delegateSelectors:
+                      - acct-delegate
+            rollbackSteps:
+              - stepGroup:
+                  name: stepGroupNew
+                  identifier: stepGroupNew
+                  steps:
+                    - step:
+                        type: ShellScript
+                        name: ShellScript_1
+                        identifier: ShellScript_1
+                        spec:
+                          shell: Bash
+                          onDelegate: true
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo "hi"
+                          environmentVariables: [ ]
+                          outputVariables: [ ]
+                        timeout: 10m
+                        strategy:
+                          matrix:
+                            groups:
+                              - hostName1
+                              - hostName2
+              - step:
+                  name: Rollback Rollout Deployment
+                  identifier: rollbackRolloutDeployment
+                  type: K8sRollingRollback
+                  timeout: 10m
+                  spec:
+                    pruningEnabled: false
+                    delegateSelectors:
+                      - acct-delegate
+        tags: {}
+        failureStrategies:
+          - onFailure:
+              errors:
+                - AllErrors
+              action:
+                type: StageRollback
