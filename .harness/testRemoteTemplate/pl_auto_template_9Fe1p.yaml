@@ -1,0 +1,27 @@
+template:
+  name: pl_auto_template_9Fe1p
+  identifier: pl_auto_template_9Fe1p
+  versionLabel: "1"
+  type: Stage
+  projectIdentifier: NGPipeAutoPMShu7sz9R2KH
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              type: ShellScript
+              name: ShellScript_1
+              identifier: ShellScript_1
+              spec:
+                shell: Bash
+                executionTarget: {}
+                source:
+                  type: Inline
+                  spec:
+                    script: <+input>
+                environmentVariables: []
+                outputVariables: []
+              timeout: 10m
