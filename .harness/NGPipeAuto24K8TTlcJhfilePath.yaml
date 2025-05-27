@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAuto24K8TTlcJh
-  identifier: NGPipeAuto24K8TTlcJh
-  serviceDefinition:
-    spec:
-      release:
-        name: <+input>
-    type: Kubernetes
