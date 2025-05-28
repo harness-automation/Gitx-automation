@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoiQlSYbDexF
+  identifier: NGPipeAutoiQlSYbDexF
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
