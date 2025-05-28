@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAuto695FATiVtQ
+  identifier: NGPipeAuto695FATiVtQ
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
