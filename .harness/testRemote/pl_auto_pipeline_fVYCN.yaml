@@ -1,0 +1,28 @@
+pipeline:
+  name: pl_auto_pipeline_fVYCN
+  identifier: pl_auto_pipeline_fVYCN
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_PolicyRemotePipelinenNVX7OtsE7
+  tags: { }
+  stages:
+      - stage:
+          name: S2
+          identifier: S2
+          description: ""
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    type: Http
+                    name: Http_1
+                    identifier: Http_1
+                    timeout: 10s
+                    spec:
+                      url: https://systemdailysanity.pr2.harness.io/gateway/pipeline/api/webhook/custom/MxVn7IbwRLiyCeTb3WgmiQ/v3?accountIdentifier=Ke65t_sCRkmJo1vir6e5Zw&orgIdentifier=DoNotDeleteTriggerOrg&projectIdentifier=CDCNGAuto_PolicyRemotePipelinenNVX7OtsE7&pipelineIdentifier=pl_auto_pipeline_2LA83&triggerIdentifier=CDCNGAuto_Custom_Webhook_Trigger_uiR0d4D6jw
+                      method: POST
+                      headers: [ ]
+                      inputVariables: [ ]
+                      outputVariables: [ ]
+                      requestBody: "{\"sample_key\": \"sample_value\", \"stages_to_execute\": \"S2\", \"input_set_refs\": \"$inputSet\"}"
+          tags: { }
