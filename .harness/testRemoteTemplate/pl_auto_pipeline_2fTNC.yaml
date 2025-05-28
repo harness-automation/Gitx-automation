@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_2fTNC
+  identifier: pl_auto_pipeline_2fTNC
+  template:
+    templateRef: account.pl_auto_template_jchGR
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
