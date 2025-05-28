@@ -1,7 +1,8 @@
 environment:
+  name: NGPipeAutoLX35BlRMHK
+  identifier: NGPipeAutoLX35BlRMHK
   orgIdentifier: Pipelines_NonK8s_Org_NG
   projectIdentifier: NGPipeAutoPipelineSvcu5Dy7PaCBR
-  identifier: NGPipeAutoLX35BlRMHK
-  tags: {}
-  name: NGPipeAutoLX35BlRMHK
-  type: PreProduction
+  tags: {
+    }
+  type: Production
