@@ -1,0 +1,10 @@
+service:
+  name: ServNgWGytmARgws
+  identifier: ServNgWGytmARgws
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
