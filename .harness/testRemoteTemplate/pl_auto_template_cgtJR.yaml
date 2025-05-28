@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_cgtJR
+  identifier: pl_auto_template_cgtJR
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_OMdmc
+              identifier: pl_auto_template_OMdmc
+              template:
+                templateRef: account.pl_auto_template_OMdmc
+                versionLabel: v3
+                gitBranch: main
