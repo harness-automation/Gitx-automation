@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoXiOHCHtf6E
+  identifier: NGPipeAutoXiOHCHtf6E
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
