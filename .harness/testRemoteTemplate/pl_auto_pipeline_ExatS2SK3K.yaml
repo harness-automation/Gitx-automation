@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_ExatS2SK3K
+  identifier: pl_auto_pipeline_ExatS2SK3K
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_cgtJR
+          identifier: pl_auto_template_cgtJR
+          template:
+            templateRef: account.pl_auto_template_cgtJR
+            versionLabel: v3
