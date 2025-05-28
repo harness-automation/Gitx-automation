@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_z5EAK
+  identifier: pl_auto_template_z5EAK
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_xlHWB
+              identifier: pl_auto_template_xlHWB
+              template:
+                templateRef: account.pl_auto_template_xlHWB
+                versionLabel: v3
+                gitBranch: main
