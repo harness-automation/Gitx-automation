@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_CRC23HsWZv
+  identifier: pl_auto_pipeline_CRC23HsWZv
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_6dVS2
+          identifier: pl_auto_template_6dVS2
+          template:
+            templateRef: account.pl_auto_template_6dVS2
+            versionLabel: v3
