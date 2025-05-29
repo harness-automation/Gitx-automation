@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_h5lNJ8LWTJ
+  identifier: pl_auto_pipeline_h5lNJ8LWTJ
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_XLhbxDogIX
+          identifier: pl_auto_template_XLhbxDogIX
+          template:
+            templateRef: account.pl_auto_template_XLhbxDogIX
+            versionLabel: v3
