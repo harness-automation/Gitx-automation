@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_oSEdm
+  identifier: pl_auto_template_oSEdm
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_SBZFu
+              identifier: pl_auto_template_SBZFu
+              template:
+                templateRef: account.pl_auto_template_SBZFu
+                versionLabel: v3
+                gitBranch: main
