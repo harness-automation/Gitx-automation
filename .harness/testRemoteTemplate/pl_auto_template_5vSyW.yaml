@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_5vSyW
+  identifier: pl_auto_template_5vSyW
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_NdxMB
+              identifier: pl_auto_template_NdxMB
+              template:
+                templateRef: account.pl_auto_template_NdxMB
+                versionLabel: v3
+                gitBranch: main
