@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoDPA49IdxLx
+  identifier: NGPipeAutoDPA49IdxLx
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvctPdmseivdB
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
