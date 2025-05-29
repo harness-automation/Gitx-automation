@@ -1,0 +1,30 @@
+pipeline:
+  name: github_any_action_pipelinemkLRb
+  identifier: github_any_action_pipelinemkLRb
+  projectIdentifier: CDCNGAuto_GithubWebhookTrigger_ss2lBb9CfS
+  orgIdentifier: DoNotDeleteTriggerOrg
+  tags: { }
+  stages:
+      - stage:
+          name: S1
+          identifier: S1
+          description: ""
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    type: ShellScript
+                    name: Shell Script_1
+                    identifier: ShellScript_1
+                    spec:
+                      shell: Bash
+                      onDelegate: true
+                      source:
+                        type: Inline
+                        spec:
+                          script: echo 'hi'
+                      environmentVariables: [ ]
+                      outputVariables: [ ]
+                    timeout: 1m
+          tags: { }
