@@ -1,0 +1,15 @@
+pipeline:
+  name: remote_svc_env_infra_pipeerZus
+  identifier: remote_svc_env_infra_pipeerZus
+  projectIdentifier: NGPipeAutoPipelineSvcCXRP266RjG
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: s1
+        tags: {}
+        template:
+          templateRef: remote_svc_env_infra_tempJKaJP
+          versionLabel: v1
+          gitBranch: main
