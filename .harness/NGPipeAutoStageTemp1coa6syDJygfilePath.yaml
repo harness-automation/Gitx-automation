@@ -17,9 +17,6 @@ template:
               template:
                 templateRef: NGPipeAutoStepTemp1gPv3EPyIcx
                 versionLabel: v1
-                templateInputs:
-                  type: ShellScript
-                  timeout: <+input>
       environment:
         environmentRef: <+input>
         deployToAll: false
@@ -30,4 +27,4 @@ template:
           type: String
           description: ""
           required: false
-          value: <+input>.allowedValues(<+input>.allowedValues(var1,var2,var3))
+          value: "<+input>.allowedValues(<+input>.allowedValues(var1,var2,var3))"
