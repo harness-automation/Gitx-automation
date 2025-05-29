@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_XT7t43mB83
+  identifier: pl_auto_pipeline_XT7t43mB83
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_i9a1a
+          identifier: pl_auto_template_i9a1a
+          template:
+            templateRef: account.pl_auto_template_i9a1a
+            versionLabel: v3
