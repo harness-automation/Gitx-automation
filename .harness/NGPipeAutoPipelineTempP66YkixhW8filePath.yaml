@@ -18,14 +18,6 @@ template:
             templateInputs:
               type: Custom
               spec:
-                execution:
-                  steps:
-                    - step:
-                        identifier: s1
-                        template:
-                          templateInputs:
-                            type: ShellScript
-                            timeout: <+input>
                 environment:
                   environmentRef: <+input>
                   environmentInputs: <+input>
@@ -33,7 +25,7 @@ template:
                 variables:
                   - name: values
                     type: String
-                    value: <+input>.allowedValues(<+input>.allowedValues(var1,var2,var3))
+                    value: "<+input>.allowedValues(<+input>.allowedValues(var1,var2,var3))"
       - stage:
           name: s2
           identifier: s2
@@ -44,14 +36,6 @@ template:
             templateInputs:
               type: Custom
               spec:
-                execution:
-                  steps:
-                    - step:
-                        identifier: s1
-                        template:
-                          templateInputs:
-                            type: ShellScript
-                            timeout: <+input>
                 environment:
                   environmentRef: <+input>
                   environmentInputs: <+input>
@@ -59,6 +43,5 @@ template:
                 variables:
                   - name: values
                     type: String
-                    value: <+input>.allowedValues(<+input>.allowedValues(var1,var2,var3))
+                    value: "<+input>.allowedValues(<+input>.allowedValues(var1,var2,var3))"
     allowStageExecutions: true
-
