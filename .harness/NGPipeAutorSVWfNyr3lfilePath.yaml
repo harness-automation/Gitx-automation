@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutorSVWfNyr3l
+  identifier: NGPipeAutorSVWfNyr3l
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
