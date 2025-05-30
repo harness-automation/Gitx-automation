@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoLYyBtthPUP
+  identifier: NGPipeAutoLYyBtthPUP
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
