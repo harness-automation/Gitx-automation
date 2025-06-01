@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoE5Av0OvI23
-  identifier: NGPipeAutoE5Av0OvI23
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
