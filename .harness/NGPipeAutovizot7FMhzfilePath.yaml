@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutovizot7FMhz
+  identifier: NGPipeAutovizot7FMhz
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvc4tSlKWBym6
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
