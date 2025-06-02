@@ -1,0 +1,10 @@
+service:
+  name: ServNgkTTR2EmGdU
+  identifier: ServNgkTTR2EmGdU
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
