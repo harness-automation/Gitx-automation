@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_S2CRcVyIol
+  identifier: pl_auto_pipeline_S2CRcVyIol
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_VNKaK
+          identifier: pl_auto_template_VNKaK
+          template:
+            templateRef: account.pl_auto_template_VNKaK
+            versionLabel: v3
