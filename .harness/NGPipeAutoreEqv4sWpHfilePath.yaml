@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoreEqv4sWpH
+  identifier: NGPipeAutoreEqv4sWpH
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
