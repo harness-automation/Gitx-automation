@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoWLhLIEPdSe
+  identifier: NGPipeAutoWLhLIEPdSe
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
