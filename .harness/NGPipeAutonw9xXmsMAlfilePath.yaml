@@ -1,9 +1,0 @@
-service:
-  name: NGPipeAutonw9xXmsMAl
-  identifier: NGPipeAutonw9xXmsMAl
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
