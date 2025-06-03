@@ -1,11 +1,11 @@
 infrastructureDefinition:
   name: NGPipeAutoFSdLHoA9Rm
   identifier: NGPipeAutoFSdLHoA9Rm
-  environmentRef: account.NGPipeAutodsOcUReh5d
+  environmentRef: NGPipeAutodsOcUReh5d
   deploymentType: Kubernetes
   type: KubernetesDirect
   spec:
     connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
-    namespace: default
+    namespace: <+input>
     releaseName: release-<+INFRA_KEY_SHORT_ID>
   allowSimultaneousDeployments: true
