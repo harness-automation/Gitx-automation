@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutoAlTFTDlQ8F
+  identifier: NGPipeAutoAlTFTDlQ8F
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
