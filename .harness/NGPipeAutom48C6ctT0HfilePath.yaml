@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutom48C6ctT0H
-  identifier: NGPipeAutom48C6ctT0H
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
