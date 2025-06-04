@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoT43tPtwPpj
+  identifier: NGPipeAutoT43tPtwPpj
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
