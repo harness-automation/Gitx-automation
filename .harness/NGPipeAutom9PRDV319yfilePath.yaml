@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutom9PRDV319y
+  identifier: NGPipeAutom9PRDV319y
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
