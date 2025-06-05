@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_xMP6W
+  identifier: pl_auto_template_xMP6W
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_QUblg
+              identifier: pl_auto_template_QUblg
+              template:
+                templateRef: account.pl_auto_template_QUblg
+                versionLabel: v3
+                gitBranch: main
