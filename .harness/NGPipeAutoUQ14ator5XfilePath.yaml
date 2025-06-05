@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoUQ14ator5X
-  identifier: NGPipeAutoUQ14ator5X
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
