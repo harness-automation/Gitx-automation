@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Sk2Gw
+  identifier: pl_auto_template_Sk2Gw
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_D3Vps
+              identifier: pl_auto_template_D3Vps
+              template:
+                templateRef: account.pl_auto_template_D3Vps
+                versionLabel: v3
+                gitBranch: main
