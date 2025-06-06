@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAuto8lUNDLmeay
-  identifier: NGPipeAuto8lUNDLmeay
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
