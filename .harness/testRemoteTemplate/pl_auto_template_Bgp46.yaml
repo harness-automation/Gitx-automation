@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Bgp46
+  identifier: pl_auto_template_Bgp46
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_LRVXA
+              identifier: pl_auto_template_LRVXA
+              template:
+                templateRef: account.pl_auto_template_LRVXA
+                versionLabel: v3
+                gitBranch: main
