@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_NiZFx
+  identifier: pl_auto_template_NiZFx
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_TEvjs
+              identifier: pl_auto_template_TEvjs
+              template:
+                templateRef: account.pl_auto_template_TEvjs
+                versionLabel: v3
+                gitBranch: main
