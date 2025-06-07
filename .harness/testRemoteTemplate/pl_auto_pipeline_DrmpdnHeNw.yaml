@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_DrmpdnHeNw
+  identifier: pl_auto_pipeline_DrmpdnHeNw
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_NiZFx
+          identifier: pl_auto_template_NiZFx
+          template:
+            templateRef: account.pl_auto_template_NiZFx
+            versionLabel: v3
