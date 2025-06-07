@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoiEpfiCp55Q
+  identifier: NGPipeAutoiEpfiCp55Q
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
