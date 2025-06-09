@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutoIb4ELv24Ni
+  identifier: NGPipeAutoIb4ELv24Ni
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
