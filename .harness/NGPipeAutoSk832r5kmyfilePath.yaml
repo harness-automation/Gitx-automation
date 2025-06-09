@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoSk832r5kmy
+  identifier: NGPipeAutoSk832r5kmy
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
