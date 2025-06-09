@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_NECte3AihI
+  identifier: pl_auto_pipeline_NECte3AihI
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_fRob8IVPTK
+          identifier: pl_auto_template_fRob8IVPTK
+          template:
+            templateRef: account.pl_auto_template_fRob8IVPTK
+            versionLabel: v3
