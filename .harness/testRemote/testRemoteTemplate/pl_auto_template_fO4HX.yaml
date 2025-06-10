@@ -1,0 +1,28 @@
+template:
+  name: pl_auto_template_fO4HX
+  identifier: pl_auto_template_fO4HX
+  versionLabel: Version1
+  type: Stage
+  orgIdentifier: Ng_Pipelines_K8s_Organisations
+  projectIdentifier: NGPipeAutoInline2RemoteCdEntitiesgT9KtUkrYr
+  tags: {
+    }
+  spec:
+    type: Approval
+    spec:
+      execution:
+        steps:
+        - step:
+            name: Approval
+            identifier: approval
+            type: HarnessApproval
+            timeout: 1m
+            spec:
+              approvalMessage: Approval message test
+              includePipelineExecutionHistory: true
+              approvers:
+                minimumCount: '1'
+                disallowPipelineExecutor: false
+                userGroups: <+input>
+              approverInputs: [
+                ]
