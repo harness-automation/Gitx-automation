@@ -1,0 +1,10 @@
+service:
+  name: ServNgmTr2MNSega
+  identifier: ServNgmTr2MNSega
+  orgIdentifier: OrgNgDZBQvQslHd
+  projectIdentifier: CD_NG_SERENV_CLONEQbfxKygb1g
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
