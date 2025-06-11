@@ -1,0 +1,10 @@
+service:
+  name: ServNg6YKEtuNRue
+  identifier: ServNg6YKEtuNRue
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
