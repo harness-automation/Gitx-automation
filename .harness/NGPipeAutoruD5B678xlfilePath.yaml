@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoruD5B678xl
-  identifier: NGPipeAutoruD5B678xl
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
