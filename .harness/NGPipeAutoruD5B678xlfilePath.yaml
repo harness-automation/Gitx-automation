@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoruD5B678xl
+  identifier: NGPipeAutoruD5B678xl
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
