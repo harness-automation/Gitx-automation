@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_OVAGIuBZ74
+  identifier: pl_auto_pipeline_OVAGIuBZ74
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_kDggTSNvKy
+          identifier: pl_auto_template_kDggTSNvKy
+          template:
+            templateRef: account.pl_auto_template_kDggTSNvKy
+            versionLabel: v3
