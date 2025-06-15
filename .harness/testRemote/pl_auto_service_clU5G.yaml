@@ -1,9 +1,0 @@
-service:
-  name: pl_auto_service_clU5G
-  identifier: pl_auto_service_clU5G
-  orgIdentifier: Simlified_Git_sync
-  serviceDefinition:
-    spec:
-      release:
-        name: <+input>
-    type: Kubernetes
