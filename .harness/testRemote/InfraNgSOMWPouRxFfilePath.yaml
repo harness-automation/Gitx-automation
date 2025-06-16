@@ -1,0 +1,12 @@
+infrastructureDefinition:
+  name: InfraNgSOMWPouRxF
+  identifier: InfraNgSOMWPouRxF
+  orgIdentifier: OrgNgdme1n4pMEC
+  environmentRef: EnvNgFn2ppbbO8f
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
