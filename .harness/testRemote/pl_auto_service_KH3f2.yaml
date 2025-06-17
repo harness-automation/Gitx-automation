@@ -1,9 +1,0 @@
-service:
-  name: pl_auto_service_KH3f2
-  identifier: pl_auto_service_KH3f2
-  orgIdentifier: Simlified_Git_sync
-  serviceDefinition:
-    spec:
-      release:
-        name: <+input>
-    type: Kubernetes
