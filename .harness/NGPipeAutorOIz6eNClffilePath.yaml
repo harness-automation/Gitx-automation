@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutorOIz6eNClf
+  identifier: NGPipeAutorOIz6eNClf
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
