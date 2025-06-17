@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutoDy6aBUSpDo
+  identifier: NGPipeAutoDy6aBUSpDo
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
