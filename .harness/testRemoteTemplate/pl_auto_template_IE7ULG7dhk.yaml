@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_IE7ULG7dhk
+  identifier: pl_auto_template_IE7ULG7dhk
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_RFgdSp2MG6
+              identifier: pl_auto_template_RFgdSp2MG6
+              template:
+                templateRef: account.pl_auto_template_RFgdSp2MG6
+                versionLabel: v3
+                gitBranch: main
