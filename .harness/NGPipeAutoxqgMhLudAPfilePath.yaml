@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoxqgMhLudAP
+  identifier: NGPipeAutoxqgMhLudAP
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
