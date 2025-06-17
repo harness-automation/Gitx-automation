@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_4eoLQ
+  identifier: pl_auto_template_4eoLQ
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_fVZSh
+              identifier: pl_auto_template_fVZSh
+              template:
+                templateRef: account.pl_auto_template_fVZSh
+                versionLabel: v3
+                gitBranch: main
