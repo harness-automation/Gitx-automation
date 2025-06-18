@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_eteZK
+  identifier: pl_auto_inputset_eteZK
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_CustomWebhookTrigger_RKEQS
+  pipeline:
+    identifier: pl_auto_pipeline_O7Hrt
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
