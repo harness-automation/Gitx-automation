@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_DxI68
+  identifier: pl_auto_template_DxI68
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_TSGeT
+              identifier: pl_auto_template_TSGeT
+              template:
+                templateRef: account.pl_auto_template_TSGeT
+                versionLabel: v3
+                gitBranch: main
