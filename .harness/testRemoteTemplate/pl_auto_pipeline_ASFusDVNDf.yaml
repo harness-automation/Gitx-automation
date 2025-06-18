@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_ASFusDVNDf
+  identifier: pl_auto_pipeline_ASFusDVNDf
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_TZCKU
+          identifier: pl_auto_template_TZCKU
+          template:
+            templateRef: account.pl_auto_template_TZCKU
+            versionLabel: v3
