@@ -1,0 +1,48 @@
+pipeline:
+  name: test_createPr
+  identifier: test_createPr
+  projectIdentifier: naidusanity
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: stg1
+        identifier: stg1
+        description: ""
+        type: Approval
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: CustomApproval
+                  name: gfrdews
+                  identifier: gfrdews
+                  timeout: 1d
+                  spec:
+                    shell: Bash
+                    retryInterval: 10s
+                    scriptTimeout: 10m
+                    source:
+                      type: Inline
+                      spec:
+                        script: echo 'heeloo'
+                    environmentVariables: []
+                    approvalCriteria:
+                      type: KeyValues
+                      spec:
+                        matchAnyCondition: false
+                        conditions:
+                          - key: fds
+                            operator: equals
+                            value: fdsw
+                    rejectionCriteria:
+                      type: KeyValues
+                      spec:
+                        matchAnyCondition: false
+                        conditions: []
+                    onDelegate: true
+                    outputVariables:
+                      - name: fd
+                        type: String
+                        value: fds
+        tags: {}
