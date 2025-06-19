@@ -25,7 +25,7 @@ pipeline:
                     source:
                       type: Inline
                       spec:
-                        script: echo 'heeloo'
+                        script: echo 'heeloo'frd
                     environmentVariables: []
                     approvalCriteria:
                       type: KeyValues
