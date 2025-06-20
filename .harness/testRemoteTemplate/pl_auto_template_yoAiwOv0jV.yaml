@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_yoAiwOv0jV
+  identifier: pl_auto_template_yoAiwOv0jV
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_J7BDVDjogU
+              identifier: pl_auto_template_J7BDVDjogU
+              template:
+                templateRef: account.pl_auto_template_J7BDVDjogU
+                versionLabel: v3
+                gitBranch: main
