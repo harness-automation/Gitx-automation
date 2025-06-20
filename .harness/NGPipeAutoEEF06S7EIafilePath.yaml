@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoEEF06S7EIa
+  identifier: NGPipeAutoEEF06S7EIa
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
