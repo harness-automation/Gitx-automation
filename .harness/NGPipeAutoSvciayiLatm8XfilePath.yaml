@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoSvciayiLatm8X
+  identifier: NGPipeAutoSvciayiLatm8X
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcMOGM92MDSV
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
