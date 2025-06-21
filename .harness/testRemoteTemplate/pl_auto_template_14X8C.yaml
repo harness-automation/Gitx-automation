@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_14X8C
+  identifier: pl_auto_template_14X8C
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_mEgBi
+              identifier: pl_auto_template_mEgBi
+              template:
+                templateRef: account.pl_auto_template_mEgBi
+                versionLabel: v3
+                gitBranch: main
