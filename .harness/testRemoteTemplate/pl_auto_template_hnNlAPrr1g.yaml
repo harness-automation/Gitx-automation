@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_hnNlAPrr1g
+  identifier: pl_auto_template_hnNlAPrr1g
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_BayON62gaF
+              identifier: pl_auto_template_BayON62gaF
+              template:
+                templateRef: account.pl_auto_template_BayON62gaF
+                versionLabel: v3
+                gitBranch: main
