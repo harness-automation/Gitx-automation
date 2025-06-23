@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_SqrUB
+  identifier: pl_auto_template_SqrUB
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_b4Mqg
+              identifier: pl_auto_template_b4Mqg
+              template:
+                templateRef: account.pl_auto_template_b4Mqg
+                versionLabel: v3
+                gitBranch: main
