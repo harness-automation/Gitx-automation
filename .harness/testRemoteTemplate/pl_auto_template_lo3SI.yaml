@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_lo3SI
+  identifier: pl_auto_template_lo3SI
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_vnpzf
+              identifier: pl_auto_template_vnpzf
+              template:
+                templateRef: account.pl_auto_template_vnpzf
+                versionLabel: v3
+                gitBranch: main
