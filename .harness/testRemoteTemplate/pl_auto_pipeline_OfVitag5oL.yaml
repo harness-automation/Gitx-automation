@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_OfVitag5oL
+  identifier: pl_auto_pipeline_OfVitag5oL
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_0XdNcGbyCo
+          identifier: pl_auto_template_0XdNcGbyCo
+          template:
+            templateRef: account.pl_auto_template_0XdNcGbyCo
+            versionLabel: v3
