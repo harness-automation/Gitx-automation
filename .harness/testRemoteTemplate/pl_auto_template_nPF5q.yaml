@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_nPF5q
+  identifier: pl_auto_template_nPF5q
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_SSUPU
+              identifier: pl_auto_template_SSUPU
+              template:
+                templateRef: account.pl_auto_template_SSUPU
+                versionLabel: v3
+                gitBranch: main
