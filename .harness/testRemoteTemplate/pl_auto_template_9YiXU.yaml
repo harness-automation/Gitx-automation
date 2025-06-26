@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_9YiXU
+  identifier: pl_auto_template_9YiXU
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_CRLtf
+              identifier: pl_auto_template_CRLtf
+              template:
+                templateRef: account.pl_auto_template_CRLtf
+                versionLabel: v3
+                gitBranch: main
