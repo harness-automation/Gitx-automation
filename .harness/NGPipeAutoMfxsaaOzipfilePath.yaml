@@ -1,7 +1,8 @@
 environment:
+  name: NGPipeAutoMfxsaaOzip
+  identifier: NGPipeAutoMfxsaaOzip
   orgIdentifier: Pipelines_NonK8s_Org_NG
   projectIdentifier: NGPipeAutoPipelineSvcyvQ40W2R2Q
-  identifier: NGPipeAutoMfxsaaOzip
-  tags: {}
-  name: NGPipeAutoMfxsaaOzip
-  type: PreProduction
+  tags: {
+    }
+  type: Production
