@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoUhp2pPXwaP
+  identifier: NGPipeAutoUhp2pPXwaP
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
