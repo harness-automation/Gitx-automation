@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoGH5vrmZcna
+  identifier: NGPipeAutoGH5vrmZcna
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
