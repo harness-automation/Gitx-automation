@@ -1,11 +1,11 @@
 infrastructureDefinition:
   name: NGPipeAutoDcmGAWL5p2
   identifier: NGPipeAutoDcmGAWL5p2
-  environmentRef: account.NGPipeAutoqE9mfMoVPs
+  environmentRef: NGPipeAutoqE9mfMoVPs
   deploymentType: Kubernetes
   type: KubernetesDirect
   spec:
     connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
-    namespace: default
+    namespace: <+input>
     releaseName: release-<+INFRA_KEY_SHORT_ID>
   allowSimultaneousDeployments: true
