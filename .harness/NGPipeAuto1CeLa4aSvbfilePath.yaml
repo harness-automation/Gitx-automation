@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAuto1CeLa4aSvb
+  identifier: NGPipeAuto1CeLa4aSvb
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
