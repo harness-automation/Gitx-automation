@@ -1,11 +1,11 @@
 infrastructureDefinition:
   name: NGPipeAutolonyobc5vs
   identifier: NGPipeAutolonyobc5vs
-  environmentRef: account.NGPipeAutogD7APsumbv
+  environmentRef: NGPipeAutogD7APsumbv
   deploymentType: Kubernetes
   type: KubernetesDirect
   spec:
     connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
-    namespace: default
+    namespace: <+input>
     releaseName: release-<+INFRA_KEY_SHORT_ID>
   allowSimultaneousDeployments: true
