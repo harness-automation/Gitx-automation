@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoYjuWPAnuDP
+  identifier: NGPipeAutoYjuWPAnuDP
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
