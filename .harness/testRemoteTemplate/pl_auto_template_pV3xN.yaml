@@ -1,0 +1,27 @@
+template:
+  name: pl_auto_template_pV3xN
+  identifier: pl_auto_template_pV3xN
+  versionLabel: "1"
+  type: Stage
+  projectIdentifier: NGPipeAutoPMSdn83E9751H
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              type: ShellScript
+              name: ShellScript_1
+              identifier: ShellScript_1
+              spec:
+                shell: Bash
+                executionTarget: {}
+                source:
+                  type: Inline
+                  spec:
+                    script: <+input>
+                environmentVariables: []
+                outputVariables: []
+              timeout: 10m
