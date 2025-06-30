@@ -1,0 +1,10 @@
+service:
+  name: ServNgpLtCHfabZo
+  identifier: ServNgpLtCHfabZo
+  orgIdentifier: OrgNg7hYH56d8MQ
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
