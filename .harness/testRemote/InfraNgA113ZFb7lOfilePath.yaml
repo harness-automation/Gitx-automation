@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: InfraNgA113ZFb7lO
+  identifier: InfraNgA113ZFb7lO
+  orgIdentifier: OrgNgM8wApiyuuF
+  projectIdentifier: CD_NG_SERENV_CLONEY5OYu4aURI
+  environmentRef: EnvNgPatcuEUsVC
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
