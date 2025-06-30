@@ -1,0 +1,57 @@
+template:
+  name: remote_svc_env_infra_tempZyibV
+  identifier: remote_svc_env_infra_tempZyibV
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: NGPipeAutoPipelineSvc8wx2kgfTHP
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {}
+  spec:
+    type: Deployment
+    spec:
+      deploymentType: Kubernetes
+      service:
+        serviceRef: NGPipeAutoSvc3BIsEZhAix
+      environments:
+        metadata:
+          parallel: true
+        values:
+          - environmentRef: NGPipeAutoWsgC0TmRm0
+            deployToAll: false
+            infrastructureDefinitions:
+              - identifier: NGPipeAutofIzGMsxoN7
+                inputs:
+                  identifier: NGPipeAutofIzGMsxoN7
+                  type: KubernetesDirect
+                  spec:
+                    namespace: default
+      execution:
+        steps:
+          - step:
+              name: Rollout Deployment
+              identifier: rolloutDeployment
+              type: K8sRollingDeploy
+              timeout: 10m
+              spec:
+                skipDryRun: false
+                pruningEnabled: false
+        rollbackSteps:
+          - step:
+              name: Rollback Rollout Deployment
+              identifier: rollbackRolloutDeployment
+              type: K8sRollingRollback
+              timeout: 10m
+              spec:
+                pruningEnabled: false
+    failureStrategies:
+      - onFailure:
+          errors:
+            - AllErrors
+          action:
+            type: StageRollback
+    variables:
+      - name: resourceNamePrefix
+        type: String
+        description: ""
+        required: false
+        value: pipelinesanityuuh
