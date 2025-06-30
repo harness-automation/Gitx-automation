@@ -1,0 +1,70 @@
+---
+service:
+  serviceDefinition:
+    type: "ECS"
+    spec:
+      artifacts:
+        primary:
+          primaryArtifactRef: "artifact2"
+          sources:
+          - spec:
+              connectorRef: "account.ECRConnectorForAutomationTest"
+              imagePath: "todolist"
+              tag: "latest"
+              region: "us-east-1"
+            identifier: "artifact2"
+            type: "Ecr"
+      manifests:
+      - manifest:
+          identifier: "taskDef"
+          type: "EcsTaskDefinition"
+          spec:
+            store:
+              type: "Github"
+              spec:
+                connectorRef: "account.GitHubAccHttpConnectorForAutomationTest"
+                gitFetchType: "Branch"
+                paths:
+                - "ECS/sample/RegisterTaskDefinitionRequest.yaml"
+                repoName: "PipelinesNgAutomation"
+                branch: "master"
+      - manifest:
+          identifier: "serviceDef"
+          type: "EcsServiceDefinition"
+          spec:
+            store:
+              type: "S3"
+              spec:
+                connectorRef: "account.ECRConnectorForAutomationTest"
+                region: "us-east-1"
+                bucketName: "donot-delete-ecs-auto"
+                paths:
+                - "ECS/sample/CreateServiceRequest.yaml"
+      - manifest:
+          identifier: "scalingPolicy"
+          type: "EcsScalingPolicyDefinition"
+          spec:
+            store:
+              type: "S3"
+              spec:
+                connectorRef: "account.ECRConnectorForAutomationTest"
+                region: "us-east-1"
+                bucketName: "donot-delete-ecs-auto"
+                paths:
+                - "ECS/sample/PutScalingPolicyRequest.yaml"
+      - manifest:
+          identifier: "scalable"
+          type: "EcsScalableTargetDefinition"
+          spec:
+            store:
+              type: "S3"
+              spec:
+                connectorRef: "account.ECRConnectorForAutomationTest"
+                region: "us-east-1"
+                bucketName: "donot-delete-ecs-auto"
+                paths:
+                - "ECS/sample/RegisterScalableTargetRequest.yaml"
+  gitOpsEnabled: false
+  identifier: "EcsService1_i9_Clone"
+  tags: {}
+  name: "EcsService1_i9 - Clone"
