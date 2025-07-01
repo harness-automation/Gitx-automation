@@ -1,0 +1,27 @@
+pipeline:
+  name: pl_auto_pipeline_AsZeR
+  identifier: pl_auto_pipeline_AsZeR
+  projectIdentifier: NGPipeAutoPMS4MmkJ4wom0
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {}
+  stages:
+    - stage:
+        name: S1
+        identifier: S1
+        tags: {}
+        template:
+          templateRef: pl_auto_template_l5Vdb
+          versionLabel: "1"
+          templateInputs:
+            type: Custom
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: ShellScript_1
+                      type: ShellScript
+                      spec:
+                        source:
+                          type: Inline
+                          spec:
+                            script: <+input>
