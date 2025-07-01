@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoF91Voca02w
+  identifier: NGPipeAutoF91Voca02w
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvc4drnwTdbLb
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
