@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_FfOvRPVZZF
+  identifier: pl_auto_pipeline_FfOvRPVZZF
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Nkuhy
+          identifier: pl_auto_template_Nkuhy
+          template:
+            templateRef: account.pl_auto_template_Nkuhy
+            versionLabel: v3
