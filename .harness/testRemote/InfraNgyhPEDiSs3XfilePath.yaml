@@ -1,0 +1,12 @@
+infrastructureDefinition:
+  name: InfraNgyhPEDiSs3X
+  identifier: InfraNgyhPEDiSs3X
+  orgIdentifier: OrgNgWBbMKuDL9c
+  environmentRef: EnvNg8nnSZJGgwL
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
