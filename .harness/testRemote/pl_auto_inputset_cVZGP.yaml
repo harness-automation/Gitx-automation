@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_jg22Z
+  identifier: pl_auto_inputset_jg22Z
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_GithubTriggerSSH_Ds0kBp4bxD
+  pipeline:
+    identifier: pl_auto_pipeline_rWLUI
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
