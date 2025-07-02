@@ -1,11 +1,11 @@
 infrastructureDefinition:
   name: NGPipeAutood3nPVcVar
   identifier: NGPipeAutood3nPVcVar
-  environmentRef: account.NGPipeAutocUUQM2wVNh
+  environmentRef: NGPipeAutocUUQM2wVNh
   deploymentType: Kubernetes
   type: KubernetesDirect
   spec:
     connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
-    namespace: default
+    namespace: <+input>
     releaseName: release-<+INFRA_KEY_SHORT_ID>
   allowSimultaneousDeployments: true
