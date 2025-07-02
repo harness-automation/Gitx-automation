@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutofnPE68NTRT
+  identifier: NGPipeAutofnPE68NTRT
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvc9RgcP9C96Z
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
