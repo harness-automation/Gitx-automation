@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_x31Dj0Reuc
+  identifier: pl_auto_pipeline_x31Dj0Reuc
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_pNoUT
+          identifier: pl_auto_template_pNoUT
+          template:
+            templateRef: account.pl_auto_template_pNoUT
+            versionLabel: v3
