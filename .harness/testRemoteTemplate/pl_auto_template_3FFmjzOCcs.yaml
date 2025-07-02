@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_3FFmjzOCcs
+  identifier: pl_auto_template_3FFmjzOCcs
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_MgPfcOp04U
+              identifier: pl_auto_template_MgPfcOp04U
+              template:
+                templateRef: account.pl_auto_template_MgPfcOp04U
+                versionLabel: v3
+                gitBranch: main
