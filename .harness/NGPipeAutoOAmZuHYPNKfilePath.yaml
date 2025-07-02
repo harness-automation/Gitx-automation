@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoOAmZuHYPNK
+  identifier: NGPipeAutoOAmZuHYPNK
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
