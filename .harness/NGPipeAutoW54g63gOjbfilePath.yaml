@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoW54g63gOjb
+  identifier: NGPipeAutoW54g63gOjb
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
