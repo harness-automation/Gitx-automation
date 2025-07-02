@@ -1,0 +1,9 @@
+service:
+  name: pl_auto_service_J2usO
+  identifier: pl_auto_service_J2usO
+  orgIdentifier: Simlified_Git_sync
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
