@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_ZMSph
+  identifier: pl_auto_template_ZMSph
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_bvQTl
+              identifier: pl_auto_template_bvQTl
+              template:
+                templateRef: account.pl_auto_template_bvQTl
+                versionLabel: v3
+                gitBranch: main
