@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutodhX9ELTEv3
-  identifier: NGPipeAutodhX9ELTEv3
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
