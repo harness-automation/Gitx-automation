@@ -1,7 +1,8 @@
 environment:
+  name: NGPipeAutorUqtsc85em
+  identifier: NGPipeAutorUqtsc85em
   orgIdentifier: Pipelines_NonK8s_Org_NG
   projectIdentifier: NGPipeAutoPipelineSvcV5LeNLQPQR
-  identifier: NGPipeAutorUqtsc85em
-  tags: {}
-  name: NGPipeAutorUqtsc85em
-  type: PreProduction
+  tags: {
+    }
+  type: Production
