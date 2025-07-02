@@ -1,6 +1,7 @@
 environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  identifier: NGPipeAutoARtoxfCrdv
-  tags: {}
   name: NGPipeAutoARtoxfCrdv
-  type: PreProduction
+  identifier: NGPipeAutoARtoxfCrdv
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {
+    }
+  type: Production
