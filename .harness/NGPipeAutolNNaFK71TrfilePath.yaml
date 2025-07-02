@@ -1,7 +1,8 @@
 environment:
+  name: NGPipeAutolNNaFK71Tr
+  identifier: NGPipeAutolNNaFK71Tr
   orgIdentifier: Pipelines_NonK8s_Org_NG
   projectIdentifier: NGPipeAutoPipelineSvcvutiRick80
-  identifier: NGPipeAutolNNaFK71Tr
-  tags: {}
-  name: NGPipeAutolNNaFK71Tr
-  type: PreProduction
+  tags: {
+    }
+  type: Production
