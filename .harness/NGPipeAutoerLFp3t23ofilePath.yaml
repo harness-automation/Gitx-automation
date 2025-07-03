@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutoerLFp3t23o
+  identifier: NGPipeAutoerLFp3t23o
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
