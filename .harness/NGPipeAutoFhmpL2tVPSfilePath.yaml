@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoFhmpL2tVPS
+  identifier: NGPipeAutoFhmpL2tVPS
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
