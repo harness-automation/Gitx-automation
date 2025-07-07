@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutolp1TWOF10x
-  identifier: NGPipeAutolp1TWOF10x
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
