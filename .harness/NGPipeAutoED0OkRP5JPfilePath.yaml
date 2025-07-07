@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoED0OkRP5JP
-  identifier: NGPipeAutoED0OkRP5JP
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
