@@ -1,0 +1,25 @@
+template:
+  name: NGPipeAutoPipelineTemphiQHfPZJVK
+  identifier: NGPipeAutoPipelineTemphiQHfPZJVK
+  versionLabel: Proj_Pip
+  type: Pipeline
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: NGPipeAuto_OrgStageTemp_3mH8wgIKap
+          identifier: NGPipeAuto_OrgStageTemp_3mH8wgIKap
+          description: ""
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - stepGroup:
+                    name: Referenced_Step_Group_Template
+                    identifier: Referenced_Step_Group_Template
+                    template:
+                      templateRef: account.NGPipeAuto_AcctStepGroupTempB7ZA9sbTee
+                      versionLabel: Acct_StepGroup_v1
+          tags: {}
