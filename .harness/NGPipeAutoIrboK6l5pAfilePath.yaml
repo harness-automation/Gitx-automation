@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutoIrboK6l5pA
+  identifier: NGPipeAutoIrboK6l5pA
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: release-<+INFRA_KEY_SHORT_ID>
+    type: Kubernetes
