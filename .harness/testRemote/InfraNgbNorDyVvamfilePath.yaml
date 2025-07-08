@@ -1,0 +1,12 @@
+infrastructureDefinition:
+  name: InfraNgbNorDyVvam
+  identifier: InfraNgbNorDyVvam
+  orgIdentifier: OrgNgoVunzyQ806
+  environmentRef: EnvNgW0lnuf28ph
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
