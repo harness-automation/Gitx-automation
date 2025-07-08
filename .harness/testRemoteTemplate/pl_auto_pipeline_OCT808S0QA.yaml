@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_OCT808S0QA
+  identifier: pl_auto_pipeline_OCT808S0QA
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_tBQbo
+          identifier: pl_auto_template_tBQbo
+          template:
+            templateRef: account.pl_auto_template_tBQbo
+            versionLabel: v3
