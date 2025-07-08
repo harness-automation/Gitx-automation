@@ -1,7 +1,8 @@
 environment:
+  name: NGPipeAutoxyxpigGNTL
+  identifier: NGPipeAutoxyxpigGNTL
   orgIdentifier: Pipelines_NonK8s_Org_NG
   projectIdentifier: NGPipeAutoPipelineSvcSm26PEr9Kw
-  identifier: NGPipeAutoxyxpigGNTL
-  tags: {}
-  name: NGPipeAutoxyxpigGNTL
-  type: PreProduction
+  tags: {
+    }
+  type: Production
