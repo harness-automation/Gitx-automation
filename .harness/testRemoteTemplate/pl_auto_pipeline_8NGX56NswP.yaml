@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_8NGX56NswP
+  identifier: pl_auto_pipeline_8NGX56NswP
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_0gbZz
+          identifier: pl_auto_template_0gbZz
+          template:
+            templateRef: account.pl_auto_template_0gbZz
+            versionLabel: v3
