@@ -1,0 +1,10 @@
+service:
+  name: ServNgEf6ElinYNK
+  identifier: ServNgEf6ElinYNK
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
