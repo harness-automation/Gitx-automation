@@ -1,0 +1,10 @@
+service:
+  name: ServNg2YPakRucDR
+  identifier: ServNg2YPakRucDR
+  orgIdentifier: OrgNgwPuN6JLB5x
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
