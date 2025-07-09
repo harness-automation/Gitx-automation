@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_dSdkBnR5VV
+  identifier: pl_auto_pipeline_dSdkBnR5VV
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_TU8gIKL6l9
+          identifier: pl_auto_template_TU8gIKL6l9
+          template:
+            templateRef: account.pl_auto_template_TU8gIKL6l9
+            versionLabel: v3
