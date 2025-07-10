@@ -1,0 +1,9 @@
+service:
+  name: pl_auto_service_21Ffs
+  identifier: pl_auto_service_21Ffs
+  orgIdentifier: Simlified_Git_sync
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
