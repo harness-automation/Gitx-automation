@@ -1,0 +1,17 @@
+pipeline:
+  name: parentChainPipelineInputSet
+  identifier: ParentPipelinefH4rUqcx9r
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
+  tags: {}
+  stages:
+    - stage:
+        name: stage1
+        identifier: stage1
+        type: Pipeline
+        spec:
+          org: Simlified_Git_sync
+          pipeline: pl_auto_pipeline_Zt6LA
+          project: SimplifiedGitSync_Do_Not_Delete
+          inputSetReferences:
+            - pl_auto_inputset_26pjb
