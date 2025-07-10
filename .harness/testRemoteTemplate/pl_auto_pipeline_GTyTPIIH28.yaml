@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_GTyTPIIH28
+  identifier: pl_auto_pipeline_GTyTPIIH28
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_KGivC
+          identifier: pl_auto_template_KGivC
+          template:
+            templateRef: account.pl_auto_template_KGivC
+            versionLabel: v3
