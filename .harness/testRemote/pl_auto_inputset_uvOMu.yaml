@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_vMiov
+  identifier: pl_auto_inputset_vMiov
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTestO7F1o
+  pipeline:
+    identifier: PipelineAuto_CRUDGex
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
