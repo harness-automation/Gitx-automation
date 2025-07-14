@@ -1,0 +1,10 @@
+service:
+  name: ServNgpw1pyizHCl
+  identifier: ServNgpw1pyizHCl
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
