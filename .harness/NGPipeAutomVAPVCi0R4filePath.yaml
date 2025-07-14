@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutomVAPVCi0R4
+  identifier: NGPipeAutomVAPVCi0R4
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
