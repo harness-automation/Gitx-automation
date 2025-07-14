@@ -1,0 +1,27 @@
+pipeline:
+  name: pl_auto_pipeline_NzL5O
+  identifier: pl_auto_pipeline_NzL5O
+  projectIdentifier: CDCNGAuto_AuditEvent_Test_2u1X9T9U3y
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: s1
+        description: Desc Added
+        type: Approval
+        spec:
+          execution:
+            steps:
+              - step:
+                  name: t1
+                  identifier: t1
+                  template:
+                    templateRef: account.pl_auto_template_cr2Nd
+                    versionLabel: v3
+                    templateInputs:
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+        tags: {}
