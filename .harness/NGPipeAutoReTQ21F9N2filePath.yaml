@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoReTQ21F9N2
+  identifier: NGPipeAutoReTQ21F9N2
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
