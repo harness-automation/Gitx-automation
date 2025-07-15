@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_ukf2j
+  identifier: pl_auto_template_ukf2j
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_iCmhi
+              identifier: pl_auto_template_iCmhi
+              template:
+                templateRef: account.pl_auto_template_iCmhi
+                versionLabel: v3
+                gitBranch: main
