@@ -1,0 +1,53 @@
+template:
+  name: remote_multi_svc_env_infra_tempS37Dm
+  identifier: remote_multi_svc_env_infra_tempS37Dm
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: NGPipeAutoPipelineSvcrN14yar1ox
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {}
+  spec:
+    type: Deployment
+    spec:
+      deploymentType: Kubernetes
+      execution:
+        steps:
+          - step:
+              type: ShellScript
+              name: ShellScript_1
+              identifier: ShellScript_1
+              spec:
+                shell: Bash
+                executionTarget: {}
+                source:
+                  type: Inline
+                  spec:
+                    script: echo "hi"
+                environmentVariables: []
+                outputVariables: []
+              timeout: 10m
+        rollbackSteps: []
+      services:
+        values:
+          - serviceRef: NGPipeAutoSvcgEoNBRSyA7
+          - serviceRef: NGPipeAutoSvc1VaHzjfuR8
+        metadata:
+          parallel: true
+      environments:
+        metadata:
+          parallel: true
+        values:
+          - environmentRef: NGPipeAutoo5PeQNqawx
+            deployToAll: false
+            infrastructureDefinitions:
+              - identifier: NGPipeAutoFCK8mfJIuV
+          - environmentRef: NGPipeAutozCV7qqyRn0
+            deployToAll: false
+            infrastructureDefinitions:
+              - identifier: NGPipeAutosMx7PJ0Fuc
+    failureStrategies:
+      - onFailure:
+          errors:
+            - AllErrors
+          action:
+            type: MarkAsFailure
