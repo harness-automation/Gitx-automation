@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_CCMQ8
+  identifier: pl_auto_template_CCMQ8
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_t6loE
+              identifier: pl_auto_template_t6loE
+              template:
+                templateRef: account.pl_auto_template_t6loE
+                versionLabel: v3
+                gitBranch: main
