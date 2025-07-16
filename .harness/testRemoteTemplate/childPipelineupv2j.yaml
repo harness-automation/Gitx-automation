@@ -1,0 +1,10 @@
+pipeline:
+  name: childPipelineUsingPipelineTemplate
+  identifier: childPipelineupv2j
+  tags: {}
+  template:
+    templateRef: pipelineTemplatetSf5U
+    versionLabel: "v1"
+    gitBranch: main-patch
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
