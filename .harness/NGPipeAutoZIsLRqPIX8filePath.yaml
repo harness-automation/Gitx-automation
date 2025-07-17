@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoZIsLRqPIX8
+  identifier: NGPipeAutoZIsLRqPIX8
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
