@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutovzBiockDiB
+  identifier: NGPipeAutovzBiockDiB
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
