@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutoeXA4puPLvP
+  identifier: NGPipeAutoeXA4puPLvP
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
