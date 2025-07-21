@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutolBnvz12rl1
+  identifier: NGPipeAutolBnvz12rl1
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
