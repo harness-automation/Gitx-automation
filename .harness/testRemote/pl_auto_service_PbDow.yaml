@@ -1,0 +1,9 @@
+service:
+  name: pl_auto_service_PbDow
+  identifier: pl_auto_service_PbDow
+  orgIdentifier: Simlified_Git_sync
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
