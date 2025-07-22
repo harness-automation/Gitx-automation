@@ -1,7 +1,8 @@
 environment:
+  name: NGPipeAuto4HefVM23ub
+  identifier: NGPipeAuto4HefVM23ub
   orgIdentifier: Pipelines_NonK8s_Org_NG
   projectIdentifier: NGPipeAutoPipelineSvc2lBIslsPvI
-  identifier: NGPipeAuto4HefVM23ub
-  tags: {}
-  name: NGPipeAuto4HefVM23ub
-  type: PreProduction
+  tags: {
+    }
+  type: Production
