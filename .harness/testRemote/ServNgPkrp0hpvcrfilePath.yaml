@@ -1,0 +1,10 @@
+service:
+  name: ServNgPkrp0hpvcr
+  identifier: ServNgPkrp0hpvcr
+  orgIdentifier: OrgNgMsS2zFcDqu
+  projectIdentifier: CD_NG_SERENV_CLONEdaw0sAbLSe
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
