@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_C7ltZ
+  identifier: pl_auto_pipeline_C7ltZ
+  template:
+    templateRef: account.pl_auto_template_T1aKl
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationZY5cV7rLlV
+  orgIdentifier: Simlified_Git_sync
