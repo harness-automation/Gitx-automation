@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutowcreCyUz4b
+  identifier: NGPipeAutowcreCyUz4b
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
