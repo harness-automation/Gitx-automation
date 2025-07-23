@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_NMgKP
+  identifier: pl_auto_inputset_NMgKP
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_CustomWebhookTrigger_5xLRL
+  pipeline:
+    identifier: pl_auto_pipeline_BAOdY
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
