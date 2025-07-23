@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_tMhXlGxQe8
+  identifier: pl_auto_pipeline_tMhXlGxQe8
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_XemFALqDom
+          identifier: pl_auto_template_XemFALqDom
+          template:
+            templateRef: account.pl_auto_template_XemFALqDom
+            versionLabel: v3
