@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_E7ONS
+  identifier: pl_auto_template_E7ONS
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_BE17V
+              identifier: pl_auto_template_BE17V
+              template:
+                templateRef: account.pl_auto_template_BE17V
+                versionLabel: v3
+                gitBranch: main
