@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutokWBiddpRLJ
+  identifier: NGPipeAutokWBiddpRLJ
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcHxP6L1x90z
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
