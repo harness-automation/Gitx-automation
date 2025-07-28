@@ -1,0 +1,9 @@
+service:
+  name: pl_auto_service_rgi11
+  identifier: pl_auto_service_rgi11
+  orgIdentifier: Simlified_Git_sync
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
