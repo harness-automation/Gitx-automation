@@ -1,0 +1,10 @@
+service:
+  name: ServNgLpYChROppJ
+  identifier: ServNgLpYChROppJ
+  orgIdentifier: OrgNgtFRL8guQH4
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
