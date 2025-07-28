@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoZVIsNNP342
+  identifier: NGPipeAutoZVIsNNP342
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
