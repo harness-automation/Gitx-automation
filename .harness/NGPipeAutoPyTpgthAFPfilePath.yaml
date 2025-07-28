@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: NGPipeAutoPyTpgthAFP
+  identifier: NGPipeAutoPyTpgthAFP
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcRfMnIPRS3r
+  environmentRef: NGPipeAutor6xkWKrboP
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: org.KubernetesConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
