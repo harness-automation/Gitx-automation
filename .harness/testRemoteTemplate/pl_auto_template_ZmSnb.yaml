@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_ZmSnb
+  identifier: pl_auto_template_ZmSnb
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Dy3QK
+              identifier: pl_auto_template_Dy3QK
+              template:
+                templateRef: account.pl_auto_template_Dy3QK
+                versionLabel: v3
+                gitBranch: main
