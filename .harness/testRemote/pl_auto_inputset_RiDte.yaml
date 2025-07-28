@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_aRn5G
+  identifier: pl_auto_inputset_aRn5G
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_GithubTriggerSSH_ZHPTGsyqsA
+  pipeline:
+    identifier: pl_auto_pipeline_wbciJ
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
