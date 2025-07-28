@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAuto38W83puJwd
+  identifier: NGPipeAuto38W83puJwd
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
