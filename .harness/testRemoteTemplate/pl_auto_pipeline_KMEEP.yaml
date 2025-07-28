@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_KMEEP
+  identifier: pl_auto_pipeline_KMEEP
+  template:
+    templateRef: account.pl_auto_template_UdTDD
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotification6Ov9c4hd3i
+  orgIdentifier: Simlified_Git_sync
