@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutoeLCVOrLqh1
+  identifier: NGPipeAutoeLCVOrLqh1
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
