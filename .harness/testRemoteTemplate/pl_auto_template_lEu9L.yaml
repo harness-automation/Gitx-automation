@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_lEu9L
+  identifier: pl_auto_template_lEu9L
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_leOCe
+              identifier: pl_auto_template_leOCe
+              template:
+                templateRef: account.pl_auto_template_leOCe
+                versionLabel: v3
+                gitBranch: main
