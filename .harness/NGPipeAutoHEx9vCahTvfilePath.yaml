@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoHEx9vCahTv
+  identifier: NGPipeAutoHEx9vCahTv
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
