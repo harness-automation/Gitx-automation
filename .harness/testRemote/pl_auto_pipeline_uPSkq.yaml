@@ -1,0 +1,15 @@
+pipeline:
+  name: ParentPipelineBRG0rqr2Ut
+  identifier: ParentPipelineBRG0rqr2Ut
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: stage1
+        type: Pipeline
+        spec:
+          org: Simlified_Git_sync
+          pipeline: pl_auto_pipeline_uPSkq
+          project: SimplifiedGitSync_Do_Not_Delete
