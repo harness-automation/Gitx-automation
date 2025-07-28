@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_6glyv
+  identifier: pl_auto_pipeline_6glyv
+  template:
+    templateRef: account.pl_auto_template_gTIHa
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationgN8x4As4C3
+  orgIdentifier: Simlified_Git_sync
