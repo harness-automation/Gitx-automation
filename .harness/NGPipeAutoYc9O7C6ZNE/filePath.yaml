@@ -1,0 +1,12 @@
+infrastructureDefinition:
+  name: NGPipeAutoYc9O7C6ZNE
+  identifier: NGPipeAutoYc9O7C6ZNE
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  environmentRef: NGPipeAutoWtCupttrnd
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
