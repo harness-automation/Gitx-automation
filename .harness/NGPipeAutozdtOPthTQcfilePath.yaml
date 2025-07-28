@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutozdtOPthTQc
+  identifier: NGPipeAutozdtOPthTQc
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
