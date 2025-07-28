@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_TDGD5odc6n
+  identifier: pl_auto_pipeline_TDGD5odc6n
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Io43GfGi6z
+          identifier: pl_auto_template_Io43GfGi6z
+          template:
+            templateRef: account.pl_auto_template_Io43GfGi6z
+            versionLabel: v3
