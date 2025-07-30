@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoASQ5RSIf60
+  identifier: NGPipeAutoASQ5RSIf60
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
