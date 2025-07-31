@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoD32VCAzt4u
+  identifier: NGPipeAutoD32VCAzt4u
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcVD31hPglkg
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
