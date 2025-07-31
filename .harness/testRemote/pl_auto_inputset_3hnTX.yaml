@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_GX85H
+  identifier: pl_auto_inputset_GX85H
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTestqH4Lj
+  pipeline:
+    identifier: PipelineAuto_CRUDXHY
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
