@@ -1,0 +1,12 @@
+template:
+  name: test123
+  identifier: test123
+  versionLabel: "1"
+  type: Step
+  projectIdentifier: NGPipeAutoPMSVjnvVq8Ifs
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {}
+  spec:
+    type: Wait
+    spec:
+      duration: 10m
