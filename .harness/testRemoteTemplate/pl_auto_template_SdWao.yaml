@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_SdWao
+  identifier: pl_auto_template_SdWao
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_AF1Il
+              identifier: pl_auto_template_AF1Il
+              template:
+                templateRef: account.pl_auto_template_AF1Il
+                versionLabel: v3
+                gitBranch: main
