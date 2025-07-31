@@ -1,0 +1,46 @@
+inputSet:
+  name: inputReconcileTest
+  identifier: NGPipeAutoNGInputOC5RrUt2TD
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcN6eLeG9P4W
+  pipeline:
+    identifier: NGPipeAutoNGPipelineV6jQEk8zGU
+    template:
+      templateInputs:
+        stages:
+          - stage:
+              identifier: s1
+              template:
+                templateInputs:
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: s1
+                            template:
+                              templateInputs:
+                                type: ShellScript
+                                timeout: 10m
+                    environment:
+                      environmentRef: <+pipeline.stages.s1.spec.env.environmentRef>
+                      infrastructureDefinitions:
+                        - identifier: <+pipeline.stages.s1.spec.env.infraRef>
+          - stage:
+              identifier: s2
+              template:
+                templateInputs:
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: s1
+                            template:
+                              templateInputs:
+                                type: ShellScript
+                                timeout: 10m
+                    environment:
+                      environmentRef: <+pipeline.stages.s1.spec.env.environmentRef>
+                      infrastructureDefinitions:
+                        - identifier: <+pipeline.stages.s1.spec.env.infraRef>
