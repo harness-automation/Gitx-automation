@@ -1,0 +1,12 @@
+infrastructureDefinition:
+  name: NGPipeAutoYipSQL2RlT
+  identifier: NGPipeAutoYipSQL2RlT
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  environmentRef: NGPipeAuto0IU6ODmWJa
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
