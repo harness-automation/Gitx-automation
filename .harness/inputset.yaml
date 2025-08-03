@@ -1,0 +1,22 @@
+inputSet:
+  name: anishset
+  identifier: anishset
+  orgIdentifier: Ng_Pipelines_K8s_Organisations
+  projectIdentifier: NGPipeAutoPipelineChainingInputSetTestnSrzfPHkal
+  pipeline:
+    identifier: childPipeline
+    stages:
+      - stage:
+          identifier: custom
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: shell
+                    type: ShellScript
+                    spec:
+                      source:
+                        type: Inline
+                        spec:
+                          script: echo "hi"
