@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoVXeNu3UaVB
-  identifier: NGPipeAutoVXeNu3UaVB
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
