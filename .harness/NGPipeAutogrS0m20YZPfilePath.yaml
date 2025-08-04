@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutogrS0m20YZP
+  identifier: NGPipeAutogrS0m20YZP
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
