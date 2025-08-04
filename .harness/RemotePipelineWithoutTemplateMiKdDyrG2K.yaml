@@ -1,8 +1,8 @@
 pipeline:
   name: reconcile
   identifier: reconcileInputSetTest
-  projectIdentifier: projectIdentifier
-  orgIdentifier: orgIdentifier
+  projectIdentifier: NGPipeAutoPipelineChainingInputSetTestaB9yrEOjV7
+  orgIdentifier: Ng_Pipelines_K8s_Organisations
   tags: {}
   stages:
     - stage:
@@ -27,4 +27,3 @@ pipeline:
                     environmentVariables: []
                     outputVariables: []
                   timeout: <+input>
-        tags: {}
