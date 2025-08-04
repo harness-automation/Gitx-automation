@@ -27,3 +27,9 @@ pipeline:
                     environmentVariables: []
                     outputVariables: []
                   timeout: <+input>
+        variables:
+          - name: var1
+            type: String
+            description: ""
+            required: true
+            value: <+input>
