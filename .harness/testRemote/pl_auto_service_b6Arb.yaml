@@ -1,9 +1,0 @@
-service:
-  name: pl_auto_service_b6Arb
-  identifier: pl_auto_service_b6Arb
-  orgIdentifier: Simlified_Git_sync
-  serviceDefinition:
-    spec:
-      release:
-        name: <+input>
-    type: Kubernetes
