@@ -1,0 +1,23 @@
+inputSet:
+  name:
+  tags: {}
+  identifier: InputSet7G1u8
+  orgIdentifier: Ng_Pipelines_K8s_Organisations
+  projectIdentifier: NGPipeAutoPipelineChainingInputSetTest3EqCdnN6Fx
+  pipeline:
+    identifier: reconcileInputSetTest
+    stages:
+      - stage:
+          identifier: s1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    type: ShellScript
+                    timeout: 10s
+          variables:
+            - name: var1
+              type: String
+              value: Hello world
