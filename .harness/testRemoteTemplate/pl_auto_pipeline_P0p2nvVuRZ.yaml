@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_P0p2nvVuRZ
+  identifier: pl_auto_pipeline_P0p2nvVuRZ
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_48Ohb
+          identifier: pl_auto_template_48Ohb
+          template:
+            templateRef: account.pl_auto_template_48Ohb
+            versionLabel: v3
