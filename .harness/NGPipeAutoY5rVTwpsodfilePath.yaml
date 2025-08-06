@@ -1,7 +1,8 @@
 environment:
+  name: NGPipeAutoY5rVTwpsod
+  identifier: NGPipeAutoY5rVTwpsod
   orgIdentifier: Pipelines_NonK8s_Org_NG
   projectIdentifier: NGPipeAutoPipelineSvcd4xWBMjH4Z
-  identifier: NGPipeAutoY5rVTwpsod
-  tags: {}
-  name: NGPipeAutoY5rVTwpsod
-  type: PreProduction
+  tags: {
+    }
+  type: Production
