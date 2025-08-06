@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_DkdM3
+  identifier: pl_auto_template_DkdM3
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_4q6mm
+              identifier: pl_auto_template_4q6mm
+              template:
+                templateRef: account.pl_auto_template_4q6mm
+                versionLabel: v3
+                gitBranch: main
