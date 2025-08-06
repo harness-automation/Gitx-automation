@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoGNPfxT34MQ
+  identifier: NGPipeAutoGNPfxT34MQ
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcGdxmDmxUwE
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
