@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_DC6GH79rTR
+  identifier: pl_auto_pipeline_DC6GH79rTR
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_UZaiN
+          identifier: pl_auto_template_UZaiN
+          template:
+            templateRef: account.pl_auto_template_UZaiN
+            versionLabel: v3
