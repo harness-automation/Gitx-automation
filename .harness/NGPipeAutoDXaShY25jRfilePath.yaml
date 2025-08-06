@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoDXaShY25jR
-  identifier: NGPipeAutoDXaShY25jR
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
