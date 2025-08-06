@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoF660Q32IDb
+  identifier: NGPipeAutoF660Q32IDb
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
