@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_JS6wgT5bRW
+  identifier: pl_auto_pipeline_JS6wgT5bRW
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_PsVHa
+          identifier: pl_auto_template_PsVHa
+          template:
+            templateRef: account.pl_auto_template_PsVHa
+            versionLabel: v3
