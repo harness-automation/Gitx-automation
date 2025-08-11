@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutopReNtGptTP
+  identifier: NGPipeAutopReNtGptTP
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
