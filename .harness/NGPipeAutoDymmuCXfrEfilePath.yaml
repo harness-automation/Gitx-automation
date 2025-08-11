@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoDymmuCXfrE
+  identifier: NGPipeAutoDymmuCXfrE
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvctz0lYN4to1
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
