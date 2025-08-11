@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_mPLxO
+  identifier: pl_auto_pipeline_mPLxO
+  template:
+    templateRef: account.pl_auto_template_sBBO8
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationTAEX6J3gMz
+  orgIdentifier: Simlified_Git_sync
