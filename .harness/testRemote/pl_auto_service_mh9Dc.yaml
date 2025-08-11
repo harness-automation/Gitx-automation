@@ -1,9 +1,0 @@
-service:
-  name: pl_auto_service_mh9Dc
-  identifier: pl_auto_service_mh9Dc
-  orgIdentifier: Simlified_Git_sync
-  serviceDefinition:
-    spec:
-      release:
-        name: <+input>
-    type: Kubernetes
