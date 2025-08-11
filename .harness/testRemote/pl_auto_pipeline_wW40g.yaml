@@ -1,0 +1,29 @@
+pipeline:
+  name: pl_auto_pipeline_wW40g
+  identifier: pl_auto_pipeline_wW40g
+  projectIdentifier: CDCNGAuto_CustomWebhookTrigger_n6ylU
+  orgIdentifier: DoNotDeleteTriggerOrg
+  tags: { }
+  stages:
+      - stage:
+          name: S1
+          identifier: S1
+          description: ""
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    name: Shell Script_1
+                    identifier: ShellScript_1
+                    template:
+                      templateRef: org.pl_auto_template_gg2fh
+                      versionLabel: v3
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: <+input>
+          tags: { }
