@@ -1,0 +1,10 @@
+service:
+  name: ServNgAlA5rz5pr7
+  identifier: ServNgAlA5rz5pr7
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
