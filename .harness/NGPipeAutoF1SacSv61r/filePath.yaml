@@ -1,0 +1,11 @@
+infrastructureDefinition:
+  name: NGPipeAutoF1SacSv61r
+  identifier: NGPipeAutoF1SacSv61r
+  environmentRef: NGPipeAutoWxPKBvMg3g
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
