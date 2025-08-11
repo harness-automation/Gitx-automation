@@ -1,0 +1,10 @@
+service:
+  name: ServNgcm4GYf3mup
+  identifier: ServNgcm4GYf3mup
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
