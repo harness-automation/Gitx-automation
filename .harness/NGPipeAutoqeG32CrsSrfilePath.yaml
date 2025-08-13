@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoqeG32CrsSr
+  identifier: NGPipeAutoqeG32CrsSr
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
