@@ -1,0 +1,10 @@
+service:
+  name: ServNgERzNAfuwak
+  identifier: ServNgERzNAfuwak
+  orgIdentifier: OrgNgn7JSdITQa0
+  projectIdentifier: CD_NG_SERENV_CLONEDkTXtDCvSb
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
