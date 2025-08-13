@@ -1,0 +1,30 @@
+pipeline:
+  name: todelete
+  identifier: todelete
+  projectIdentifier: CD_NG_SERENV_CLONEcPkP7EGMOV
+  orgIdentifier: OrgNg8osfCQr5kH
+  tags: {}
+  stages:
+    - stage:
+        name: as
+        identifier: as
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: ShellScript
+                  name: ShellScript_1
+                  identifier: ShellScript_1
+                  spec:
+                    shell: Bash
+                    executionTarget: {}
+                    source:
+                      type: Inline
+                      spec:
+                        script: <+input>
+                    environmentVariables: []
+                    outputVariables: []
+                  timeout: 10m
+        tags: {}
