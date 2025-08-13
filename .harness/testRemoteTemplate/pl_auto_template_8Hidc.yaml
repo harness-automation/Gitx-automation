@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_8Hidc
+  identifier: pl_auto_template_8Hidc
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_4ZgyA
+              identifier: pl_auto_template_4ZgyA
+              template:
+                templateRef: account.pl_auto_template_4ZgyA
+                versionLabel: v3
+                gitBranch: main
