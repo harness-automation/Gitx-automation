@@ -1,0 +1,10 @@
+service:
+  name: ServNgrVG3DsJKwp
+  identifier: ServNgrVG3DsJKwp
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
