@@ -1,0 +1,10 @@
+service:
+  name: ServNgdSWA76fiq2
+  identifier: ServNgdSWA76fiq2
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
