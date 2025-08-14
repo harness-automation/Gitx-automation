@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_cDYP5QIdxT
+  identifier: pl_auto_pipeline_cDYP5QIdxT
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_qtRSGe65M5
+          identifier: pl_auto_template_qtRSGe65M5
+          template:
+            templateRef: account.pl_auto_template_qtRSGe65M5
+            versionLabel: v3
