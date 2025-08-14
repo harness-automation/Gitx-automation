@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_qtRSGe65M5
+  identifier: pl_auto_template_qtRSGe65M5
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_f2CJBm3JYv
+              identifier: pl_auto_template_f2CJBm3JYv
+              template:
+                templateRef: account.pl_auto_template_f2CJBm3JYv
+                versionLabel: v3
+                gitBranch: main
