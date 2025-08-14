@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: InfraNgUgCgKImSEE
+  identifier: InfraNgUgCgKImSEE
+  orgIdentifier: OrgNgF96GHXMnSF
+  projectIdentifier: CD_NG_SERENV_CLONEC5Vt5gUuT3
+  environmentRef: EnvNgvlWUNRuqdr
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
