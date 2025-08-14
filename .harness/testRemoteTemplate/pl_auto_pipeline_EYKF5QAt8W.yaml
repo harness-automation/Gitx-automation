@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_EYKF5QAt8W
+  identifier: pl_auto_pipeline_EYKF5QAt8W
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_nv90P59lz6
+          identifier: pl_auto_template_nv90P59lz6
+          template:
+            templateRef: account.pl_auto_template_nv90P59lz6
+            versionLabel: v3
