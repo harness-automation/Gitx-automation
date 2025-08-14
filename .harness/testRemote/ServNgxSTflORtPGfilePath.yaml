@@ -1,0 +1,10 @@
+service:
+  name: ServNgxSTflORtPG
+  identifier: ServNgxSTflORtPG
+  orgIdentifier: OrgNgBEkDKU06hb
+  projectIdentifier: CD_NG_SERENV_CLONEozFPJg58am
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
