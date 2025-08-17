@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoTYMOv5CtzT
+  identifier: NGPipeAutoTYMOv5CtzT
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
