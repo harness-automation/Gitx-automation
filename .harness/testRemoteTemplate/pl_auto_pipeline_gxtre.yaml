@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_gxtre
+  identifier: pl_auto_pipeline_gxtre
+  template:
+    templateRef: account.pl_auto_template_QBeSe
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotification9e5xr6iurb
+  orgIdentifier: Simlified_Git_sync
