@@ -1,11 +1,11 @@
 infrastructureDefinition:
   name: NGPipeAutoE35NpyOVHC
   identifier: NGPipeAutoE35NpyOVHC
-  environmentRef: account.NGPipeAuto03XPsND5yO
+  environmentRef: NGPipeAuto03XPsND5yO
   deploymentType: Kubernetes
   type: KubernetesDirect
   spec:
     connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
-    namespace: default
+    namespace: <+input>
     releaseName: release-<+INFRA_KEY_SHORT_ID>
   allowSimultaneousDeployments: true
