@@ -1,0 +1,10 @@
+service:
+  name: ServNgAH1Oplehmq
+  identifier: ServNgAH1Oplehmq
+  orgIdentifier: OrgNg0bIVAPYeX0
+  projectIdentifier: CD_NG_SERENV_CLONE5qKo8DYzzn
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
