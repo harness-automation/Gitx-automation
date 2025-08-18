@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_fvpAy
+  identifier: pl_auto_inputset_fvpAy
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTestHMtQf
+  pipeline:
+    identifier: PipelineAuto_CRUDPq9
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
