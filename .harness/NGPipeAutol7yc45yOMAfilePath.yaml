@@ -1,9 +1,0 @@
-service:
-  name: NGPipeAutol7yc45yOMA
-  identifier: NGPipeAutol7yc45yOMA
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
