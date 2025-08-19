@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_SZre9
+  identifier: pl_auto_pipeline_SZre9
+  template:
+    templateRef: account.pl_auto_template_SGpze
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotification32Q2da3WgN
+  orgIdentifier: Simlified_Git_sync
