@@ -1,7 +1,8 @@
 environment:
+  name: NGPipeAutomNYS31HT51
+  identifier: NGPipeAutomNYS31HT51
   orgIdentifier: Pipelines_NonK8s_Org_NG
   projectIdentifier: NGPipeAutoPipelineSvcmy4foueBSk
-  identifier: NGPipeAutomNYS31HT51
-  tags: {}
-  name: NGPipeAutomNYS31HT51
-  type: PreProduction
+  tags: {
+    }
+  type: Production
