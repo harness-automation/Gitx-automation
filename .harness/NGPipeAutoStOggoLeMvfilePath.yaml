@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoStOggoLeMv
+  identifier: NGPipeAutoStOggoLeMv
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
