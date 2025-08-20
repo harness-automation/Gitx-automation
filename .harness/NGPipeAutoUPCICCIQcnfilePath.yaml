@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoUPCICCIQcn
+  identifier: NGPipeAutoUPCICCIQcn
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
