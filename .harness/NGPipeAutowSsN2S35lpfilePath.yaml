@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutowSsN2S35lp
+  identifier: NGPipeAutowSsN2S35lp
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
