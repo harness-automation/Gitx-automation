@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_XFziCF5VQm
+  identifier: pl_auto_pipeline_XFziCF5VQm
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Tofec
+          identifier: pl_auto_template_Tofec
+          template:
+            templateRef: account.pl_auto_template_Tofec
+            versionLabel: v3
