@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutowSsN2S35lp
-  identifier: NGPipeAutowSsN2S35lp
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
