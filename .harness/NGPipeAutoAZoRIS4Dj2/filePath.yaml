@@ -1,0 +1,11 @@
+infrastructureDefinition:
+  name: NGPipeAutoAZoRIS4Dj2
+  identifier: NGPipeAutoAZoRIS4Dj2
+  environmentRef: NGPipeAutokNqdP5rHJ7
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
