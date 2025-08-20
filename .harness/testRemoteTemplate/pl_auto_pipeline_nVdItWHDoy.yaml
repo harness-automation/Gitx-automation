@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_nVdItWHDoy
+  identifier: pl_auto_pipeline_nVdItWHDoy
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_ZWUOz
+          identifier: pl_auto_template_ZWUOz
+          template:
+            templateRef: account.pl_auto_template_ZWUOz
+            versionLabel: v3
