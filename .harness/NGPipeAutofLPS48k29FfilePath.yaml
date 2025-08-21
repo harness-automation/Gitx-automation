@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutofLPS48k29F
-  identifier: NGPipeAutofLPS48k29F
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
