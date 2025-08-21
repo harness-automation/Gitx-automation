@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_ARPvp63Hqe
+  identifier: pl_auto_template_ARPvp63Hqe
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_SrcOpDq86B
+              identifier: pl_auto_template_SrcOpDq86B
+              template:
+                templateRef: account.pl_auto_template_SrcOpDq86B
+                versionLabel: v3
+                gitBranch: main
