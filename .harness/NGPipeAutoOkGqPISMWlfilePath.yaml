@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoOkGqPISMWl
+  identifier: NGPipeAutoOkGqPISMWl
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
