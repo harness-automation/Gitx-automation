@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_LL5K2VQl8M
+  identifier: pl_auto_template_LL5K2VQl8M
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_AiNQ2czdej
+              identifier: pl_auto_template_AiNQ2czdej
+              template:
+                templateRef: account.pl_auto_template_AiNQ2czdej
+                versionLabel: v3
+                gitBranch: main
