@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_Ro8IP
+  identifier: pl_auto_inputset_Ro8IP
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_GithubTriggerSSH_M6z6FFdQfD
+  pipeline:
+    identifier: pl_auto_pipeline_xD8p9
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
