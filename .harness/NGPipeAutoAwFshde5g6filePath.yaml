@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoAwFshde5g6
+  identifier: NGPipeAutoAwFshde5g6
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
