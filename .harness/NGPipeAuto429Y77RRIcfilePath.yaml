@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAuto429Y77RRIc
+  identifier: NGPipeAuto429Y77RRIc
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
