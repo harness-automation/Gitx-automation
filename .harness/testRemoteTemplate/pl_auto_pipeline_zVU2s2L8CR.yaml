@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_zVU2s2L8CR
+  identifier: pl_auto_pipeline_zVU2s2L8CR
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_TfBrg
+          identifier: pl_auto_template_TfBrg
+          template:
+            templateRef: account.pl_auto_template_TfBrg
+            versionLabel: v3
