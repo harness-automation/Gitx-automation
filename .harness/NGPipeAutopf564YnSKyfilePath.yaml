@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutopf564YnSKy
+  identifier: NGPipeAutopf564YnSKy
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
