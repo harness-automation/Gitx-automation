@@ -1,0 +1,23 @@
+inputSet:
+  name: InputSetpyj4T
+  tags: {}
+  identifier: InputSetpyj4T
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineChainingInputSetTestfsui0G7E5w
+  pipeline:
+    identifier: reconcilePipelinewithInputSetR2BORCHw8z
+    stages:
+      - stage:
+          identifier: s1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    type: ShellScript
+                    timeout: 10s
+          variables:
+            - name: var1
+              type: String
+              value: Hello world
