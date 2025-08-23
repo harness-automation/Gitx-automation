@@ -1,0 +1,23 @@
+inputSet:
+  name: InputSetryOwy
+  tags: {}
+  identifier: InputSetryOwy
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineChainingInputSetTestDylon9N0Pr
+  pipeline:
+    identifier: reconcilePipelinewithInputSetBUSiwEQ5Ez
+    stages:
+      - stage:
+          identifier: s1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    type: ShellScript
+                    timeout: 10s
+          variables:
+            - name: var1
+              type: String
+              value: Hello world
