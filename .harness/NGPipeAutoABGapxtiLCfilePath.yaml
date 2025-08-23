@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoABGapxtiLC
+  identifier: NGPipeAutoABGapxtiLC
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
