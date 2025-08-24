@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_l3MLDogSVD
+  identifier: pl_auto_template_l3MLDogSVD
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_mWf15d3DqV
+              identifier: pl_auto_template_mWf15d3DqV
+              template:
+                templateRef: account.pl_auto_template_mWf15d3DqV
+                versionLabel: v3
+                gitBranch: main
