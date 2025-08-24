@@ -1,11 +1,11 @@
 infrastructureDefinition:
   name: NGPipeAutojDB5gSATou
   identifier: NGPipeAutojDB5gSATou
-  environmentRef: account.NGPipeAuto84QgRE411K
+  environmentRef: NGPipeAuto84QgRE411K
   deploymentType: Kubernetes
   type: KubernetesDirect
   spec:
     connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
-    namespace: default
+    namespace: <+input>
     releaseName: release-<+INFRA_KEY_SHORT_ID>
   allowSimultaneousDeployments: true
