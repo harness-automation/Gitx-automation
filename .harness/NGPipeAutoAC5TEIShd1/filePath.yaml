@@ -1,0 +1,11 @@
+infrastructureDefinition:
+  name: NGPipeAutoAC5TEIShd1
+  identifier: NGPipeAutoAC5TEIShd1
+  environmentRef: NGPipeAuto6GnxJkzugr
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
