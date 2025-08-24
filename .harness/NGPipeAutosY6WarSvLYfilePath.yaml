@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutosY6WarSvLY
+  identifier: NGPipeAutosY6WarSvLY
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
