@@ -1,7 +1,8 @@
 environment:
+  name: NGPipeAutoGPl5wtar56
+  identifier: NGPipeAutoGPl5wtar56
   orgIdentifier: Pipelines_NonK8s_Org_NG
   projectIdentifier: NGPipeAutoPipelineSvc7AFjt13wCd
-  identifier: NGPipeAutoGPl5wtar56
-  tags: {}
-  name: NGPipeAutoGPl5wtar56
-  type: PreProduction
+  tags: {
+    }
+  type: Production
