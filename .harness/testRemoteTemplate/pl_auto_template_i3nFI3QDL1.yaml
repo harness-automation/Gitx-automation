@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_i3nFI3QDL1
+  identifier: pl_auto_template_i3nFI3QDL1
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_WECHCHiWvy
+              identifier: pl_auto_template_WECHCHiWvy
+              template:
+                templateRef: account.pl_auto_template_WECHCHiWvy
+                versionLabel: v3
+                gitBranch: main
