@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_UmdP6
+  identifier: pl_auto_template_UmdP6
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_tyhd7
+              identifier: pl_auto_template_tyhd7
+              template:
+                templateRef: account.pl_auto_template_tyhd7
+                versionLabel: v3
+                gitBranch: main
