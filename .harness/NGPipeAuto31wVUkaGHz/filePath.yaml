@@ -1,0 +1,12 @@
+infrastructureDefinition:
+  name: NGPipeAuto31wVUkaGHz
+  identifier: NGPipeAuto31wVUkaGHz
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  environmentRef: NGPipeAutoELRvoOfWdG
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
