@@ -1,0 +1,10 @@
+service:
+  name: ServNgXCRmObUH19
+  identifier: ServNgXCRmObUH19
+  orgIdentifier: OrgNgD6FkPLZCMm
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
