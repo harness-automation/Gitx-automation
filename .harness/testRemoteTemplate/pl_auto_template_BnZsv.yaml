@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_BnZsv
+  identifier: pl_auto_template_BnZsv
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_zANyX
+              identifier: pl_auto_template_zANyX
+              template:
+                templateRef: account.pl_auto_template_zANyX
+                versionLabel: v3
+                gitBranch: main
