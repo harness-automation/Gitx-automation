@@ -1,0 +1,32 @@
+pipeline:
+  name: pl_auto_pipeline_GHjkL
+  identifier: pl_auto_pipeline_GHjkL
+  projectIdentifier: CDCNGAuto_CustomWebhookTrigger_dKpIG
+  orgIdentifier: DoNotDeleteTriggerOrg
+  tags: {}
+  stages:
+    - stage:
+        name: WebHook_Trigger
+        identifier: WebHook_Trigger
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: Http
+                  name: WebHook
+                  identifier: WebHook
+                  spec:
+                    url: https://systemsanity.pr2.harness.io/gateway/pipeline/api/webhook/custom/Z7G0Np3zQg--vJbT8z6q-w/v3?accountIdentifier=p85K3EGPQxqdOUMRCx1G5Q&orgIdentifier=DoNotDeleteTriggerOrg&projectIdentifier=CDCNGAuto_CustomWebhookTrigger_dKpIG&pipelineIdentifier=pl_auto_pipeline_vFYmj&triggerIdentifier=CDNGAuto_Trigger_t3gqkQNS2W
+                    method: POST
+                    headers:
+                      - key: content-type
+                        value: application/json
+                      - key: x-api-key
+                        value: $secretVal
+                    outputVariables: []
+                    inputVariables: []
+                    requestBody: "{\"sample_key\": \"sample_value\"}"
+                  timeout: 10m
+        tags: {}
