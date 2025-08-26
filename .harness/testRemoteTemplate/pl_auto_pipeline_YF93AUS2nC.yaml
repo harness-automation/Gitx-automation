@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_YF93AUS2nC
+  identifier: pl_auto_pipeline_YF93AUS2nC
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_IQc7S
+          identifier: pl_auto_template_IQc7S
+          template:
+            templateRef: account.pl_auto_template_IQc7S
+            versionLabel: v3
