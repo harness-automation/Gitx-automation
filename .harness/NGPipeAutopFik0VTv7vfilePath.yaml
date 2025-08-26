@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutopFik0VTv7v
-  identifier: NGPipeAutopFik0VTv7v
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
