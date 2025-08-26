@@ -1,0 +1,15 @@
+pipeline:
+  name: ParentPipelineAOederoX5o
+  identifier: ParentPipelineAOederoX5o
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: stage1
+        type: Pipeline
+        spec:
+          org: Simlified_Git_sync
+          pipeline: pl_auto_pipeline_neFkv
+          project: SimplifiedGitSync_Do_Not_Delete
