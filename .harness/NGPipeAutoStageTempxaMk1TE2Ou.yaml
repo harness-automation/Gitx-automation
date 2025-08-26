@@ -1,0 +1,27 @@
+template:
+  name: NGPipeAutoStageTempxaMk1TE2Ou
+  identifier: NGPipeAutoStageTempxaMk1TE2Ou
+  versionLabel: "1"
+  type: Stage
+  projectIdentifier: NGPipeAutomergeInputnThtuQwOnB
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              type: ShellScript
+              name: ShellScript_1
+              identifier: ShellScript_1
+              spec:
+                shell: Bash
+                executionTarget: {}
+                source:
+                  type: Inline
+                  spec:
+                    script: <+input>
+                environmentVariables: []
+                outputVariables: []
+              timeout: 10m
