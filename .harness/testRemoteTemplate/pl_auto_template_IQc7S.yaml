@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_IQc7S
+  identifier: pl_auto_template_IQc7S
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_b5vad
+              identifier: pl_auto_template_b5vad
+              template:
+                templateRef: account.pl_auto_template_b5vad
+                versionLabel: v3
+                gitBranch: main
