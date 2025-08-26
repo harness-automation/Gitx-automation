@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_HpixZNSkHW
+  identifier: pl_auto_pipeline_HpixZNSkHW
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_oKRnC
+          identifier: pl_auto_template_oKRnC
+          template:
+            templateRef: account.pl_auto_template_oKRnC
+            versionLabel: v3
