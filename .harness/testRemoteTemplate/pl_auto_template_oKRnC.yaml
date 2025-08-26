@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_oKRnC
+  identifier: pl_auto_template_oKRnC
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_MYM2t
+              identifier: pl_auto_template_MYM2t
+              template:
+                templateRef: account.pl_auto_template_MYM2t
+                versionLabel: v3
+                gitBranch: main
