@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_Kz8Jt
+  identifier: pl_auto_pipeline_Kz8Jt
+  template:
+    templateRef: account.pl_auto_template_DTGez
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationKkLTeiF4fI
+  orgIdentifier: Simlified_Git_sync
