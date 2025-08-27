@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutobc81iZOpmv
+  identifier: NGPipeAutobc81iZOpmv
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
