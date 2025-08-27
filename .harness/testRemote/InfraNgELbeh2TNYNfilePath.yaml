@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: InfraNgELbeh2TNYN
+  identifier: InfraNgELbeh2TNYN
+  orgIdentifier: OrgNgYqeYYmn3bh
+  projectIdentifier: CD_NG_SERENV_CLONErQNBgqcnjp
+  environmentRef: EnvNgv22rhhA26b
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
