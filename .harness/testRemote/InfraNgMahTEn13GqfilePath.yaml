@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: InfraNgMahTEn13Gq
+  identifier: InfraNgMahTEn13Gq
+  orgIdentifier: OrgNgYqeYYmn3bh
+  projectIdentifier: CD_NG_SERENV_CLONErQNBgqcnjp
+  environmentRef: EnvNggDVeF9WDAc
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
