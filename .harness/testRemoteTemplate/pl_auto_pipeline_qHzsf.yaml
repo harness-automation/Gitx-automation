@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_qHzsf
+  identifier: pl_auto_pipeline_qHzsf
+  template:
+    templateRef: account.pl_auto_template_g8amT
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationVB0gXfAVzd
+  orgIdentifier: Simlified_Git_sync
