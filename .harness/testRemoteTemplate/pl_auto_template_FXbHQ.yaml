@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_FXbHQ
+  identifier: pl_auto_template_FXbHQ
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_pFiPE
+              identifier: pl_auto_template_pFiPE
+              template:
+                templateRef: account.pl_auto_template_pFiPE
+                versionLabel: v3
+                gitBranch: main
