@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoUgX81x2urn
+  identifier: NGPipeAutoUgX81x2urn
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
