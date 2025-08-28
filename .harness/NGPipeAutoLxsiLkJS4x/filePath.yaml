@@ -1,0 +1,11 @@
+infrastructureDefinition:
+  name: NGPipeAutoLxsiLkJS4x
+  identifier: NGPipeAutoLxsiLkJS4x
+  environmentRef: NGPipeAutotus9b6Q52K
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
