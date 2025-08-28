@@ -1,0 +1,15 @@
+pipeline:
+  name: remote_multi_svc_env_infra_pipe56RXm
+  identifier: remote_multi_svc_env_infra_pipe56RXm
+  projectIdentifier: NGPipeAutoPipelineSvckMBeomS2cN
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: s1
+        tags: {}
+        template:
+          templateRef: remote_multi_svc_env_infra_tempA7ZYD
+          versionLabel: v1
+          gitBranch: main
