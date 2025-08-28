@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_XJTH4gZ4dz
+  identifier: pl_auto_template_XJTH4gZ4dz
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_eWEatBC2MK
+              identifier: pl_auto_template_eWEatBC2MK
+              template:
+                templateRef: account.pl_auto_template_eWEatBC2MK
+                versionLabel: v3
+                gitBranch: main
