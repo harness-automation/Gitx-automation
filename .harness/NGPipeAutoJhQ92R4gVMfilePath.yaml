@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoJhQ92R4gVM
-  identifier: NGPipeAutoJhQ92R4gVM
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
