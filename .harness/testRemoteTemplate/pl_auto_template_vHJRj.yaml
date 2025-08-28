@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_vHJRj
+  identifier: pl_auto_template_vHJRj
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_875MJ
+              identifier: pl_auto_template_875MJ
+              template:
+                templateRef: account.pl_auto_template_875MJ
+                versionLabel: v3
+                gitBranch: main
