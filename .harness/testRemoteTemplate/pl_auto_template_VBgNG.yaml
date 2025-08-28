@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_VBgNG
+  identifier: pl_auto_template_VBgNG
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_llBbL
+              identifier: pl_auto_template_llBbL
+              template:
+                templateRef: account.pl_auto_template_llBbL
+                versionLabel: v3
+                gitBranch: main
