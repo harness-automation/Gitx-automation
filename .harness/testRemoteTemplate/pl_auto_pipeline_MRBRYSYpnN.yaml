@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_MRBRYSYpnN
+  identifier: pl_auto_pipeline_MRBRYSYpnN
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_VBgNG
+          identifier: pl_auto_template_VBgNG
+          template:
+            templateRef: account.pl_auto_template_VBgNG
+            versionLabel: v3
