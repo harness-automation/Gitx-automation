@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoqoo2PiYCC6
+  identifier: NGPipeAutoqoo2PiYCC6
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
