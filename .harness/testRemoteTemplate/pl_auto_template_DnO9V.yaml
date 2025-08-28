@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_DnO9V
+  identifier: pl_auto_template_DnO9V
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_zM1lW
+              identifier: pl_auto_template_zM1lW
+              template:
+                templateRef: account.pl_auto_template_zM1lW
+                versionLabel: v3
+                gitBranch: main
