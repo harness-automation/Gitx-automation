@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_rirpU
+  identifier: pl_auto_pipeline_rirpU
+  template:
+    templateRef: account.pl_auto_template_GAWu4
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationpWHxbNqxrG
+  orgIdentifier: Simlified_Git_sync
