@@ -1,6 +1,7 @@
 environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  identifier: NGPipeAuto3dGEoV1tVN
-  tags: {}
   name: NGPipeAuto3dGEoV1tVN
-  type: PreProduction
+  identifier: NGPipeAuto3dGEoV1tVN
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {
+    }
+  type: Production
