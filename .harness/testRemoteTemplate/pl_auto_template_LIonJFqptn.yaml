@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_LIonJFqptn
+  identifier: pl_auto_template_LIonJFqptn
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_h4C5SOMbX6
+              identifier: pl_auto_template_h4C5SOMbX6
+              template:
+                templateRef: account.pl_auto_template_h4C5SOMbX6
+                versionLabel: v3
+                gitBranch: main
