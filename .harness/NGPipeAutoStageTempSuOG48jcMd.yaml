@@ -1,0 +1,27 @@
+template:
+  name: NGPipeAutoStageTempSuOG48jcMd
+  identifier: NGPipeAutoStageTempSuOG48jcMd
+  versionLabel: "1"
+  type: Stage
+  projectIdentifier: NGPipeAutomergeInputHd4krMXltS
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              type: ShellScript
+              name: ShellScript_1
+              identifier: ShellScript_1
+              spec:
+                shell: Bash
+                executionTarget: {}
+                source:
+                  type: Inline
+                  spec:
+                    script: <+input>
+                environmentVariables: []
+                outputVariables: []
+              timeout: 10m
