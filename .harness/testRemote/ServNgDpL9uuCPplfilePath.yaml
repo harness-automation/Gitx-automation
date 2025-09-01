@@ -1,0 +1,10 @@
+service:
+  name: ServNgDpL9uuCPpl
+  identifier: ServNgDpL9uuCPpl
+  orgIdentifier: OrgNgKPY2wWoCri
+  projectIdentifier: CD_NG_SERENV_CLONEce13xn3cJx
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
