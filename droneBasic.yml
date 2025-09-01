@@ -1,0 +1,18 @@
+kind: pipeline
+name: HelloWorld
+
+steps:
+  - name: hello-world
+    image: alpine/git # Or any other suitable base image like alpine
+    commands:
+      - echo "Hello, world from Drone CI!"
+
+---
+kind: pipeline
+name: HelloHarness
+
+steps:
+  - name: hello-harness
+    image: alpine/git # Or any other suitable base image like alpine
+    commands:
+      - echo "Hello, world from Drone CI!"
