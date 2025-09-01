@@ -1,0 +1,12 @@
+infrastructureDefinition:
+  name: pl_auto_infra_lttvv
+  identifier: pl_auto_infra_lttvv
+  orgIdentifier: Simlified_Git_sync
+  environmentRef: pl_auto_environment_IYz2T
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
