@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoToi66IFyIC
+  identifier: NGPipeAutoToi66IFyIC
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
