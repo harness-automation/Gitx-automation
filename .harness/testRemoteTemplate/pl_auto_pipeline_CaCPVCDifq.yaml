@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_CaCPVCDifq
+  identifier: pl_auto_pipeline_CaCPVCDifq
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_i40123lELR
+          identifier: pl_auto_template_i40123lELR
+          template:
+            templateRef: account.pl_auto_template_i40123lELR
+            versionLabel: v3
