@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_i40123lELR
+  identifier: pl_auto_template_i40123lELR
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_9ivC4liicc
+              identifier: pl_auto_template_9ivC4liicc
+              template:
+                templateRef: account.pl_auto_template_9ivC4liicc
+                versionLabel: v3
+                gitBranch: main
