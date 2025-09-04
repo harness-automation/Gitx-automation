@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_uws941sjUA
+  identifier: pl_auto_pipeline_uws941sjUA
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_kzooU
+          identifier: pl_auto_template_kzooU
+          template:
+            templateRef: account.pl_auto_template_kzooU
+            versionLabel: v3
