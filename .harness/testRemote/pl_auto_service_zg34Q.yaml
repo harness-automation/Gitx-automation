@@ -1,0 +1,9 @@
+service:
+  name: pl_auto_service_zg34Q
+  identifier: pl_auto_service_zg34Q
+  orgIdentifier: Simlified_Git_sync
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
