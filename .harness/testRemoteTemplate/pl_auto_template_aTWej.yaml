@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_aTWej
+  identifier: pl_auto_template_aTWej
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_IsQda
+              identifier: pl_auto_template_IsQda
+              template:
+                templateRef: account.pl_auto_template_IsQda
+                versionLabel: v3
+                gitBranch: main
