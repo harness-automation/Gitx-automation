@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_dJR9C
+  identifier: pl_auto_template_dJR9C
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_Oix4y
+              identifier: pl_auto_template_Oix4y
+              template:
+                templateRef: account.pl_auto_template_Oix4y
+                versionLabel: v3
+                gitBranch: main
