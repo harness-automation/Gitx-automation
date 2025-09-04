@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: InfraNgHhesmft3Pn
+  identifier: InfraNgHhesmft3Pn
+  orgIdentifier: OrgNgvwjduo1dXT
+  projectIdentifier: CD_NG_SERENV_CLONEPIjNTIkQrD
+  environmentRef: EnvNgJ4qT7cKVA6
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
