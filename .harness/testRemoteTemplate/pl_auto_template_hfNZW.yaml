@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_hfNZW
+  identifier: pl_auto_template_hfNZW
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_FWOsH
+              identifier: pl_auto_template_FWOsH
+              template:
+                templateRef: account.pl_auto_template_FWOsH
+                versionLabel: v3
+                gitBranch: main
