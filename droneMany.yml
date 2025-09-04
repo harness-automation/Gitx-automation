@@ -1,149 +1,189 @@
 ---
 kind: pipeline
 name: edge-x86
+
 platform:
   os: linux
   arch: amd64
+
 steps:
-  - name: build-only
+  - name: publish
     image: plugins/docker
     settings:
+      registry: https://index.docker.io/v2/
+      username: cdngdockerhub
+      password: <+secrets.getValue("org.DoNotDelete_DockerPass")>
+      repo: alpinelinux/alpine-drone-ci
+      tags: edge-x86
       dockerfile: dockerfiles/edge/x86/Dockerfile
-      repo: local/edge-x86
-      tags: build-${DRONE_BUILD_NUMBER}
-      dry_run: true
 
 ---
 kind: pipeline
 name: v3.9-x86
+
 platform:
   os: linux
   arch: amd64
+
 steps:
-  - name: build-only
+  - name: publish
     image: plugins/docker
     settings:
+      registry: https://index.docker.io/v2/
+      username: cdngdockerhub
+      password: <+secrets.getValue("org.DoNotDelete_DockerPass")>
+      repo: alpinelinux/alpine-drone-ci
+      tags: v3.9-x86
       dockerfile: dockerfiles/v3.9/x86/Dockerfile
-      repo: local/v3.9-x86
-      tags: build-${DRONE_BUILD_NUMBER}
-      dry_run: true
 
 ---
 kind: pipeline
 name: edge-x86_64
+
 platform:
   os: linux
   arch: amd64
+
 steps:
-  - name: build-only
+  - name: publish
     image: plugins/docker
     settings:
+      registry: https://index.docker.io/v2/
+      username: cdngdockerhub
+      password: <+secrets.getValue("org.DoNotDelete_DockerPass")>
+      repo: alpinelinux/alpine-drone-ci
+      tags: edge-x86_64
       dockerfile: dockerfiles/edge/x86_64/Dockerfile
-      repo: local/edge-x86_64
-      tags: build-${DRONE_BUILD_NUMBER}
-      dry_run: true
 
 ---
 kind: pipeline
 name: v3.9-x86_64
+
 platform:
   os: linux
   arch: amd64
+
 steps:
-  - name: build-only
+  - name: publish
     image: plugins/docker
     settings:
+      registry: https://index.docker.io/v2/
+      username: cdngdockerhub
+      password: <+secrets.getValue("org.DoNotDelete_DockerPass")>
+      repo: alpinelinux/alpine-drone-ci
+      tags: v3.9-x86_64
       dockerfile: dockerfiles/v3.9/x86_64/Dockerfile
-      repo: local/v3.9-x86_64
-      tags: build-${DRONE_BUILD_NUMBER}
-      dry_run: true
 
 ---
 kind: pipeline
 name: edge-aarch64
+
 platform:
   os: linux
   arch: arm64
+
 steps:
-  - name: build-only
+  - name: publish
     image: plugins/docker
     settings:
+      registry: https://index.docker.io/v2/
+      username: cdngdockerhub
+      password: <+secrets.getValue("org.DoNotDelete_DockerPass")>
+      repo: alpinelinux/alpine-drone-ci
+      tags: edge-aarch64
       dockerfile: dockerfiles/edge/aarch64/Dockerfile
-      repo: local/edge-aarch64
-      tags: build-${DRONE_BUILD_NUMBER}
-      dry_run: true
 
 ---
 kind: pipeline
 name: v3.9-aarch64
+
 platform:
   os: linux
   arch: arm64
+
 steps:
-  - name: build-only
+  - name: publish
     image: plugins/docker
     settings:
+      registry: https://index.docker.io/v2/
+      username: cdngdockerhub
+      password: <+secrets.getValue("org.DoNotDelete_DockerPass")>
+      repo: alpinelinux/alpine-drone-ci
+      tags: v3.9-aarch64
       dockerfile: dockerfiles/v3.9/aarch64/Dockerfile
-      repo: local/v3.9-aarch64
-      tags: build-${DRONE_BUILD_NUMBER}
-      dry_run: true
 
 ---
 kind: pipeline
 name: edge-armhf
+
 platform:
   os: linux
   arch: arm
+
 steps:
-  - name: build-only
+  - name: publish
     image: plugins/docker
     settings:
+      registry: https://index.docker.io/v2/
+      username: cdngdockerhub
+      password: <+secrets.getValue("org.DoNotDelete_DockerPass")>
+      repo: alpinelinux/alpine-drone-ci
+      tags: edge-armhf
       dockerfile: dockerfiles/edge/armhf/Dockerfile
-      repo: local/edge-armhf
-      tags: build-${DRONE_BUILD_NUMBER}
-      dry_run: true
 
 ---
 kind: pipeline
 name: v3.9-armhf
+
 platform:
   os: linux
   arch: arm
+
 steps:
-  - name: build-only
+  - name: publish
     image: plugins/docker
     settings:
+      registry: https://index.docker.io/v2/
+      username: cdngdockerhub
+      password: <+secrets.getValue("org.DoNotDelete_DockerPass")>
+      repo: alpinelinux/alpine-drone-ci
+      tags: v3.9-armhf
       dockerfile: dockerfiles/v3.9/armhf/Dockerfile
-      repo: local/v3.9-armhf
-      tags: build-${DRONE_BUILD_NUMBER}
-      dry_run: true
 
 ---
 kind: pipeline
 name: edge-armv7
+
 platform:
   os: linux
   arch: arm
+
 steps:
-  - name: build-only
+  - name: publish
     image: plugins/docker
     settings:
+      registry: https://index.docker.io/v2/
+      username: cdngdockerhub
+      password: <+secrets.getValue("org.DoNotDelete_DockerPass")>
+      repo: alpinelinux/alpine-drone-ci
+      tags: edge-armv7
       dockerfile: dockerfiles/edge/armv7/Dockerfile
-      repo: local/edge-armv7
-      tags: build-${DRONE_BUILD_NUMBER}
-      dry_run: true
 
 ---
 kind: pipeline
 name: v3.9-armv7
+
 platform:
   os: linux
   arch: arm
+
 steps:
-  - name: build-only
+  - name: publish
     image: plugins/docker
     settings:
+      registry: https://index.docker.io/v2/
+      username: cdngdockerhub
+      password: <+secrets.getValue("org.DoNotDelete_DockerPass")>
+      repo: alpinelinux/alpine-drone-ci
+      tags: v3.9-armv7
       dockerfile: dockerfiles/v3.9/armv7/Dockerfile
-      repo: local/v3.9-armv7
-      tags: build-${DRONE_BUILD_NUMBER}
-      dry_run: true
