@@ -7,15 +7,11 @@ platform:
   arch: amd64
 
 steps:
-  - name: publish
+  - name: build
     image: plugins/docker
     settings:
-      username:
-        from_secret: docker_user
-      password:
-        from_secret: docker_pass
-      repo: alpinelinux/alpine-drone-ci
-      tags: edge-x86
+      repo: local/edge-x86
+      tags: latest
       dockerfile: dockerfiles/edge/x86/Dockerfile
 
 ---
@@ -27,15 +23,11 @@ platform:
   arch: amd64
 
 steps:
-  - name: publish
+  - name: build
     image: plugins/docker
     settings:
-      username:
-        from_secret: docker_user
-      password:
-        from_secret: docker_pass
-      repo: alpinelinux/alpine-drone-ci
-      tags: v3.9-x86
+      repo: local/v3.9-x86
+      tags: latest
       dockerfile: dockerfiles/v3.9/x86/Dockerfile
 
 ---
@@ -47,15 +39,11 @@ platform:
   arch: amd64
 
 steps:
-  - name: publish
+  - name: build
     image: plugins/docker
     settings:
-      username:
-        from_secret: docker_user
-      password:
-        from_secret: docker_pass
-      repo: alpinelinux/alpine-drone-ci
-      tags: edge-x86_64
+      repo: local/edge-x86_64
+      tags: latest
       dockerfile: dockerfiles/edge/x86_64/Dockerfile
 
 ---
@@ -67,15 +55,11 @@ platform:
   arch: amd64
 
 steps:
-  - name: publish
+  - name: build
     image: plugins/docker
     settings:
-      username:
-        from_secret: docker_user
-      password:
-        from_secret: docker_pass
-      repo: alpinelinux/alpine-drone-ci
-      tags: v3.9-x86_64
+      repo: local/v3.9-x86_64
+      tags: latest
       dockerfile: dockerfiles/v3.9/x86_64/Dockerfile
 
 ---
@@ -87,15 +71,11 @@ platform:
   arch: arm64
 
 steps:
-  - name: publish
+  - name: build
     image: plugins/docker
     settings:
-      username:
-        from_secret: docker_user
-      password:
-        from_secret: docker_pass
-      repo: alpinelinux/alpine-drone-ci
-      tags: edge-aarch64
+      repo: local/edge-aarch64
+      tags: latest
       dockerfile: dockerfiles/edge/aarch64/Dockerfile
 
 ---
@@ -107,15 +87,11 @@ platform:
   arch: arm64
 
 steps:
-  - name: publish
+  - name: build
     image: plugins/docker
     settings:
-      username:
-        from_secret: docker_user
-      password:
-        from_secret: docker_pass
-      repo: alpinelinux/alpine-drone-ci
-      tags: v3.9-aarch64
+      repo: local/v3.9-aarch64
+      tags: latest
       dockerfile: dockerfiles/v3.9/aarch64/Dockerfile
 
 ---
@@ -127,15 +103,11 @@ platform:
   arch: arm
 
 steps:
-  - name: publish
+  - name: build
     image: plugins/docker
     settings:
-      username:
-        from_secret: docker_user
-      password:
-        from_secret: docker_pass
-      repo: alpinelinux/alpine-drone-ci
-      tags: edge-armhf
+      repo: local/edge-armhf
+      tags: latest
       dockerfile: dockerfiles/edge/armhf/Dockerfile
 
 ---
@@ -147,15 +119,11 @@ platform:
   arch: arm
 
 steps:
-  - name: publish
+  - name: build
     image: plugins/docker
     settings:
-      username:
-        from_secret: docker_user
-      password:
-        from_secret: docker_pass
-      repo: alpinelinux/alpine-drone-ci
-      tags: v3.9-armhf
+      repo: local/v3.9-armhf
+      tags: latest
       dockerfile: dockerfiles/v3.9/armhf/Dockerfile
 
 ---
@@ -167,15 +135,11 @@ platform:
   arch: arm
 
 steps:
-  - name: publish
+  - name: build
     image: plugins/docker
     settings:
-      username:
-        from_secret: docker_user
-      password:
-        from_secret: docker_pass
-      repo: alpinelinux/alpine-drone-ci
-      tags: edge-armv7
+      repo: local/edge-armv7
+      tags: latest
       dockerfile: dockerfiles/edge/armv7/Dockerfile
 
 ---
@@ -187,13 +151,9 @@ platform:
   arch: arm
 
 steps:
-  - name: publish
+  - name: build
     image: plugins/docker
     settings:
-      username:
-        from_secret: docker_user
-      password:
-        from_secret: docker_pass
-      repo: alpinelinux/alpine-drone-ci
-      tags: v3.9-armv7
+      repo: local/v3.9-armv7
+      tags: latest
       dockerfile: dockerfiles/v3.9/armv7/Dockerfile
