@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAuto2BuIFtMrsV
+  identifier: NGPipeAuto2BuIFtMrsV
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcgIo9aFhKuy
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
