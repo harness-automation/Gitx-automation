@@ -1,0 +1,10 @@
+service:
+  name: ServNgFM18WDrzWF
+  identifier: ServNgFM18WDrzWF
+  orgIdentifier: OrgNgtolO0bVXBW
+  projectIdentifier: CD_NG_SERENV_CLONEVfRaEG2Ovv
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
