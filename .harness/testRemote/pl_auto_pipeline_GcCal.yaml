@@ -1,0 +1,15 @@
+pipeline:
+  name: pl_auto_pipeline_GcCal
+  identifier: pl_auto_pipeline_GcCal
+  projectIdentifier: CDCNGAuto_CustomWebhookTrigger_kjusO
+  orgIdentifier: DoNotDeleteTriggerOrg
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: stage1
+        type: Pipeline
+        spec:
+          org: DoNotDeleteTriggerOrg
+          pipeline: pl_auto_pipeline_Wkt0I
+          project: CDCNGAuto_CustomWebhookTrigger_kjusO
