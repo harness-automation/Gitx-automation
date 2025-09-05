@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_6i3xx
+  identifier: pl_auto_template_6i3xx
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_CWNbs
+              identifier: pl_auto_template_CWNbs
+              template:
+                templateRef: account.pl_auto_template_CWNbs
+                versionLabel: v3
+                gitBranch: main
