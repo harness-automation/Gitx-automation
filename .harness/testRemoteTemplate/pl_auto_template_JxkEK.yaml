@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_JxkEK
+  identifier: pl_auto_template_JxkEK
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_KAnTS
+              identifier: pl_auto_template_KAnTS
+              template:
+                templateRef: account.pl_auto_template_KAnTS
+                versionLabel: v3
+                gitBranch: main
