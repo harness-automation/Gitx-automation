@@ -1,0 +1,9 @@
+service:
+  name: pl_auto_service_6QVgL
+  identifier: pl_auto_service_6QVgL
+  orgIdentifier: Simlified_Git_sync
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
