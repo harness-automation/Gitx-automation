@@ -1,0 +1,9 @@
+service:
+  name: pl_auto_service_PFI5Y
+  identifier: pl_auto_service_PFI5Y
+  orgIdentifier: Simlified_Git_sync
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
