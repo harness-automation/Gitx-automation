@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_xKr0R
+  identifier: pl_auto_pipeline_xKr0R
+  template:
+    templateRef: account.pl_auto_template_tmoRp
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationY5Zy1eMAE6
+  orgIdentifier: Simlified_Git_sync
