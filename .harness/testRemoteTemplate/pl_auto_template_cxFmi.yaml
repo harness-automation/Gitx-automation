@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_cxFmi
+  identifier: pl_auto_template_cxFmi
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_tKVuG
+              identifier: pl_auto_template_tKVuG
+              template:
+                templateRef: account.pl_auto_template_tKVuG
+                versionLabel: v3
+                gitBranch: main
