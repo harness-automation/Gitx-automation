@@ -1,0 +1,12 @@
+infrastructureDefinition:
+  name: InfraNg4Dis0bzxhj
+  identifier: InfraNg4Dis0bzxhj
+  orgIdentifier: OrgNg02yVG2EbSL
+  environmentRef: EnvNgqkkH5KG9He
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
