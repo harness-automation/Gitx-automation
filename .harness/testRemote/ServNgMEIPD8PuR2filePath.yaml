@@ -1,0 +1,10 @@
+service:
+  name: ServNgMEIPD8PuR2
+  identifier: ServNgMEIPD8PuR2
+  orgIdentifier: OrgNguagJjFwLOt
+  projectIdentifier: CD_NG_SERENV_CLONE4ipO0zRSJN
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
