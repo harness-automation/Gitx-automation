@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_Y12c60iDfq
+  identifier: pl_auto_pipeline_Y12c60iDfq
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_ys5CatET3s
+          identifier: pl_auto_template_ys5CatET3s
+          template:
+            templateRef: account.pl_auto_template_ys5CatET3s
+            versionLabel: v3
