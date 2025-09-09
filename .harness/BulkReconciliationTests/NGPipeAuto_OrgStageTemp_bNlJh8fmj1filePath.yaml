@@ -1,0 +1,24 @@
+template:
+  name: NGPipeAuto_OrgStageTemp_bNlJh8fmj1
+  identifier: NGPipeAuto_OrgStageTemp_bNlJh8fmj1
+  versionLabel: Org_Stage
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: { }
+  type: Stage
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - stepGroup:
+              name: Referenced_Step_Group_Template
+              identifier: Referenced_Step_Group_Template
+              template:
+                templateRef: account.NGPipeAuto_ActStepGroupTemp_AUTcN8HKb7
+                versionLabel: Act_StepGrp
+          - step:
+              name: Referenced_Step_Template_v2
+              identifier: Referenced_Step_Template_v2
+              template:
+                templateRef: account.NGPipeAuto_ActStepTemptq7sb8GeJy
+                versionLabel: Act_Step_v2
