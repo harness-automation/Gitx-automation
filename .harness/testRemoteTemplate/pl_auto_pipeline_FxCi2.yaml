@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_FxCi2
+  identifier: pl_auto_pipeline_FxCi2
+  template:
+    templateRef: account.pl_auto_template_8PyoG
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationvR9kG6f2DZ
+  orgIdentifier: Simlified_Git_sync
