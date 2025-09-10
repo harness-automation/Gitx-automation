@@ -1,0 +1,10 @@
+service:
+  name: ServNgxggMnu8GSM
+  identifier: ServNgxggMnu8GSM
+  orgIdentifier: OrgNgEg9lUy5ceN
+  projectIdentifier: CD_NG_SERENV_CLONEJVmmxJQowd
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
