@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_mXmDBf4578
+  identifier: pl_auto_template_mXmDBf4578
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_5GBketysDQ
+              identifier: pl_auto_template_5GBketysDQ
+              template:
+                templateRef: account.pl_auto_template_5GBketysDQ
+                versionLabel: v3
+                gitBranch: main
