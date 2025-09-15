@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutox20Ndn9WWb
+  identifier: NGPipeAutox20Ndn9WWb
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
