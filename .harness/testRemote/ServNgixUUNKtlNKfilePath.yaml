@@ -1,0 +1,10 @@
+service:
+  name: ServNgixUUNKtlNK
+  identifier: ServNgixUUNKtlNK
+  orgIdentifier: OrgNgItbiouKLqD
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
