@@ -1,0 +1,10 @@
+service:
+  name: ServNgGHy67x14HG
+  identifier: ServNgGHy67x14HG
+  orgIdentifier: OrgNgDXrTuklDiA
+  projectIdentifier: CD_NG_SERENV_CLONEjxTPHpf2qS
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
