@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAuto9i6CTQJban
+  identifier: NGPipeAuto9i6CTQJban
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
