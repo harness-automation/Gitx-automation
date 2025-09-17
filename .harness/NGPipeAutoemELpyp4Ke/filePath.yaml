@@ -1,11 +1,11 @@
 infrastructureDefinition:
   name: NGPipeAutoemELpyp4Ke
   identifier: NGPipeAutoemELpyp4Ke
-  environmentRef: account.NGPipeAutobJXVLhsEWC
+  environmentRef: NGPipeAutobJXVLhsEWC
   deploymentType: Kubernetes
   type: KubernetesDirect
   spec:
     connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
-    namespace: default
+    namespace: <+input>
     releaseName: release-<+INFRA_KEY_SHORT_ID>
   allowSimultaneousDeployments: true
