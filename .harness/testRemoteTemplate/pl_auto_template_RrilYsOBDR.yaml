@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_RrilYsOBDR
+  identifier: pl_auto_template_RrilYsOBDR
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_YoMYe6p1Ti
+              identifier: pl_auto_template_YoMYe6p1Ti
+              template:
+                templateRef: account.pl_auto_template_YoMYe6p1Ti
+                versionLabel: v3
+                gitBranch: main
