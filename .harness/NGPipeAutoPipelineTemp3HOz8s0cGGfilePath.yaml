@@ -1,0 +1,64 @@
+template:
+  name: NGPipeAutoPipelineTemp3HOz8s0cGG
+  identifier: NGPipeAutoPipelineTemp3HOz8s0cGG
+  projectIdentifier: NGPipeAutoPipelineSvcSG4k5x3Inn
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  versionLabel: v1
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: s1
+          identifier: s1
+          tags: {}
+          template:
+            templateRef: NGPipeAutoStageTempfOkUTEAj5w
+            versionLabel: v1
+            templateInputs:
+              type: Custom
+              spec:
+                execution:
+                  steps:
+                    - step:
+                        identifier: s1
+                        template:
+                          templateInputs:
+                            type: ShellScript
+                            timeout: <+input>
+                environment:
+                  environmentRef: <+input>
+                  environmentInputs: <+input>
+                  infrastructureDefinitions: <+input>
+                variables:
+                  - name: values
+                    type: String
+                    value: <+input>.allowedValues(<+input>.allowedValues(var1,var2,var3))
+      - stage:
+          name: s2
+          identifier: s2
+          tags: {}
+          template:
+            templateRef: NGPipeAutoStageTempBQTeAAVNOj
+            versionLabel: v1
+            templateInputs:
+              type: Custom
+              spec:
+                execution:
+                  steps:
+                    - step:
+                        identifier: s1
+                        template:
+                          templateInputs:
+                            type: ShellScript
+                            timeout: <+input>
+                environment:
+                  environmentRef: <+input>
+                  environmentInputs: <+input>
+                  infrastructureDefinitions: <+input>
+                variables:
+                  - name: values
+                    type: String
+                    value: <+input>.allowedValues(<+input>.allowedValues(var1,var2,var3))
+    allowStageExecutions: true
+
