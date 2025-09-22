@@ -1,0 +1,11 @@
+infrastructureDefinition:
+  name: NGPipeAutoCfEf1d3oP2
+  identifier: NGPipeAutoCfEf1d3oP2
+  environmentRef: NGPipeAutoL4cPV8NmdE
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
