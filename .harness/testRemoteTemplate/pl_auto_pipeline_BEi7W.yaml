@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_BEi7W
+  identifier: pl_auto_pipeline_BEi7W
+  template:
+    templateRef: account.pl_auto_template_Xtyu3
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationR4qpAY3rjw
+  orgIdentifier: Simlified_Git_sync
