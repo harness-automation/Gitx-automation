@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_xHDh5
+  identifier: pl_auto_template_xHDh5
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_iPcOG
+              identifier: pl_auto_template_iPcOG
+              template:
+                templateRef: account.pl_auto_template_iPcOG
+                versionLabel: v3
+                gitBranch: main
