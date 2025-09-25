@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_hSbSIhDOme
+  identifier: pl_auto_template_hSbSIhDOme
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_DApzplNWVG
+              identifier: pl_auto_template_DApzplNWVG
+              template:
+                templateRef: account.pl_auto_template_DApzplNWVG
+                versionLabel: v3
+                gitBranch: main
