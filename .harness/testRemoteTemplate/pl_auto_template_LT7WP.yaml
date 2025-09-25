@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_LT7WP
+  identifier: pl_auto_template_LT7WP
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_dCCHj
+              identifier: pl_auto_template_dCCHj
+              template:
+                templateRef: account.pl_auto_template_dCCHj
+                versionLabel: v3
+                gitBranch: main
