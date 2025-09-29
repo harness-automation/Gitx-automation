@@ -1,0 +1,35 @@
+pipeline:
+  name: NGPipeAuto_Pipeline2_gkFVtMXTBH
+  identifier: NGPipeAuto_Pipeline2_gkFVtMXTBH
+  projectIdentifier: NGPipeAutoPipelineSvcyt1ldc1vpt
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {}
+  stages:
+    - stage:
+        name: Stage1
+        identifier: Stage1
+        tags: { }
+        template:
+          templateRef: org.NGPipeAuto_OrgStageTemp_eLIYjW5G0v
+          versionLabel: Org_Stage
+    - stage:
+        name: Stage2
+        identifier: Stage2
+        description: "Stage having step group and step templates"
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - stepGroup:
+                  name: StepGroupTemplate
+                  identifier: StepGroupTemplate
+                  template:
+                    templateRef: account.NGPipeAuto_ActStepGroupTemp_S7NpEUw0e9
+                    versionLabel: Act_StepGrp
+              - step:
+                  name: StepTemplate
+                  identifier: StepTemplate
+                  template:
+                    templateRef: account.NGPipeAuto_ActStepTempUopc6JqG5z
+                    versionLabel: Act_Step_v2
+        tags: {}
