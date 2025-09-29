@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoJ1MBoufLNs
-  identifier: NGPipeAutoJ1MBoufLNs
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
