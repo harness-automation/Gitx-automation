@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoBfL7f4WrjS
+  identifier: NGPipeAutoBfL7f4WrjS
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcp2D4BliZEN
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
