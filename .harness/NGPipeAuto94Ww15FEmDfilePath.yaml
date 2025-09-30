@@ -1,6 +1,7 @@
 environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  identifier: NGPipeAuto94Ww15FEmD
-  tags: {}
   name: NGPipeAuto94Ww15FEmD
-  type: PreProduction
+  identifier: NGPipeAuto94Ww15FEmD
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {
+    }
+  type: Production
