@@ -12,9 +12,8 @@ template:
       source:
         type: Inline
         spec:
-          script: |-
+          script: |
             echo Hello
-            echo "<+execution.steps.stepTemp.log.url>"
       environmentVariables: []
       outputVariables: []
       executionTarget: {}
