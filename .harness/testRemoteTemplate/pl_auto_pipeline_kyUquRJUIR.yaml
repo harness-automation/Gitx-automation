@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_kyUquRJUIR
+  identifier: pl_auto_pipeline_kyUquRJUIR
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_UuR8OrmiVm
+          identifier: pl_auto_template_UuR8OrmiVm
+          template:
+            templateRef: account.pl_auto_template_UuR8OrmiVm
+            versionLabel: v3
