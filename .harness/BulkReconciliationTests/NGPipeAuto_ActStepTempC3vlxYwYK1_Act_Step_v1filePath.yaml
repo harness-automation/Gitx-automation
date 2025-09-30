@@ -9,10 +9,13 @@ template:
     type: ShellScript
     spec:
       shell: Bash
-      onDelegate: true
       source:
         type: Inline
         spec:
-          script: echo Hello
+          script: |-
+            echo Hello
+            echo "<+execution.steps.stepTemp.log.url>"
       environmentVariables: []
       outputVariables: []
+      executionTarget: {}
+      delegateSelectors: []
