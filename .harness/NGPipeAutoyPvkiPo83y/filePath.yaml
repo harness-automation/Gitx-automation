@@ -1,11 +1,11 @@
 infrastructureDefinition:
   name: NGPipeAutoyPvkiPo83y
   identifier: NGPipeAutoyPvkiPo83y
-  environmentRef: account.NGPipeAutoz42SG1IxLp
+  environmentRef: NGPipeAutoz42SG1IxLp
   deploymentType: Kubernetes
   type: KubernetesDirect
   spec:
     connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
-    namespace: default
+    namespace: <+input>
     releaseName: release-<+INFRA_KEY_SHORT_ID>
   allowSimultaneousDeployments: true
