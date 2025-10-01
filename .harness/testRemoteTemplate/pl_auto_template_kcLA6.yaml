@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_kcLA6
+  identifier: pl_auto_template_kcLA6
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_tT0Sg
+              identifier: pl_auto_template_tT0Sg
+              template:
+                templateRef: account.pl_auto_template_tT0Sg
+                versionLabel: v3
+                gitBranch: main
