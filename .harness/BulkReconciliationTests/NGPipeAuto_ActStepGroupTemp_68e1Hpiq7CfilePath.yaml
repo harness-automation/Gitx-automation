@@ -19,3 +19,6 @@ template:
           template:
             templateRef: account.NGPipeAuto_ActStepTempCz0CIt0qvy
             versionLabel: Act_Step_v1
+            templateInputs:
+              type: ShellScript
+              timeout: <+input>
