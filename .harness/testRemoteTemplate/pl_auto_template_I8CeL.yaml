@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_I8CeL
+  identifier: pl_auto_template_I8CeL
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_J5wpp
+              identifier: pl_auto_template_J5wpp
+              template:
+                templateRef: account.pl_auto_template_J5wpp
+                versionLabel: v3
+                gitBranch: main
