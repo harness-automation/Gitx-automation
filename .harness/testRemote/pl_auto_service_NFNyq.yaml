@@ -1,9 +1,0 @@
-service:
-  name: pl_auto_service_NFNyq
-  identifier: pl_auto_service_NFNyq
-  orgIdentifier: Simlified_Git_sync
-  serviceDefinition:
-    spec:
-      release:
-        name: <+input>
-    type: Kubernetes
