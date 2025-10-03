@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoE7NoY25Tiz
-  identifier: NGPipeAutoE7NoY25Tiz
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
