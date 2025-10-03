@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_dDqTI
+  identifier: pl_auto_template_dDqTI
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_vowmh
+              identifier: pl_auto_template_vowmh
+              template:
+                templateRef: account.pl_auto_template_vowmh
+                versionLabel: v3
+                gitBranch: main
