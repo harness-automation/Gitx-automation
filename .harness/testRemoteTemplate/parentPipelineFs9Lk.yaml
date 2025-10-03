@@ -1,0 +1,16 @@
+pipeline:
+  name: parentPipeline
+  identifier: parentPipelineFs9Lk
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: s1
+        description: ""
+        type: Pipeline
+        spec:
+          org: Simlified_Git_sync
+          pipeline: childPipeline5LGLe
+          project: SimplifiedGitSync_Do_Not_Delete
