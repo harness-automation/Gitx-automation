@@ -1,0 +1,28 @@
+pipeline:
+  name: pl_auto_pipeline_zLykc
+  identifier: pl_auto_pipeline_zLykc
+  projectIdentifier: NGPipeAutoPolicyEnforce29bJbhHRVV
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {}
+  stages:
+    - stage:
+        name: S1
+        identifier: S1
+        tags: {}
+        template:
+          templateRef: pl_auto_template_B4169
+          versionLabel: "1"
+          gitBranch: main
+          templateInputs:
+            type: Custom
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: ShellScript_1
+                      type: ShellScript
+                      spec:
+                        source:
+                          type: Inline
+                          spec:
+                            script: <+input>
