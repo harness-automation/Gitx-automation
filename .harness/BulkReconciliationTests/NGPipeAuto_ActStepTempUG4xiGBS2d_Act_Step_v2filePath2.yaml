@@ -1,0 +1,18 @@
+template:
+  name: NGPipeAuto_ActStepTempUG4xiGBS2d
+  identifier: NGPipeAuto_ActStepTempUG4xiGBS2d
+  versionLabel: Act_Step_v2
+  type: Step
+  tags: {}
+  spec:
+    timeout: 20s
+    type: ShellScript
+    spec:
+      shell: Bash
+      onDelegate: true
+      source:
+        type: Inline
+        spec:
+          script: echo Hello
+      environmentVariables: []
+      outputVariables: []
