@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoSI2MlrDV66
-  identifier: NGPipeAutoSI2MlrDV66
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
