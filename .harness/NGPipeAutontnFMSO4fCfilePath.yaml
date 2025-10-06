@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutontnFMSO4fC
+  identifier: NGPipeAutontnFMSO4fC
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
