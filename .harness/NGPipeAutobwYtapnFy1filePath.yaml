@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutobwYtapnFy1
+  identifier: NGPipeAutobwYtapnFy1
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
