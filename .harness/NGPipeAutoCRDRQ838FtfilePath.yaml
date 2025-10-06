@@ -1,6 +1,7 @@
 environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  identifier: NGPipeAutoCRDRQ838Ft
-  tags: {}
   name: NGPipeAutoCRDRQ838Ft
-  type: PreProduction
+  identifier: NGPipeAutoCRDRQ838Ft
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {
+    }
+  type: Production
