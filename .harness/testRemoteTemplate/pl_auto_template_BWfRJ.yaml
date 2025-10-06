@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_BWfRJ
+  identifier: pl_auto_template_BWfRJ
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_8FFRL
+              identifier: pl_auto_template_8FFRL
+              template:
+                templateRef: account.pl_auto_template_8FFRL
+                versionLabel: v3
+                gitBranch: main
