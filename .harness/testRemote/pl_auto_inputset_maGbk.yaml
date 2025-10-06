@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_qWHOb
+  identifier: pl_auto_inputset_qWHOb
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTestV8BIK
+  pipeline:
+    identifier: PipelineAuto_CRUDmR2
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
