@@ -1,0 +1,15 @@
+pipeline:
+  name: pl_auto_pipeline_7K54K
+  identifier: pl_auto_pipeline_7K54K
+  projectIdentifier: CDCNGAuto_CustomWebhookTrigger_lmOJK
+  orgIdentifier: DoNotDeleteTriggerOrg
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: stage1
+        type: Pipeline
+        spec:
+          org: DoNotDeleteTriggerOrg
+          pipeline: pl_auto_pipeline_ZYQ61
+          project: CDCNGAuto_CustomWebhookTrigger_lmOJK
