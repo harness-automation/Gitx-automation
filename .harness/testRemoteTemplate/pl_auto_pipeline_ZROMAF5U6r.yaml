@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_ZROMAF5U6r
+  identifier: pl_auto_pipeline_ZROMAF5U6r
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_DNqiPNLk3t
+          identifier: pl_auto_template_DNqiPNLk3t
+          template:
+            templateRef: account.pl_auto_template_DNqiPNLk3t
+            versionLabel: v3
