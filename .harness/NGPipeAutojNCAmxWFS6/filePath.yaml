@@ -1,11 +1,11 @@
 infrastructureDefinition:
   name: NGPipeAutojNCAmxWFS6
   identifier: NGPipeAutojNCAmxWFS6
-  environmentRef: account.NGPipeAutoRwOaAfEQEl
+  environmentRef: NGPipeAutoRwOaAfEQEl
   deploymentType: Kubernetes
   type: KubernetesDirect
   spec:
     connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
-    namespace: default
+    namespace: <+input>
     releaseName: release-<+INFRA_KEY_SHORT_ID>
   allowSimultaneousDeployments: true
