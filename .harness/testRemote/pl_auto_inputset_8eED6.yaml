@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_triLp
+  identifier: pl_auto_inputset_triLp
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTestI2Ozp
+  pipeline:
+    identifier: PipelineAuto_CRUDmWC
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
