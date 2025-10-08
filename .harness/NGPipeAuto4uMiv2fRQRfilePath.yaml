@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAuto4uMiv2fRQR
+  identifier: NGPipeAuto4uMiv2fRQR
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
