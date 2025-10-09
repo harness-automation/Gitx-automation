@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_FpUsb
+  identifier: pl_auto_inputset_FpUsb
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_GithubTriggerSSH_ztKxFw9Lqj
+  pipeline:
+    identifier: pl_auto_pipeline_IM5U9
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
