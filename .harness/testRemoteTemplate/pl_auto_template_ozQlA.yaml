@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_ozQlA
+  identifier: pl_auto_template_ozQlA
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_0Wsg9
+              identifier: pl_auto_template_0Wsg9
+              template:
+                templateRef: account.pl_auto_template_0Wsg9
+                versionLabel: v3
+                gitBranch: main
