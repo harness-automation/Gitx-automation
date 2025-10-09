@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_NOjHI
+  identifier: pl_auto_pipeline_NOjHI
+  template:
+    templateRef: account.pl_auto_template_YsTug
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationBezuJau0Q5
+  orgIdentifier: Simlified_Git_sync
