@@ -1,7 +1,8 @@
 environment:
+  name: NGPipeAutoeTeX2RI0AD
+  identifier: NGPipeAutoeTeX2RI0AD
   orgIdentifier: Pipelines_NonK8s_Org_NG
   projectIdentifier: NGPipeAutoPipelineSvcPrfdk1egsY
-  identifier: NGPipeAutoeTeX2RI0AD
-  tags: {}
-  name: NGPipeAutoeTeX2RI0AD
-  type: PreProduction
+  tags: {
+    }
+  type: Production
