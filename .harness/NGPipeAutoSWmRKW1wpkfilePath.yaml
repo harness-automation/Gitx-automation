@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoSWmRKW1wpk
-  identifier: NGPipeAutoSWmRKW1wpk
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
