@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_LSxyG
+  identifier: pl_auto_inputset_LSxyG
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTestZyneF
+  pipeline:
+    identifier: PipelineAuto_CRUDOUZ
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
