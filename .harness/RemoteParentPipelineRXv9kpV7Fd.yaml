@@ -1,0 +1,25 @@
+pipeline:
+  name: inline-parent
+  identifier: RemoteParentPipelineRXv9kpV7Fd
+  projectIdentifier: NGPipeAutoParentPipelineProjectPqNkNmDoPd
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags:
+    parent_tag: pTag
+  stages:
+    - stage:
+        name: parent_stage1
+        identifier: parent_stage1
+        description: ""
+        type: Pipeline
+        spec:
+          org: Pipelines_NonK8s_Org_NG
+          pipeline: childPipeline
+          project: NGPipeAutoPipelineChainingInputSetTest25scuMhmQD
+          inputSetReferences:
+            - InputSetjmEUp
+  variables:
+    - name: "runtimevar"
+      type: String
+      description: ""
+      required: true
+      value: <+input>
