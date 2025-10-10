@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_mxPdd
+  identifier: pl_auto_template_mxPdd
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_zLwPq
+              identifier: pl_auto_template_zLwPq
+              template:
+                templateRef: account.pl_auto_template_zLwPq
+                versionLabel: v3
+                gitBranch: main
