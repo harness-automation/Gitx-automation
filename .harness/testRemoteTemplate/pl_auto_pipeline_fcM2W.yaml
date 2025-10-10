@@ -1,0 +1,28 @@
+pipeline:
+  name: pl_auto_pipeline_fcM2W
+  identifier: pl_auto_pipeline_fcM2W
+  projectIdentifier: NGPipeAutoPMSXRBE49ghSG
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {}
+  stages:
+    - stage:
+        name: S1
+        identifier: S1
+        tags: {}
+        template:
+          templateRef: pl_auto_template_Cbt3n
+          versionLabel: "1"
+          gitBranch: main
+          templateInputs:
+            type: Custom
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: ShellScript_1
+                      type: ShellScript
+                      spec:
+                        source:
+                          type: Inline
+                          spec:
+                            script: <+input>
