@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_UkGB1aaiL5
+  identifier: pl_auto_pipeline_UkGB1aaiL5
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_mxPdd
+          identifier: pl_auto_template_mxPdd
+          template:
+            templateRef: account.pl_auto_template_mxPdd
+            versionLabel: v3
