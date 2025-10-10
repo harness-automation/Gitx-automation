@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutorrgMz94xw7
+  identifier: NGPipeAutorrgMz94xw7
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
