@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoMYA1VDIt6r
+  identifier: NGPipeAutoMYA1VDIt6r
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
