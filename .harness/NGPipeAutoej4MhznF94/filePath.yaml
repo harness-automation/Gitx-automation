@@ -1,0 +1,11 @@
+infrastructureDefinition:
+  name: NGPipeAutoej4MhznF94
+  identifier: NGPipeAutoej4MhznF94
+  environmentRef: NGPipeAutolqPiJlSH6s
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
