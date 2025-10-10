@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoCSsGFGMabl
+  identifier: NGPipeAutoCSsGFGMabl
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
