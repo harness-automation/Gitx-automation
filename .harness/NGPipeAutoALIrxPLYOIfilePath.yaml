@@ -1,7 +1,8 @@
 environment:
+  name: NGPipeAutoALIrxPLYOI
+  identifier: NGPipeAutoALIrxPLYOI
   orgIdentifier: Pipelines_NonK8s_Org_NG
   projectIdentifier: NGPipeAutoPipelineSvcdu4LfXfcDr
-  identifier: NGPipeAutoALIrxPLYOI
-  tags: {}
-  name: NGPipeAutoALIrxPLYOI
-  type: PreProduction
+  tags: {
+    }
+  type: Production
