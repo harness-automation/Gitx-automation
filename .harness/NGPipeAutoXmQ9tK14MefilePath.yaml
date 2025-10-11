@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoXmQ9tK14Me
-  identifier: NGPipeAutoXmQ9tK14Me
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
