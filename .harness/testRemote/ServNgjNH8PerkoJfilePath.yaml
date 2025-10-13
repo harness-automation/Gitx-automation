@@ -1,0 +1,10 @@
+service:
+  name: ServNgjNH8PerkoJ
+  identifier: ServNgjNH8PerkoJ
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
