@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_fBGBF
+  identifier: pl_auto_inputset_fBGBF
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTestAbCpX
+  pipeline:
+    identifier: PipelineAuto_CRUDRIN
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
