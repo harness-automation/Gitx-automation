@@ -1,0 +1,10 @@
+service:
+  name: ServNgjwirZMp1bi
+  identifier: ServNgjwirZMp1bi
+  orgIdentifier: OrgNg2mAaumwaGG
+  projectIdentifier: CD_NG_SERENV_CLONEukhgmdtRhk
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
