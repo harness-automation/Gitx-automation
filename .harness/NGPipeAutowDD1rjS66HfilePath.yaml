@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutowDD1rjS66H
-  identifier: NGPipeAutowDD1rjS66H
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
