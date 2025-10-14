@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_MuHRM
+  identifier: pl_auto_pipeline_MuHRM
+  template:
+    templateRef: account.pl_auto_template_dJLwd
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationnf1iAvodC8
+  orgIdentifier: Simlified_Git_sync
