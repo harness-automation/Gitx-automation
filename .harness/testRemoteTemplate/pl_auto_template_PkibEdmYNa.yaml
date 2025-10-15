@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_PkibEdmYNa
+  identifier: pl_auto_template_PkibEdmYNa
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_SzKoZON0zJ
+              identifier: pl_auto_template_SzKoZON0zJ
+              template:
+                templateRef: account.pl_auto_template_SzKoZON0zJ
+                versionLabel: v3
+                gitBranch: main
