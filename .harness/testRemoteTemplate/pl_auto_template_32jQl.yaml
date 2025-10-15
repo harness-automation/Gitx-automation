@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_32jQl
+  identifier: pl_auto_template_32jQl
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_c6OST
+              identifier: pl_auto_template_c6OST
+              template:
+                templateRef: account.pl_auto_template_c6OST
+                versionLabel: v3
+                gitBranch: main
