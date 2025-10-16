@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoIvHooudAVt
+  identifier: NGPipeAutoIvHooudAVt
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
