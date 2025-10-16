@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoFaxJnwlCB7
+  identifier: NGPipeAutoFaxJnwlCB7
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
