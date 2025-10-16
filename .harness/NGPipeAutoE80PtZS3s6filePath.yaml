@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoE80PtZS3s6
+  identifier: NGPipeAutoE80PtZS3s6
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
