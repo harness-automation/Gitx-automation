@@ -1,0 +1,28 @@
+pipeline:
+  name: pl_auto_pipeline_uvP7h
+  identifier: pl_auto_pipeline_uvP7h
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_CustomWebhookTrigger_tgIpF
+  tags: { }
+  stages:
+      - stage:
+          name: S2
+          identifier: S2
+          description: ""
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    type: Http
+                    name: Http_1
+                    identifier: Http_1
+                    timeout: 10s
+                    spec:
+                      url: https://qa.harness.io/gateway/pipeline/api/webhook/custom/K9797LOfS3G8mpY1qYX9Rw/v3?accountIdentifier=OgiB4-xETamKNVAz-wQRjw&orgIdentifier=DoNotDeleteTriggerOrg&projectIdentifier=CDCNGAuto_CustomWebhookTrigger_tgIpF&pipelineIdentifier=pl_auto_pipeline_D62wH&triggerIdentifier=CDNGAuto_Trigger_93hP3WTfSJ
+                      method: POST
+                      headers: [ ]
+                      inputVariables: [ ]
+                      outputVariables: [ ]
+                      requestBody: "{\"sample_key\": \"sample_value\", \"stages_to_execute\": \"S2\", \"input_set_refs\": \"$inputSet\"}"
+          tags: { }
