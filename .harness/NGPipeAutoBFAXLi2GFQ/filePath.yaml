@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: NGPipeAutoBFAXLi2GFQ
+  identifier: NGPipeAutoBFAXLi2GFQ
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineInfraMJA4zmtcls
+  environmentRef: NGPipeAutof0F1Nnrc54
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
