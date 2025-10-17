@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_gs7TJpdC2E
+  identifier: pl_auto_pipeline_gs7TJpdC2E
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Lt3xi
+          identifier: pl_auto_template_Lt3xi
+          template:
+            templateRef: account.pl_auto_template_Lt3xi
+            versionLabel: v3
