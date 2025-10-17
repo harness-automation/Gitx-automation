@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Lt3xi
+  identifier: pl_auto_template_Lt3xi
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_AHyiL
+              identifier: pl_auto_template_AHyiL
+              template:
+                templateRef: account.pl_auto_template_AHyiL
+                versionLabel: v3
+                gitBranch: main
