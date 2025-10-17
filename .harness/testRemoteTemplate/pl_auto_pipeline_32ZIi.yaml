@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_32ZIi
+  identifier: pl_auto_pipeline_32ZIi
+  template:
+    templateRef: account.pl_auto_template_1L50i
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationO612IC2ljD
+  orgIdentifier: Simlified_Git_sync
