@@ -1,0 +1,57 @@
+template:
+  name: remote_svc_env_infra_tempFASsh
+  identifier: remote_svc_env_infra_tempFASsh
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: NGPipeAutoPipelineSvc4sePek35Ue
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {}
+  spec:
+    type: Deployment
+    spec:
+      deploymentType: Kubernetes
+      service:
+        serviceRef: NGPipeAutoSvcp5wo2Bh1oJ
+      environments:
+        metadata:
+          parallel: true
+        values:
+          - environmentRef: NGPipeAutokdv98Bhr2g
+            deployToAll: false
+            infrastructureDefinitions:
+              - identifier: NGPipeAutoUVdpgRY6ip
+                inputs:
+                  identifier: NGPipeAutoUVdpgRY6ip
+                  type: KubernetesDirect
+                  spec:
+                    namespace: default
+      execution:
+        steps:
+          - step:
+              name: Rollout Deployment
+              identifier: rolloutDeployment
+              type: K8sRollingDeploy
+              timeout: 10m
+              spec:
+                skipDryRun: false
+                pruningEnabled: false
+        rollbackSteps:
+          - step:
+              name: Rollback Rollout Deployment
+              identifier: rollbackRolloutDeployment
+              type: K8sRollingRollback
+              timeout: 10m
+              spec:
+                pruningEnabled: false
+    failureStrategies:
+      - onFailure:
+          errors:
+            - AllErrors
+          action:
+            type: StageRollback
+    variables:
+      - name: resourceNamePrefix
+        type: String
+        description: ""
+        required: false
+        value: pipelinesanityl9t
