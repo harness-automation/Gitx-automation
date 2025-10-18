@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_ANXoO
+  identifier: pl_auto_inputset_ANXoO
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_GithubHTTPSTrigger_bHBDVTWp3S
+  pipeline:
+    identifier: pl_auto_pipeline_h7uom
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
