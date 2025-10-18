@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_4lCLzI8I0h
+  identifier: pl_auto_pipeline_4lCLzI8I0h
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_AfaxU
+          identifier: pl_auto_template_AfaxU
+          template:
+            templateRef: account.pl_auto_template_AfaxU
+            versionLabel: v3
