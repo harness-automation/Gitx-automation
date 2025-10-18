@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_AfaxU
+  identifier: pl_auto_template_AfaxU
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_rlZzU
+              identifier: pl_auto_template_rlZzU
+              template:
+                templateRef: account.pl_auto_template_rlZzU
+                versionLabel: v3
+                gitBranch: main
