@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoUIsBfn55dK
+  identifier: NGPipeAutoUIsBfn55dK
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
