@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutofsJU7At9yr
+  identifier: NGPipeAutofsJU7At9yr
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
