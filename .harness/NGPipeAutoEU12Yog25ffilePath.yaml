@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoEU12Yog25f
+  identifier: NGPipeAutoEU12Yog25f
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
