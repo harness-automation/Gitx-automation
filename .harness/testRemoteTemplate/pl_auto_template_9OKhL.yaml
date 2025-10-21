@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_9OKhL
+  identifier: pl_auto_template_9OKhL
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_kbKSO
+              identifier: pl_auto_template_kbKSO
+              template:
+                templateRef: account.pl_auto_template_kbKSO
+                versionLabel: v3
+                gitBranch: main
