@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_ErThM
+  identifier: pl_auto_pipeline_ErThM
+  template:
+    templateRef: account.pl_auto_template_e9MRZ
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationHtRL85y94e
+  orgIdentifier: Simlified_Git_sync
