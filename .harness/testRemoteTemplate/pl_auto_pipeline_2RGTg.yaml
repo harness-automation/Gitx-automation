@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_2RGTg
+  identifier: pl_auto_pipeline_2RGTg
+  template:
+    templateRef: account.pl_auto_template_QEcUS
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationnbGV7NaNYw
+  orgIdentifier: Simlified_Git_sync
