@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_GPm55tInXj
+  identifier: pl_auto_pipeline_GPm55tInXj
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_rBINZYl0DO
+          identifier: pl_auto_template_rBINZYl0DO
+          template:
+            templateRef: account.pl_auto_template_rBINZYl0DO
+            versionLabel: v3
