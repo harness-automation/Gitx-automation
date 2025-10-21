@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_rBINZYl0DO
+  identifier: pl_auto_template_rBINZYl0DO
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_RYsFulz65e
+              identifier: pl_auto_template_RYsFulz65e
+              template:
+                templateRef: account.pl_auto_template_RYsFulz65e
+                versionLabel: v3
+                gitBranch: main
