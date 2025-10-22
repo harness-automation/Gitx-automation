@@ -18,7 +18,7 @@ template:
       - stage:
           name: Stage2
           identifier: Stage2
-          description: "Stage having step group and step templates"
+          description: Stage having step group and step templates
           type: Custom
           spec:
             execution:
