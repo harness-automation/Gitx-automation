@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_M96I6
+  identifier: pl_auto_template_M96I6
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_cV9iN
+              identifier: pl_auto_template_cV9iN
+              template:
+                templateRef: account.pl_auto_template_cV9iN
+                versionLabel: v3
+                gitBranch: main
