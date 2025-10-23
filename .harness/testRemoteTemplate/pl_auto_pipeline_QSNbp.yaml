@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_QSNbp
+  identifier: pl_auto_pipeline_QSNbp
+  template:
+    templateRef: account.pl_auto_template_v45hc
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationSoAsDBewtE
+  orgIdentifier: Simlified_Git_sync
