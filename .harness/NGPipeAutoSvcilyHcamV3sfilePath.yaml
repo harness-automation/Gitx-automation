@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoSvcilyHcamV3s
+  identifier: NGPipeAutoSvcilyHcamV3s
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcCZQgNKqksD
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
