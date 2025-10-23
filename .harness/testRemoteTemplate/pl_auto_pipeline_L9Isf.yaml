@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_L9Isf
+  identifier: pl_auto_pipeline_L9Isf
+  template:
+    templateRef: account.pl_auto_template_XUFPQ
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationjz4J2Ek5BK
+  orgIdentifier: Simlified_Git_sync
