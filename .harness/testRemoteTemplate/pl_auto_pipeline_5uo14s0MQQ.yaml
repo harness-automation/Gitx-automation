@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_5uo14s0MQQ
+  identifier: pl_auto_pipeline_5uo14s0MQQ
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_RJBRSePra6
+          identifier: pl_auto_template_RJBRSePra6
+          template:
+            templateRef: account.pl_auto_template_RJBRSePra6
+            versionLabel: v3
