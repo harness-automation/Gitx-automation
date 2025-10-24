@@ -1,0 +1,11 @@
+infrastructureDefinition:
+  name: NGPipeAuto91KnW52MCR
+  identifier: NGPipeAuto91KnW52MCR
+  environmentRef: NGPipeAutozX2TJFfyKK
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
