@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoexKOCZt5QN
-  identifier: NGPipeAutoexKOCZt5QN
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
