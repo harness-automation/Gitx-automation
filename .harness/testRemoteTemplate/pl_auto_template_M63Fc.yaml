@@ -1,0 +1,27 @@
+template:
+  name: pl_auto_template_M63Fc
+  identifier: pl_auto_template_M63Fc
+  versionLabel: "1"
+  type: Stage
+  projectIdentifier: NGPipeAutoPMSjz3IfHL0Xz
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              type: ShellScript
+              name: ShellScript_1
+              identifier: ShellScript_1
+              spec:
+                shell: Bash
+                executionTarget: {}
+                source:
+                  type: Inline
+                  spec:
+                    script: <+input>
+                environmentVariables: []
+                outputVariables: []
+              timeout: 10m
