@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_SziQf
+  identifier: pl_auto_pipeline_SziQf
+  template:
+    templateRef: account.pl_auto_template_kuh7T
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationvEUz4ERRzE
+  orgIdentifier: Simlified_Git_sync
