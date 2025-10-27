@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_GKGBAtycnr
+  identifier: pl_auto_pipeline_GKGBAtycnr
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_HRnupWiH0r
+          identifier: pl_auto_template_HRnupWiH0r
+          template:
+            templateRef: account.pl_auto_template_HRnupWiH0r
+            versionLabel: v3
