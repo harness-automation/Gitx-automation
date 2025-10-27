@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_E1wcd
+  identifier: pl_auto_pipeline_E1wcd
+  template:
+    templateRef: account.pl_auto_template_Ij2QQ
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationgvQ6cVGXLq
+  orgIdentifier: Simlified_Git_sync
