@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_WS6IW
+  identifier: pl_auto_template_WS6IW
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_U6aFx
+              identifier: pl_auto_template_U6aFx
+              template:
+                templateRef: account.pl_auto_template_U6aFx
+                versionLabel: v3
+                gitBranch: main
