@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutonKCMZsRSAx
+  identifier: NGPipeAutonKCMZsRSAx
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
