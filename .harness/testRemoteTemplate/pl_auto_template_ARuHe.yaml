@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_ARuHe
+  identifier: pl_auto_template_ARuHe
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_bX78V
+              identifier: pl_auto_template_bX78V
+              template:
+                templateRef: account.pl_auto_template_bX78V
+                versionLabel: v3
+                gitBranch: main
