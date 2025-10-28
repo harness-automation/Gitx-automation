@@ -1,0 +1,20 @@
+template:
+  name: NGPipeAutoStepTempb8yMmD0aP8
+  identifier: NGPipeAutoStepTempb8yMmD0aP8
+  projectIdentifier: NGPipeAutoPipelineSvcrGeDIG7pDw
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  versionLabel: v1
+  type: Step
+  tags: {}
+  spec:
+    timeout: <+input>
+    type: ShellScript
+    spec:
+      shell: Bash
+      onDelegate: true
+      source:
+        type: Inline
+        spec:
+          script: echo Hello
+      environmentVariables: []
+      outputVariables: []
