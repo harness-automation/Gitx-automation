@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_FpXWx
+  identifier: pl_auto_template_FpXWx
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_l9neZ
+              identifier: pl_auto_template_l9neZ
+              template:
+                templateRef: account.pl_auto_template_l9neZ
+                versionLabel: v3
+                gitBranch: main
