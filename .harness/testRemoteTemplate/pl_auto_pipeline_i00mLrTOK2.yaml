@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_i00mLrTOK2
+  identifier: pl_auto_pipeline_i00mLrTOK2
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_gPMPo
+          identifier: pl_auto_template_gPMPo
+          template:
+            templateRef: account.pl_auto_template_gPMPo
+            versionLabel: v3
