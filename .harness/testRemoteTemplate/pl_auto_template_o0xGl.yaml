@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_o0xGl
+  identifier: pl_auto_template_o0xGl
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_3DSRZ
+              identifier: pl_auto_template_3DSRZ
+              template:
+                templateRef: account.pl_auto_template_3DSRZ
+                versionLabel: v3
+                gitBranch: main
