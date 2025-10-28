@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoDeB57kwFiq
+  identifier: NGPipeAutoDeB57kwFiq
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
