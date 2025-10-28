@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_3aFpKdQdur
+  identifier: pl_auto_pipeline_3aFpKdQdur
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_jXpsh
+          identifier: pl_auto_template_jXpsh
+          template:
+            templateRef: account.pl_auto_template_jXpsh
+            versionLabel: v3
