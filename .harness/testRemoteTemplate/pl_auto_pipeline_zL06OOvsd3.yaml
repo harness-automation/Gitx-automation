@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_zL06OOvsd3
+  identifier: pl_auto_pipeline_zL06OOvsd3
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_UyaLy
+          identifier: pl_auto_template_UyaLy
+          template:
+            templateRef: account.pl_auto_template_UyaLy
+            versionLabel: v3
