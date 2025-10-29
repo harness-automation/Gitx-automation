@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoM2HV09m22d
+  identifier: NGPipeAutoM2HV09m22d
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
