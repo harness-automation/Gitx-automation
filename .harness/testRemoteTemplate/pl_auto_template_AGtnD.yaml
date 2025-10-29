@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_AGtnD
+  identifier: pl_auto_template_AGtnD
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_FeBeC
+              identifier: pl_auto_template_FeBeC
+              template:
+                templateRef: account.pl_auto_template_FeBeC
+                versionLabel: v3
+                gitBranch: main
