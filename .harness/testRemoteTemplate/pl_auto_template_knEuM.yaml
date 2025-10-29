@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_knEuM
+  identifier: pl_auto_template_knEuM
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_tmvm0
+              identifier: pl_auto_template_tmvm0
+              template:
+                templateRef: account.pl_auto_template_tmvm0
+                versionLabel: v3
+                gitBranch: main
