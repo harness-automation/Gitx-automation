@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoFqtDiJMjRv
+  identifier: NGPipeAutoFqtDiJMjRv
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
