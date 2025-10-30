@@ -1,0 +1,28 @@
+pipeline:
+  name: pl_auto_pipeline_Vt2Md
+  identifier: pl_auto_pipeline_Vt2Md
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_CustomWebhookTrigger_TsR2T
+  tags: { }
+  stages:
+      - stage:
+          name: S2
+          identifier: S2
+          description: ""
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    type: Http
+                    name: Http_1
+                    identifier: Http_1
+                    timeout: 10s
+                    spec:
+                      url: https://akashs.pr2.harness.io/gateway/pipeline/api/webhook/custom/P0-mAGaUR1K3bq_C6gvxkw/v3?accountIdentifier=gEAXoTp4Q1igSM6FIPUqlA&orgIdentifier=DoNotDeleteTriggerOrg&projectIdentifier=CDCNGAuto_CustomWebhookTrigger_TsR2T&pipelineIdentifier=pl_auto_pipeline_fx1S6&triggerIdentifier=CDNGAuto_Trigger_l04YPA1U2t
+                      method: POST
+                      headers: [ ]
+                      inputVariables: [ ]
+                      outputVariables: [ ]
+                      requestBody: "{\"sample_key\": \"sample_value\", \"stages_to_execute\": \"S2\", \"input_set_refs\": \"pl_auto_inputset_voTkY\"}"
+          tags: { }
