@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_YaRAm
+  identifier: pl_auto_pipeline_YaRAm
+  template:
+    templateRef: account.pl_auto_template_uNTZz
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotification2zEhFiBGnD
+  orgIdentifier: Simlified_Git_sync
