@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutofoCNujTrLF
+  identifier: NGPipeAutofoCNujTrLF
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcXMX2jYuKRv
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
