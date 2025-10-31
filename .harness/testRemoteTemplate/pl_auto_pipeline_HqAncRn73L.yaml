@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_HqAncRn73L
+  identifier: pl_auto_pipeline_HqAncRn73L
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_aruTskMUiM
+          identifier: pl_auto_template_aruTskMUiM
+          template:
+            templateRef: account.pl_auto_template_aruTskMUiM
+            versionLabel: v3
