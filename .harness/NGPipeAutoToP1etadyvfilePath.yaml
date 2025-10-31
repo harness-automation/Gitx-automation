@@ -1,7 +1,8 @@
 environment:
+  name: NGPipeAutoToP1etadyv
+  identifier: NGPipeAutoToP1etadyv
   orgIdentifier: Pipelines_NonK8s_Org_NG
   projectIdentifier: NGPipeAutoPipelineSvc2jRHYDBJ8s
-  identifier: NGPipeAutoToP1etadyv
-  tags: {}
-  name: NGPipeAutoToP1etadyv
-  type: PreProduction
+  tags: {
+    }
+  type: Production
