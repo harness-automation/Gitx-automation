@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: NGPipeAutossodicEU3L
+  identifier: NGPipeAutossodicEU3L
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcRdS4CTCAD8
+  environmentRef: NGPipeAutoTxeGoKkPWH
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: org.KubernetesConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
