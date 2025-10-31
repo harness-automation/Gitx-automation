@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoMdAX5F35Pt
+  identifier: NGPipeAutoMdAX5F35Pt
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
