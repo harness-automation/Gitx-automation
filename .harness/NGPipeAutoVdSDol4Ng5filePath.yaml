@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoVdSDol4Ng5
-  identifier: NGPipeAutoVdSDol4Ng5
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
