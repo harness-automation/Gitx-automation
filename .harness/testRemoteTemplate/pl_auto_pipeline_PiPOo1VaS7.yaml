@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_PiPOo1VaS7
+  identifier: pl_auto_pipeline_PiPOo1VaS7
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_XmNat09te5
+          identifier: pl_auto_template_XmNat09te5
+          template:
+            templateRef: account.pl_auto_template_XmNat09te5
+            versionLabel: v3
