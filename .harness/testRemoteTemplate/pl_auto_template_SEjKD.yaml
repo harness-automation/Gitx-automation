@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_SEjKD
+  identifier: pl_auto_template_SEjKD
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_7xotO
+              identifier: pl_auto_template_7xotO
+              template:
+                templateRef: account.pl_auto_template_7xotO
+                versionLabel: v3
+                gitBranch: main
