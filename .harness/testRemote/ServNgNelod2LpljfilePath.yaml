@@ -1,0 +1,10 @@
+service:
+  name: ServNgNelod2Lplj
+  identifier: ServNgNelod2Lplj
+  orgIdentifier: OrgNg4q5hoxIbVy
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
