@@ -1,7 +1,8 @@
 environment:
+  name: NGPipeAutom552tsmSUT
+  identifier: NGPipeAutom552tsmSUT
   orgIdentifier: Pipelines_NonK8s_Org_NG
   projectIdentifier: NGPipeAutoPipelineSvcpmVLUV0t6l
-  identifier: NGPipeAutom552tsmSUT
-  tags: {}
-  name: NGPipeAutom552tsmSUT
-  type: PreProduction
+  tags: {
+    }
+  type: Production
