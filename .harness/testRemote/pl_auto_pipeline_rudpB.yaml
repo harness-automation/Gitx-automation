@@ -1,0 +1,15 @@
+pipeline:
+  name: pl_auto_pipeline_rudpB
+  identifier: pl_auto_pipeline_rudpB
+  projectIdentifier: CDCNGAuto_CustomWebhookTrigger_UOABZ
+  orgIdentifier: DoNotDeleteTriggerOrg
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: stage1
+        type: Pipeline
+        spec:
+          org: DoNotDeleteTriggerOrg
+          pipeline: pl_auto_pipeline_XvlKn
+          project: CDCNGAuto_CustomWebhookTrigger_UOABZ
