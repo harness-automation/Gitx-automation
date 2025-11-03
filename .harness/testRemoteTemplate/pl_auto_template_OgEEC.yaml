@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_OgEEC
+  identifier: pl_auto_template_OgEEC
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_QX9hY
+              identifier: pl_auto_template_QX9hY
+              template:
+                templateRef: account.pl_auto_template_QX9hY
+                versionLabel: v3
+                gitBranch: main
