@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutok3DftrCHSd
+  identifier: NGPipeAutok3DftrCHSd
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
