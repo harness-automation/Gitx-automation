@@ -1,0 +1,10 @@
+service:
+  name: ServNguNAiNUipV8
+  identifier: ServNguNAiNUipV8
+  orgIdentifier: OrgNgZoCjbpdbpF
+  projectIdentifier: CD_NG_SERENV_CLONES34YOl8LwK
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
