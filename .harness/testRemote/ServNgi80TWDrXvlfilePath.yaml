@@ -1,0 +1,10 @@
+service:
+  name: ServNgi80TWDrXvl
+  identifier: ServNgi80TWDrXvl
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
