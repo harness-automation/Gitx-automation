@@ -1,0 +1,16 @@
+pipeline:
+  name: parentPipeline
+  identifier: parentPipelineC60nF
+  projectIdentifier: NGPipeAutoRerunFromOriginalPipelineDefX54o9bV16d
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: s1
+        description: ""
+        type: Pipeline
+        spec:
+          org: Pipelines_NonK8s_Org_NG
+          pipeline: childPipelineaSZso
+          project: NGPipeAutoRerunFromOriginalPipelineDefX54o9bV16d
