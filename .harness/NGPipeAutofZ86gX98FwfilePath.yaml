@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAutofZ86gX98Fw
+  identifier: NGPipeAutofZ86gX98Fw
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
