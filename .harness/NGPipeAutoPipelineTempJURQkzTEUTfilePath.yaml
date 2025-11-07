@@ -33,7 +33,7 @@ template:
                 variables:
                   - name: values
                     type: String
-                    value: <+input>.allowedValues($variables)
+                    value: <+input>.allowedValues(var1,var2))
       - stage:
           name: s2
           identifier: s2
@@ -59,6 +59,5 @@ template:
                 variables:
                   - name: values
                     type: String
-                    value: <+input>.allowedValues($variables)
+                    value: <+input>.allowedValues(var1,var2))
     allowStageExecutions: true
-
