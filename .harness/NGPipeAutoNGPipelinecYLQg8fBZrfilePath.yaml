@@ -31,7 +31,7 @@ pipeline:
                   variables:
                     - name: values
                       type: String
-                      value: <+input>.allowedValues(var1,var2)
+                      value: "<+input>.allowedValues(var1,var2))"
         - stage:
             identifier: s2
             template:
@@ -53,4 +53,4 @@ pipeline:
                   variables:
                     - name: values
                       type: String
-                      value: <+input>.allowedValues(var1,var2)
+                      value: "<+input>.allowedValues(var1,var2)"
