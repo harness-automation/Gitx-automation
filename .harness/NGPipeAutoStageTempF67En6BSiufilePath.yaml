@@ -30,4 +30,4 @@ template:
           type: String
           description: ""
           required: false
-          value: <+input>.allowedValues($variables)
+          value: <+input>.allowedValues(var1,var2))
