@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoEtIBsebpLu
+  identifier: NGPipeAutoEtIBsebpLu
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
