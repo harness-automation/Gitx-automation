@@ -59,5 +59,5 @@ template:
                 variables:
                   - name: values
                     type: String
-                    value: <+input>.allowedValues(var1,var2))
+                    value: <+input>.allowedValues($variables)
     allowStageExecutions: true
