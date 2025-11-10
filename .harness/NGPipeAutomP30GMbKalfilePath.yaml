@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutomP30GMbKal
-  identifier: NGPipeAutomP30GMbKal
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
