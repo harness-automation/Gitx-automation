@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutomP30GMbKal
+  identifier: NGPipeAutomP30GMbKal
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
