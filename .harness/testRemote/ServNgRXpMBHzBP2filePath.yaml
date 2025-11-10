@@ -1,0 +1,10 @@
+service:
+  name: ServNgRXpMBHzBP2
+  identifier: ServNgRXpMBHzBP2
+  orgIdentifier: OrgNgItSVDI8YfY
+  projectIdentifier: CD_NG_SERENV_CLONEgEDaWaIUAC
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
