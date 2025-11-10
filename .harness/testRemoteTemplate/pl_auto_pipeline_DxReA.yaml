@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_DxReA
+  identifier: pl_auto_pipeline_DxReA
+  template:
+    templateRef: account.pl_auto_template_XI9lu
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationnhfxqQ6BN7
+  orgIdentifier: Simlified_Git_sync
