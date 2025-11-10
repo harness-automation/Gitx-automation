@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_hypeb
+  identifier: pl_auto_template_hypeb
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_A98Ua
+              identifier: pl_auto_template_A98Ua
+              template:
+                templateRef: account.pl_auto_template_A98Ua
+                versionLabel: v3
+                gitBranch: main
