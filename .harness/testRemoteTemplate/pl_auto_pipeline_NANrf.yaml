@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_NANrf
+  identifier: pl_auto_pipeline_NANrf
+  template:
+    templateRef: account.pl_auto_template_MYwWv
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationnvv9WYurcj
+  orgIdentifier: Simlified_Git_sync
