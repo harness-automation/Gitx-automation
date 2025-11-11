@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoNmCwrWAB6e
-  identifier: NGPipeAutoNmCwrWAB6e
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
