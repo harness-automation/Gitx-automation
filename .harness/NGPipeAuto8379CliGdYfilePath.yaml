@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAuto8379CliGdY
+  identifier: NGPipeAuto8379CliGdY
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
