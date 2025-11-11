@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoSp2tbGA5nv
+  identifier: NGPipeAutoSp2tbGA5nv
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
