@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_f4yvI
+  identifier: pl_auto_inputset_f4yvI
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_GithubHTTPSTrigger_OnR4npmmty
+  pipeline:
+    identifier: pl_auto_pipeline_jwgt0
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
