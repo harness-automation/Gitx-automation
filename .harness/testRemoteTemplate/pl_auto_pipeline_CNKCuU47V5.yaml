@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_CNKCuU47V5
+  identifier: pl_auto_pipeline_CNKCuU47V5
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Q8aQE7GTgm
+          identifier: pl_auto_template_Q8aQE7GTgm
+          template:
+            templateRef: account.pl_auto_template_Q8aQE7GTgm
+            versionLabel: v3
