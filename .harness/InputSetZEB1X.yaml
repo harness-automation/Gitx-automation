@@ -1,0 +1,23 @@
+inputSet:
+  name: InputSetZEB1X
+  tags: {}
+  identifier: InputSetZEB1X
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineChainingInputSetTestOMOCkeLGsV
+  pipeline:
+    identifier: reconcilePipelinewithInputSetggGEE1Olsh
+    stages:
+      - stage:
+          identifier: s1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    type: ShellScript
+                    timeout: 10s
+          variables:
+            - name: var1
+              type: String
+              value: Hello world
