@@ -1,0 +1,10 @@
+service:
+  name: ServNgDy1UMhxF2T
+  identifier: ServNgDy1UMhxF2T
+  orgIdentifier: OrgNgKsbedXADV4
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
