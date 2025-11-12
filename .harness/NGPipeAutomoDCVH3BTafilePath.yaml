@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutomoDCVH3BTa
+  identifier: NGPipeAutomoDCVH3BTa
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
