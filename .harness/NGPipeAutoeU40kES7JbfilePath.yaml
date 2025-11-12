@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoeU40kES7Jb
+  identifier: NGPipeAutoeU40kES7Jb
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
