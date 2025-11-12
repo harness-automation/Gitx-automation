@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoSvcpTWaktPUTE
+  identifier: NGPipeAutoSvcpTWaktPUTE
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcMrQbGYp4fB
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
