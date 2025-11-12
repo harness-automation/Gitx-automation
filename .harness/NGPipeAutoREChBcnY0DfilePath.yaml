@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoREChBcnY0D
-  identifier: NGPipeAutoREChBcnY0D
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
