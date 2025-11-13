@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_zeqMH
+  identifier: pl_auto_template_zeqMH
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_mad9K
+              identifier: pl_auto_template_mad9K
+              template:
+                templateRef: account.pl_auto_template_mad9K
+                versionLabel: v3
+                gitBranch: main
