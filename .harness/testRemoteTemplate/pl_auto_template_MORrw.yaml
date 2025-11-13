@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_MORrw
+  identifier: pl_auto_template_MORrw
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_joMK7
+              identifier: pl_auto_template_joMK7
+              template:
+                templateRef: account.pl_auto_template_joMK7
+                versionLabel: v3
+                gitBranch: main
