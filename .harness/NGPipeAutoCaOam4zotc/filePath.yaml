@@ -1,11 +1,11 @@
 infrastructureDefinition:
   name: NGPipeAutoCaOam4zotc
   identifier: NGPipeAutoCaOam4zotc
-  environmentRef: account.NGPipeAutohDv3GuEwCb
+  environmentRef: NGPipeAutohDv3GuEwCb
   deploymentType: Kubernetes
   type: KubernetesDirect
   spec:
     connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
-    namespace: default
+    namespace: <+input>
     releaseName: release-<+INFRA_KEY_SHORT_ID>
   allowSimultaneousDeployments: true
