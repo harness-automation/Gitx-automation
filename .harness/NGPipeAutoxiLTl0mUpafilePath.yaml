@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoxiLTl0mUpa
+  identifier: NGPipeAutoxiLTl0mUpa
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
