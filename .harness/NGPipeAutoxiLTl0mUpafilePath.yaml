@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoxiLTl0mUpa
-  identifier: NGPipeAutoxiLTl0mUpa
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
