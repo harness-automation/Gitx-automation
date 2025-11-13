@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_DGDJw
+  identifier: pl_auto_pipeline_DGDJw
+  template:
+    templateRef: account.pl_auto_template_goJcS
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationqSsQwQOrdZ
+  orgIdentifier: Simlified_Git_sync
