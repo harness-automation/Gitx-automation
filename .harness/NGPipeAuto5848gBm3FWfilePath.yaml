@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAuto5848gBm3FW
+  identifier: NGPipeAuto5848gBm3FW
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
