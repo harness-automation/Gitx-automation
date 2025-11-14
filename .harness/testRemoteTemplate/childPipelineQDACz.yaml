@@ -1,0 +1,10 @@
+pipeline:
+  name: childPipelineUsingPipelineTemplate
+  identifier: childPipelineQDACz
+  tags: {}
+  template:
+    templateRef: pipelineTemplatecCDMB
+    versionLabel: "v1"
+    gitBranch: main-patch
+  projectIdentifier: NGPipeAutoRerunFromOriginalPipelineDefdX7oX3NrkO
+  orgIdentifier: Pipelines_NonK8s_Org_NG
