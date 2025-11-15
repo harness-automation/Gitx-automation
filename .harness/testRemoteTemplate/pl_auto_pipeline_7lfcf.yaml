@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_7lfcf
+  identifier: pl_auto_pipeline_7lfcf
+  template:
+    templateRef: account.pl_auto_template_3xMml
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationYVDtWMCvUu
+  orgIdentifier: Simlified_Git_sync
