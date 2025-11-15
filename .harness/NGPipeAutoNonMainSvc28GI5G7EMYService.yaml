@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoNonMainSvc28GI5G7EMY
+  identifier: NGPipeAutoNonMainSvc28GI5G7EMY
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
