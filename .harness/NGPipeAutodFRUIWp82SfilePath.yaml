@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutodFRUIWp82S
+  identifier: NGPipeAutodFRUIWp82S
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
