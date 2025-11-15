@@ -1,0 +1,10 @@
+service:
+  name: ServNg51MIlfa5mA
+  identifier: ServNg51MIlfa5mA
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
