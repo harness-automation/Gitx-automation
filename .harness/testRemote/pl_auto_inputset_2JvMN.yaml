@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_Cmmpz
+  identifier: pl_auto_inputset_Cmmpz
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTest84reh
+  pipeline:
+    identifier: PipelineAuto_CRUDvbq
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
