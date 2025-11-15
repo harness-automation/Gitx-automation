@@ -1,0 +1,10 @@
+service:
+  name: ServNgs64Puk8k7z
+  identifier: ServNgs64Puk8k7z
+  orgIdentifier: OrgNgBdFBQ3uG97
+  projectIdentifier: CD_NG_SERENV_CLONEWj3IsDLWOn
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
