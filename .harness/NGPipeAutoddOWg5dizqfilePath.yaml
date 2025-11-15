@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoddOWg5dizq
+  identifier: NGPipeAutoddOWg5dizq
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
