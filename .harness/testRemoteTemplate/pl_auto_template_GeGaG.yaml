@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_GeGaG
+  identifier: pl_auto_template_GeGaG
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_zdidk
+              identifier: pl_auto_template_zdidk
+              template:
+                templateRef: account.pl_auto_template_zdidk
+                versionLabel: v3
+                gitBranch: main
