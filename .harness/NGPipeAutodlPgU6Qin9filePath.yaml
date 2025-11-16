@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutodlPgU6Qin9
-  identifier: NGPipeAutodlPgU6Qin9
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
