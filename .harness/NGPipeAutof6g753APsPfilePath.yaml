@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutof6g753APsP
+  identifier: NGPipeAutof6g753APsP
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
