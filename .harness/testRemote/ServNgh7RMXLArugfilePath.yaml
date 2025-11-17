@@ -1,0 +1,10 @@
+service:
+  name: ServNgh7RMXLArug
+  identifier: ServNgh7RMXLArug
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
