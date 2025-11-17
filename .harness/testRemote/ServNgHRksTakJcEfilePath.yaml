@@ -1,0 +1,10 @@
+service:
+  name: ServNgHRksTakJcE
+  identifier: ServNgHRksTakJcE
+  orgIdentifier: OrgNg4gxvzQ4IBU
+  projectIdentifier: CD_NG_SERENV_CLONE81499x0lCg
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
