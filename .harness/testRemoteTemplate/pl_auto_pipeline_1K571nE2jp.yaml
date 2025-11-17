@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_1K571nE2jp
+  identifier: pl_auto_pipeline_1K571nE2jp
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_WSRgH
+          identifier: pl_auto_template_WSRgH
+          template:
+            templateRef: account.pl_auto_template_WSRgH
+            versionLabel: v3
