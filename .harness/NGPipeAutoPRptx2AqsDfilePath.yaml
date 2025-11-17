@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoPRptx2AqsD
+  identifier: NGPipeAutoPRptx2AqsD
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
