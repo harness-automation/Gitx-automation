@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_DuL3G
+  identifier: pl_auto_template_DuL3G
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_ViRXC
+              identifier: pl_auto_template_ViRXC
+              template:
+                templateRef: account.pl_auto_template_ViRXC
+                versionLabel: v3
+                gitBranch: main
