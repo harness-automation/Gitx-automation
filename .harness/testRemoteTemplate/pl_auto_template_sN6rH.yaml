@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_sN6rH
+  identifier: pl_auto_template_sN6rH
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_NOHag
+              identifier: pl_auto_template_NOHag
+              template:
+                templateRef: account.pl_auto_template_NOHag
+                versionLabel: v3
+                gitBranch: main
