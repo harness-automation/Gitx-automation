@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_Olko4
+  identifier: pl_auto_pipeline_Olko4
+  template:
+    templateRef: account.pl_auto_template_Ed2CO
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationtNv3gq11dZ
+  orgIdentifier: Simlified_Git_sync
