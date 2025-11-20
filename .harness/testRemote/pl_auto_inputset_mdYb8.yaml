@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_admui
+  identifier: pl_auto_inputset_admui
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTestr182B
+  pipeline:
+    identifier: PipelineAuto_CRUDg9l
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
