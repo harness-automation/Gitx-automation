@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_e55cO
+  identifier: pl_auto_template_e55cO
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_NxB49
+              identifier: pl_auto_template_NxB49
+              template:
+                templateRef: account.pl_auto_template_NxB49
+                versionLabel: v3
+                gitBranch: main
