@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_5LZUPSTpST
+  identifier: pl_auto_pipeline_5LZUPSTpST
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_VRft2DoSCL
+          identifier: pl_auto_template_VRft2DoSCL
+          template:
+            templateRef: account.pl_auto_template_VRft2DoSCL
+            versionLabel: v3
