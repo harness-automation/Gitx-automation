@@ -1,0 +1,10 @@
+service:
+  name: ServNgWfiCK0agYi
+  identifier: ServNgWfiCK0agYi
+  orgIdentifier: OrgNggIPn4T59gL
+  projectIdentifier: CD_NG_SERENV_CLONESSeEKH55GX
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
