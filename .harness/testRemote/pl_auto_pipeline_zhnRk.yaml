@@ -1,0 +1,15 @@
+pipeline:
+  name: pl_auto_pipeline_zhnRk
+  identifier: pl_auto_pipeline_zhnRk
+  projectIdentifier: CDCNGAuto_CustomWebhookTrigger_QosTi
+  orgIdentifier: DoNotDeleteTriggerOrg
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: stage1
+        type: Pipeline
+        spec:
+          org: DoNotDeleteTriggerOrg
+          pipeline: pl_auto_pipeline_3TLE4
+          project: CDCNGAuto_CustomWebhookTrigger_QosTi
