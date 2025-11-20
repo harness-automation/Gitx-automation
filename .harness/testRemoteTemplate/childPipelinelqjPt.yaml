@@ -1,0 +1,10 @@
+pipeline:
+  name: childPipelineUsingPipelineTemplate
+  identifier: childPipelinelqjPt
+  tags: {}
+  template:
+    templateRef: pipelineTemplatedzPkY
+    versionLabel: "v1"
+    gitBranch: main-patch
+  projectIdentifier: NGPipeAutoRerunFromOriginalPipelineDefp7uXq7YG9U
+  orgIdentifier: Pipelines_NonK8s_Org_NG
