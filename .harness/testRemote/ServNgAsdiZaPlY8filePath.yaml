@@ -1,0 +1,10 @@
+service:
+  name: ServNgAsdiZaPlY8
+  identifier: ServNgAsdiZaPlY8
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
