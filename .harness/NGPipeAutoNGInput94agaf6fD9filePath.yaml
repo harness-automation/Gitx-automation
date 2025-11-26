@@ -14,14 +14,6 @@ inputSet:
                 templateInputs:
                   type: Custom
                   spec:
-                    execution:
-                      steps:
-                        - step:
-                            identifier: s1
-                            template:
-                              templateInputs:
-                                type: ShellScript
-                                timeout: 10m
                     environment:
                       environmentRef: <+pipeline.stages.s1.spec.env.environmentRef>
                       infrastructureDefinitions:
@@ -32,14 +24,6 @@ inputSet:
                 templateInputs:
                   type: Custom
                   spec:
-                    execution:
-                      steps:
-                        - step:
-                            identifier: s1
-                            template:
-                              templateInputs:
-                                type: ShellScript
-                                timeout: 10m
                     environment:
                       environmentRef: <+pipeline.stages.s1.spec.env.environmentRef>
                       infrastructureDefinitions:
