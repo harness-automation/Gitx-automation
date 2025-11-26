@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoVgw43xDPET
+  identifier: NGPipeAutoVgw43xDPET
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
