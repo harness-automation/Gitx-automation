@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_W35KOuRxlf
+  identifier: pl_auto_template_W35KOuRxlf
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_RWKFaxfdjT
+              identifier: pl_auto_template_RWKFaxfdjT
+              template:
+                templateRef: account.pl_auto_template_RWKFaxfdjT
+                versionLabel: v3
+                gitBranch: main
