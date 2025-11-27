@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_CzSKO
+  identifier: pl_auto_pipeline_CzSKO
+  template:
+    templateRef: account.pl_auto_template_S54dQ
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotification5e39D3aK3f
+  orgIdentifier: Simlified_Git_sync
