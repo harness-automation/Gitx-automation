@@ -1,0 +1,10 @@
+service:
+  name: ServNgoyHBoxstkl
+  identifier: ServNgoyHBoxstkl
+  orgIdentifier: OrgNgHiihyhIbNH
+  projectIdentifier: CD_NG_SERENV_CLONEkPAXCT3JGg
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
