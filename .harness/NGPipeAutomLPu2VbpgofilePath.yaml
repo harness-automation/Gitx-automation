@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutomLPu2Vbpgo
+  identifier: NGPipeAutomLPu2Vbpgo
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
