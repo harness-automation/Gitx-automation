@@ -1,0 +1,10 @@
+service:
+  name: ServNgkex22ogEtB
+  identifier: ServNgkex22ogEtB
+  orgIdentifier: OrgNgEKZHwHHS6s
+  projectIdentifier: CD_NG_SERENV_CLONEPd2KcYf4Kf
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
