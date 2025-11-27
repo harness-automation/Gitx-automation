@@ -1,0 +1,10 @@
+service:
+  name: ServNgChmaGRddi2
+  identifier: ServNgChmaGRddi2
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
