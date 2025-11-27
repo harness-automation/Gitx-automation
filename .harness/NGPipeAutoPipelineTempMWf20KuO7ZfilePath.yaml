@@ -1,0 +1,64 @@
+template:
+  name: NGPipeAutoPipelineTempMWf20KuO7Z
+  identifier: NGPipeAutoPipelineTempMWf20KuO7Z
+  projectIdentifier: NGPipeAutoPipelineSvc0ez4T57qaM
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  versionLabel: v1
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: s1
+          identifier: s1
+          tags: {}
+          template:
+            templateRef: NGPipeAutoStageTempFQkz4H0rEK
+            versionLabel: v1
+            templateInputs:
+              type: Custom
+              spec:
+                execution:
+                  steps:
+                    - step:
+                        identifier: s1
+                        template:
+                          templateInputs:
+                            type: ShellScript
+                            timeout: <+input>
+                environment:
+                  environmentRef: <+input>
+                  environmentInputs: <+input>
+                  infrastructureDefinitions: <+input>
+                variables:
+                  - name: values
+                    type: String
+                    value: <+input>.allowedValues($variables)
+      - stage:
+          name: s2
+          identifier: s2
+          tags: {}
+          template:
+            templateRef: NGPipeAutoStageTempCvKYoOfmgw
+            versionLabel: v1
+            templateInputs:
+              type: Custom
+              spec:
+                execution:
+                  steps:
+                    - step:
+                        identifier: s1
+                        template:
+                          templateInputs:
+                            type: ShellScript
+                            timeout: <+input>
+                environment:
+                  environmentRef: <+input>
+                  environmentInputs: <+input>
+                  infrastructureDefinitions: <+input>
+                variables:
+                  - name: values
+                    type: String
+                    value: <+input>.allowedValues($variables)
+    allowStageExecutions: true
+
