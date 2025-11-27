@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_mr3JT286FW
+  identifier: pl_auto_pipeline_mr3JT286FW
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_6unQTdDl5Y
+          identifier: pl_auto_template_6unQTdDl5Y
+          template:
+            templateRef: account.pl_auto_template_6unQTdDl5Y
+            versionLabel: v3
