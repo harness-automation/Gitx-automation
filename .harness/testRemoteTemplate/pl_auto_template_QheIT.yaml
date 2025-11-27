@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_QheIT
+  identifier: pl_auto_template_QheIT
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_WjTDH
+              identifier: pl_auto_template_WjTDH
+              template:
+                templateRef: account.pl_auto_template_WjTDH
+                versionLabel: v3
+                gitBranch: main
