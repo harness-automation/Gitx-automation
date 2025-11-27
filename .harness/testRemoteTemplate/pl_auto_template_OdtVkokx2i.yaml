@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_OdtVkokx2i
+  identifier: pl_auto_template_OdtVkokx2i
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_OVToZGobIM
+              identifier: pl_auto_template_OVToZGobIM
+              template:
+                templateRef: account.pl_auto_template_OVToZGobIM
+                versionLabel: v3
+                gitBranch: main
