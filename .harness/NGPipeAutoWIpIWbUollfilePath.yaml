@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoWIpIWbUoll
+  identifier: NGPipeAutoWIpIWbUoll
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
