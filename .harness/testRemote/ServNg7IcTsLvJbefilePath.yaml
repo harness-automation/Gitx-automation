@@ -1,0 +1,10 @@
+service:
+  name: ServNg7IcTsLvJbe
+  identifier: ServNg7IcTsLvJbe
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
