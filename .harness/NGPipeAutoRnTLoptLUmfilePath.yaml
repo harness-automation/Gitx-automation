@@ -1,6 +1,7 @@
 environment:
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  identifier: NGPipeAutoRnTLoptLUm
-  tags: {}
   name: NGPipeAutoRnTLoptLUm
-  type: PreProduction
+  identifier: NGPipeAutoRnTLoptLUm
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {
+    }
+  type: Production
