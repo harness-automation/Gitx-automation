@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Nh6RK
+  identifier: pl_auto_template_Nh6RK
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_kFbsP
+              identifier: pl_auto_template_kFbsP
+              template:
+                templateRef: account.pl_auto_template_kFbsP
+                versionLabel: v3
+                gitBranch: main
