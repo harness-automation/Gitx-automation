@@ -1,11 +1,11 @@
 infrastructureDefinition:
   name: NGPipeAutoHU2ecNcbOe
   identifier: NGPipeAutoHU2ecNcbOe
-  environmentRef: account.NGPipeAutoejWQY1Rb6y
+  environmentRef: NGPipeAutoejWQY1Rb6y
   deploymentType: Kubernetes
   type: KubernetesDirect
   spec:
     connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
-    namespace: default
+    namespace: <+input>
     releaseName: release-<+INFRA_KEY_SHORT_ID>
   allowSimultaneousDeployments: true
