@@ -1,0 +1,10 @@
+service:
+  name: ServNgatBWFOS8AA
+  identifier: ServNgatBWFOS8AA
+  orgIdentifier: OrgNgcuQsDqQddI
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
