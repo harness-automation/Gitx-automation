@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_vq366FBdiO
+  identifier: pl_auto_pipeline_vq366FBdiO
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_eBiji
+          identifier: pl_auto_template_eBiji
+          template:
+            templateRef: account.pl_auto_template_eBiji
+            versionLabel: v3
