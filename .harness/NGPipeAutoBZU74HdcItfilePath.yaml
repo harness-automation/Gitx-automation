@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoBZU74HdcIt
+  identifier: NGPipeAutoBZU74HdcIt
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
