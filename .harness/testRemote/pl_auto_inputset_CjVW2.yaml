@@ -1,0 +1,24 @@
+inputSet:
+  name: pl_auto_inputset_x2lVP
+  identifier: pl_auto_inputset_x2lVP
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_GithubWebhookTrigger_mjZSKywMFS
+  pipeline:
+    identifier: pl_auto_pipeline_nzCwF
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    type: ShellScript
+                    spec:
+                      source:
+                        type: Inline
+                        spec:
+                          script: echo 'hi'
+
+
