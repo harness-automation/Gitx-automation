@@ -1,0 +1,28 @@
+pipeline:
+  name: NGPipeAutoNGPipelinepMr9K2wtH8
+  identifier: NGPipeAutoNGPipelinepMr9K2wtH8
+  projectIdentifier: NGPipeAutomergeInputLC9YIEL66P
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {}
+  stages:
+    - stage:
+        name: S1
+        identifier: S1
+        tags: {}
+        template:
+          templateRef: NGPipeAutoStageTempO2hHSrf5kg
+          versionLabel: "1"
+          gitBranch: main
+          templateInputs:
+            type: Custom
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: ShellScript_1
+                      type: ShellScript
+                      spec:
+                        source:
+                          type: Inline
+                          spec:
+                            script: <+input>
