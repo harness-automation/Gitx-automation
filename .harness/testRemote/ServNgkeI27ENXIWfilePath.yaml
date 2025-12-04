@@ -1,0 +1,10 @@
+service:
+  name: ServNgkeI27ENXIW
+  identifier: ServNgkeI27ENXIW
+  orgIdentifier: OrgNgUrKsYgTJ24
+  projectIdentifier: CD_NG_SERENV_CLONEU3YTYbydSS
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
