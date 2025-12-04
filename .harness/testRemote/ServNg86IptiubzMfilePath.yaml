@@ -1,0 +1,10 @@
+service:
+  name: ServNg86IptiubzM
+  identifier: ServNg86IptiubzM
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
