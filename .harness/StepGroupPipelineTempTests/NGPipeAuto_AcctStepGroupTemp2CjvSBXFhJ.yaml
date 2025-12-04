@@ -1,0 +1,41 @@
+template:
+  name: NGPipeAuto_AcctStepGroupTemp2CjvSBXFhJ
+  identifier: NGPipeAuto_AcctStepGroupTemp2CjvSBXFhJ
+  versionLabel: Acct_StepGroup_v1
+  type: StepGroup
+  tags: {}
+  spec:
+    stageType: Custom
+    steps:
+      - stepGroup:
+          name: Group1
+          identifier: Group1
+          steps:
+            - parallel:
+                - step:
+                    type: ShellScript
+                    name: ShellScript_1
+                    identifier: ShellScript_1
+                    spec:
+                      shell: Bash
+                      source:
+                        type: Inline
+                        spec:
+                          script: echo 'step 1'
+                      environmentVariables: []
+                      outputVariables: []
+                    timeout: 10m
+                - step:
+                    type: ShellScript
+                    name: ShellScript_2
+                    identifier: ShellScript_2
+                    spec:
+                      shell: Bash
+                      executionTarget: {}
+                      source:
+                        type: Inline
+                        spec:
+                          script: echo 'step2 running'
+                      environmentVariables: []
+                      outputVariables: []
+                    timeout: 10m
