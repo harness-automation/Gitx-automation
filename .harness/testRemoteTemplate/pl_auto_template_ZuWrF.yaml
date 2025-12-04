@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_ZuWrF
+  identifier: pl_auto_template_ZuWrF
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_ocMaS
+              identifier: pl_auto_template_ocMaS
+              template:
+                templateRef: account.pl_auto_template_ocMaS
+                versionLabel: v3
+                gitBranch: main
