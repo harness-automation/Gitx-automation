@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Mt0Vv
+  identifier: pl_auto_template_Mt0Vv
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_ltGez
+              identifier: pl_auto_template_ltGez
+              template:
+                templateRef: account.pl_auto_template_ltGez
+                versionLabel: v3
+                gitBranch: main
