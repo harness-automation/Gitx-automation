@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoy91neFPLPo
+  identifier: NGPipeAutoy91neFPLPo
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
