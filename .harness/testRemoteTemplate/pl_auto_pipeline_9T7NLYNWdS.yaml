@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_9T7NLYNWdS
+  identifier: pl_auto_pipeline_9T7NLYNWdS
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_iLrPF
+          identifier: pl_auto_template_iLrPF
+          template:
+            templateRef: account.pl_auto_template_iLrPF
+            versionLabel: v3
