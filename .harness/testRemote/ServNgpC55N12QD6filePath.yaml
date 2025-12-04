@@ -1,0 +1,10 @@
+service:
+  name: ServNgpC55N12QD6
+  identifier: ServNgpC55N12QD6
+  orgIdentifier: OrgNgPeegrgT4Ip
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
