@@ -1,0 +1,15 @@
+pipeline:
+  name: pl_auto_pipeline_vhZMm
+  identifier: pl_auto_pipeline_vhZMm
+  projectIdentifier: SimplifiedGitSync_Do_Not_Delete
+  orgIdentifier: Simlified_Git_sync
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: stage1
+        type: Pipeline
+        spec:
+          org: Simlified_Git_sync
+          pipeline: pl_auto_pipeline_0nxC5
+          project: SimplifiedGitSync_Do_Not_Delete
