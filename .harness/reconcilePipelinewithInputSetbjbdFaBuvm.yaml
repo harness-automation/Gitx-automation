@@ -1,0 +1,36 @@
+pipeline:
+  name: reconcilePipelinewithInputSetbjbdFaBuvm
+  identifier: reconcilePipelinewithInputSetbjbdFaBuvm
+  projectIdentifier: NGPipeAutoPipelineChainingInputSetTestyD5mpKntv1
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: s1
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: ShellScript
+                  name: ShellScript_1
+                  identifier: ShellScript_1
+                  spec:
+                    shell: Bash
+                    executionTarget: {}
+                    source:
+                      type: Inline
+                      spec:
+                        script: exit 0
+                    environmentVariables: []
+                    outputVariables: []
+                  timeout: <+input>
+        tags: {}
+        variables:
+          - name: var1
+            type: String
+            description: ""
+            required: true
+            value: <+input>
