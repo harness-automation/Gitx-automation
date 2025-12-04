@@ -1,0 +1,10 @@
+pipeline:
+  name: childPipelineUsingPipelineTemplate
+  identifier: childPipelinexZDF2
+  tags: {}
+  template:
+    templateRef: pipelineTemplatemkeji
+    versionLabel: "v1"
+    gitBranch: main-patch
+  projectIdentifier: NGPipeAutoRerunFromOriginalPipelineDefcsF1LUnrpn
+  orgIdentifier: Pipelines_NonK8s_Org_NG
