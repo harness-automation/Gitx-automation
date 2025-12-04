@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_BABYh
+  identifier: pl_auto_pipeline_BABYh
+  template:
+    templateRef: account.pl_auto_template_RmkYN
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationvO7zqWaKiG
+  orgIdentifier: Simlified_Git_sync
