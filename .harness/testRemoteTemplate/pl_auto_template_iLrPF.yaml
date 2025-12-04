@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_iLrPF
+  identifier: pl_auto_template_iLrPF
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_mpnYs
+              identifier: pl_auto_template_mpnYs
+              template:
+                templateRef: account.pl_auto_template_mpnYs
+                versionLabel: v3
+                gitBranch: main
