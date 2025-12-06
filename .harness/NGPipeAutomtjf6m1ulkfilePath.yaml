@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutomtjf6m1ulk
-  identifier: NGPipeAutomtjf6m1ulk
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
