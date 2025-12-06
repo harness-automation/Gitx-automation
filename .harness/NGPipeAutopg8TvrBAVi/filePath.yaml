@@ -1,11 +1,11 @@
 infrastructureDefinition:
   name: NGPipeAutopg8TvrBAVi
   identifier: NGPipeAutopg8TvrBAVi
-  environmentRef: account.NGPipeAutoTe2WbofcBw
+  environmentRef: NGPipeAutoTe2WbofcBw
   deploymentType: Kubernetes
   type: KubernetesDirect
   spec:
     connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
-    namespace: default
+    namespace: <+input>
     releaseName: release-<+INFRA_KEY_SHORT_ID>
   allowSimultaneousDeployments: true
