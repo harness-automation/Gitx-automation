@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutos4PLPNhRbc
+  identifier: NGPipeAutos4PLPNhRbc
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
