@@ -1,0 +1,10 @@
+service:
+  name: ServNgLD21Ipc1et
+  identifier: ServNgLD21Ipc1et
+  orgIdentifier: OrgNgAcJ1gQparu
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
