@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoPQTY56du1G
+  identifier: NGPipeAutoPQTY56du1G
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
