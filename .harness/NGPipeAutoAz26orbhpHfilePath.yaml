@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoAz26orbhpH
+  identifier: NGPipeAutoAz26orbhpH
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
