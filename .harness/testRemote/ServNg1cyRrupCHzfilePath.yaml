@@ -1,0 +1,10 @@
+service:
+  name: ServNg1cyRrupCHz
+  identifier: ServNg1cyRrupCHz
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
