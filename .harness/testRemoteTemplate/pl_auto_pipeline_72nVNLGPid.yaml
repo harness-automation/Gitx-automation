@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_72nVNLGPid
+  identifier: pl_auto_pipeline_72nVNLGPid
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_FzOWp
+          identifier: pl_auto_template_FzOWp
+          template:
+            templateRef: account.pl_auto_template_FzOWp
+            versionLabel: v3
