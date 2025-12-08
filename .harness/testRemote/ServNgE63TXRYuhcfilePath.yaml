@@ -1,0 +1,10 @@
+service:
+  name: ServNgE63TXRYuhc
+  identifier: ServNgE63TXRYuhc
+  orgIdentifier: OrgNgWfHFrqLrxX
+  projectIdentifier: CD_NG_SERENV_CLONEs058MPmW1S
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
