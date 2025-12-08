@@ -1,0 +1,12 @@
+infrastructureDefinition:
+  name: InfraNgYFS4Mq68Oz
+  identifier: InfraNgYFS4Mq68Oz
+  orgIdentifier: OrgNg6Zol9aYEFp
+  environmentRef: EnvNgdwffZErrVO
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
