@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_I81Vt
+  identifier: pl_auto_template_I81Vt
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_nVbID
+              identifier: pl_auto_template_nVbID
+              template:
+                templateRef: account.pl_auto_template_nVbID
+                versionLabel: v3
+                gitBranch: main
