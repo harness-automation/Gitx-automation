@@ -1,11 +1,11 @@
 infrastructureDefinition:
   name: NGPipeAutozdiIPpqJaV
   identifier: NGPipeAutozdiIPpqJaV
-  environmentRef: account.NGPipeAutoKcglMEffHl
+  environmentRef: NGPipeAutoKcglMEffHl
   deploymentType: Kubernetes
   type: KubernetesDirect
   spec:
     connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
-    namespace: default
+    namespace: <+input>
     releaseName: release-<+INFRA_KEY_SHORT_ID>
   allowSimultaneousDeployments: true
