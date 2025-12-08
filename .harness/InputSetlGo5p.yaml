@@ -1,0 +1,23 @@
+inputSet:
+  name: inputSet1
+  tags: {}
+  identifier: InputSetlGo5p
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineChainingInputSetTestzK42nCppgg
+  pipeline:
+    identifier: childPipeline
+    stages:
+      - stage:
+          identifier: custom
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: shell
+                    type: ShellScript
+                    spec:
+                      source:
+                        type: Inline
+                        spec:
+                          script: exit 0
