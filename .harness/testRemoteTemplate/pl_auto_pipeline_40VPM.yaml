@@ -1,0 +1,28 @@
+pipeline:
+  name: pl_auto_pipeline_40VPM
+  identifier: pl_auto_pipeline_40VPM
+  projectIdentifier: NGPipeAutoPMSiP2Se86Xoe
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {}
+  stages:
+    - stage:
+        name: S1
+        identifier: S1
+        tags: {}
+        template:
+          templateRef: pl_auto_template_h4woH
+          versionLabel: "1"
+          gitBranch: main
+          templateInputs:
+            type: Custom
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: ShellScript_1
+                      type: ShellScript
+                      spec:
+                        source:
+                          type: Inline
+                          spec:
+                            script: <+input>
