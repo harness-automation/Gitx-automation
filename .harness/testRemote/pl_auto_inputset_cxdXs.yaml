@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_sPMEz
+  identifier: pl_auto_inputset_sPMEz
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTestWIciq
+  pipeline:
+    identifier: PipelineAuto_CRUDO3S
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
