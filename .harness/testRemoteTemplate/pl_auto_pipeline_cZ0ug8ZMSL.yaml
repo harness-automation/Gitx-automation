@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_cZ0ug8ZMSL
+  identifier: pl_auto_pipeline_cZ0ug8ZMSL
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Qeit8
+          identifier: pl_auto_template_Qeit8
+          template:
+            templateRef: account.pl_auto_template_Qeit8
+            versionLabel: v3
