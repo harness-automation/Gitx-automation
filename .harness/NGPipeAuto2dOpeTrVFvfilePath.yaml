@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAuto2dOpeTrVFv
-  identifier: NGPipeAuto2dOpeTrVFv
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
