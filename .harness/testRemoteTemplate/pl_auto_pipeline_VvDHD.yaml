@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_VvDHD
+  identifier: pl_auto_pipeline_VvDHD
+  template:
+    templateRef: account.pl_auto_template_PcM6j
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationBEMK6RU3Zi
+  orgIdentifier: Simlified_Git_sync
