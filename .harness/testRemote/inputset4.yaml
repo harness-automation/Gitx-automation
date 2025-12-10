@@ -1,0 +1,23 @@
+inputSet:
+  name: inputset4
+  tags: {}
+  identifier: inputset4
+  orgIdentifier: Ng_Pipelines_K8s_Organisations
+  projectIdentifier: DoNotDelete_OpenApi
+  pipeline:
+    identifier: NGPipelineOpenAPIRemoteqD4h6eA3Y5
+    stages:
+      - stage:
+          identifier: stage
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    type: ShellScript
+                    spec:
+                      source:
+                        type: Inline
+                        spec:
+                          script: echo Hi
