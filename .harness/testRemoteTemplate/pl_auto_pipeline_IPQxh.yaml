@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_IPQxh
+  identifier: pl_auto_pipeline_IPQxh
+  template:
+    templateRef: account.pl_auto_template_px48s
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationBEMK6RU3Zi
+  orgIdentifier: Simlified_Git_sync
