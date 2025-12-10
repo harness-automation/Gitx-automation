@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutofk80ksIMpU
+  identifier: NGPipeAutofk80ksIMpU
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
