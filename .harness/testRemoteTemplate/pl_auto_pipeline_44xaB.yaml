@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_44xaB
+  identifier: pl_auto_pipeline_44xaB
+  template:
+    templateRef: account.pl_auto_template_KZHfS
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotification8jhEPNT51y
+  orgIdentifier: Simlified_Git_sync
