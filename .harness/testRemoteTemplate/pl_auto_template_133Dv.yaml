@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_133Dv
+  identifier: pl_auto_template_133Dv
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_ZoQYi
+              identifier: pl_auto_template_ZoQYi
+              template:
+                templateRef: account.pl_auto_template_ZoQYi
+                versionLabel: v3
+                gitBranch: main
