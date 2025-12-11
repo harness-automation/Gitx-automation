@@ -1,0 +1,24 @@
+inputSet:
+  name: pl_auto_inputset_AVP41
+  identifier: pl_auto_inputset_AVP41
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_GithubHTTPSTrigger_yDRk3eY4YD
+  pipeline:
+    identifier: pl_auto_pipeline_BSnZL
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    type: ShellScript
+                    spec:
+                      source:
+                        type: Inline
+                        spec:
+                          script: echo 'hi'
+
+
