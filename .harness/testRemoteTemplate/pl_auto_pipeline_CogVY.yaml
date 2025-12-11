@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_CogVY
+  identifier: pl_auto_pipeline_CogVY
+  template:
+    templateRef: account.pl_auto_template_3pDtk
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationv9Xk2do5D5
+  orgIdentifier: Simlified_Git_sync
