@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoRTDFOks9hv
+  identifier: NGPipeAutoRTDFOks9hv
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
