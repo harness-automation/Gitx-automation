@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: NGPipeAutoXLOD4KNOIA
+  identifier: NGPipeAutoXLOD4KNOIA
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineSvcSElO9FZDI0
+  environmentRef: NGPipeAuto2up2Mnl0ST
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: org.KubernetesConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
