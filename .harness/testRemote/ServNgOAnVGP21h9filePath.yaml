@@ -1,0 +1,10 @@
+service:
+  name: ServNgOAnVGP21h9
+  identifier: ServNgOAnVGP21h9
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes

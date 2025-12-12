@@ -1,0 +1,10 @@
+service:
+  name: ServNgW5MqxiwAPN
+  identifier: ServNgW5MqxiwAPN
+  orgIdentifier: OrgNgrTHGyoTBv7
+  projectIdentifier: CD_NG_SERENV_CLONEjMBiZO6jzW
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
