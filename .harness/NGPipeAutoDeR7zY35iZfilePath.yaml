@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoDeR7zY35iZ
-  identifier: NGPipeAutoDeR7zY35iZ
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
