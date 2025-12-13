@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_Gcv1a
+  identifier: pl_auto_pipeline_Gcv1a
+  template:
+    templateRef: account.pl_auto_template_AT3cP
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationP8t4FxZN85
+  orgIdentifier: Simlified_Git_sync
