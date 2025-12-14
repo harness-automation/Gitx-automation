@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutozeUJF1BXFJ
-  identifier: NGPipeAutozeUJF1BXFJ
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
