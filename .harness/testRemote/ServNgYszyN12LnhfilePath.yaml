@@ -1,0 +1,10 @@
+service:
+  name: ServNgYszyN12Lnh
+  identifier: ServNgYszyN12Lnh
+  orgIdentifier: OrgNgOKsSmwJYcd
+  projectIdentifier: CD_NG_SERENV_CLONEdhfDz6SeqU
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
