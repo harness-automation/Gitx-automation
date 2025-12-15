@@ -1,0 +1,9 @@
+---
+service:
+  serviceDefinition:
+    spec:
+      release:
+        name: "<+input>"
+    type: "Kubernetes"
+  identifier: "ServNgCM097O1k0C_CLONE"
+  name: "ServNgCM097O1k0C - Clone"
