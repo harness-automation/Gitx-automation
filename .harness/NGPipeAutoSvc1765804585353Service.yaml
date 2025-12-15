@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoSvc1765804585353
+  identifier: NGPipeAutoSvc1765804585353
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
