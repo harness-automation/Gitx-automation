@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_OzFPU
+  identifier: pl_auto_pipeline_OzFPU
+  template:
+    templateRef: account.pl_auto_template_wGCjS
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationdOzSw7tE9W
+  orgIdentifier: Simlified_Git_sync
