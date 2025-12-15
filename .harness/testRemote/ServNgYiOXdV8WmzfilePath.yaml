@@ -1,0 +1,10 @@
+service:
+  name: ServNgYiOXdV8Wmz
+  identifier: ServNgYiOXdV8Wmz
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
