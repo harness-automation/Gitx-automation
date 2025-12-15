@@ -1,0 +1,10 @@
+service:
+  name: NGPipeAutoNonMainSvch33vaJnuX3
+  identifier: NGPipeAutoNonMainSvch33vaJnuX3
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
