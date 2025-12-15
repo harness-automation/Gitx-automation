@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutovuDMAzs6Wn
-  identifier: NGPipeAutovuDMAzs6Wn
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
