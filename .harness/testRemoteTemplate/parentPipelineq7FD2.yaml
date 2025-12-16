@@ -1,0 +1,16 @@
+pipeline:
+  name: parentPipeline
+  identifier: parentPipelineq7FD2
+  projectIdentifier: NGPipeAutoRerunFromOriginalPipelineDef3BGUS0pxoU
+  orgIdentifier: DoNotDelete_Mayank_Auto_tests
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: s1
+        description: ""
+        type: Pipeline
+        spec:
+          org: DoNotDelete_Mayank_Auto_tests
+          pipeline: childPipeline66Yv6
+          project: NGPipeAutoRerunFromOriginalPipelineDef3BGUS0pxoU
