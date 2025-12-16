@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_Av2t4
+  identifier: pl_auto_pipeline_Av2t4
+  template:
+    templateRef: account.pl_auto_template_ZivEx
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationoVd6LSBbgj
+  orgIdentifier: Simlified_Git_sync
