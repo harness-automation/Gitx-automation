@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_bc920
+  identifier: pl_auto_pipeline_bc920
+  template:
+    templateRef: account.pl_auto_template_0miqe
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationWDZTZgeiKO
+  orgIdentifier: Simlified_Git_sync
