@@ -1,0 +1,10 @@
+pipeline:
+  name: childPipelineUsingPipelineTemplate
+  identifier: childPipelineAdAlx
+  tags: {}
+  template:
+    templateRef: pipelineTemplate3i6ri
+    versionLabel: "v1"
+    gitBranch: main-patch
+  projectIdentifier: NGPipeAutoRerunFromOriginalPipelineDefDCLVDOTApZ
+  orgIdentifier: Pipelines_NonK8s_Org_NG
