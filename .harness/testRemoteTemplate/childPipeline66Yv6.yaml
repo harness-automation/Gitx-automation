@@ -1,0 +1,10 @@
+pipeline:
+  name: childPipelineUsingPipelineTemplate
+  identifier: childPipeline66Yv6
+  tags: {}
+  template:
+    templateRef: pipelineTemplateS1urb
+    versionLabel: "v1"
+    gitBranch: main-patch
+  projectIdentifier: NGPipeAutoRerunFromOriginalPipelineDef3BGUS0pxoU
+  orgIdentifier: DoNotDelete_Mayank_Auto_tests
