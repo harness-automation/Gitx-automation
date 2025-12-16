@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutorWgnLwM318
+  identifier: NGPipeAutorWgnLwM318
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
