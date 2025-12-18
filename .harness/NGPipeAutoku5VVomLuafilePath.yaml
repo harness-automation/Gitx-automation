@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoku5VVomLua
+  identifier: NGPipeAutoku5VVomLua
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
