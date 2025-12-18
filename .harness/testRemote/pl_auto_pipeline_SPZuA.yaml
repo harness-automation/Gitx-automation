@@ -1,0 +1,15 @@
+pipeline:
+  name: pl_auto_pipeline_SPZuA
+  identifier: pl_auto_pipeline_SPZuA
+  projectIdentifier: CDCNGAuto_CustomWebhookTrigger_ieBvy
+  orgIdentifier: DoNotDeleteTriggerOrg
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: stage1
+        type: Pipeline
+        spec:
+          org: DoNotDeleteTriggerOrg
+          pipeline: pl_auto_pipeline_ir5da
+          project: CDCNGAuto_CustomWebhookTrigger_ieBvy
