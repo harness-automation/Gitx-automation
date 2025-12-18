@@ -1,0 +1,28 @@
+pipeline:
+  name: pl_auto_pipeline_1PpvS
+  identifier: pl_auto_pipeline_1PpvS
+  projectIdentifier: NGPipeAutoPMSMa5cQSCiTz
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {}
+  stages:
+    - stage:
+        name: S1
+        identifier: S1
+        tags: {}
+        template:
+          templateRef: pl_auto_template_DNEPU
+          versionLabel: "1"
+          gitBranch: main
+          templateInputs:
+            type: Custom
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: ShellScript_1
+                      type: ShellScript
+                      spec:
+                        source:
+                          type: Inline
+                          spec:
+                            script: <+input>
