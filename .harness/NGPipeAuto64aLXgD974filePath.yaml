@@ -1,9 +1,0 @@
-service:
-  name: NGPipeAuto64aLXgD974
-  identifier: NGPipeAuto64aLXgD974
-  orgIdentifier: Pipelines_NonK8s_Org_NG
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
