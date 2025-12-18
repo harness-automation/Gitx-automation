@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_WzMCb
+  identifier: pl_auto_template_WzMCb
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_WIdeR
+              identifier: pl_auto_template_WIdeR
+              template:
+                templateRef: account.pl_auto_template_WIdeR
+                versionLabel: v3
+                gitBranch: main
