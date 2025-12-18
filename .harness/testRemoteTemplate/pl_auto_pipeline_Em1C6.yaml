@@ -1,0 +1,28 @@
+pipeline:
+  name: pl_auto_pipeline_Em1C6
+  identifier: pl_auto_pipeline_Em1C6
+  projectIdentifier: NGPipeAutoPMS05Q3Q10HQA
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  tags: {}
+  stages:
+    - stage:
+        name: S1
+        identifier: S1
+        tags: {}
+        template:
+          templateRef: pl_auto_template_YVOxQ
+          versionLabel: "1"
+          gitBranch: main
+          templateInputs:
+            type: Custom
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: ShellScript_1
+                      type: ShellScript
+                      spec:
+                        source:
+                          type: Inline
+                          spec:
+                            script: <+input>
