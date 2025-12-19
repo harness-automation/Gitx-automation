@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoQLcDaM5UOb
-  identifier: NGPipeAutoQLcDaM5UOb
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
