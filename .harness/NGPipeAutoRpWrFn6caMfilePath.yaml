@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoRpWrFn6caM
+  identifier: NGPipeAutoRpWrFn6caM
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
