@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoYRO3KSmaVx
-  identifier: NGPipeAutoYRO3KSmaVx
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
