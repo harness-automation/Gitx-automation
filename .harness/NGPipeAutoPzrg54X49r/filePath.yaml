@@ -1,11 +1,11 @@
 infrastructureDefinition:
   name: NGPipeAutoPzrg54X49r
   identifier: NGPipeAutoPzrg54X49r
-  environmentRef: account.NGPipeAutouvWKfAMiv7
+  environmentRef: NGPipeAutouvWKfAMiv7
   deploymentType: Kubernetes
   type: KubernetesDirect
   spec:
     connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
-    namespace: default
+    namespace: <+input>
     releaseName: release-<+INFRA_KEY_SHORT_ID>
   allowSimultaneousDeployments: true
