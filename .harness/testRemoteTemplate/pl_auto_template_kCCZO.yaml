@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_kCCZO
+  identifier: pl_auto_template_kCCZO
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_hR1Ww
+              identifier: pl_auto_template_hR1Ww
+              template:
+                templateRef: account.pl_auto_template_hR1Ww
+                versionLabel: v3
+                gitBranch: main
