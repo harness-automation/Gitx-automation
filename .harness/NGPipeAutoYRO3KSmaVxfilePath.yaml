@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoYRO3KSmaVx
+  identifier: NGPipeAutoYRO3KSmaVx
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
