@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_tfOcy
+  identifier: pl_auto_pipeline_tfOcy
+  template:
+    templateRef: account.pl_auto_template_j8Qdp
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationSGxwb7aC6C
+  orgIdentifier: Simlified_Git_sync
