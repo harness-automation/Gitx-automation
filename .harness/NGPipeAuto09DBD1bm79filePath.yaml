@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAuto09DBD1bm79
-  identifier: NGPipeAuto09DBD1bm79
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
