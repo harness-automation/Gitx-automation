@@ -1,0 +1,9 @@
+service:
+  name: NGPipeAuto6Ip9429ICZ
+  identifier: NGPipeAuto6Ip9429ICZ
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
