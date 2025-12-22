@@ -1,11 +1,11 @@
 infrastructureDefinition:
   name: NGPipeAutobIMRWDxRam
   identifier: NGPipeAutobIMRWDxRam
-  environmentRef: account.NGPipeAutoneYME4T5DH
+  environmentRef: NGPipeAutoneYME4T5DH
   deploymentType: Kubernetes
   type: KubernetesDirect
   spec:
     connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
-    namespace: default
+    namespace: <+input>
     releaseName: release-<+INFRA_KEY_SHORT_ID>
   allowSimultaneousDeployments: true
