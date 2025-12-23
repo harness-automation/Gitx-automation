@@ -1,0 +1,10 @@
+service:
+  name: ServNg3o1AMDoopY
+  identifier: ServNg3o1AMDoopY
+  orgIdentifier: OrgNgt2lujFKqDc
+  projectIdentifier: CD_NG_SERENV_CLONEVVKFdqZSN7
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
