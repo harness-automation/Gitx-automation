@@ -1,0 +1,11 @@
+infrastructureDefinition:
+  name: NGPipeAuto4BeXaDIvgo
+  identifier: NGPipeAuto4BeXaDIvgo
+  environmentRef: account.NGPipeAutoIRInd912JF
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
