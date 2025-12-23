@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoOryQGt7mAu
+  identifier: NGPipeAutoOryQGt7mAu
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
