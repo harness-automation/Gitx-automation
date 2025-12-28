@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_Zs78IC2WHT
+  identifier: pl_auto_template_Zs78IC2WHT
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_OaIL2AClxc
+              identifier: pl_auto_template_OaIL2AClxc
+              template:
+                templateRef: account.pl_auto_template_OaIL2AClxc
+                versionLabel: v3
+                gitBranch: main
