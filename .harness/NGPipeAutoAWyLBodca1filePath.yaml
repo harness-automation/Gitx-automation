@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoAWyLBodca1
+  identifier: NGPipeAutoAWyLBodca1
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
