@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_s5C6FV25Y0
+  identifier: pl_auto_pipeline_s5C6FV25Y0
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Zs78IC2WHT
+          identifier: pl_auto_template_Zs78IC2WHT
+          template:
+            templateRef: account.pl_auto_template_Zs78IC2WHT
+            versionLabel: v3
