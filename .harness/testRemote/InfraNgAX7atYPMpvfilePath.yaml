@@ -1,0 +1,12 @@
+infrastructureDefinition:
+  name: InfraNgAX7atYPMpv
+  identifier: InfraNgAX7atYPMpv
+  orgIdentifier: OrgNg4iVvxjXP9I
+  environmentRef: EnvNgRuwjjyS6iq
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
