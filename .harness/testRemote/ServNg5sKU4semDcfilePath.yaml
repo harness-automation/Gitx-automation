@@ -1,0 +1,10 @@
+service:
+  name: ServNg5sKU4semDc
+  identifier: ServNg5sKU4semDc
+  orgIdentifier: OrgNgKQrJl4GBpU
+  projectIdentifier: CD_NG_SERENV_CLONExTkaVsyWbe
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
