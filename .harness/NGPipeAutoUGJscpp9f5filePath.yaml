@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoUGJscpp9f5
-  identifier: NGPipeAutoUGJscpp9f5
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
