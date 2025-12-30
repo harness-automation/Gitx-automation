@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_PsiRnysA7u
+  identifier: pl_auto_pipeline_PsiRnysA7u
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_VPgCY
+          identifier: pl_auto_template_VPgCY
+          template:
+            templateRef: account.pl_auto_template_VPgCY
+            versionLabel: v3
