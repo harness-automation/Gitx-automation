@@ -1,0 +1,23 @@
+inputSet:
+  name: InputSet58Rm6
+  tags: {}
+  identifier: InputSet58Rm6
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPipelineChainingInputSetTest9bHReZ37wk
+  pipeline:
+    identifier: reconcilePipelinewithInputSetL7kXG6Tna8
+    stages:
+      - stage:
+          identifier: s1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    type: ShellScript
+                    timeout: 10s
+          variables:
+            - name: var1
+              type: String
+              value: Hello world
