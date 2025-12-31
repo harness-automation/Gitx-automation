@@ -1,0 +1,11 @@
+infrastructureDefinition:
+  name: NGPipeAutosdHAI55GiC
+  identifier: NGPipeAutosdHAI55GiC
+  environmentRef: account.NGPipeAutoKMdv3f3GrC
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
