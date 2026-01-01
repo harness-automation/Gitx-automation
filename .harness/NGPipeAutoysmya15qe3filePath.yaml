@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoysmya15qe3
-  identifier: NGPipeAutoysmya15qe3
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
