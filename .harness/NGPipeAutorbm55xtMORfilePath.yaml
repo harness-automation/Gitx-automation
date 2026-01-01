@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutorbm55xtMOR
+  identifier: NGPipeAutorbm55xtMOR
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
