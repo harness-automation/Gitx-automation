@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoysmya15qe3
+  identifier: NGPipeAutoysmya15qe3
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
