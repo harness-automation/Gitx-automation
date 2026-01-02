@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutocvnBu2gM6L
-  identifier: NGPipeAutocvnBu2gM6L
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
