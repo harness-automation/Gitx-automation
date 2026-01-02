@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoqUX86bkuW1
-  identifier: NGPipeAutoqUX86bkuW1
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
