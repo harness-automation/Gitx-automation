@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutocvnBu2gM6L
+  identifier: NGPipeAutocvnBu2gM6L
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
