@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutozdeQRUhsLX
+  identifier: NGPipeAutozdeQRUhsLX
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
