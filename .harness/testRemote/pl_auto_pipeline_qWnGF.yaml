@@ -14,9 +14,9 @@ pipeline:
             execution:
               steps:
                 - step:
-                    type: ShellScript
+                    type: Invalid
                     name: Shell Script_1
-                    identifier: ShellScript_1
+                    identifier: Invalid_1
                     spec:
                       shell: Bash
                       onDelegate: true
