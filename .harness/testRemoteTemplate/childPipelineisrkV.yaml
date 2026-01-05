@@ -1,0 +1,10 @@
+pipeline:
+  name: childPipelineUsingPipelineTemplate
+  identifier: childPipelineisrkV
+  tags: {}
+  template:
+    templateRef: pipelineTemplateWHacp
+    versionLabel: "v1"
+    gitBranch: main-patch
+  projectIdentifier: NGPipeAutoRerunFromOriginalPipelineDefnDDvIsEGoF
+  orgIdentifier: Pipelines_NonK8s_Org_NG
