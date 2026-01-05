@@ -1,0 +1,10 @@
+service:
+  name: ServNgUGEtvGVRou
+  identifier: ServNgUGEtvGVRou
+  orgIdentifier: OrgNgB0IqExTxiP
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
