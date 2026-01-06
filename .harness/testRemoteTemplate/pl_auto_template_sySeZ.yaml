@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_sySeZ
+  identifier: pl_auto_template_sySeZ
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_WuMqp
+              identifier: pl_auto_template_WuMqp
+              template:
+                templateRef: account.pl_auto_template_WuMqp
+                versionLabel: v3
+                gitBranch: main
