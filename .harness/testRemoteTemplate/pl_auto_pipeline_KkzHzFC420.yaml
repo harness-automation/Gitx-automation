@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_KkzHzFC420
+  identifier: pl_auto_pipeline_KkzHzFC420
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Viq80YZ23x
+          identifier: pl_auto_template_Viq80YZ23x
+          template:
+            templateRef: account.pl_auto_template_Viq80YZ23x
+            versionLabel: v3
