@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_esoAU
+  identifier: pl_auto_inputset_esoAU
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTestCfwS5
+  pipeline:
+    identifier: PipelineAuto_CRUDitp
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
