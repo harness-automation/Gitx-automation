@@ -1,0 +1,11 @@
+infrastructureDefinition:
+  name: NGPipeAutowZCDfbadBP
+  identifier: NGPipeAutowZCDfbadBP
+  environmentRef: account.NGPipeAutoHEtsePq32x
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
