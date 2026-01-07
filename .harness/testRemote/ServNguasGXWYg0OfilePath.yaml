@@ -1,0 +1,10 @@
+service:
+  name: ServNguasGXWYg0O
+  identifier: ServNguasGXWYg0O
+  orgIdentifier: OrgNgxzHV7RXSX4
+  projectIdentifier: CD_NG_SERENV_CLONEEa2PyNPvv3
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
