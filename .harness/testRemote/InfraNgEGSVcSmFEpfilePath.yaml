@@ -1,0 +1,12 @@
+infrastructureDefinition:
+  name: InfraNgEGSVcSmFEp
+  identifier: InfraNgEGSVcSmFEp
+  orgIdentifier: OrgNgbXPxjh7zok
+  environmentRef: EnvNgitgHBTHDgm
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
