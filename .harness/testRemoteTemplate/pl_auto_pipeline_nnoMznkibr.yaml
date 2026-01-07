@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_nnoMznkibr
+  identifier: pl_auto_pipeline_nnoMznkibr
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_zFdEr
+          identifier: pl_auto_template_zFdEr
+          template:
+            templateRef: account.pl_auto_template_zFdEr
+            versionLabel: v3
