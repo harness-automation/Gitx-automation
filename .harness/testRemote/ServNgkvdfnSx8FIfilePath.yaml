@@ -1,0 +1,10 @@
+service:
+  name: ServNgkvdfnSx8FI
+  identifier: ServNgkvdfnSx8FI
+  orgIdentifier: $orgIdentifier
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
