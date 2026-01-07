@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: InfraNgrMq1nBtpML
+  identifier: InfraNgrMq1nBtpML
+  orgIdentifier: OrgNgbXPxjh7zok
+  projectIdentifier: CD_NG_SERENV_CLONEVMO8eNbUBU
+  environmentRef: EnvNgEV4PMzNHVd
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
