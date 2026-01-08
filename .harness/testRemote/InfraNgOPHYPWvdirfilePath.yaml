@@ -1,0 +1,12 @@
+infrastructureDefinition:
+  name: InfraNgOPHYPWvdir
+  identifier: InfraNgOPHYPWvdir
+  orgIdentifier: OrgNgTEfFvbxNsN
+  environmentRef: EnvNgZ9Yw3tOmOb
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
