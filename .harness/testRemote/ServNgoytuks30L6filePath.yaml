@@ -1,0 +1,10 @@
+service:
+  name: ServNgoytuks30L6
+  identifier: ServNgoytuks30L6
+  orgIdentifier: OrgNgCWYnBO9iAR
+  projectIdentifier: CD_NG_SERENV_CLONEPWHYPRZsaK
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
