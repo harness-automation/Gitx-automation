@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_MrJON
+  identifier: pl_auto_pipeline_MrJON
+  template:
+    templateRef: account.pl_auto_template_Dy2NP
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationrnycIHZAWE
+  orgIdentifier: Simlified_Git_sync
