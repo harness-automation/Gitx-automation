@@ -1,0 +1,10 @@
+service:
+  name: ServNg1518SWiiRY
+  identifier: ServNg1518SWiiRY
+  orgIdentifier: OrgNgbvsBAzvJQU
+  projectIdentifier: $projectIdentifier
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
