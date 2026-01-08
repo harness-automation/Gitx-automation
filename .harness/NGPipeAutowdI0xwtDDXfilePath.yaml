@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutowdI0xwtDDX
+  identifier: NGPipeAutowdI0xwtDDX
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
