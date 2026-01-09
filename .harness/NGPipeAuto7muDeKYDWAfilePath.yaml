@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAuto7muDeKYDWA
+  identifier: NGPipeAuto7muDeKYDWA
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
