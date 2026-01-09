@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: NGPipeAutoNonMainInfraPnCR27polg
+  identifier: NGPipeAutoNonMainInfraPnCR27polg
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutoPolicyInfra1767945262574
+  environmentRef: NGPipeAutoNonMainEnvn19OZkyWnL
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: org.KubernetesConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
