@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_MLqSEnclrt
+  identifier: pl_auto_pipeline_MLqSEnclrt
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_gajG4
+          identifier: pl_auto_template_gajG4
+          template:
+            templateRef: account.pl_auto_template_gajG4
+            versionLabel: v3
