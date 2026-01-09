@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_YmgF20juwM
+  identifier: pl_auto_pipeline_YmgF20juwM
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_Oka6xi5RK2
+          identifier: pl_auto_template_Oka6xi5RK2
+          template:
+            templateRef: account.pl_auto_template_Oka6xi5RK2
+            versionLabel: v3
