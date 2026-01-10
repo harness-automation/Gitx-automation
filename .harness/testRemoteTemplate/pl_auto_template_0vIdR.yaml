@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_0vIdR
+  identifier: pl_auto_template_0vIdR
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_qCECF
+              identifier: pl_auto_template_qCECF
+              template:
+                templateRef: account.pl_auto_template_qCECF
+                versionLabel: v3
+                gitBranch: main
