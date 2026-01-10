@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_dvIZM
+  identifier: pl_auto_pipeline_dvIZM
+  template:
+    templateRef: account.pl_auto_template_MrgDW
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationmn2cjiz7qM
+  orgIdentifier: Simlified_Git_sync
