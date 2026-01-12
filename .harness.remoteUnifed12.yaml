@@ -1,0 +1,24 @@
+pipeline:
+  clone:
+    disabled: true
+  allow-stage-executions: true
+  stages:
+  - id: Stage1
+    name: Stage1
+    steps:
+    - id: Wait_1
+      name: Wait_1
+      wait:
+        duration: 10s
+  - id: Stage2
+    name: Stage2
+    steps:
+    - id: ShellScript_1
+      name: ShellScript_1
+      run:
+        script: |-
+          echo "<+pipeline.stages.Stage1.name>"
+          echo "<+variable.var1>"
+          exit 1
+        shell: bash
+      timeout: 2m
