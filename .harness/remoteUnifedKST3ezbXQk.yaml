@@ -1,0 +1,10 @@
+pipeline:
+  clone:
+    disabled: true
+  stages:
+  - steps:
+    - wait:
+        duration: <+input>
+    - run:
+        script: |
+          echo <+trigger>
