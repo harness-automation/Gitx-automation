@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_m9hsH
+  identifier: pl_auto_template_m9hsH
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_OqsVd
+              identifier: pl_auto_template_OqsVd
+              template:
+                templateRef: account.pl_auto_template_OqsVd
+                versionLabel: v3
+                gitBranch: main
