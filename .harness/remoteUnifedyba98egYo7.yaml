@@ -3,10 +3,10 @@ template:
     clone:
       disabled: true
     stages:
-    - steps:
-      - run:
-          script: exit 0
-  yaml_version: '1'
+      - steps:
+          - run:
+              script: exit 1
+  yaml_version: "1"
   identifier: pipelineTemplateRemotedST5dHlGLv
   name: pipelineTemplateRemotedST5dHlGLv
   type: Pipeline
