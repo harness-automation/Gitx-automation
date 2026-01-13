@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_rpELD
+  identifier: pl_auto_template_rpELD
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_3JIgd
+              identifier: pl_auto_template_3JIgd
+              template:
+                templateRef: account.pl_auto_template_3JIgd
+                versionLabel: v3
+                gitBranch: main
