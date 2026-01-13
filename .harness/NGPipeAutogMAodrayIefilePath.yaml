@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutogMAodrayIe
+  identifier: NGPipeAutogMAodrayIe
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
