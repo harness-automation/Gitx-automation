@@ -1,0 +1,13 @@
+template:
+  pipeline:
+    clone:
+      disabled: true
+    stages:
+    - steps:
+      - run:
+          script: exit 0
+  yaml_version: '1'
+  identifier: pipelineTemplateRemote8hcHQ7C1WF
+  name: pipelineTemplateRemote8hcHQ7C1WF
+  type: Pipeline
+  versionLabel: v1
