@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_POYKP
+  identifier: pl_auto_pipeline_POYKP
+  template:
+    templateRef: account.pl_auto_template_Dqdck
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationhEArbxGG5A
+  orgIdentifier: Simlified_Git_sync
