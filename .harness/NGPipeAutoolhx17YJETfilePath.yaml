@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoolhx17YJET
+  identifier: NGPipeAutoolhx17YJET
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
