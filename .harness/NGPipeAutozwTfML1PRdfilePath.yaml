@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutozwTfML1PRd
+  identifier: NGPipeAutozwTfML1PRd
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
