@@ -1,0 +1,12 @@
+infrastructureDefinition:
+  name: pl_auto_infra_nQjfm
+  identifier: pl_auto_infra_nQjfm
+  orgIdentifier: Simlified_Git_sync
+  environmentRef: pl_auto_environment_w2D44
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
