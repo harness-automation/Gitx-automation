@@ -1,0 +1,12 @@
+infrastructureDefinition:
+  name: InfraNgFORKIpxPWP
+  identifier: InfraNgFORKIpxPWP
+  orgIdentifier: OrgNgqJ23cJMsBY
+  environmentRef: EnvNg5Dfazp5Jnc
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.GithubAppAuthenticationAccountConnectorForAutomationTest
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: true
