@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_9rTLo
+  identifier: pl_auto_inputset_9rTLo
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTestSzQcK
+  pipeline:
+    identifier: PipelineAuto_CRUDYke
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
