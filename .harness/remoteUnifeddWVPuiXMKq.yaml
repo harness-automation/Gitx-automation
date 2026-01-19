@@ -1,0 +1,13 @@
+template:
+  pipeline:
+    clone:
+      disabled: true
+    stages:
+    - steps:
+      - run:
+          script: exit 0
+  yaml_version: '1'
+  identifier: pipelineTemplateRemotelRKixQsTwJ
+  name: pipelineTemplateRemotelRKixQsTwJ
+  type: Pipeline
+  versionLabel: v1
