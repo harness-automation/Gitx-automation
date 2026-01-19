@@ -1,0 +1,12 @@
+template:
+  stage:
+    clone:
+      disabled: true
+    steps:
+    - template:
+        uses: stepgroupv1template
+  yaml_version: '1'
+  identifier: stage_template_with_stepgroupRemote
+  name: stage_template_with_stepgroupRemote
+  type: Stage
+  versionLabel: v1
