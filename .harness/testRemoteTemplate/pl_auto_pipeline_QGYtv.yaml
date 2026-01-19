@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_QGYtv
+  identifier: pl_auto_pipeline_QGYtv
+  template:
+    templateRef: account.pl_auto_template_INQzv
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationoXKQkDuDcz
+  orgIdentifier: Simlified_Git_sync
