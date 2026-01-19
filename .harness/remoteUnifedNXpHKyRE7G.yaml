@@ -1,0 +1,12 @@
+template:
+  stage:
+    clone:
+      disabled: true
+    steps:
+    - run:
+        script: exit 0
+  yaml_version: '1'
+  identifier: stageTemplateRemoteIUvz9lRc4l
+  name: stageTemplateRemoteIUvz9lRc4l
+  type: Stage
+  versionLabel: v1
