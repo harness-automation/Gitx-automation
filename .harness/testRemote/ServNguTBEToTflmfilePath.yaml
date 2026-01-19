@@ -1,0 +1,10 @@
+service:
+  name: ServNguTBEToTflm
+  identifier: ServNguTBEToTflm
+  orgIdentifier: OrgNgpRBIjGqwKq
+  projectIdentifier: CD_NG_SERENV_CLONEiFBMJeO4Aj
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
