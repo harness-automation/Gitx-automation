@@ -1,0 +1,8 @@
+inputs:
+  overlay:
+    stages:
+      - steps:
+          - wait:
+              duration: 15s
+            id: wait_1
+        id: stage_1
