@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoVJ2gFPWthw
-  identifier: NGPipeAutoVJ2gFPWthw
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
