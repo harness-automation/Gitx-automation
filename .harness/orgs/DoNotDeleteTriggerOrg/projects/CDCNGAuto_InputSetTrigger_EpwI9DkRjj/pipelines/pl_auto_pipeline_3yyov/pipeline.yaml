@@ -1,0 +1,31 @@
+pipeline:
+  name: pl_auto_pipeline_3yyov
+  identifier: pl_auto_pipeline_3yyov
+  projectIdentifier: CDCNGAuto_InputSetTrigger_EpwI9DkRjj
+  orgIdentifier: DoNotDeleteTriggerOrg
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: s1
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: ShellScript
+                  name: ShellScript_1
+                  identifier: ShellScript_1
+                  spec:
+                    shell: Bash
+                    executionTarget: {}
+                    source:
+                      type: Inline
+                      spec:
+                        script: <+input>
+                    environmentVariables: []
+                    outputVariables: []
+                  timeout: <+input>
+        tags: {}
+
