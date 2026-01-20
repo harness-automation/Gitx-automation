@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_wecEi
+  identifier: pl_auto_inputset_wecEi
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_GithubTriggerSSH_B7oxQoeOg7
+  pipeline:
+    identifier: pl_auto_pipeline_wa2Wu
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
