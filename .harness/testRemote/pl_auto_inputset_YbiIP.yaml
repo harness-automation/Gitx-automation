@@ -1,0 +1,25 @@
+inputSet:
+  name: pl_auto_inputset_95Osr
+  identifier: pl_auto_inputset_95Osr
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_CustomWebhookTrigger_NvqZV
+  pipeline:
+    identifier: pl_auto_pipeline_lh8UX
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    template:
+                      templateInputs:
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: echo 'hi'
+
