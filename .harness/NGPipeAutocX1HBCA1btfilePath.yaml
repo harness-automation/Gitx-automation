@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutocX1HBCA1bt
+  identifier: NGPipeAutocX1HBCA1bt
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
