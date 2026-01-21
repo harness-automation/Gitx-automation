@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutogOBjzd41PG
+  identifier: NGPipeAutogOBjzd41PG
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
