@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoBtH140KIOg
+  identifier: NGPipeAutoBtH140KIOg
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
