@@ -1,0 +1,15 @@
+pipeline:
+  name: pl_auto_pipeline_VcNVK
+  identifier: pl_auto_pipeline_VcNVK
+  projectIdentifier: CDCNGAuto_CustomWebhookTrigger_rimbs
+  orgIdentifier: DoNotDeleteTriggerOrg
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: stage1
+        type: Pipeline
+        spec:
+          org: DoNotDeleteTriggerOrg
+          pipeline: pl_auto_pipeline_Y2WPO
+          project: CDCNGAuto_CustomWebhookTrigger_rimbs
