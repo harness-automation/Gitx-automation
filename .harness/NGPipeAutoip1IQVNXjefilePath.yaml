@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutoip1IQVNXje
-  identifier: NGPipeAutoip1IQVNXje
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
