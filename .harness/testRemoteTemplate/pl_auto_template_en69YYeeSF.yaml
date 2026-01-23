@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_en69YYeeSF
+  identifier: pl_auto_template_en69YYeeSF
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_BNMf2KFDBi
+              identifier: pl_auto_template_BNMf2KFDBi
+              template:
+                templateRef: account.pl_auto_template_BNMf2KFDBi
+                versionLabel: v3
+                gitBranch: main
