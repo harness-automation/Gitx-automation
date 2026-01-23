@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_GfI97mtrCP
+  identifier: pl_auto_pipeline_GfI97mtrCP
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_bs8h9
+          identifier: pl_auto_template_bs8h9
+          template:
+            templateRef: account.pl_auto_template_bs8h9
+            versionLabel: v3
