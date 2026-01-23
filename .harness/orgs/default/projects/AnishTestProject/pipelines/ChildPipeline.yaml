@@ -15,7 +15,6 @@ pipeline:
           project: AnishTestProject
           pipeline: AnishPIPELINE
           inputs: {}
-          gitBranch: anishbranch
     - stage:
         name: s2diffrepo
         identifier: s2diffrepo
@@ -25,4 +24,3 @@ pipeline:
           org: default
           project: AnishTestProject
           pipeline: diffREPOPipeline
-          gitBranch: main
