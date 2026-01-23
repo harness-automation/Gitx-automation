@@ -16,3 +16,13 @@ pipeline:
           pipeline: AnishPIPELINE
           inputs: {}
           gitBranch: anishbranch
+    - stage:
+        name: s2diffrepo
+        identifier: s2diffrepo
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          project: AnishTestProject
+          pipeline: diffREPOPipeline
+          gitBranch: main
