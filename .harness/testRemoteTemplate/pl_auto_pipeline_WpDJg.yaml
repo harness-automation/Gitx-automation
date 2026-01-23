@@ -1,0 +1,23 @@
+pipeline:
+  name: pl_auto_pipeline_WpDJg
+  identifier: pl_auto_pipeline_WpDJg
+  template:
+    templateRef: account.pl_auto_template_PI6zn
+    versionLabel: v3
+    templateInputs:
+      stages:
+        - stage:
+            identifier: q1
+            type: Approval
+            spec:
+              execution:
+                steps:
+                  - step:
+                      identifier: a1
+                      type: HarnessApproval
+                      spec:
+                        approvers:
+                          userGroups: <+input>
+  tags: { }
+  projectIdentifier: NGPipeAutoWebHookNotificationkwlAZ2T17x
+  orgIdentifier: Simlified_Git_sync
