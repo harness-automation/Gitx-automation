@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoDlMcoH8TgF
+  identifier: NGPipeAutoDlMcoH8TgF
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
