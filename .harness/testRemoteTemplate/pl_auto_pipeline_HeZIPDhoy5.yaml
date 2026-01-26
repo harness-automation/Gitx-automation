@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_HeZIPDhoy5
+  identifier: pl_auto_pipeline_HeZIPDhoy5
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_BABiuQS2FW
+          identifier: pl_auto_template_BABiuQS2FW
+          template:
+            templateRef: account.pl_auto_template_BABiuQS2FW
+            versionLabel: v3
