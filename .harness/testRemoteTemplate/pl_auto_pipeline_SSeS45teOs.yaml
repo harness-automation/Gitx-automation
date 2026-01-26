@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_SSeS45teOs
+  identifier: pl_auto_pipeline_SSeS45teOs
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_gSOul
+          identifier: pl_auto_template_gSOul
+          template:
+            templateRef: account.pl_auto_template_gSOul
+            versionLabel: v3
