@@ -1,0 +1,24 @@
+inputSet:
+  name: pl_auto_inputset_AJxlK
+  identifier: pl_auto_inputset_AJxlK
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_GithubHTTPSTrigger_EfodjTYZpm
+  pipeline:
+    identifier: pl_auto_pipeline_uaSv8
+    stages:
+      - stage:
+          identifier: S1
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: ShellScript_1
+                    type: ShellScript
+                    spec:
+                      source:
+                        type: Inline
+                        spec:
+                          script: echo 'hi'
+
+
