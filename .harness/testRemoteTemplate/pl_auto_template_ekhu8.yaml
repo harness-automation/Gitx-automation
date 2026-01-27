@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_ekhu8
+  identifier: pl_auto_template_ekhu8
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_JRo8j
+              identifier: pl_auto_template_JRo8j
+              template:
+                templateRef: account.pl_auto_template_JRo8j
+                versionLabel: v3
+                gitBranch: main
