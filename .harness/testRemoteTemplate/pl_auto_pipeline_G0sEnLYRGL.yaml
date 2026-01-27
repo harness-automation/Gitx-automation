@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_G0sEnLYRGL
+  identifier: pl_auto_pipeline_G0sEnLYRGL
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_n66CU
+          identifier: pl_auto_template_n66CU
+          template:
+            templateRef: account.pl_auto_template_n66CU
+            versionLabel: v3
