@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_c8WXv
+  identifier: pl_auto_template_c8WXv
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_iUNfy
+              identifier: pl_auto_template_iUNfy
+              template:
+                templateRef: account.pl_auto_template_iUNfy
+                versionLabel: v3
+                gitBranch: main
