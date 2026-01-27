@@ -1,0 +1,23 @@
+inputSet:
+  name: pl_auto_inputset_pz5KC
+  identifier: pl_auto_inputset_pz5KC
+  orgIdentifier: DoNotDeleteTriggerOrg
+  projectIdentifier: CDCNGAuto_RemoteAcrTriggerTestZDu0f
+  pipeline:
+    identifier: PipelineAuto_CRUDFqM
+    stages:
+      - stage:
+          identifier: stage
+          type: Deployment
+          spec:
+            service:
+              serviceInputs:
+                serviceDefinition:
+                  type: Kubernetes
+                  spec:
+                    artifacts:
+                      primary:
+                        type: Acr
+                        spec:
+                          tag: <+trigger.artifact.build>
+
