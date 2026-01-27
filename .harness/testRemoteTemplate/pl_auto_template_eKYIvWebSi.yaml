@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_eKYIvWebSi
+  identifier: pl_auto_template_eKYIvWebSi
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_0m3vsew6b4
+              identifier: pl_auto_template_0m3vsew6b4
+              template:
+                templateRef: account.pl_auto_template_0m3vsew6b4
+                versionLabel: v3
+                gitBranch: main
