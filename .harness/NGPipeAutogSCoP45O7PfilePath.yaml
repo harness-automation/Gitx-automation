@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutogSCoP45O7P
+  identifier: NGPipeAutogSCoP45O7P
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
