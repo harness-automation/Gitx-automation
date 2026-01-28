@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutoGrrbFtu47m
+  identifier: NGPipeAutoGrrbFtu47m
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
