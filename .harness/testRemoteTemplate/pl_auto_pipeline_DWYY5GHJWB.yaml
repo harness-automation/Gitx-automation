@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_DWYY5GHJWB
+  identifier: pl_auto_pipeline_DWYY5GHJWB
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_OpcLyDQmAB
+          identifier: pl_auto_template_OpcLyDQmAB
+          template:
+            templateRef: account.pl_auto_template_OpcLyDQmAB
+            versionLabel: v3
