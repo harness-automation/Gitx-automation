@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_EyeFA
+  identifier: pl_auto_template_EyeFA
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_bBwFR
+              identifier: pl_auto_template_bBwFR
+              template:
+                templateRef: account.pl_auto_template_bBwFR
+                versionLabel: v3
+                gitBranch: main
