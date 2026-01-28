@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_TyT2D
+  identifier: pl_auto_template_TyT2D
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_kBNWN
+              identifier: pl_auto_template_kBNWN
+              template:
+                templateRef: account.pl_auto_template_kBNWN
+                versionLabel: v3
+                gitBranch: main
