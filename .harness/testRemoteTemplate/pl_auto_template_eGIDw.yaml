@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_eGIDw
+  identifier: pl_auto_template_eGIDw
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_wEouG
+              identifier: pl_auto_template_wEouG
+              template:
+                templateRef: account.pl_auto_template_wEouG
+                versionLabel: v3
+                gitBranch: main
