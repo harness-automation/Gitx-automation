@@ -1,0 +1,14 @@
+template:
+  name: pl_auto_pipeline_WhgWkgyCat
+  identifier: pl_auto_pipeline_WhgWkgyCat
+  versionLabel: v3
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: pl_auto_template_ci1vt
+          identifier: pl_auto_template_ci1vt
+          template:
+            templateRef: account.pl_auto_template_ci1vt
+            versionLabel: v3
