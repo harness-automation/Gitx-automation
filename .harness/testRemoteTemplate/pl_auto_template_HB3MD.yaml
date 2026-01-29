@@ -1,0 +1,18 @@
+template:
+  name: pl_auto_template_HB3MD
+  identifier: pl_auto_template_HB3MD
+  versionLabel: v3
+  type: Stage
+  tags: { }
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: pl_auto_template_eh3jU
+              identifier: pl_auto_template_eh3jU
+              template:
+                templateRef: account.pl_auto_template_eh3jU
+                versionLabel: v3
+                gitBranch: main
