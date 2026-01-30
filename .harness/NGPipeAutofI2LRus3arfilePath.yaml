@@ -1,0 +1,8 @@
+service:
+  name: NGPipeAutofI2LRus3ar
+  identifier: NGPipeAutofI2LRus3ar
+  serviceDefinition:
+    spec:
+      release:
+        name: <+input>
+    type: Kubernetes
