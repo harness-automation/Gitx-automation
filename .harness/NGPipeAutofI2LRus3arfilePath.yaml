@@ -1,8 +1,0 @@
-service:
-  name: NGPipeAutofI2LRus3ar
-  identifier: NGPipeAutofI2LRus3ar
-  serviceDefinition:
-    spec:
-      release:
-        name: release-<+INFRA_KEY_SHORT_ID>
-    type: Kubernetes
