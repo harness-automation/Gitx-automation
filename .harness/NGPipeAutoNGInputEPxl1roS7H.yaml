@@ -1,0 +1,25 @@
+inputSet:
+  name: NGPipeAutoNGInputEPxl1roS7H
+  tags: {}
+  identifier: NGPipeAutoNGInputEPxl1roS7H
+  orgIdentifier: Pipelines_NonK8s_Org_NG
+  projectIdentifier: NGPipeAutomergeInputqECnEW49ul
+  pipeline:
+    identifier: NGPipeAutoNGPipeline2llKFRH85p
+    stages:
+      - stage:
+          identifier: S1
+          template:
+            templateInputs:
+              type: Custom
+              spec:
+                execution:
+                  steps:
+                    - step:
+                        identifier: ShellScript_1
+                        type: ShellScript
+                        spec:
+                          source:
+                            type: Inline
+                            spec:
+                              script: exit 0
